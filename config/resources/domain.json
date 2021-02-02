@@ -1,0 +1,131 @@
+{
+    "version": "0.1",
+    "prefixes": {
+      "mu": "http://mu.semte.ch/vocabularies/core/",
+      "lblodmow": "http://data.lblod.info/vocabularies/mobiliteit/",
+      "dct": "http://purl.org/dc/terms/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "org": "http://www.w3.org/ns/org#",
+      "mobiliteit": "https://data.vlaanderen.be/ns/mobiliteit#",
+      "ext": "http://mu.semte.ch/vocabularies/ext/"
+    },
+    "resources": {
+      "roadsigncombinations": {
+        "name": "roadsigncombination",
+        "class": "lblodmow:Verkeersbordcombinatie",
+        "attributes": {
+          "identifier": {
+            "type": "string",
+            "predicate": "dct:identifier"
+            }
+        },
+        "relationships": {
+            "measureconcepts": {
+                "predicate": "dct:hasPart",
+                "target": "measureconcept",
+                "cardinality": "many"
+            }
+        },
+        "new-resource-base": "http://data.lblod.info/verkeersbordcombinaties/"
+      },
+      "measureconcepts": {
+          "name": "measureconcept",
+          "class": "lblodmow:MaatregelConcept",
+          "attributes": {
+            "description": {
+                "type": "string",
+                "predicate": "dct:description"
+            }
+          },
+          "relationships": {
+              "roadsigncombinations": {
+                  "predicate": "dct:hasPart",
+                  "target": "roadsigncombination",
+                  "cardinality": "one",
+                  "inverse": true
+              },
+              "roadsignconcept": {
+                  "predicate": "lblodmow:verkeersbordconcept",
+                  "target": "roadsignconcept",
+                  "cardinality": "one"
+              }
+          },
+          "new-resource-base": "http://data.lblod.info/maatregelconcepten/"
+        },
+        "roadsignconcepts": {
+            "name": "roadsignconcept",
+            "class": "mobiliteit:Verkeersbordconcept",
+            "attributes": {
+                "image": {
+                    "type": "url",
+                    "predicate": "mobiliteit:grafischeWeergave"
+                },
+                "meaning": {
+                    "type": "string",
+                    "predicate": "skos:scopeNote"
+                },
+                "roadsignconceptcode": {
+                    "type": "string",
+                    "predicate": "skos:prefLabel"
+                }
+            },
+            "relationships": {
+                "status": {
+                    "predicate": "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
+                    "target": "roadsignconcept-status-code",
+                    "cardinality": "one"
+                },
+                "category": {
+                    "predicate": "org:classification",
+                    "target": "roadsigncategory",
+                    "cardinality": "many"
+                },
+                "measureconcepts": {
+                    "predicate": "lblodmow:verkeersbordconcept",
+                    "target": "measureconcept",
+                    "cardinality": "many",
+                    "inverse": true
+                }
+            },
+            "new-resource-base": "http://data.lblod.info/verkeersbordconcepten/"
+        },
+        "roadsigncategories": {
+            "name": "roadsigncategory",
+            "class": "mobiliteit:Verkeersbordcategorie",
+            "attributes": {
+                "label": {
+                    "type": "string",
+                    "predicate": "skos:prefLabel"
+                }
+            },
+            "relationships": {
+                "roadsignconcepts": {
+                    "predicate": "org:classification",
+                    "target": "roadsignconcept",
+                    "cardinality": "many",
+                    "inverse": true
+                }
+            },
+            "new-resource-base": "http://data.lblod.info/verkeersbordcategorieen/"
+        },
+        "roadsignconcept-status-codes": {
+            "name": "roadsignconcept-status-code",
+            "class": "lblodmow:VerkeersbordconceptStatusCode",
+            "attributes": {
+                "label": {
+                    "type": string,
+                    "predicate": "skos:prefLabel"
+                }
+            },
+            "relationships": {
+                "roadsignconcepts": {
+                    "predicate": "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
+                    "target": "roadsignconcept",
+                    "cardinality": "many",
+                    "inverse": true
+                }
+            },
+            "new-resource-base": "http://data.lblod.info/verkeersbordconcept-status-codes/"
+        }
+    }
+}
