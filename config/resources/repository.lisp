@@ -25,6 +25,7 @@
 (add-prefix "skos" "http://www.w3.org/2004/02/skos/core#")
 (add-prefix "org" "http://www.w3.org/ns/org#")
 (add-prefix "mobiliteit" "https://data.vlaanderen.be/ns/mobiliteit#")
+(add-prefix "vs" "http://www.w3.org/2003/06/sw-vocab-status/ns#")
 
 
 
