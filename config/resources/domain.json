@@ -74,7 +74,7 @@
                     "target": "roadsignconcept-status-code",
                     "cardinality": "one"
                 },
-                "category": {
+                "categories": {
                     "predicate": "org:classification",
                     "target": "roadsigncategory",
                     "cardinality": "many"
