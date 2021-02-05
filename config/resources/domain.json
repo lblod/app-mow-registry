@@ -28,7 +28,7 @@
         },
         "new-resource-base": "http://data.lblod.info/verkeersbordcombinaties/"
       },
-      "measureconcepts": {
+      "measure-concepts": {
           "name": "measureConcept",
           "class": "lblodmow:MaatregelConcept",
           "attributes": {
