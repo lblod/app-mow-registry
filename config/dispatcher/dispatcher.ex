@@ -9,20 +9,24 @@ defmodule Dispatcher do
 
   define_layers [ :api, :frontend, :not_found ]
 
-  match "/roadsignconcept-status-codes/*path", %{ accept: [:json], layer: :api} do
-    Proxy.forward conn, path, "http://resource/roadsignconcept-status-codes/"
+  match "/road-sign-concept-status-codes/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/road-sign-concept-status-codes/"
   end
 
-  match "/roadsigncategories/*path", %{ accept: [:json], layer: :api} do
-    Proxy.forward conn, path, "http://resource/roadsigncategories/"
+  match "/road-sign-concept-status/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/road-sign-concept-status/"
   end
 
-  match "/roadsignconcepts/*path", %{ accept: [:json], layer: :api} do
-    Proxy.forward conn, path, "http://resource/roadsignconcepts/"
+  match "/road-sign-categories/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/road-sign-categories/"
   end
 
-  match "/roadsigncombinations/*path", %{ accept: [:json], layer: :api} do
-    Proxy.forward conn, path, "http://resource/roadsigncombinations/"
+  match "/road-sign-concepts/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/road-sign-concepts/"
+  end
+
+  match "/road-sign-combinations/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/road-sign-combinations/"
   end
 
   match "/measureconcepts/*path", %{ accept: [:json], layer: :api} do
