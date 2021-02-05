@@ -42,3 +42,5 @@ services:
     image: semtech/mu-cache:2.0.1
     links:
       - resource:backend
+  frontend:
+    image: lblod/frontend-mow-registry:feature-docker-build

@@ -9,6 +9,22 @@ defmodule Dispatcher do
 
   define_layers [ :api, :frontend, :not_found ]
 
+  match "/assets/*path", %{ layer: :api } do
+    Proxy.forward conn, path, "http://frontend/assets/"
+  end
+
+  match "/@appuniversum/*path", %{ layer: :api } do
+    Proxy.forward conn, path, "http://frontend/@appuniversum/"
+  end
+
+  match "/*path", %{ accept: [:html], layer: :api } do
+    Proxy.forward conn, [], "http://frontend/index.html"
+  end
+
+  match "/*_path", %{ layer: :frontend } do
+    Proxy.forward conn, [], "http://frontend/index.html"
+  end
+
   match "/road-sign-concept-status-codes/*path", %{ accept: [:json], layer: :api} do
     Proxy.forward conn, path, "http://resource/road-sign-concept-status-codes/"
   end
