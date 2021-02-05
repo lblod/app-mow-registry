@@ -6,6 +6,7 @@
       "skos": "http://www.w3.org/2004/02/skos/core#",
       "org": "http://www.w3.org/ns/org#",
       "mobiliteit": "https://data.vlaanderen.be/ns/mobiliteit#",
+      "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
       "ext": "http://mu.semte.ch/vocabularies/ext/"
     },
     "resources": {
@@ -70,8 +71,8 @@
             },
             "relationships": {
                 "status": {
-                    "predicate": "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
-                    "target": "roadsignconcept-status-code",
+                    "predicate": "vs:term_status",
+                    "target": "roadsignconcept-status",
                     "cardinality": "one"
                 },
                 "categories": {
@@ -107,6 +108,24 @@
             },
             "new-resource-base": "http://data.lblod.info/verkeersbordcategorieen/"
         },
+        "roadsignconcept-status": {
+          "name": "roadsignconcept-status",
+          "class": "mobiliteit:VerkeersbordconceptStatus",
+          "relationships": {
+            "roadsignconcept-status-code": {
+              "predicate": "mobiliteit:VerkeersbordconceptStatus.status",
+              "target": "roadsignconcept-status-code",
+              "cardinality": "one"
+            },
+            "roadsignconcept": {
+              "predicate": "vs:term_status",
+              "target": "roadsignconcept",
+              "cardinality": "many",
+              "inverse": true
+            }
+          },
+          "new-resource-base": "http://data.lblod.info/verkeersbordconcept-status/"
+        },
         "roadsignconcept-status-codes": {
             "name": "roadsignconcept-status-code",
             "class": "lblodmow:VerkeersbordconceptStatusCode",
@@ -117,10 +136,10 @@
                 }
             },
             "relationships": {
-                "roadsignconcepts": {
-                    "predicate": "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
+                "roadsignconcept-status": {
+                    "predicate": "mobiliteit:VerkeersbordconceptStatus.status",
                     "target": "roadsignconcept",
-                    "cardinality": "many",
+                    "cardinality": "one",
                     "inverse": true
                 }
             },
