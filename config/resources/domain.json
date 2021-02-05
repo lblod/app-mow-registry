@@ -10,8 +10,8 @@
       "ext": "http://mu.semte.ch/vocabularies/ext/"
     },
     "resources": {
-      "roadsigncombinations": {
-        "name": "roadsigncombination",
+      "road-sign-combinations": {
+        "name": "roadSignCombination",
         "class": "lblodmow:Verkeersbordcombinatie",
         "attributes": {
           "identifier": {
@@ -22,14 +22,14 @@
         "relationships": {
             "measureconcepts": {
                 "predicate": "dct:hasPart",
-                "target": "measureconcept",
+                "target": "measureConcept",
                 "cardinality": "many"
             }
         },
         "new-resource-base": "http://data.lblod.info/verkeersbordcombinaties/"
       },
       "measureconcepts": {
-          "name": "measureconcept",
+          "name": "measureConcept",
           "class": "lblodmow:MaatregelConcept",
           "attributes": {
             "description": {
@@ -38,22 +38,22 @@
             }
           },
           "relationships": {
-              "roadsigncombinations": {
+              "roadSignCombinations": {
                   "predicate": "dct:hasPart",
-                  "target": "roadsigncombination",
+                  "target": "roadSignCombination",
                   "cardinality": "one",
                   "inverse": true
               },
-              "roadsignconcept": {
+              "roadSignConcept": {
                   "predicate": "lblodmow:verkeersbordconcept",
-                  "target": "roadsignconcept",
+                  "target": "roadSignConcept",
                   "cardinality": "one"
               }
           },
           "new-resource-base": "http://data.lblod.info/maatregelconcepten/"
         },
-        "roadsignconcepts": {
-            "name": "roadsignconcept",
+        "road-sign-concepts": {
+            "name": "roadSignConcept",
             "class": "mobiliteit:Verkeersbordconcept",
             "attributes": {
                 "image": {
@@ -64,7 +64,7 @@
                     "type": "string",
                     "predicate": "skos:scopeNote"
                 },
-                "roadsignconceptcode": {
+                "road-sign-concept-code": {
                     "type": "string",
                     "predicate": "skos:prefLabel"
                 }
@@ -72,25 +72,25 @@
             "relationships": {
                 "status": {
                     "predicate": "vs:term_status",
-                    "target": "roadsignconcept-status",
+                    "target": "roadSignConceptStatus",
                     "cardinality": "one"
                 },
                 "categories": {
                     "predicate": "org:classification",
-                    "target": "roadsigncategory",
+                    "target": "roadSignCategory",
                     "cardinality": "many"
                 },
                 "measureconcepts": {
                     "predicate": "lblodmow:verkeersbordconcept",
-                    "target": "measureconcept",
+                    "target": "measureConcept",
                     "cardinality": "many",
                     "inverse": true
                 }
             },
             "new-resource-base": "http://data.lblod.info/verkeersbordconcepten/"
         },
-        "roadsigncategories": {
-            "name": "roadsigncategory",
+        "road-sign-categories": {
+            "name": "roadSignCategory",
             "class": "mobiliteit:Verkeersbordcategorie",
             "attributes": {
                 "label": {
@@ -99,35 +99,35 @@
                 }
             },
             "relationships": {
-                "roadsignconcepts": {
+                "roadSignConcepts": {
                     "predicate": "org:classification",
-                    "target": "roadsignconcept",
+                    "target": "roadSignConcept",
                     "cardinality": "many",
                     "inverse": true
                 }
             },
             "new-resource-base": "http://data.lblod.info/verkeersbordcategorieen/"
         },
-        "roadsignconcept-status": {
-          "name": "roadsignconcept-status",
+        "road-sign-concept-status": {
+          "name": "roadSignConceptStatus",
           "class": "mobiliteit:VerkeersbordconceptStatus",
           "relationships": {
-            "roadsignconcept-status-code": {
+            "roadSignConceptStatusCode": {
               "predicate": "mobiliteit:VerkeersbordconceptStatus.status",
-              "target": "roadsignconcept-status-code",
+              "target": "roadSignConceptStatusCode",
               "cardinality": "one"
             },
-            "roadsignconcept": {
+            "roadSignConcept": {
               "predicate": "vs:term_status",
-              "target": "roadsignconcept",
+              "target": "roadSignConcept",
               "cardinality": "many",
               "inverse": true
             }
           },
           "new-resource-base": "http://data.lblod.info/verkeersbordconcept-status/"
         },
-        "roadsignconcept-status-codes": {
-            "name": "roadsignconcept-status-code",
+        "road-sign-concept-status-codes": {
+            "name": "roadSignConceptStatusCode",
             "class": "lblodmow:VerkeersbordconceptStatusCode",
             "attributes": {
                 "label": {
@@ -136,9 +136,9 @@
                 }
             },
             "relationships": {
-                "roadsignconcept-status": {
+                "roadSignConceptStatus": {
                     "predicate": "mobiliteit:VerkeersbordconceptStatus.status",
-                    "target": "roadsignconcept",
+                    "target": "roadSignConcept",
                     "cardinality": "one",
                     "inverse": true
                 }
