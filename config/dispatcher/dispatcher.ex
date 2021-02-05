@@ -29,8 +29,8 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/road-sign-combinations/"
   end
 
-  match "/measureconcepts/*path", %{ accept: [:json], layer: :api} do
-    Proxy.forward conn, path, "http://resource/measureconcepts/"
+  match "/measure-concepts/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/measure-concepts/"
   end
 
   match "/*_path", %{ accept: [:any], layer: :not_found} do
