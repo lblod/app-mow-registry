@@ -20,7 +20,7 @@
             }
         },
         "relationships": {
-            "measureconcepts": {
+            "measureConcepts": {
                 "predicate": "dct:hasPart",
                 "target": "measureConcept",
                 "cardinality": "many"
@@ -38,7 +38,7 @@
             }
           },
           "relationships": {
-              "roadSignCombinations": {
+              "roadSignCombination": {
                   "predicate": "dct:hasPart",
                   "target": "roadSignCombination",
                   "cardinality": "one",
