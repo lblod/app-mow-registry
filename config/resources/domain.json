@@ -1,6 +1,9 @@
 {
     "version": "0.1",
     "prefixes": {
+      "nfo": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#",
+      "dbpedia": "http://dbpedia.org/ontology/",
+      "nie": "http://www.semanticdesktop.org/ontologies/2007/01/19/nie#",
       "lblodmow": "http://data.lblod.info/vocabularies/mobiliteit/",
       "dct": "http://purl.org/dc/terms/",
       "skos": "http://www.w3.org/2004/02/skos/core#",
@@ -144,6 +147,42 @@
                 }
             },
             "new-resource-base": "http://data.lblod.info/verkeersbordconcept-status-codes/"
-        }
+        },
+      "files": {
+        "name": "file",
+        "class": "nfo:FileDataObject",
+        "attributes": {
+          "name": {
+            "type": "string",
+            "predicate": "nfo:fileName"
+          },
+          "format": {
+            "type": "string",
+            "predicate": "dct:format"
+          },
+          "size": {
+            "type": "number",
+            "predicate": "nfo:fileSize"
+          },
+          "extension": {
+            "type": "string",
+            "predicate": "dbpedia:fileExtension"
+          },
+          "created": {
+            "type": "datetime",
+            "predicate": "nfo:fileCreated"
+          }
+        },
+        "relationships": {
+          "download": {
+            "predicate": "nie:dataSource",
+            "target": "file",
+            "cardinality": "one",
+            "inverse": true
+          }
+        },
+        "features": ["no-pagination-defaults","include-uri"],
+        "new-resource-base": "http://data.lblod.info/files/"
+      }
     }
 }
