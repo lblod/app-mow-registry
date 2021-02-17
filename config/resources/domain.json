@@ -141,8 +141,8 @@
             "relationships": {
                 "roadSignConceptStatus": {
                     "predicate": "mobiliteit:VerkeersbordconceptStatus.status",
-                    "target": "roadSignConcept",
-                    "cardinality": "one",
+                    "target": "roadSignConceptStatus",
+                    "cardinality": "many",
                     "inverse": true
                 }
             },
