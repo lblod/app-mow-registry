@@ -78,6 +78,29 @@ services:
       - "logging=true"
     restart: always
     logging: *default-logging
+  
+  # Subject page services
+  uri-info:
+    image: redpencil/mu-uri-info-service:0.2.0
+    links:
+      - db:database
+  resource-labels:
+    image: lblod/resource-label-service:0.2.0
+    links:
+      - db:database
+    restart: always
+    logging: *default-logging
+    labels:
+      - "logging=true"
+  resource-labels-cache:
+    image: semtech/mu-cache:2.0.1
+    links:
+      - resource-labels:backend
+    restart: always
+    logging: *default-logging
+    labels:
+      - "logging=true"
+
   frontend:
     image: lblod/frontend-mow-registry:feature-docker-build
     labels:

@@ -56,6 +56,18 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://file/files/"
   end
 
+
+  ###############################################################
+  # subject pages
+  ###############################################################
+  get "/uri-info/*path", %{ accept: [:json], layer: :api} do
+    forward conn, path, "http://uri-info/"
+  end
+
+  get "/resource-labels/*path", %{ accept: [:json], layer: :api} do
+    forward conn, path, "http://resource-labels/"
+  end
+
   ###############################################################
   # frontend layer
   ###############################################################
@@ -81,6 +93,6 @@ defmodule Dispatcher do
   match "/*_path", %{ accept: [:any], layer: :not_found} do
     send_resp( conn, 404, "{\"error\": {\"code\": 404}")
   end
-  
+
 
 end
