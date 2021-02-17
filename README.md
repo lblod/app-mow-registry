@@ -35,4 +35,46 @@ You can shut down using `docker-compose stop` and remove everything using `docke
   
     `GET` http://localhost/files/
 
+### Mock Login
 
+- Get Current Session
+```
+GET http://localhost:80/mock/sessions/current
+Accept: application/vnd.api+json
+Content-Type: application/vnd.api+json
+```
+
+- Logout / Invalidate session
+```
+DELETE http://localhost:80/mock/sessions/current
+Accept: application/vnd.api+json
+Content-Type: application/vnd.api+json
+```
+
+- Create session
+
+```
+POST http://localhost:80/mock/sessions
+Accept: application/vnd.api+json
+Content-Type: application/vnd.api+json
+
+{
+  "data": {
+    "relationships": {
+      "account":{
+        "data": {
+          "id": "3a91ff60-07c1-4136-ac5e-55cf401e0956",
+          "type": "accounts"
+        }
+      },
+      "group":{
+        "data": {
+          "id": "141d9d6b-54af-4d17-b313-8d1c30bc3f5b",
+          "type": "groups"
+        }
+      }
+    },
+    "type": "sessions"
+  }
+}
+```

@@ -76,6 +76,13 @@ defmodule Dispatcher do
   end
 
   ###############################################################
+  # login
+  ###############################################################
+  match "/mock/sessions/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://mocklogin/sessions/"
+  end
+
+  ###############################################################
   # errors
   ###############################################################
   match "/*_path", %{ accept: [:any], layer: :not_found} do
