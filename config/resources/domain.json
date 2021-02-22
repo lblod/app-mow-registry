@@ -44,8 +44,7 @@
         "sub-sign": {
           "predicate": "lblodmow:heeftOnderbordConcept",
           "target": "roadSignConcept",
-          "cardinality": "one",
-          "inverse": true
+          "cardinality": "many"
         },
         "road-sign-combinations": {
           "predicate": "lblodmow:heeftGerelateerdVerkeersbordconcept",
