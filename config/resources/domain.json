@@ -46,7 +46,7 @@
           "target": "roadSignConcept",
           "cardinality": "many"
         },
-        "road-sign-combinations": {
+        "related-road-sign-concepts": {
           "predicate": "lblodmow:heeftGerelateerdVerkeersbordconcept",
           "target": "roadSignConcept",
           "cardinality": "many"
