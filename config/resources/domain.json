@@ -41,7 +41,7 @@
           "target": "roadSignCategory",
           "cardinality": "many"
         },
-        "sub-sign": {
+        "sub-signs": {
           "predicate": "lblodmow:heeftOnderbordConcept",
           "target": "roadSignConcept",
           "cardinality": "many"
