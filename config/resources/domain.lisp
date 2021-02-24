@@ -6,3 +6,4 @@
 (defparameter *max-group-sorted-properties* nil)
 
 (read-domain-file "domain.json")
+(read-domain-file "file-service.json")
