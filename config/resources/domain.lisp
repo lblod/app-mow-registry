@@ -7,3 +7,4 @@
 
 (read-domain-file "domain.json")
 (read-domain-file "file-service.json")
+(read-domain-file "auth.json")

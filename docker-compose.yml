@@ -14,6 +14,7 @@ services:
       - dispatcher:dispatcher
     environment:
       DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER: "*"
+      DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"public\"}]"
     labels:
       - "logging=true"
     restart: always
@@ -28,7 +29,7 @@ services:
       - "logging=true"
     restart: always
     logging: *default-logging
-  db:
+  triplestore:
     image: tenforce/virtuoso:1.3.2-virtuoso7.2.2
     environment:
       SPARQL_UPDATE: "true"
@@ -40,10 +41,19 @@ services:
       - "logging=true"
     restart: always
     logging: *default-logging
+  db:
+    image: semtech/mu-authorization:0.6.0-beta.5
+    environment:
+      MU_SPARQL_ENDPOINT: "http://triplestore:8890/sparql"
+      LOG_OUTGOING_SPARQL_QUERIES: "true"
+      LOG_INCOMING_SPARQL_QUERIES: "true"
+      LOG_ACCESS_RIGHTS: "true"
+    volumes:
+      - ./config/authorization:/config
   migrations:
     image: semtech/mu-migrations-service
     links:
-      - db:database
+      - triplestore:database
     volumes:
       - ./config/migrations:/data/migrations
     labels:
