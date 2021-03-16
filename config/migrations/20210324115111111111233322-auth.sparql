@@ -1,0 +1,23 @@
+  DELETE {
+    GRAPH  <http://mu.semte.ch/application> {
+      ?s ?p ?o .
+    }
+  } INSERT {
+    GRAPH  <http://mu.semte.ch/graphs/mow/141d9d6b-54af-4d17-b313-8d1c30bc3f5b/MowAdmin> {
+      ?s ?p ?o .
+    }
+  } WHERE {
+    GRAPH  <http://mu.semte.ch/application> {
+      ?s a ?type ; ?p ?o .
+      VALUES ?type {
+          <http://www.w3.org/2004/02/skos/core#ConceptScheme>
+          <https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept>
+          <https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordcategorie>
+          <https://data.vlaanderen.be/ns/mobiliteit#VerkeersbordconceptStatus>
+          <https://data.vlaanderen.be/ns/mobiliteit#VerkeersbordconceptStatus.status>
+          <http://data.lblod.info/vocabularies/mobiliteit/VerkeersbordconceptStatusCode>
+          <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject>
+          <http://xmlns.com/foaf/0.1/Image>
+      }
+    }
+  }

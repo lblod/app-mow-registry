@@ -4,9 +4,13 @@ services:
   identifier:
     ports:
       - "80:80"
-  db:
+  triplestore:
     ports:
       - "8890:8890"
+  mocklogin:
+    image: lblod/mock-login-service:latest
+    links:
+      - db:database
   yasgui:
     image: erikap/yasgui
     ports:

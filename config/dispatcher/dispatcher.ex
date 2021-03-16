@@ -29,6 +29,20 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/road-sign-categories/"
   end
 
+  match "/accounts/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/accounts/"
+  end
+  
+  match "/groups/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/groups/"
+  end
+
+  ###############################################################
+  # login specific
+  ###############################################################
+  match "/mock/sessions/*path", %{ accept: [:any], layer: :api} do
+    Proxy.forward conn, path, "http://mocklogin/sessions/"
+  end
 
   ###############################################################
   # files
