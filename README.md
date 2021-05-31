@@ -55,7 +55,7 @@ You can shut down using `docker-compose stop` and remove everything using `docke
 
 
 ## Overview of services
-[overview of services](https://raw.githubusercontent.com/lblod/app-mow-registry/master/docs/app-mow-registry%20architecture%20diagram.svg)
+[overview of services](https://raw.githubusercontent.com/lblod/app-mow-registry/main/docs/app-mow-registry%20architecture%20diagram.svg)
 
  * [mu-identifier](https://github.com/mu-semtech/mu-identifier)
  * [mu-dispatcher](https://github.com/mu-semtech/mu-dispatcher)
