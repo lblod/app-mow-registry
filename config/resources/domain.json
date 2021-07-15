@@ -41,6 +41,12 @@
           "target": "roadSignConcept",
           "cardinality": "many"
         },
+        "mainSigns": {
+          "predicate": "lblodmow:heeftOnderbordConcept",
+          "target": "roadSignConcept",
+          "cardinality": "many",
+          "inverse": true
+        },
         "relatedRoadSignConcepts": {
           "predicate": "lblodmow:heeftGerelateerdVerkeersbordconcept",
           "target": "roadSignConcept",
