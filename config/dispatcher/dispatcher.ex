@@ -28,6 +28,38 @@ defmodule Dispatcher do
   match "/road-sign-categories/*path", %{ accept: [:json], layer: :api} do
     Proxy.forward conn, path, "http://resource/road-sign-categories/"
   end
+  
+  match "/traffic-light-concepts/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/traffic-light-concepts/"
+  end
+
+  match "/traffic-light-concept-status/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/traffic-light-concept-status/"
+  end
+
+  match "/traffic-light-concept-status-codes/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/traffic-light-concept-status-codes/"
+  end
+
+  match "/traffic-light-categories/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/traffic-light-categories/"
+  end
+  
+  match "/road-marking-concepts/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/road-marking-concepts/"
+  end
+
+  match "/road-marking-concept-status/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/road-marking-concept-status/"
+  end
+
+  match "/road-marking-concept-status-codes/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/road-marking-concept-status-codes/"
+  end
+
+  match "/road-marking-categories/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/road-marking-categories/"
+  end
 
   match "/accounts/*path", %{ accept: [:json], layer: :api} do
     Proxy.forward conn, path, "http://resource/accounts/"
@@ -61,6 +93,13 @@ defmodule Dispatcher do
   end
   delete "/files/*path", %{ accept: [:json], layer: :api} do
     Proxy.forward conn, path, "http://file/files/"
+  end
+  
+  ###############################################################
+  # static files
+  ###############################################################
+  get "/assets/*path", %{ accept: [:any], layer: :api} do
+    Proxy.forward conn, path, "http://static-file/assets/"
   end
 
   ###############################################################

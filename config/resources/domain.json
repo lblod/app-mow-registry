@@ -55,6 +55,86 @@
       },
       "new-resource-base": "http://data.lblod.info/verkeersbordconcepten/"
     },
+    "road-marking-concepts": {
+      "name": "roadMarkingConcept",
+      "class": "mobiliteit:Wegmarkeringconcept",
+      "attributes": {
+        "image": {
+          "type": "url",
+          "predicate": "mobiliteit:grafischeWeergave"
+        },
+        "meaning": {
+          "type": "string",
+          "predicate": "skos:scopeNote"
+        },
+        "definition": {
+          "type": "string",
+          "predicate": "skos:definition"
+        },
+        "road-marking-concept-code": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships": {
+        "status": {
+          "predicate": "vs:term_status",
+          "target": "roadMarkingConceptStatus",
+          "cardinality": "one"
+        },
+        "relatedRoadSignConcepts": {
+          "predicate": "lblodmow:heeftGerelateerdVerkeersbordconcept",
+          "target": "roadSignConcept",
+          "cardinality": "many"
+        },
+        "relatedRoadMarkingConcepts": {
+          "predicate": "lblodmow:heeftGerelateerdWegmarkeringconcept",
+          "target": "roadMarkingConcept",
+          "cardinality": "many"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/Wegmarkeringconcepten/"
+    },
+    "traffic-light-concepts": {
+      "name": "trafficLightConcept",
+      "class": "mobiliteit:Verkeerslichtconcept",
+      "attributes": {
+        "image": {
+          "type": "url",
+          "predicate": "mobiliteit:grafischeWeergave"
+        },
+        "meaning": {
+          "type": "string",
+          "predicate": "skos:scopeNote"
+        },
+        "definition": {
+          "type": "string",
+          "predicate": "skos:definition"
+        },
+        "traffic-light-concept-code": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships": {
+        "status": {
+          "predicate": "vs:term_status",
+          "target": "trafficLightConceptStatus",
+          "cardinality": "one"
+        },
+        "categories": {
+          "predicate": "org:classification",
+          "target": "trafficLightCategory",
+          "cardinality": "many"
+        },
+        "relatedTrafficLightConcepts": {
+          "predicate": "lblodmow:heeftGerelateerdVerkeerslichtconcept",
+          "target": "trafficLightConcept",
+          "cardinality": "many"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/Verkeerslichtconcepten/"
+    },
     "road-sign-categories": {
       "name": "roadSignCategory",
       "class": "mobiliteit:Verkeersbordcategorie",

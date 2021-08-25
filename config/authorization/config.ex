@@ -37,6 +37,8 @@ defmodule Acl.UserGroups.Config do
                         "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept",
                         "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordcategorie",
                         "https://data.vlaanderen.be/ns/mobiliteit#VerkeersbordconceptStatus",
+                        "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkeringconcept",
+                        "https://data.vlaanderen.be/ns/mobiliteit#Verkeerslichtconcept",
                         "http://xmlns.com/foaf/0.1/Image",
                         "http://data.lblod.info/vocabularies/mobiliteit/VerkeersbordconceptStatusCode",
                         "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject" ] } } ] },
