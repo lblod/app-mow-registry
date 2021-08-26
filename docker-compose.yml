@@ -94,3 +94,7 @@ services:
       - "logging=true"
     restart: always
     logging: *default-logging
+  static-file:
+    image: semtech/static-file-service:0.2.0
+    volumes:
+      - ./data/static-files:/data
