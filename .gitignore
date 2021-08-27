@@ -11,3 +11,4 @@ docker-compose.override.yml
 /data/elasticsearch/**
 /tmp
 *.DS_Store
+.env
