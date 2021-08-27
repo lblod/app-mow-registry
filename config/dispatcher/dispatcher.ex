@@ -98,8 +98,8 @@ defmodule Dispatcher do
   ###############################################################
   # static files
   ###############################################################
-  get "/assets/*path", %{ accept: [:any], layer: :api} do
-    Proxy.forward conn, path, "http://static-file/assets/"
+  get "/static/*path", %{ accept: [:any], layer: :api} do
+    Proxy.forward conn, path, "http://static-file/static/"
   end
 
   ###############################################################
