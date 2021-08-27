@@ -36,7 +36,7 @@ services:
       DEFAULT_GRAPH: "http://mu.semte.ch/application"
     volumes:
       - ./data/db:/data
-      - ./data/db/virtuoso.ini:/data/virtuoso.ini
+      - ./config/db/virtuoso.ini:/data/virtuoso.ini
     labels:
       - "logging=true"
     restart: always
