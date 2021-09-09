@@ -5,7 +5,8 @@
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "org": "http://www.w3.org/ns/org#",
     "mobiliteit": "https://data.vlaanderen.be/ns/mobiliteit#",
-    "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+    "ext": "http://mu.semte.ch/vocabularies/ext/"
   },
   "resources": {
     "road-sign-concepts": {
@@ -34,6 +35,11 @@
         "categories": {
           "predicate": "org:classification",
           "target": "roadSignCategory",
+          "cardinality": "many"
+        },
+        "measures": {
+          "predicate": "ext:measures",
+          "target": "roadMeasure",
           "cardinality": "many"
         },
         "subSigns": {
@@ -153,6 +159,77 @@
         }
       },
       "new-resource-base": "http://data.lblod.info/verkeersbordcategorieen/"
+    },
+    "road-measures":{
+      "name": "roadMeasure",
+      "class": "ext:roadMeasure",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships": {
+        "roadSignConcepts": {
+          "predicate": "ext:measures",
+          "target": "roadSignConcept",
+          "cardinality": "many",
+          "inverse": true
+        },
+        "roadMeasureSections": {
+          "predicate": "ext:measureSections",
+          "target": "roadMeasureSection",
+          "cardinality": "many",
+          "inverse": true
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/RoadMeasures/"
+    },
+    "road-measure-variables":{
+      "name": "roadMeasureVariable",
+      "class": "ext:roadMeasureVariable",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        },
+        "type": {
+          "type": "string",
+          "predicate": "ext:variableType"
+        }
+      },
+      "relationships":{
+        "roadMeasureSection": {
+          "predicate": "ext:measureVars",
+          "target": "roadMeasureSection",
+          "cardinality": "one"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/RoadMeasureVariables/"
+    },
+    "road-measure-sections":{
+      "name": "roadMeasureSection",
+      "class": "ext:roadMeasureSection",
+      "attributes": {
+        "template": {
+          "type": "string",
+          "predicate": "ext:templateText"
+        }
+      },
+      "relationships":{
+        "roadMeasure": {
+          "predicate": "ext:measureSections",
+          "target": "roadMeasure",
+          "cardinality": "one"
+        },
+        "variables": {
+          "predicate": "ext:measureVars",
+          "target": "roadMeasureVariable",
+          "cardinality": "many",
+          "inverse": true
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/RoadMeasureSections/"
     },
     "road-sign-concept-status": {
       "name": "roadSignConceptStatus",
