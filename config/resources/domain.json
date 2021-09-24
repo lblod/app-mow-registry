@@ -51,6 +51,18 @@
           "predicate": "lblodmow:heeftGerelateerdVerkeersbordconcept",
           "target": "roadSignConcept",
           "cardinality": "many"
+        },
+        "relatedRoadMarkingConcepts": {
+          "predicate": "lblodmow:heeftGerelateerdVerkeersbordconcept",
+          "target": "roadMarkingConcept",
+          "cardinality": "many",
+          "inverse": true
+        },
+        "relatedTrafficLightConcepts": {
+          "predicate": "lblodmow:heeftGerelateerdVerkeersbordconcept",
+          "target": "trafficLightConcept",
+          "cardinality": "many",
+          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/verkeersbordconcepten/"
@@ -91,6 +103,12 @@
           "predicate": "lblodmow:heeftGerelateerdWegmarkeringconcept",
           "target": "roadMarkingConcept",
           "cardinality": "many"
+        },
+        "relatedTrafficLightConcepts": {
+          "predicate": "lblodmow:heeftGerelateerdWegmarkeringconcept",
+          "target": "trafficLightConcept",
+          "cardinality": "many",
+          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/Wegmarkeringconcepten/"
@@ -125,6 +143,16 @@
         "categories": {
           "predicate": "org:classification",
           "target": "trafficLightCategory",
+          "cardinality": "many"
+        },
+        "relatedRoadSignConcepts": {
+          "predicate": "lblodmow:heeftGerelateerdVerkeersbordconcept",
+          "target": "roadSignConcept",
+          "cardinality": "many"
+        },
+        "relatedRoadMarkingConcepts": {
+          "predicate": "lblodmow:heeftGerelateerdWegmarkeringconcept",
+          "target": "roadMarkingConcept",
           "cardinality": "many"
         },
         "relatedTrafficLightConcepts": {
