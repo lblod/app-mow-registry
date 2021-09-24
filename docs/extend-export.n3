@@ -1,0 +1,35 @@
+PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+
+{
+  ?roadMarking
+    a mobiliteit:Wegmarkeringconcept;
+    lblodmow:heeftGerelateerdVerkeersbordconcept
+      ?roadSign.
+} => {
+  ?roadSign
+    lblodmow:heeftGerelateerdWegmarkeringconcept
+      ?roadMarking.
+}.
+
+{
+  ?trafficLight
+    a mobiliteit:Verkeerslichtconcept;
+    lblodmow:heeftGerelateerdVerkeersbordconcept
+      ?roadSign.
+} => {
+  ?roadSign
+    lblodmow:heeftGerelateerdVerkeerslichtconcept
+      ?trafficLight.
+}.
+
+{
+  ?trafficLight
+    a mobiliteit:Verkeerslichtconcept;
+    lblodmow:heeftGerelateerdWegmarkeringconcept
+      ?roadMarking.
+} => {
+  ?roadMarking
+    lblodmow:heeftGerelateerdVerkeerslichtconcept
+      ?trafficLight.
+}.
