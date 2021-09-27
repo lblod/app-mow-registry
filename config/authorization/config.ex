@@ -41,7 +41,13 @@ defmodule Acl.UserGroups.Config do
                         "https://data.vlaanderen.be/ns/mobiliteit#Verkeerslichtconcept",
                         "http://xmlns.com/foaf/0.1/Image",
                         "http://data.lblod.info/vocabularies/mobiliteit/VerkeersbordconceptStatusCode",
-                        "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject" ] } } ] },
+                        "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject",
+                        
+                        "http://mu.semte.ch/vocabularies/ext/roadMeasure",
+                        "http://mu.semte.ch/vocabularies/ext/roadMeasureSection",
+                        "http://mu.semte.ch/vocabularies/ext/roadMeasureVariable",
+
+                         ] } } ] },
       %GroupSpec{
         name: "public",
         useage: [:read],
