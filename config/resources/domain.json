@@ -6,9 +6,146 @@
     "org": "http://www.w3.org/ns/org#",
     "mobiliteit": "https://data.vlaanderen.be/ns/mobiliteit#",
     "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
-    "ext": "http://mu.semte.ch/vocabularies/ext/"
+    "ext": "http://mu.semte.ch/vocabularies/ext/",
+    "sh": "http://www.w3.org/ns/shacl/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "owl": "http://www.w3.org/2002/07/owl#"
   },
   "resources": {
+    "resource": {
+      "name": "resource",
+      "class": "sh:Resource",
+      "new-resource-base": "http://data.lblod.info/Resources/"
+    },
+    "shape": {
+      "name": "shape",
+      "class": "sh:Shape",
+      "relationships": {
+        "targetClass": {
+          "predicate": "sh:targetClass",
+          "target": "resource",
+          "cardinality": "one"
+        },
+        "targetNode": {
+          "predicate": "sh:targetNode",
+          "target": "resource",
+          "cardinality": "one"
+        },
+        "targetHasConcept": {
+          "predicate": "ext:targetHasConcept",
+          "target": "concept",
+          "cardinality": "one"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/Shapes/"
+    },
+    "property-shape": {
+      "name": "propertyShape",
+      "class": "sh:PropertyShape",
+      "super": ["shape"],
+      "relationships": {
+        "path": {
+          "predicate": "sh:path",
+          "target": "resource",
+          "cardinality": "one"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/PropertyShapes/"
+    },
+    "node-shape": {
+      "name": "nodeShape",
+      "class": "sh:NodeShape",
+      "super": ["shape"],
+      "new-resource-base": "http://data.lblod.info/NodeShapes/"
+    },
+    "concept":{
+      "name": "concept",
+      "class": "ext:Concept",
+      "super": ["resource"],
+      "relationships": {
+        "template": {
+          "predicate": "ext:template",
+          "target": "template",
+          "cardinality": "many"
+        },
+        "relation": {
+          "predicate": "ext:relation",
+          "target": "relation",
+          "cardinality": "many"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/Concepts/"
+    },
+    "template": {
+      "name": "template",
+      "class": "ext:Template",
+      "attributes": {
+        "value": {
+          "type": "string",
+          "predicate": "ext:value"
+        }
+      },
+      "relationships": {
+        "mapping": {
+          "predicate": "ext:mapping",
+          "target": "mapping",
+          "cardinality": "many"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/Templates/"
+    },
+    "mapping": {
+      "name": "mapping",
+      "class": "ext:Mapping",
+      "attributes": {
+        "variable": {
+          "type": "string",
+          "predicate": "ext:variable"
+        }
+      },
+      "relationships": {
+        "expects": {
+          "predicate": "ext:expects",
+          "target": "shape",
+          "cardinality": "one"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/Mappings/"
+    },
+    "relation": {
+      "name": "relation",
+      "class": "ext:Relation",
+      "attributes": {
+        "expectedNumber": {
+          "type": "integer",
+          "predicate": "ext:expectedNumber"
+        },
+        "reason": {
+          "type": "string",
+          "predicate": "ext:reason"
+        }
+      },
+      "relationships": {
+        "concept": {
+          "predicate": "ext:concept",
+          "target": "concept",
+          "cardinality": "one"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/Relations/"
+    },
+    "can-be-combined-with-relation": {
+      "name": "canBeCombinedWithRelation",
+      "class": "ext:CanBeCombinedWithRelation",
+      "super": ["relation"],
+      "new-resource-base": "http://data.lblod.info/CanBeCombinedWithRelations/"
+    },
+    "must-use-relation": {
+      "name": "mustUseRelation",
+      "class": "ext:MustUseRelation",
+      "super": ["relation"],
+      "new-resource-base": "http://data.lblod.info/MustUseRelations/"
+    },
     "road-sign-concepts": {
       "name": "roadSignConcept",
       "class": "mobiliteit:Verkeersbordconcept",
