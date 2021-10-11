@@ -9,13 +9,21 @@
     "ext": "http://mu.semte.ch/vocabularies/ext/",
     "sh": "http://www.w3.org/ns/shacl/#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "owl": "http://www.w3.org/2002/07/owl#"
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
   },
   "resources": {
     "resource": {
       "name": "resource",
-      "class": "sh:Resource",
-      "new-resource-base": "http://data.lblod.info/Resources/"
+      "class": "rdfs:Resource",
+      "new-resource-base": "http://data.lblod.info/Resources/",
+      "relationships": {
+        "used": {
+          "predicate": "ext:used",
+          "target": "concept",
+          "cardinality": "many"
+        }
+      }
     },
     "shape": {
       "name": "shape",
@@ -129,7 +137,7 @@
         "concept": {
           "predicate": "ext:concept",
           "target": "concept",
-          "cardinality": "one"
+          "cardinality": "many"
         }
       },
       "new-resource-base": "http://data.lblod.info/Relations/"
