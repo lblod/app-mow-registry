@@ -13,6 +13,16 @@ defmodule Dispatcher do
   ###############################################################
   # domain.json
   ###############################################################
+  match "/road-measures/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/road-measures/"
+  end
+  match "/road-measure-sections/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/road-measure-sections/"
+  end
+  match "/road-measure-variables/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/road-measure-variables/"
+  end
+  
   match "/road-sign-concepts/*path", %{ accept: [:json], layer: :api} do
     Proxy.forward conn, path, "http://resource/road-sign-concepts/"
   end
