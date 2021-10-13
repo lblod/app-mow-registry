@@ -25,7 +25,7 @@ defmodule Acl.UserGroups.Config do
 
   def user_groups do
     [
-           %GroupSpec{
+      %GroupSpec{
         name: "mow-admin",
         useage: [:read, :write, :read_for_write],
         access: access_by_role( "MowAdmin" ),
@@ -42,12 +42,21 @@ defmodule Acl.UserGroups.Config do
                         "http://xmlns.com/foaf/0.1/Image",
                         "http://data.lblod.info/vocabularies/mobiliteit/VerkeersbordconceptStatusCode",
                         "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject",
-                        
                         "http://mu.semte.ch/vocabularies/ext/roadMeasure",
                         "http://mu.semte.ch/vocabularies/ext/roadMeasureSection",
                         "http://mu.semte.ch/vocabularies/ext/roadMeasureVariable",
-
-                         ] } } ] },
+                        "http://www.w3.org/2000/01/rdf-schema#Resource",
+                        "http://www.w3.org/ns/shacl#Shape",
+                        "http://www.w3.org/ns/shacl#PropertyShape",
+                        "http://www.w3.org/ns/shacl#NodeShape",
+                        "http://mu.semte.ch/vocabularies/ext/Template",
+                        "http://mu.semte.ch/vocabularies/ext/Mapping",
+                        "http://mu.semte.ch/vocabularies/ext/Relation",
+                        "http://mu.semte.ch/vocabularies/ext/CanBeCombinedWithRelation",
+                        "http://mu.semte.ch/vocabularies/ext/MustUseRelation",
+                        "http://mu.semte.ch/vocabularies/ext/Concept",
+                        "http://mu.semte.ch/vocabularies/ext/Resource",
+                      ] } } ] },
       %GroupSpec{
         name: "public",
         useage: [:read],
