@@ -159,7 +159,7 @@
       "class": "mobiliteit:Verkeersbordconcept",
       "attributes": {
         "image": {
-          "type": "url",
+          "type": "string",
           "predicate": "mobiliteit:grafischeWeergave"
         },
         "meaning": {
@@ -211,7 +211,7 @@
       "class": "mobiliteit:Wegmarkeringconcept",
       "attributes": {
         "image": {
-          "type": "url",
+          "type": "string",
           "predicate": "mobiliteit:grafischeWeergave"
         },
         "meaning": {
@@ -251,7 +251,7 @@
       "class": "mobiliteit:Verkeerslichtconcept",
       "attributes": {
         "image": {
-          "type": "url",
+          "type": "string",
           "predicate": "mobiliteit:grafischeWeergave"
         },
         "meaning": {
