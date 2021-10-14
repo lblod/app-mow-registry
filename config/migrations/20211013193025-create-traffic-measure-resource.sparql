@@ -1,0 +1,8 @@
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+
+INSERT DATA {
+  GRAPH <http://mu.semte.ch/graphs/mow/141d9d6b-54af-4d17-b313-8d1c30bc3f5b/MowAdmin> {
+    <http://data.vlaanderen.be/ns#Verkeersmaatregel> a <http://www.w3.org/2000/01/rdf-schema#Resource> ;
+      mu:uuid "f51431b5-87f4-4c15-bb23-2ebaa8d65446" .
+  }
+}
