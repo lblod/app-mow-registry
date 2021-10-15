@@ -1,0 +1,15 @@
+DELETE {
+  GRAPH ?g {
+    ?s <https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave> ?o .
+  }
+}
+INSERT {
+  GRAPH ?g {
+    ?s <https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave> ?oString .
+  }
+} WHERE {
+  GRAPH ?g {
+    ?s <https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave> ?o .
+  }
+  BIND(STR(?o) AS ?oString)
+}
