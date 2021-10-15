@@ -90,11 +90,6 @@ defmodule Acl.UserGroups.Config do
                       resource_types: [
                         "http://data.vlaanderen.be/ns/besluit#Bestuurseenheid"
                       ]
-                    } },
-          %GraphSpec{
-                    graph: "http://mu.semte.ch/graphs/sessions",
-                    constraint: %ResourceFormatConstraint{
-                      resource_prefix: "http://mu.semte.ch/sessions/"
                     } } ] },
   
       # ORGANIZATION HAS POSSIBLY DUPLICATE USER DATA
