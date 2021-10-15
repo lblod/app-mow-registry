@@ -11,6 +11,6 @@ INSERT {
   GRAPH ?g {
     ?s <https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave> ?absoluteUrl .
   }
-  FILTER(strStarts(?absoluteUrl, "https://dev.roadsigns.lblod.info"))
-  BIND(REPLACE(?absoluteUrl, "https://dev.roadsigns.lblod.info", "") AS ?relativeUrl)
+  FILTER(strStarts(STR(?absoluteUrl), "https://dev.roadsigns.lblod.info"))
+  BIND(STR(REPLACE(?absoluteUrl, "https://dev.roadsigns.lblod.info", "")) AS ?relativeUrl)
 }
