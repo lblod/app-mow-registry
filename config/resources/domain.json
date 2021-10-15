@@ -7,13 +7,14 @@
     "mobiliteit": "https://data.vlaanderen.be/ns/mobiliteit#",
     "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
     "ext": "http://mu.semte.ch/vocabularies/ext/",
-    "sh": "http://www.w3.org/ns/shacl/#",
+    "sh": "http://www.w3.org/ns/shacl#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "qb": "http://purl.org/linked-data/cube#"
   },
   "resources": {
-    "resource": {
+    "resources": {
       "name": "resource",
       "class": "rdfs:Resource",
       "new-resource-base": "http://data.lblod.info/Resources/",
@@ -25,7 +26,7 @@
         }
       }
     },
-    "shape": {
+    "shapes": {
       "name": "shape",
       "class": "sh:Shape",
       "relationships": {
@@ -47,7 +48,7 @@
       },
       "new-resource-base": "http://data.lblod.info/Shapes/"
     },
-    "property-shape": {
+    "property-shapes": {
       "name": "propertyShape",
       "class": "sh:PropertyShape",
       "super": ["shape"],
@@ -60,13 +61,19 @@
       },
       "new-resource-base": "http://data.lblod.info/PropertyShapes/"
     },
-    "node-shape": {
+    "node-shapes": {
       "name": "nodeShape",
       "class": "sh:NodeShape",
       "super": ["shape"],
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
       "new-resource-base": "http://data.lblod.info/NodeShapes/"
     },
-    "concept":{
+    "concepts":{
       "name": "concept",
       "class": "ext:Concept",
       "super": ["resource"],
@@ -74,9 +81,9 @@
         "template": {
           "predicate": "ext:template",
           "target": "template",
-          "cardinality": "many"
+          "cardinality": "one"
         },
-        "relation": {
+        "relations": {
           "predicate": "ext:relation",
           "target": "relation",
           "cardinality": "many"
@@ -84,7 +91,7 @@
       },
       "new-resource-base": "http://data.lblod.info/Concepts/"
     },
-    "template": {
+    "templates": {
       "name": "template",
       "class": "ext:Template",
       "attributes": {
@@ -94,7 +101,7 @@
         }
       },
       "relationships": {
-        "mapping": {
+        "mappings": {
           "predicate": "ext:mapping",
           "target": "mapping",
           "cardinality": "many"
@@ -102,13 +109,17 @@
       },
       "new-resource-base": "http://data.lblod.info/Templates/"
     },
-    "mapping": {
+    "mappings": {
       "name": "mapping",
       "class": "ext:Mapping",
       "attributes": {
         "variable": {
           "type": "string",
           "predicate": "ext:variable"
+        },
+        "type": {
+          "type": "string",
+          "predicate": "ext:variableType"
         }
       },
       "relationships": {
@@ -120,7 +131,7 @@
       },
       "new-resource-base": "http://data.lblod.info/Mappings/"
     },
-    "relation": {
+    "relations": {
       "name": "relation",
       "class": "ext:Relation",
       "attributes": {
@@ -131,24 +142,28 @@
         "reason": {
           "type": "string",
           "predicate": "ext:reason"
+        },
+        "order": {
+          "type": "integer",
+          "predicate": "qb:order"
         }
       },
       "relationships": {
         "concept": {
           "predicate": "ext:concept",
           "target": "concept",
-          "cardinality": "many"
+          "cardinality": "one"
         }
       },
       "new-resource-base": "http://data.lblod.info/Relations/"
     },
-    "can-be-combined-with-relation": {
+    "can-be-combined-with-relations": {
       "name": "canBeCombinedWithRelation",
       "class": "ext:CanBeCombinedWithRelation",
       "super": ["relation"],
       "new-resource-base": "http://data.lblod.info/CanBeCombinedWithRelations/"
     },
-    "must-use-relation": {
+    "must-use-relations": {
       "name": "mustUseRelation",
       "class": "ext:MustUseRelation",
       "super": ["relation"],
@@ -157,6 +172,7 @@
     "road-sign-concepts": {
       "name": "roadSignConcept",
       "class": "mobiliteit:Verkeersbordconcept",
+      "super": ["concept"],
       "attributes": {
         "image": {
           "type": "url",
@@ -304,77 +320,6 @@
         }
       },
       "new-resource-base": "http://data.lblod.info/verkeersbordcategorieen/"
-    },
-    "road-measures":{
-      "name": "roadMeasure",
-      "class": "ext:roadMeasure",
-      "attributes": {
-        "label": {
-          "type": "string",
-          "predicate": "skos:prefLabel"
-        }
-      },
-      "relationships": {
-        "roadSignConcepts": {
-          "predicate": "ext:measures",
-          "target": "roadSignConcept",
-          "cardinality": "many",
-          "inverse": true
-        },
-        "roadMeasureSections": {
-          "predicate": "ext:measureSections",
-          "target": "roadMeasureSection",
-          "cardinality": "many",
-          "inverse": true
-        }
-      },
-      "new-resource-base": "http://data.lblod.info/RoadMeasures/"
-    },
-    "road-measure-variables":{
-      "name": "roadMeasureVariable",
-      "class": "ext:roadMeasureVariable",
-      "attributes": {
-        "label": {
-          "type": "string",
-          "predicate": "skos:prefLabel"
-        },
-        "type": {
-          "type": "string",
-          "predicate": "ext:variableType"
-        }
-      },
-      "relationships":{
-        "roadMeasureSection": {
-          "predicate": "ext:measureVars",
-          "target": "roadMeasureSection",
-          "cardinality": "one"
-        }
-      },
-      "new-resource-base": "http://data.lblod.info/RoadMeasureVariables/"
-    },
-    "road-measure-sections":{
-      "name": "roadMeasureSection",
-      "class": "ext:roadMeasureSection",
-      "attributes": {
-        "template": {
-          "type": "string",
-          "predicate": "ext:templateText"
-        }
-      },
-      "relationships":{
-        "roadMeasure": {
-          "predicate": "ext:measureSections",
-          "target": "roadMeasure",
-          "cardinality": "one"
-        },
-        "variables": {
-          "predicate": "ext:measureVars",
-          "target": "roadMeasureVariable",
-          "cardinality": "many",
-          "inverse": true
-        }
-      },
-      "new-resource-base": "http://data.lblod.info/RoadMeasureSections/"
     },
     "road-sign-concept-status": {
       "name": "roadSignConceptStatus",

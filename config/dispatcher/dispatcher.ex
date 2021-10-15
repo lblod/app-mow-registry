@@ -13,16 +13,6 @@ defmodule Dispatcher do
   ###############################################################
   # domain.json
   ###############################################################
-  match "/road-measures/*path", %{ accept: [:json], layer: :api} do
-    Proxy.forward conn, path, "http://resource/road-measures/"
-  end
-  match "/road-measure-sections/*path", %{ accept: [:json], layer: :api} do
-    Proxy.forward conn, path, "http://resource/road-measure-sections/"
-  end
-  match "/road-measure-variables/*path", %{ accept: [:json], layer: :api} do
-    Proxy.forward conn, path, "http://resource/road-measure-variables/"
-  end
-  
   match "/road-sign-concepts/*path", %{ accept: [:json], layer: :api} do
     Proxy.forward conn, path, "http://resource/road-sign-concepts/"
   end
@@ -69,6 +59,46 @@ defmodule Dispatcher do
 
   match "/road-marking-categories/*path", %{ accept: [:json], layer: :api} do
     Proxy.forward conn, path, "http://resource/road-marking-categories/"
+  end
+
+  match "/resources/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/resources/"
+  end
+
+  match "/shapes/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/shapes/"
+  end
+
+  match "/property-shapes/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/property-shapes/"
+  end
+
+  match "/node-shapes/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/node-shapes/"
+  end
+
+  match "/templates/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/templates/"
+  end
+
+  match "/mappings/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/mappings/"
+  end
+
+  match "/relations/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/relations/"
+  end
+
+  match "/can-be-combined-with-relations/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/can-be-combined-with-relations/"
+  end
+
+  match "/must-use-relations/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/must-use-relations/"
+  end
+
+  match "/concepts/*path", %{ accept: [:json], layer: :api} do
+    Proxy.forward conn, path, "http://resource/concepts/"
   end
 
   match "/accounts/*path", %{ accept: [:json], layer: :api} do
