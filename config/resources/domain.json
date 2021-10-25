@@ -225,6 +225,7 @@
     "road-marking-concepts": {
       "name": "roadMarkingConcept",
       "class": "mobiliteit:Wegmarkeringconcept",
+      "super": ["concept"],
       "attributes": {
         "image": {
           "type": "string",
@@ -265,6 +266,7 @@
     "traffic-light-concepts": {
       "name": "trafficLightConcept",
       "class": "mobiliteit:Verkeerslichtconcept",
+      "super": ["concept"],
       "attributes": {
         "image": {
           "type": "string",
