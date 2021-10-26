@@ -120,6 +120,10 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/concepts/"
   end
 
+  match "/indicator-types/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://resource/indicator-types/"
+  end
+
   match "/accounts/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://resource/accounts/"
   end

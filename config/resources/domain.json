@@ -359,6 +359,33 @@
         }
       },
       "new-resource-base": "http://data.lblod.info/verkeersbordconcept-status-codes/"
+    },
+    "indicator-types": {
+      "name": "indicatorType",
+      "class": "ext:IndicatorType",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        },
+        "model-name": {
+          "type": "string",
+          "predicate": "ext:modelName"
+        },
+        "search-filter": {
+          "type": "string",
+          "predicate": "ext:searchFilter"
+        },
+        "sorting-field": {
+          "type": "string",
+          "predicate": "ext:sortingField"
+        },
+        "label-field": {
+          "type": "string",
+          "predicate": "ext:labelField"
+        }
+      },
+      "new-resource-base": "http://lblod.data.gift/concepts/"
     }
   }
 }

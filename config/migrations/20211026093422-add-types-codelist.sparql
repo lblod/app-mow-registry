@@ -1,0 +1,41 @@
+INSERT DATA {
+    GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+        <http://lblod.data.gift/concept-schemes/0cf09e8e-2fdf-4451-91b3-e563efc48384>
+            a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+            <http://mu.semte.ch/vocabularies/core/uuid> "0cf09e8e-2fdf-4451-91b3-e563efc48384" ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> """Concept-scheme defining types of road indicators"""@en .
+
+        <http://lblod.data.gift/concepts/da05935e-d509-4d56-93fa-ba675881b281>
+            a <http://www.w3.org/2004/02/skos/core#Concept>, <http://mu.semte.ch/vocabularies/ext/IndicatorType> ;
+            <http://mu.semte.ch/vocabularies/core/uuid> "da05935e-d509-4d56-93fa-ba675881b281" ;
+            <http://www.w3.org/2004/02/skos/core#definition> "Road signs"@en ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/0cf09e8e-2fdf-4451-91b3-e563efc48384> ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Verkeersborden"@nl ;
+            <http://mu.semte.ch/vocabularies/ext/modelName> "road-sign-concept" ;
+            <http://mu.semte.ch/vocabularies/ext/searchFilter> "filter[road-sign-concept-code]" ;
+            <http://mu.semte.ch/vocabularies/ext/sortingField> "road-sign-concept-code" ;
+            <http://mu.semte.ch/vocabularies/ext/labelField> "roadSignConceptCode" .
+
+        <http://lblod.data.gift/concepts/dc619340-6972-460d-bf91-a965a9c4ea80>
+            a <http://www.w3.org/2004/02/skos/core#Concept>, <http://mu.semte.ch/vocabularies/ext/IndicatorType> ;
+            <http://mu.semte.ch/vocabularies/core/uuid> "dc619340-6972-460d-bf91-a965a9c4ea80" ;
+            <http://www.w3.org/2004/02/skos/core#definition> "Road markings"@en ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/0cf09e8e-2fdf-4451-91b3-e563efc48384> ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Wegmarkeringen"@nl ;
+            <http://mu.semte.ch/vocabularies/ext/modelName> "road-marking-concept" ;
+            <http://mu.semte.ch/vocabularies/ext/searchFilter> "filter[road-marking-concept-code]" ;
+            <http://mu.semte.ch/vocabularies/ext/sortingField> "road-marking-concept-code" ;
+            <http://mu.semte.ch/vocabularies/ext/labelField> "roadMarkingConceptCode" .
+
+        <http://lblod.data.gift/concepts/c0caa4c8-72bb-434b-88b6-c2ef991ec594>
+            a <http://www.w3.org/2004/02/skos/core#Concept>, <http://mu.semte.ch/vocabularies/ext/IndicatorType> ;
+            <http://mu.semte.ch/vocabularies/core/uuid> "c0caa4c8-72bb-434b-88b6-c2ef991ec594" ;
+            <http://www.w3.org/2004/02/skos/core#definition> "Traffic lights"@en ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/0cf09e8e-2fdf-4451-91b3-e563efc48384> ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Verkeerslichten"@nl ;
+            <http://mu.semte.ch/vocabularies/ext/modelName> "traffic-light-concept" ;
+            <http://mu.semte.ch/vocabularies/ext/searchFilter> "filter[traffic-light-concept-code]" ;
+            <http://mu.semte.ch/vocabularies/ext/sortingField> "traffic-light-concept-code" ;
+            <http://mu.semte.ch/vocabularies/ext/labelField> "trafficLightConceptCode" .
+    }
+}
