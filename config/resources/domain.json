@@ -17,7 +17,7 @@
     "resources": {
       "name": "resource",
       "class": "rdfs:Resource",
-      "new-resource-base": "http://data.lblod.info/Resources/",
+      "new-resource-base": "http://data.lblod.info/resources/",
       "relationships": {
         "used": {
           "predicate": "ext:used",
@@ -46,7 +46,7 @@
           "cardinality": "one"
         }
       },
-      "new-resource-base": "http://data.lblod.info/Shapes/"
+      "new-resource-base": "http://data.lblod.info/shapes/"
     },
     "property-shapes": {
       "name": "propertyShape",
@@ -59,13 +59,13 @@
           "cardinality": "one"
         }
       },
-      "new-resource-base": "http://data.lblod.info/PropertyShapes/"
+      "new-resource-base": "http://data.lblod.info/property-shapes/"
     },
     "node-shapes": {
       "name": "nodeShape",
       "class": "sh:NodeShape",
       "super": ["shape"],
-      "new-resource-base": "http://data.lblod.info/NodeShapes/"
+      "new-resource-base": "http://data.lblod.info/node-shapes/"
     },
     "concepts":{
       "name": "concept",
@@ -83,7 +83,7 @@
           "cardinality": "many"
         }
       },
-      "new-resource-base": "http://data.lblod.info/Concepts/"
+      "new-resource-base": "http://data.lblod.info/concepts/"
     },
     "templates": {
       "name": "template",
@@ -101,7 +101,7 @@
           "cardinality": "many"
         }
       },
-      "new-resource-base": "http://data.lblod.info/Templates/"
+      "new-resource-base": "http://data.lblod.info/cemplates/"
     },
     "mappings": {
       "name": "mapping",
@@ -123,7 +123,7 @@
           "cardinality": "one"
         }
       },
-      "new-resource-base": "http://data.lblod.info/Mappings/"
+      "new-resource-base": "http://data.lblod.info/mappings/"
     },
     "relations": {
       "name": "relation",
@@ -149,19 +149,19 @@
           "cardinality": "one"
         }
       },
-      "new-resource-base": "http://data.lblod.info/Relations/"
+      "new-resource-base": "http://data.lblod.info/relations/"
     },
     "can-be-combined-with-relations": {
       "name": "canBeCombinedWithRelation",
       "class": "ext:CanBeCombinedWithRelation",
       "super": ["relation"],
-      "new-resource-base": "http://data.lblod.info/CanBeCombinedWithRelations/"
+      "new-resource-base": "http://data.lblod.info/can-be-combined-with-relations/"
     },
     "must-use-relations": {
       "name": "mustUseRelation",
       "class": "ext:MustUseRelation",
       "super": ["relation"],
-      "new-resource-base": "http://data.lblod.info/MustUseRelations/"
+      "new-resource-base": "http://data.lblod.info/must-use-relations/"
     },
     "traffic-measure-concepts": {
       "name": "trafficMeasureConcept",
@@ -226,7 +226,7 @@
           "cardinality": "many"
         }
       },
-      "new-resource-base": "http://data.lblod.info/verkeersbordconcepten/"
+      "new-resource-base": "http://data.lblod.info/traffic-sign-concepts/"
     },
     "road-marking-concepts": {
       "name": "roadMarkingConcept",
@@ -267,7 +267,7 @@
           "cardinality": "many"
         }
       },
-      "new-resource-base": "http://data.lblod.info/Wegmarkeringconcepten/"
+      "new-resource-base": "http://data.lblod.info/road-marking-concepts/"
     },
     "traffic-light-concepts": {
       "name": "trafficLightConcept",
@@ -308,7 +308,7 @@
           "cardinality": "many"
         }
       },
-      "new-resource-base": "http://data.lblod.info/Verkeerslichtconcepten/"
+      "new-resource-base": "http://data.lblod.info/traffic-light-concepts/"
     },
     "road-sign-categories": {
       "name": "roadSignCategory",
@@ -327,7 +327,7 @@
           "inverse": true
         }
       },
-      "new-resource-base": "http://data.lblod.info/verkeersbordcategorieen/"
+      "new-resource-base": "http://data.lblod.info/road-sign-categories/"
     },
     "road-sign-concept-status": {
       "name": "roadSignConceptStatus",
@@ -345,7 +345,7 @@
           "inverse": true
         }
       },
-      "new-resource-base": "http://data.lblod.info/verkeersbordconcept-status/"
+      "new-resource-base": "http://data.lblod.info/road-sign-concept-status/"
     },
     "road-sign-concept-status-codes": {
       "name": "roadSignConceptStatusCode",
@@ -364,7 +364,7 @@
           "inverse": true
         }
       },
-      "new-resource-base": "http://data.lblod.info/verkeersbordconcept-status-codes/"
+      "new-resource-base": "http://data.lblod.info/road-sign-concept-status-codes/"
     }
   }
 }
