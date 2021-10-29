@@ -101,7 +101,7 @@
           "cardinality": "many"
         }
       },
-      "new-resource-base": "http://data.lblod.info/cemplates/"
+      "new-resource-base": "http://data.lblod.info/templates/"
     },
     "mappings": {
       "name": "mapping",
