@@ -53,6 +53,7 @@ defmodule Acl.UserGroups.Config do
                         "http://mu.semte.ch/vocabularies/ext/MustUseRelation",
                         "http://mu.semte.ch/vocabularies/ext/Concept",
                         "http://mu.semte.ch/vocabularies/ext/Resource",
+                        "http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept",
                       ] } } ] },
       %GroupSpec{
         name: "public",
@@ -83,6 +84,7 @@ defmodule Acl.UserGroups.Config do
                         "http://mu.semte.ch/vocabularies/ext/MustUseRelation",
                         "http://mu.semte.ch/vocabularies/ext/Concept",
                         "http://mu.semte.ch/vocabularies/ext/Resource",
+                        "http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept",
                       ] } },
           %GraphSpec{
                     graph: "http://mu.semte.ch/graphs/public",

@@ -169,6 +169,12 @@
       "super": ["relation"],
       "new-resource-base": "http://data.lblod.info/MustUseRelations/"
     },
+    "traffic-measure-concepts": {
+      "name": "trafficMeasureConcept",
+      "class": "lblodmow:TrafficMeasureConcept",
+      "super": ["concept"],
+      "new-resource-base": "http://data.lblod.info/traffic-measure-concepts/"
+    },
     "road-sign-concepts": {
       "name": "roadSignConcept",
       "class": "mobiliteit:Verkeersbordconcept",
