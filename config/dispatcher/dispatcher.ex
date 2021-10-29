@@ -9,7 +9,7 @@ defmodule Dispatcher do
     any: [ "*/*" ],
   ]
 
-  define_layers [ :api, :frontend, :not_found, :sparql ]
+  define_layers [ :api, :frontend, :not_found]
   
   options "/*path", _ do
     conn
@@ -21,11 +21,7 @@ defmodule Dispatcher do
   ###############
   # SPARQL
   ###############
-  match "/sparql", %{ layer: :sparql, accept: %{ html: true } } do
-    forward conn, [], "http://frontend/sparql"
-  end
-
-  match "/sparql", %{ layer: :sparql, accept: %{ sparql: true } } do
+  match "/sparql", %{ layer: :api, accept: %{ sparql: true } } do
     forward conn, [], "http://db:8890/sparql"
   end
   
