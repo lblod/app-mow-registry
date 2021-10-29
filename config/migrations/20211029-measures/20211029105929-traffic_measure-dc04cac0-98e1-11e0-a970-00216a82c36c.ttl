@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/489d4710-c813-4cc2-bf79-f67bd47af093> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "489d4710-c813-4cc2-bf79-f67bd47af093";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/f27d588d-c198-4fda-b76f-f79761707ec6>,
+     <http://data.lblod.info/must-use-relations/c5dc0796-4b29-4fbd-8097-d80cc2b28f49>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a6aa56a9-5d5b-4000-a62f-2aeb1bddbc13>;
+   <http://purl.org/dc/terms/identifier> "dc04cac0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/c5dc0796-4b29-4fbd-8097-d80cc2b28f49> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c5dc0796-4b29-4fbd-8097-d80cc2b28f49";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a12dc2565be0dd45f62af20493a2dbc17d83b544db425a804bdbe56f6d99b8cd>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/f27d588d-c198-4fda-b76f-f79761707ec6> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f27d588d-c198-4fda-b76f-f79761707ec6";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/31bdd8a00cbe10bbe2908760820ca07226cb9bfd829e84e87b859d21d4bf6da5>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/a6aa56a9-5d5b-4000-a62f-2aeb1bddbc13> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a6aa56a9-5d5b-4000-a62f-2aeb1bddbc13";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers en fietsers wordt aangeduid</p>/n<p>de weg wordt voorbehouden voor het verkeer van voetgangers en fietsers. Het begin van de voorbehouden weg wordt aangeduid, alsook het deel van de weg dat bestemd is voor de verschillende categorieën van weggebruikers</p>" .

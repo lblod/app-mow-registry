@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/b19e565e-00b8-46c4-b6ee-046e6b609259> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b19e565e-00b8-46c4-b6ee-046e6b609259";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/871c1a65-1ce7-4f49-b18f-5f511e3b5335>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ae87a477-59ad-42ce-896b-e149ae9d78a0>;
+   <http://purl.org/dc/terms/identifier> "e2bdd130-60b3-11e3-a949-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/871c1a65-1ce7-4f49-b18f-5f511e3b5335> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "871c1a65-1ce7-4f49-b18f-5f511e3b5335";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/81dacb65d15dc41b3f92ffeb9b6d8a776180c1261b69d74db5783bcdb3d3e79f>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/ae87a477-59ad-42ce-896b-e149ae9d78a0> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ae87a477-59ad-42ce-896b-e149ae9d78a0";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van motorvoertuigen met vier wielen, geconstrueerd voor onverhard terrein, met een open carrosserie, een stuur als op een motorfiets en een zadel</p>" .

@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/4bdc0b7b-c2c9-451a-94bc-bd5cb7ff257f> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4bdc0b7b-c2c9-451a-94bc-bd5cb7ff257f";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/0b528e2b-cbfb-4c6b-9a49-61bab3f99b95>,
+     <http://data.lblod.info/must-use-relations/b5806e3d-bda9-4040-9bdb-e5caf8dde74b>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/77c50cf4-19e1-4e0b-83c8-c9a8ebcd0aa2>;
+   <http://purl.org/dc/terms/identifier> "c01d15b0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/0b528e2b-cbfb-4c6b-9a49-61bab3f99b95> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0b528e2b-cbfb-4c6b-9a49-61bab3f99b95";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/84567323c818fdb559cc3df4dbc141d3e24efcf6f528473c5c0ec20e180e56e2>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/b5806e3d-bda9-4040-9bdb-e5caf8dde74b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b5806e3d-bda9-4040-9bdb-e5caf8dde74b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/9a99ae7486d2f485d6540fb82b5c12d732788b46dcc66a2a5fcd0966929c6a43>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/77c50cf4-19e1-4e0b-83c8-c9a8ebcd0aa2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "77c50cf4-19e1-4e0b-83c8-c9a8ebcd0aa2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor lichte vrachtauto's en vrachtauto's</p>/n<p>het parkeren is voorbehouden voor volgende categorie van voertuigen: ${categorie_voertuig}</p>" .

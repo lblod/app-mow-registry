@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/ed4e4512-e3cd-42be-ba88-7ca5fede1db5> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ed4e4512-e3cd-42be-ba88-7ca5fede1db5";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/bae9fd4e-3aa9-4761-9d8f-79c6b7ebc460>,
+     <http://data.lblod.info/must-use-relations/0665efa8-5971-4702-9f54-19609402fbe6>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/4b439983-22ef-431c-8e2f-3220a936a63b>;
+   <http://purl.org/dc/terms/identifier> "eaabf440-ee9e-11e6-bb26-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/0665efa8-5971-4702-9f54-19609402fbe6> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0665efa8-5971-4702-9f54-19609402fbe6";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ccfce8f5c49bf6098900d566a57a37a34c152a713eded5f0e89d5badfac2a77f>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/bae9fd4e-3aa9-4761-9d8f-79c6b7ebc460> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bae9fd4e-3aa9-4761-9d8f-79c6b7ebc460";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7b796f77edc7d487881bd4fbc5faebda6d803ff899740de440211257d706c136>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/4b439983-22ef-431c-8e2f-3220a936a63b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4b439983-22ef-431c-8e2f-3220a936a63b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen klasse A moeten het ${rijrichting}fietspad volgen, voor zover het in de door hen gevolgde rijrichting is gesignaleerd</p>/n<p>het fietspad mag niet gevolgd worden door de bestuurders van tweewielige bromfietsen klasse B en speed pedelecs</p>" .

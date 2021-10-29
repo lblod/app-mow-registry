@@ -1,0 +1,22 @@
+
+<http://data.lblod.info/traffic-measure-concepts/e02adfdf-70c5-43f8-8fa1-22280ecd65cb> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e02adfdf-70c5-43f8-8fa1-22280ecd65cb";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/d1ceae7d-ec5b-474e-b0a9-87c76a08cde7>,
+     <http://data.lblod.info/must-use-relations/19924acf-4808-40d4-8120-147ec1ca3440>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c3382849-e496-45a2-b35f-7a978511a8ec>;
+   <http://purl.org/dc/terms/identifier> "c88f5020-2d02-11e8-9403-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/19924acf-4808-40d4-8120-147ec1ca3440> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "19924acf-4808-40d4-8120-147ec1ca3440";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/734eff1afee00937cb46123d801e75ac98a1d26e186d8f2386cc6df45e31d324>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/d1ceae7d-ec5b-474e-b0a9-87c76a08cde7> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d1ceae7d-ec5b-474e-b0a9-87c76a08cde7";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ef95e7f29f423cb55cfb085749607778bfaf770137e9b0cfc3362f374094985f>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/c3382849-e496-45a2-b35f-7a978511a8ec> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c3382849-e496-45a2-b35f-7a978511a8ec";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de bestuurders zijn verplicht de hindernis langs links voorbij te rijden</p>/n<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A en speed pedelecs
+</p>""" .

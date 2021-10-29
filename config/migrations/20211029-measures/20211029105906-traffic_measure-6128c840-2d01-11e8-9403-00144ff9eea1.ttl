@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/52a6ddd1-ee82-4be7-ad06-1b109b630244> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "52a6ddd1-ee82-4be7-ad06-1b109b630244";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/4412ff63-58c0-4278-b567-4b030a7abf7e>,
+     <http://data.lblod.info/must-use-relations/b6075575-69ba-4bb8-b85a-d9e513abc00d>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/20799b5c-c516-490f-9fbb-f8dbef3937e1>;
+   <http://purl.org/dc/terms/identifier> "6128c840-2d01-11e8-9403-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/4412ff63-58c0-4278-b567-4b030a7abf7e> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4412ff63-58c0-4278-b567-4b030a7abf7e";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ef95e7f29f423cb55cfb085749607778bfaf770137e9b0cfc3362f374094985f>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/b6075575-69ba-4bb8-b85a-d9e513abc00d> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b6075575-69ba-4bb8-b85a-d9e513abc00d";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0c471075e7f9f4f6b5c12abf3ed2acb4b1c2dd17545671ae2359ac2e9d524647>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/20799b5c-c516-490f-9fbb-f8dbef3937e1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "20799b5c-c516-490f-9fbb-f8dbef3937e1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht rechtdoor te rijden</p>/n<p>de maatregel geldt niet voor fietsers en bestuurders van speed pedelecs</p>" .

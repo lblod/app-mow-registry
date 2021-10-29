@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/b9605b74-5b7e-4141-b153-925ed0955d11> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b9605b74-5b7e-4141-b153-925ed0955d11";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/7a96db3a-bbbb-4dd0-b7f7-ad2170b61371>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/1c3e55b7-d03b-4c70-99a8-e00f604bdb62>;
+   <http://purl.org/dc/terms/identifier> "dd3163e2-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/7a96db3a-bbbb-4dd0-b7f7-ad2170b61371> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7a96db3a-bbbb-4dd0-b7f7-ad2170b61371";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/1b97495ca8acf94c3927ec1abf0153b6>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/1c3e55b7-d03b-4c70-99a8-e00f604bdb62> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1c3e55b7-d03b-4c70-99a8-e00f604bdb62";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders om de naast elkaar getrokken doorlopende en onderbroken streep te overschrijden afhankelijk van de streep  die zich aan hun kant bevindt</p>" .

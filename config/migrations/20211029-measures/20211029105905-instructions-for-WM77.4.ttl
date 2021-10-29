@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/6e4088cc35ae34f65b8a1ba4350ce26e> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e3d027fd-7a48-43da-a978-d5b4d3096ded> .
+
+<http://data.lblod.info/templates/e3d027fd-7a48-43da-a978-d5b4d3096ded> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e3d027fd-7a48-43da-a978-d5b4d3096ded";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>bestuurders mogen niet rijden, stilstaan of parkeren op de markeringen</p>" .

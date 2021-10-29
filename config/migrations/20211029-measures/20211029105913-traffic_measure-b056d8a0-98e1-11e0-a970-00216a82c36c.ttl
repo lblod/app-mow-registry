@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/73d6d54d-b4d2-4183-bc3d-ab1dc0fb0034> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "73d6d54d-b4d2-4183-bc3d-ab1dc0fb0034";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/b15c9989-8163-45dd-be0d-f676cca9fb2a>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a8c642f4-2eb9-40f4-a2ba-2089a8ce823c>;
+   <http://purl.org/dc/terms/identifier> "b056d8a0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/b15c9989-8163-45dd-be0d-f676cca9fb2a> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b15c9989-8163-45dd-be0d-f676cca9fb2a";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/361c936975bc1f56b7b6b3689c20ad9357ba6d0e0e97dad0bd718c395f4ba9e1>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/a8c642f4-2eb9-40f4-a2ba-2089a8ce823c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a8c642f4-2eb9-40f4-a2ba-2089a8ce823c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden rechts af te slaan</p>" .

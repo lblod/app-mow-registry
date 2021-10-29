@@ -1,0 +1,23 @@
+
+<http://data.lblod.info/traffic-measure-concepts/cd09f29d-4198-45b6-8457-cd589198fc9d> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cd09f29d-4198-45b6-8457-cd589198fc9d";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/8c25df9c-8729-498e-ba82-b78b3cf35b50>,
+     <http://data.lblod.info/must-use-relations/29f4d3e2-8ae1-4645-9ea3-dcf0e474c706>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/09695e56-9213-43f5-ac5a-cfecb445381a>;
+   <http://purl.org/dc/terms/identifier> "b911f420-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/29f4d3e2-8ae1-4645-9ea3-dcf0e474c706> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "29f4d3e2-8ae1-4645-9ea3-dcf0e474c706";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/8c25df9c-8729-498e-ba82-b78b3cf35b50> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8c25df9c-8729-498e-ba82-b78b3cf35b50";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0b8edba107bc181f01ea9fcf241c76f6befff04e15a697acf1c6cdeb49e71868>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/09695e56-9213-43f5-ac5a-cfecb445381a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "09695e56-9213-43f5-ac5a-cfecb445381a";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is toegelaten</p>/n<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd};
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .

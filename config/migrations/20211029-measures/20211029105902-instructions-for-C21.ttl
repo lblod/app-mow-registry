@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bedd100cbf5d1795b9f4a9cf5d63846a65e0d5deb7f1122848e826f5b9e221af> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/cc189e5b-b6be-45cc-b44d-ed294f1a3a24> .
+
+<http://data.lblod.info/templates/cc189e5b-b6be-45cc-b44d-ed294f1a3a24> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cc189e5b-b6be-45cc-b44d-ed294f1a3a24";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan ${massa} ton</p>" .

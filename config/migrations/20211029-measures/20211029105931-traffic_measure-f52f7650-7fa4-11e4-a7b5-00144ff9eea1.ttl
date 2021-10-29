@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/fef391ef-b054-4913-aa7b-b5c9a9583b85> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fef391ef-b054-4913-aa7b-b5c9a9583b85";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/3b7465c9-0040-4758-83a7-aead6ccfb233>,
+     <http://data.lblod.info/must-use-relations/a8988db9-2570-4c91-8488-d1004ff1f50d>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a622c07b-da6b-4959-8038-2e547f0fddf7>;
+   <http://purl.org/dc/terms/identifier> "f52f7650-7fa4-11e4-a7b5-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/3b7465c9-0040-4758-83a7-aead6ccfb233> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3b7465c9-0040-4758-83a7-aead6ccfb233";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/fcc9d98e971d74253c641355dc88c94ea70f8a8a1a789ea4aef44a0f23a52728>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/a8988db9-2570-4c91-8488-d1004ff1f50d> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a8988db9-2570-4c91-8488-d1004ff1f50d";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/2ef0f718f6780fa8f69d02d8c3e8ad3cc9879e1a125b361b627a883198b41400>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/a622c07b-da6b-4959-8038-2e547f0fddf7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a622c07b-da6b-4959-8038-2e547f0fddf7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van rijwielen</p>/n<p>de toegang is verboden voor bestuurders van bromfietsen</p>" .

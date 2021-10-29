@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/7cf09bdc-dca2-43df-9133-2d1653ecf813> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7cf09bdc-dca2-43df-9133-2d1653ecf813";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/cd88571f-cfff-4676-9b8a-261695215308>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/63535fb9-6c7b-4f5d-9dc5-a8e89b4a2b80>;
+   <http://purl.org/dc/terms/identifier> "afa64d50-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/cd88571f-cfff-4676-9b8a-261695215308> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cd88571f-cfff-4676-9b8a-261695215308";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bc67b2aed58af8cba5f38d177bfc2525b97410a84dec019d0a54a072bae6c776>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/63535fb9-6c7b-4f5d-9dc5-a8e89b4a2b80> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "63535fb9-6c7b-4f5d-9dc5-a8e89b4a2b80";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van gespannen</p>" .

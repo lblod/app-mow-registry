@@ -1,0 +1,23 @@
+
+<http://data.lblod.info/traffic-measure-concepts/9c0f0df7-3df1-4ee8-9132-3b3f1c41f04d> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9c0f0df7-3df1-4ee8-9132-3b3f1c41f04d";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/dceba56d-9805-4c35-9e44-31afe64fcbe7>,
+     <http://data.lblod.info/must-use-relations/6acd726e-2961-42ce-a84d-018cf1b5a5b5>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/03b6aa0d-b338-444a-83be-fc348abe7ba5>;
+   <http://purl.org/dc/terms/identifier> "3103d3c0-c4a1-11e3-bed3-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/6acd726e-2961-42ce-a84d-018cf1b5a5b5> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6acd726e-2961-42ce-a84d-018cf1b5a5b5";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5a99bb07ee0886bcbc996b67327b2977bc70e67ad9ee9649d7e24f44f68b4684>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/dceba56d-9805-4c35-9e44-31afe64fcbe7> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "dceba56d-9805-4c35-9e44-31afe64fcbe7";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e6f178e53fc9ae0d1d17616ef08d3873f6892bfc46acf1f8850a77d34d4f85d2>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/03b6aa0d-b338-444a-83be-fc348abe7ba5> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "03b6aa0d-b338-444a-83be-fc348abe7ba5";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+taxi's die in de zone een welbepaalde bestemming hebben om personen te laten in- en uitstappen, hebben eveneens toegang. De toegang is beperkt ${beperking tijd_taxi};
+fietsers hebben eveneens toegang. De toegang is beperkt ${beperking tijd_fiets}</p>/n<p>ook het einde van de voetgangerszone wordt aangeduid</p>""" .

@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/7f8e8714-1c0c-49bf-a2a7-35ec311899af> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7f8e8714-1c0c-49bf-a2a7-35ec311899af";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/f0fce02a-93ac-4ea3-a8ad-b700122153da>,
+     <http://data.lblod.info/must-use-relations/27811a5b-066b-446d-a1fc-beff4d9ab91c>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/dc644de1-cba9-4efb-b3e4-4a1561350243>;
+   <http://purl.org/dc/terms/identifier> "ba7a84d0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/27811a5b-066b-446d-a1fc-beff4d9ab91c> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "27811a5b-066b-446d-a1fc-beff4d9ab91c";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0b8edba107bc181f01ea9fcf241c76f6befff04e15a697acf1c6cdeb49e71868>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/f0fce02a-93ac-4ea3-a8ad-b700122153da> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f0fce02a-93ac-4ea3-a8ad-b700122153da";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/dc644de1-cba9-4efb-b3e4-4a1561350243> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "dc644de1-cba9-4efb-b3e4-4a1561350243";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is toegelaten</p>/n<p>het parkeren is voorbehouden voor voertuigen waarop de bewonerskaart is aangebracht</p>" .

@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/26d34dce-42bc-424d-b6c6-45ff36dfc28e> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "26d34dce-42bc-424d-b6c6-45ff36dfc28e";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/9f571b1d-91d9-413a-ab02-9212f2031b4a>,
+     <http://data.lblod.info/must-use-relations/b1107b8f-f372-4ac8-bee6-6ace7a18d629>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/56da3ccd-1074-4718-89b7-7908e50e057a>;
+   <http://purl.org/dc/terms/identifier> "e945cf80-ef99-11e6-bb26-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/9f571b1d-91d9-413a-ab02-9212f2031b4a> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9f571b1d-91d9-413a-ab02-9212f2031b4a";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/b1107b8f-f372-4ac8-bee6-6ace7a18d629> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b1107b8f-f372-4ac8-bee6-6ace7a18d629";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e8cdf86215d2202a9001f93e1ed3b7577885fe972a799a30f29998bf0fb34e02>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/56da3ccd-1074-4718-89b7-7908e50e057a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "56da3ccd-1074-4718-89b7-7908e50e057a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden in beide richtingen, voor iedere bestuurder</p>/n<p>de maatregel geldt niet voor ${categorie_voertuig} ${tijdens volgend tijdsvenster}</p>" .

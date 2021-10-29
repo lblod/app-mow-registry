@@ -1,0 +1,24 @@
+
+<http://data.lblod.info/traffic-measure-concepts/aef20624-7b6d-4af2-8945-7cd4e5a60264> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "aef20624-7b6d-4af2-8945-7cd4e5a60264";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/242eaa89-bbef-4345-b08f-166c6623267b>,
+     <http://data.lblod.info/must-use-relations/ade55021-b7a1-4a32-ae4d-cd1e48624220>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ac89db77-d37e-458f-ac4f-5d7004c962ea>;
+   <http://purl.org/dc/terms/identifier> "3cdf1b00-c4a1-11e3-bed3-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/242eaa89-bbef-4345-b08f-166c6623267b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "242eaa89-bbef-4345-b08f-166c6623267b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5a99bb07ee0886bcbc996b67327b2977bc70e67ad9ee9649d7e24f44f68b4684>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/ade55021-b7a1-4a32-ae4d-cd1e48624220> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ade55021-b7a1-4a32-ae4d-cd1e48624220";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e6f178e53fc9ae0d1d17616ef08d3873f6892bfc46acf1f8850a77d34d4f85d2>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/ac89db77-d37e-458f-ac4f-5d7004c962ea> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ac89db77-d37e-458f-ac4f-5d7004c962ea";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+voertuigen die in de zone moeten laden of lossen hebben eveneens toegang. De toegang is beperkt ${beperking tijd_laden en lossen};
+taxi's die in de zone een welbepaalde bestemming hebben om personen te laten in- en uitstappen, hebben eveneens toegang. De toegang is beperkt ${beperking tijd_taxi};
+fietsers hebben eveneens toegang</p>/n<p>ook het einde van de voetgangerszone wordt aangeduid</p>""" .

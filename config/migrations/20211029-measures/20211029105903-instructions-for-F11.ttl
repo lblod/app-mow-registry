@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b4ce49f90460d0ed702ae714771dda6504e1e85b17eb7e89ec6fe00dfa444fbc> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ee8950f0-690f-441e-a8c1-918b2d1e8ac4> .
+
+<http://data.lblod.info/templates/ee8950f0-690f-441e-a8c1-918b2d1e8ac4> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ee8950f0-690f-441e-a8c1-918b2d1e8ac4";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin van de autoweg wordt aangeduid</p>" .

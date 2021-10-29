@@ -1,0 +1,22 @@
+
+<http://data.lblod.info/traffic-measure-concepts/44f4aec9-7536-498f-af9a-720709fe9417> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "44f4aec9-7536-498f-af9a-720709fe9417";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/6897d4f6-d88d-4fce-861d-cc3e1cc8a31b>,
+     <http://data.lblod.info/must-use-relations/0b9e4052-94b3-4f14-ac26-a1d7a7098038>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/8587135e-4eb0-44d6-b014-712f47c78fde>;
+   <http://purl.org/dc/terms/identifier> "03fe4f30-2d03-11e8-9403-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/0b9e4052-94b3-4f14-ac26-a1d7a7098038> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0b9e4052-94b3-4f14-ac26-a1d7a7098038";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/734eff1afee00937cb46123d801e75ac98a1d26e186d8f2386cc6df45e31d324>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/6897d4f6-d88d-4fce-861d-cc3e1cc8a31b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6897d4f6-d88d-4fce-861d-cc3e1cc8a31b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ef95e7f29f423cb55cfb085749607778bfaf770137e9b0cfc3362f374094985f>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/8587135e-4eb0-44d6-b014-712f47c78fde> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8587135e-4eb0-44d6-b014-712f47c78fde";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de bestuurders zijn verplicht rechts af te slaan</p>/n<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A en speed pedelecs
+</p>""" .

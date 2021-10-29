@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/137112aad6b994f965bfd6ceb7e88bf0162db8ac885e57439ef8cbee363fe579> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/d82669e8-d1b1-41b2-ba34-e29d7376bf18> .
+
+<http://data.lblod.info/templates/d82669e8-d1b1-41b2-ba34-e29d7376bf18> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d82669e8-d1b1-41b2-ba34-e29d7376bf18";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het stilstaan en parkeren is verboden</p>" .

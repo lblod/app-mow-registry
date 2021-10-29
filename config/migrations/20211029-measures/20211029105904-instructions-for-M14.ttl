@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/63eca6e1d18ff9e92f71db5b637c0763e87b2d97fbdd6b1eb58e11a3514f8d8f> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/578ecff9-9b06-4423-b7f4-03961bd489a1> .
+
+<http://data.lblod.info/templates/578ecff9-9b06-4423-b7f4-03961bd489a1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "578ecff9-9b06-4423-b7f4-03961bd489a1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het fietspad moet gevolgd worden door de bestuurders van tweewielige bromfietsen klasse B en speed pedelecs</p>" .

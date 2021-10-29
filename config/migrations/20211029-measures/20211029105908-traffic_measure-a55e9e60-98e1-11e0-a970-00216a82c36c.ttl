@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/8512ab66-699c-4416-a72b-5188d62d24b4> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8512ab66-699c-4416-a72b-5188d62d24b4";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/f4003f19-3d0f-4377-97b5-39c46c07710d>,
+     <http://data.lblod.info/must-use-relations/0db78709-10a9-47cb-828b-e0e01b84f6fb>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/00efb316-a490-4234-b7cd-630971707655>;
+   <http://purl.org/dc/terms/identifier> "a55e9e60-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/0db78709-10a9-47cb-828b-e0e01b84f6fb> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0db78709-10a9-47cb-828b-e0e01b84f6fb";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e076d4553d8995d0739ad74dc30dbb5cf4095b6c0a9e9a68503e7a7da03f3b9e>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/f4003f19-3d0f-4377-97b5-39c46c07710d> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f4003f19-3d0f-4377-97b5-39c46c07710d";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0527c3b6261a500eade105ef371d355c2b950fcdd14302bdfc6711da2933f33a>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/00efb316-a490-4234-b7cd-630971707655> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "00efb316-a490-4234-b7cd-630971707655";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten voorrang verlenen</p>/n<p>de maatregel geldt alleen voor de fietsers en bestuurders van tweewielige bromfietsen</p>" .

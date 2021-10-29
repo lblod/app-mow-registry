@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/8c698fa7-4c25-405e-8f89-3346e4b4b2d2> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8c698fa7-4c25-405e-8f89-3346e4b4b2d2";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/6c6c2080-ba5b-41a0-9a45-d1ca219f7dfd>,
+     <http://data.lblod.info/must-use-relations/e2e1882a-0fca-49c3-bc6b-71053b26f766>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/877e4f41-5bc7-4182-a439-f65ed33d9097>;
+   <http://purl.org/dc/terms/identifier> "a52e3f90-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/6c6c2080-ba5b-41a0-9a45-d1ca219f7dfd> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6c6c2080-ba5b-41a0-9a45-d1ca219f7dfd";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/62da21c7e453f5de930d244fbcf47580bd1f1b1773faf0c4c15a81a8f2cc3879>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/e2e1882a-0fca-49c3-bc6b-71053b26f766> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e2e1882a-0fca-49c3-bc6b-71053b26f766";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e076d4553d8995d0739ad74dc30dbb5cf4095b6c0a9e9a68503e7a7da03f3b9e>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/877e4f41-5bc7-4182-a439-f65ed33d9097> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "877e4f41-5bc7-4182-a439-f65ed33d9097";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten voorrang verlenen</p>/n<p>fietsers rijden in de twee rijrichtingen op de dwarslopende openbare weg die men gaat oprijden</p>" .

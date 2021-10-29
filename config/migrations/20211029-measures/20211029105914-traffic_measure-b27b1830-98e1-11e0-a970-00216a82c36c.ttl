@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/f52b1315-54dd-4320-9b8d-e519e7382f8a> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f52b1315-54dd-4320-9b8d-e519e7382f8a";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/a4e6f39b-f095-4f6a-8f67-86d675c68e81>,
+     <http://data.lblod.info/must-use-relations/a32f6d3b-f532-4efd-9d1f-6cc421684fbf>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/b9626653-0bbb-4a7a-910e-1f1ba0a236ac>;
+   <http://purl.org/dc/terms/identifier> "b27b1830-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/a32f6d3b-f532-4efd-9d1f-6cc421684fbf> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a32f6d3b-f532-4efd-9d1f-6cc421684fbf";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/1b0064d6a66dc26109c3173acb5254c81e508aa875ff16764b6d45cb34ef651a>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/a4e6f39b-f095-4f6a-8f67-86d675c68e81> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a4e6f39b-f095-4f6a-8f67-86d675c68e81";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bc05e44f54e530335872114a61a3959f423b0f369f464e3717495b14d8ffd1ca>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/b9626653-0bbb-4a7a-910e-1f1ba0a236ac> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b9626653-0bbb-4a7a-910e-1f1ba0a236ac";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>verplicht rondgaand verkeer. De bestuurders zijn verplicht de inrichting bestemd om het verkeer te leiden aan hun linkerhand te laten</p>/n<p>de bestuurders moeten stoppen en voorrang verlenen</p>" .

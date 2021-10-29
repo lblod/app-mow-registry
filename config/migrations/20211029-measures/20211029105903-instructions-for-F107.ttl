@@ -1,0 +1,11 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/714232fc0cf75050ea8b89489ecc0f172cec1f6d737fdf4e26d7e517c4e9ea9b> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/396b76c5-15d6-40cc-9308-20e79abbbb69>,
+     <http://data.lblod.info/templates/f2aabc5d-da4c-4c41-abeb-cc2e4bf9fa16> .
+
+<http://data.lblod.info/templates/396b76c5-15d6-40cc-9308-20e79abbbb69> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "396b76c5-15d6-40cc-9308-20e79abbbb69";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is voor de bestuurders van voertuigen en slepen gebruikt voor het vervoer van zaken met een maximale toegelaten massa van meer dan 3,5 ton toegelaten om een gespan, een tweewielig motorvoertuig of een voertuig met meer dan twee wielen links in te halen</p>" .
+
+<http://data.lblod.info/templates/f2aabc5d-da4c-4c41-abeb-cc2e4bf9fa16> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f2aabc5d-da4c-4c41-abeb-cc2e4bf9fa16";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de inhaaltoelating is ten einde</p>" .

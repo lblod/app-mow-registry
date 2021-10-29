@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/a5dc90bb-ce17-4e87-9ac7-7a7c7545786f> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a5dc90bb-ce17-4e87-9ac7-7a7c7545786f";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/a7c95c95-5994-4e6c-90b8-3a65ef672b88>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/76ca1639-6f4a-4acc-9e28-bfc4a18c5be2>;
+   <http://purl.org/dc/terms/identifier> "b11594c0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/a7c95c95-5994-4e6c-90b8-3a65ef672b88> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a7c95c95-5994-4e6c-90b8-3a65ef672b88";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ef95e7f29f423cb55cfb085749607778bfaf770137e9b0cfc3362f374094985f>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/76ca1639-6f4a-4acc-9e28-bfc4a18c5be2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "76ca1639-6f4a-4acc-9e28-bfc4a18c5be2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht links af te slaan</p>" .

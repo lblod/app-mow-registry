@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/cf2c1c08-e83a-4dba-9971-f56d66054197> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cf2c1c08-e83a-4dba-9971-f56d66054197";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/a7355de8-b404-422d-b97e-6d0088eb6bd6>,
+     <http://data.lblod.info/must-use-relations/038243da-e33e-4fb9-8b88-aa3f911d8252>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/325105dc-42be-4dd4-a660-8cf9ed07ab55>;
+   <http://purl.org/dc/terms/identifier> "cb66a440-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/038243da-e33e-4fb9-8b88-aa3f911d8252> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "038243da-e33e-4fb9-8b88-aa3f911d8252";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/a7355de8-b404-422d-b97e-6d0088eb6bd6> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a7355de8-b404-422d-b97e-6d0088eb6bd6";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/47c9ffa15a0316eb8144e48eed44bef295c2ea742b37ab6675268611cbbb5b64>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/325105dc-42be-4dd4-a660-8cf9ed07ab55> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "325105dc-42be-4dd4-a660-8cf9ed07ab55";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verplicht te parkeren deels op de berm of op het trottoir</p>/n<p>het parkeren is betalend</p>" .

@@ -1,0 +1,22 @@
+
+<http://data.lblod.info/traffic-measure-concepts/4badb907-155e-43dc-a2b2-0100e7dd11fd> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4badb907-155e-43dc-a2b2-0100e7dd11fd";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/a2318c74-746a-46d8-a104-e25fa30bf517>,
+     <http://data.lblod.info/must-use-relations/d66bfa7b-f33c-44de-bc41-66542f73253b>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/5cd74243-fd19-4af6-bd9f-ea1124e54a51>;
+   <http://purl.org/dc/terms/identifier> "d736ef00-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/a2318c74-746a-46d8-a104-e25fa30bf517> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a2318c74-746a-46d8-a104-e25fa30bf517";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/d66bfa7b-f33c-44de-bc41-66542f73253b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d66bfa7b-f33c-44de-bc41-66542f73253b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/c013a71f9cd0f6084cd5beac514f11edb27aeb99cb9ed375150567c71db3b061>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/5cd74243-fd19-4af6-bd9f-ea1124e54a51> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5cd74243-fd19-4af6-bd9f-ea1124e54a51";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is voorbehouden voor motorfietsen</p>/n<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd}</p>""" .

@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/933dfca1-c36e-40bd-890a-27a6e4b28c07> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "933dfca1-c36e-40bd-890a-27a6e4b28c07";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/fc3f9a28-2a02-4fde-920c-dbc96ee5556c>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/179fc568-3548-4648-9683-91cb03c6e89a>;
+   <http://purl.org/dc/terms/identifier> "a94611c0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/fc3f9a28-2a02-4fde-920c-dbc96ee5556c> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fc3f9a28-2a02-4fde-920c-dbc96ee5556c";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/db7f076463027c70137d3b899b76586aa8ea0cc38001ed8d880d37d4810410a0>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/179fc568-3548-4648-9683-91cb03c6e89a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "179fc568-3548-4648-9683-91cb03c6e89a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het verkeersbord B1 wordt aangekondigd. De bestuurders zullen over ${aanduiding_afstand} meter voorrang moeten verlenen</p>" .

@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/fa26fed0-bcca-41ba-9b7d-3f522a19be46> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fa26fed0-bcca-41ba-9b7d-3f522a19be46";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/d1ada391-94fa-45c2-bad9-29e41fd11fa0>,
+     <http://data.lblod.info/must-use-relations/49edd6b8-2863-456c-9f6b-fe61fd1d6d3b>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/b7e084ed-9461-4903-b3cd-4ec6ba8670e1>;
+   <http://purl.org/dc/terms/identifier> "b1595480-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/49edd6b8-2863-456c-9f6b-fe61fd1d6d3b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "49edd6b8-2863-456c-9f6b-fe61fd1d6d3b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ef95e7f29f423cb55cfb085749607778bfaf770137e9b0cfc3362f374094985f>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/d1ada391-94fa-45c2-bad9-29e41fd11fa0> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d1ada391-94fa-45c2-bad9-29e41fd11fa0";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0354a9248d379808250847432a584e4dc2be39d0eaec787dff319a30e407e053>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/b7e084ed-9461-4903-b3cd-4ec6ba8670e1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b7e084ed-9461-4903-b3cd-4ec6ba8670e1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht rechts af te slaan</p>/n<p>de maatregel geldt niet voor fietsers</p>" .

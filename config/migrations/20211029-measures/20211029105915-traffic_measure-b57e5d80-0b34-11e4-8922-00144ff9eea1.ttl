@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/cc497958-4b26-4e65-8088-d7bced0bdb44> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cc497958-4b26-4e65-8088-d7bced0bdb44";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/32bcd65d-50c4-42c8-917e-3344bbff4436>,
+     <http://data.lblod.info/must-use-relations/93d9863a-8f90-42b4-bbd7-8b6c4f5d3649>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/65494ab0-3c01-4376-962c-d472cf04f0a4>;
+   <http://purl.org/dc/terms/identifier> "b57e5d80-0b34-11e4-8922-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/32bcd65d-50c4-42c8-917e-3344bbff4436> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "32bcd65d-50c4-42c8-917e-3344bbff4436";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bc312fc26af5cf71e7616e1d9fd0e3a34f8c44b0d97dfa8ab8a532d1faac3b87>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/93d9863a-8f90-42b4-bbd7-8b6c4f5d3649> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "93d9863a-8f90-42b4-bbd7-8b6c4f5d3649";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7d6a7b43528f9c71a42780a01dd1e43e1db1e2675c4f3e18effe6939bbc663ee>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/65494ab0-3c01-4376-962c-d472cf04f0a4> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "65494ab0-3c01-4376-962c-d472cf04f0a4";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>verboden rijrichting voor iedere bestuurder. Het verbod is niet van toepassing op het geheel van de openbare weg</p>/n<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A</p>" .

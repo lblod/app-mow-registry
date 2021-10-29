@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/a4c35a84-db36-46ad-b366-ec195157787c> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a4c35a84-db36-46ad-b366-ec195157787c";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/1fefce33-9100-4128-bce6-4bc742dff195>,
+     <http://data.lblod.info/must-use-relations/4d5e2735-ec37-45cd-8157-8578322c9eaa>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/dce127cd-df56-4fa1-8dfb-5eef56ff32d1>;
+   <http://purl.org/dc/terms/identifier> "cf87ec50-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/1fefce33-9100-4128-bce6-4bc742dff195> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1fefce33-9100-4128-bce6-4bc742dff195";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/4d5e2735-ec37-45cd-8157-8578322c9eaa> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4d5e2735-ec37-45cd-8157-8578322c9eaa";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4666c7f416e910d3b442c51c1c32bbe3ce9ad324c2f07badfad9610431bf1484>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/dce127cd-df56-4fa1-8dfb-5eef56ff32d1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "dce127cd-df56-4fa1-8dfb-5eef56ff32d1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verplicht te parkeren op de rijbaan</p>/n<p>het parkeren is betalend</p>" .

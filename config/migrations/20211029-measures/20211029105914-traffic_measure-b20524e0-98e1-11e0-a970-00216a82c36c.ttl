@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/05648560-3794-497c-8c30-919b348ceae9> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "05648560-3794-497c-8c30-919b348ceae9";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/783b3017-1ae5-4fbe-990a-553925116866>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/6962fefe-3562-47eb-80e9-fac61bc0ee41>;
+   <http://purl.org/dc/terms/identifier> "b20524e0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/783b3017-1ae5-4fbe-990a-553925116866> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "783b3017-1ae5-4fbe-990a-553925116866";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/00ec95d849486cfd9c41ba02e2125ac2f719f6bb85d26ae78f6cbd006ffd1f42>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/6962fefe-3562-47eb-80e9-fac61bc0ee41> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6962fefe-3562-47eb-80e9-fac61bc0ee41";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht rechtdoor te rijden of rechts af te slaan</p>" .

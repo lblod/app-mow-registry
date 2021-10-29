@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/59b16f12-e910-43ae-a6fb-af0d7b628504> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "59b16f12-e910-43ae-a6fb-af0d7b628504";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/96ae9f90-c854-4906-924c-6d57f4e2649d>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/af064e92-0af7-4651-9a47-bbc7cd2b93d7>;
+   <http://purl.org/dc/terms/identifier> "b0208660-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/96ae9f90-c854-4906-924c-6d57f4e2649d> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "96ae9f90-c854-4906-924c-6d57f4e2649d";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/451d20f38b98efda6f0fa73fb26cccda41070b772e3c4fcc46caee62e004ea08>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/af064e92-0af7-4651-9a47-bbc7cd2b93d7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "af064e92-0af7-4651-9a47-bbc7cd2b93d7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen waarvan de hoogte, lading inbegrepen, groter is dan ${hoogte_voertuig} meter</p>" .

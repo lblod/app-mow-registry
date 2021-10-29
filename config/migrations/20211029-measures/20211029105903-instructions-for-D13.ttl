@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4cdd5c7ae7f47341ae64e5a6f0d87ef4af6a73fc3cd2ba5b1a46cd0fa9c83465> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/d174905f-c4ea-47e4-9be0-18a264f7f952> .
+
+<http://data.lblod.info/templates/d174905f-c4ea-47e4-9be0-18a264f7f952> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d174905f-c4ea-47e4-9be0-18a264f7f952";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ruiters zijn verplicht de voorbehouden weg te volgen</p>" .

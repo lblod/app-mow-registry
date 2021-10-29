@@ -1,0 +1,23 @@
+
+<http://data.lblod.info/traffic-measure-concepts/5f0186ec-db23-4339-b5f0-8be16d211cc1> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5f0186ec-db23-4339-b5f0-8be16d211cc1";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/a7a47242-8442-4ed0-9862-3ea3a657dee5>,
+     <http://data.lblod.info/must-use-relations/27d15717-26c4-433e-9029-a9beb5a65c24>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/60b48c8f-7653-4bde-8cd0-d98e693da7ee>;
+   <http://purl.org/dc/terms/identifier> "e5e9c0c0-c4a0-11e3-bed3-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/27d15717-26c4-433e-9029-a9beb5a65c24> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "27d15717-26c4-433e-9029-a9beb5a65c24";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e6f178e53fc9ae0d1d17616ef08d3873f6892bfc46acf1f8850a77d34d4f85d2>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/a7a47242-8442-4ed0-9862-3ea3a657dee5> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a7a47242-8442-4ed0-9862-3ea3a657dee5";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5a99bb07ee0886bcbc996b67327b2977bc70e67ad9ee9649d7e24f44f68b4684>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/60b48c8f-7653-4bde-8cd0-d98e693da7ee> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "60b48c8f-7653-4bde-8cd0-d98e693da7ee";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>ook het einde van de voetgangerszone wordt aangeduid</p>/n<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+taxi's die in de zone een welbepaalde bestemming hebben om personen te laten in- en uitstappen, hebben eveneens toegang. De toegang is beperkt ${beperking tijd_taxi}
+</p>""" .

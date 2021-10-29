@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/b8ecfa4b-35b0-4868-8333-efd875d95b21> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b8ecfa4b-35b0-4868-8333-efd875d95b21";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/d29bab72-66f0-4319-b43b-9dd6157803fd>,
+     <http://data.lblod.info/must-use-relations/3ae68adf-e4ed-4aa1-86a2-3cf2b89e7e95>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/405b4849-f31c-4831-94d3-969f53e4f46e>;
+   <http://purl.org/dc/terms/identifier> "ae812e40-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/3ae68adf-e4ed-4aa1-86a2-3cf2b89e7e95> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3ae68adf-e4ed-4aa1-86a2-3cf2b89e7e95";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a14b8cd76fbf8e965f47adc3644eec7c9aaeb64927c755a6fb67de6d63a236ef>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/d29bab72-66f0-4319-b43b-9dd6157803fd> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d29bab72-66f0-4319-b43b-9dd6157803fd";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7d6a7b43528f9c71a42780a01dd1e43e1db1e2675c4f3e18effe6939bbc663ee>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/405b4849-f31c-4831-94d3-969f53e4f46e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "405b4849-f31c-4831-94d3-969f53e4f46e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>verboden rijrichting voor iedere bestuurder</p>/n<p>toegelaten rijrichting op de openbare weg met eenrichtingsverkeer</p>" .

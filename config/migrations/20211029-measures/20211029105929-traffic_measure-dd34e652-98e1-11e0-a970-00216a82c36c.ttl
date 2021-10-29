@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/11c36c96-35cf-43b3-a58b-520ab08b01b3> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "11c36c96-35cf-43b3-a58b-520ab08b01b3";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/64c9fd81-beba-482f-9acb-fff3e8b29433>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c1faad15-7aa5-41d2-882a-f817d26db1fd>;
+   <http://purl.org/dc/terms/identifier> "dd34e652-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/64c9fd81-beba-482f-9acb-fff3e8b29433> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "64c9fd81-beba-482f-9acb-fff3e8b29433";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/15e6f7af9ba7162faff36112f2d3f10a>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/c1faad15-7aa5-41d2-882a-f817d26db1fd> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c1faad15-7aa5-41d2-882a-f817d26db1fd";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren op de rijbaan is verboden</p>" .

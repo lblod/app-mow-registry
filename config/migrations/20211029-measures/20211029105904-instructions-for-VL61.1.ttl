@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeerslichtconcept/45c13c91557317dd6b7b2b37023a3825> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/cc37e2dc-02ea-4d70-8893-05b0c2bc2722> .
+
+<http://data.lblod.info/templates/cc37e2dc-02ea-4d70-8893-05b0c2bc2722> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cc37e2dc-02ea-4d70-8893-05b0c2bc2722";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten de lichten van de  driekleurige verkeerslichten opvolgen</p>" .

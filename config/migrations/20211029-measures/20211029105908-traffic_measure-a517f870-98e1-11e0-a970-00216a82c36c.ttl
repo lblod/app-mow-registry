@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/8a81425e-fd11-4159-9a60-a51b8480fcf0> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8a81425e-fd11-4159-9a60-a51b8480fcf0";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/0bd5bdf8-0f4c-4444-91dd-f9faae56c7e7>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/bd100119-1f24-433d-aade-7a61cd2231f4>;
+   <http://purl.org/dc/terms/identifier> "a517f870-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/0bd5bdf8-0f4c-4444-91dd-f9faae56c7e7> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0bd5bdf8-0f4c-4444-91dd-f9faae56c7e7";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeerslichtconcept/f6202432ede2ff8b5d6038455776eb0d>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/bd100119-1f24-433d-aade-7a61cd2231f4> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bd100119-1f24-433d-aade-7a61cd2231f4";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders dienen het kruispunt te ontruimen. Het tegenliggend verkeer op de rijbaan die de bestuurders bij het links afslaan gaan verlaten, wordt tegengehouden door een rood licht</p>" .

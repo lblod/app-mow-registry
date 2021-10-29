@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/9a424fba-b5e1-40c9-933e-674083d969ad> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9a424fba-b5e1-40c9-933e-674083d969ad";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/19a501f0-3bb0-4816-a9e4-525cd4d95fb6>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/83e1fd06-f09b-411f-9a92-dd29e4f6b170>;
+   <http://purl.org/dc/terms/identifier> "d376d9c0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/19a501f0-3bb0-4816-a9e4-525cd4d95fb6> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "19a501f0-3bb0-4816-a9e4-525cd4d95fb6";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5446d50a99626e166d9c93fa1a1be0a5be5cb038388d837a5efdc316a441c5c0>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/83e1fd06-f09b-411f-9a92-dd29e4f6b170> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "83e1fd06-f09b-411f-9a92-dd29e4f6b170";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor kampeerauto's</p>" .

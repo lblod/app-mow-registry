@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/f8029c56-f91f-4373-9bb3-bef791fd9cf2> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f8029c56-f91f-4373-9bb3-bef791fd9cf2";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/f19b9344-72d8-4fa4-9b33-8eb1c6358d4e>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/3a724706-396c-4bcd-9fa1-450523992b04>;
+   <http://purl.org/dc/terms/identifier> "afab7d70-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/f19b9344-72d8-4fa4-9b33-8eb1c6358d4e> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f19b9344-72d8-4fa4-9b33-8eb1c6358d4e";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ce89d1a5cdd2078c5ae18dfacba050fe2e2db116c57f2e9934a5ce6eddf2e893>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/3a724706-396c-4bcd-9fa1-450523992b04> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3a724706-396c-4bcd-9fa1-450523992b04";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor voetgangers</p>" .

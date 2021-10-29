@@ -1,0 +1,27 @@
+
+<http://data.lblod.info/traffic-measure-concepts/27d73af8-0474-4667-b873-4d95bb91aa9a> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "27d73af8-0474-4667-b873-4d95bb91aa9a";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/98b31a58-166e-4f18-9e23-d56c81c06e4c>,
+     <http://data.lblod.info/must-use-relations/e6d8037e-8aa2-4e44-bdcb-c599507f5044>,
+     <http://data.lblod.info/must-use-relations/c670f8fc-0406-439e-a771-c42add590e08>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/7a3280c2-3ce5-43df-9c3c-f3e192949f67>;
+   <http://purl.org/dc/terms/identifier> "ba4a7420-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/98b31a58-166e-4f18-9e23-d56c81c06e4c> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "98b31a58-166e-4f18-9e23-d56c81c06e4c";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0b8edba107bc181f01ea9fcf241c76f6befff04e15a697acf1c6cdeb49e71868>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/c670f8fc-0406-439e-a771-c42add590e08> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c670f8fc-0406-439e-a771-c42add590e08";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/44354ebf53e7112f55f992b3290d810f5291438b536af1f3ca8e5c630e25c75d>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/e6d8037e-8aa2-4e44-bdcb-c599507f5044> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e6d8037e-8aa2-4e44-bdcb-c599507f5044";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/templates/7a3280c2-3ce5-43df-9c3c-f3e192949f67> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7a3280c2-3ce5-43df-9c3c-f3e192949f67";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is toegelaten</p>/n<p>het parkeren is voorbehouden voor voertuigen waarop de bewonerskaart is aangebracht</p>/n<p>het begin van de parkeerreglementering wordt aangeduid</p>" .

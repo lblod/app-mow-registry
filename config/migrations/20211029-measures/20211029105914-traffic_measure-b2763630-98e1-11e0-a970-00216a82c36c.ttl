@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/c3747a15-6dec-416b-b64f-eb4b18bdd78f> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c3747a15-6dec-416b-b64f-eb4b18bdd78f";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/d6cec96b-9a9d-440d-8657-467c039ca263>,
+     <http://data.lblod.info/must-use-relations/bb1ef515-9873-478b-b049-8904b90cdf19>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ec07551f-cda5-4aa1-ba9b-28bd192fe5bb>;
+   <http://purl.org/dc/terms/identifier> "b2763630-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/bb1ef515-9873-478b-b049-8904b90cdf19> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bb1ef515-9873-478b-b049-8904b90cdf19";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bc05e44f54e530335872114a61a3959f423b0f369f464e3717495b14d8ffd1ca>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/d6cec96b-9a9d-440d-8657-467c039ca263> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d6cec96b-9a9d-440d-8657-467c039ca263";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e076d4553d8995d0739ad74dc30dbb5cf4095b6c0a9e9a68503e7a7da03f3b9e>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/ec07551f-cda5-4aa1-ba9b-28bd192fe5bb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ec07551f-cda5-4aa1-ba9b-28bd192fe5bb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten voorrang verlenen</p>/n<p>verplicht rondgaand verkeer. De bestuurders zijn verplicht de inrichting bestemd om het verkeer te leiden aan hun linkerhand te laten</p>" .

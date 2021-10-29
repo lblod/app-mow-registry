@@ -1,0 +1,33 @@
+
+<http://data.lblod.info/traffic-measure-concepts/22f65904-3a6c-42c5-9f4f-c569d9c02c41> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "22f65904-3a6c-42c5-9f4f-c569d9c02c41";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/4346518f-2a4a-43f7-8612-0c57e681d660>,
+     <http://data.lblod.info/must-use-relations/7bd0da55-7756-4bc0-9ab3-6424da944d46>,
+     <http://data.lblod.info/must-use-relations/896801ba-a34b-4f67-923e-cfc5b3743977>,
+     <http://data.lblod.info/must-use-relations/d06c8d7d-2f5e-4d22-a01b-16f3b0dbe0a8>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/5bb2b768-a09a-4d7e-a4d5-0a8e35e09a80>;
+   <http://purl.org/dc/terms/identifier> "c740d0f0-0e6f-11e4-8922-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/4346518f-2a4a-43f7-8612-0c57e681d660> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4346518f-2a4a-43f7-8612-0c57e681d660";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/bec46e9faa5af0b8da32e4f2d45df471>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/7bd0da55-7756-4bc0-9ab3-6424da944d46> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7bd0da55-7756-4bc0-9ab3-6424da944d46";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/e735019fc999d0180cdb4afb2ea6b75a>;
+   <http://purl.org/linked-data/cube#order> 3 .
+
+<http://data.lblod.info/must-use-relations/896801ba-a34b-4f67-923e-cfc5b3743977> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "896801ba-a34b-4f67-923e-cfc5b3743977";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/62322bcd7dbc57bff8219bd973ea664671c3788c7444be7bd6e2b8a773f4308b>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/d06c8d7d-2f5e-4d22-a01b-16f3b0dbe0a8> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d06c8d7d-2f5e-4d22-a01b-16f3b0dbe0a8";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/781fcd2bf57c055cbfe5bcca20c59844>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/templates/5bb2b768-a09a-4d7e-a4d5-0a8e35e09a80> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5bb2b768-a09a-4d7e-a4d5-0a8e35e09a80";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voorsorteringspijlen op de rijbaan worden aangekondigd. Bestuurders moeten een welbepaalde rijstrook kiezen</p>/n<p>voorsorteringsstroken worden afgebakend. Het is iedere bestuurder verboden de doorlopende streep te overschrijden, alsook links van de streep te rijden wanneer deze de twee rijrichtingen scheidt</p>/n<p>de bestuurders moeten de rijstrook volgen om in de door de pijlen aangewezen richting te rijden</p>/n<p>het is iedere bestuurder verboden de onderbroken streep die het naderen van de doorlopende streep aankondigt te overschrijden, behalve om in te halen, om links af te slaan, om te keren of om van rijstrook te veranderen</p>" .

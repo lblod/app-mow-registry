@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/36576a9f-4be0-4a05-9bd6-39eeea77d3d0> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "36576a9f-4be0-4a05-9bd6-39eeea77d3d0";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/3bf3c50c-9170-4d92-9e3e-61c1f3b3c073>,
+     <http://data.lblod.info/must-use-relations/fc9ea868-e59f-4ca3-95c1-3cd52e0c87e6>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/6c975e81-be1c-4b1d-918a-a01fcb4ed8b7>;
+   <http://purl.org/dc/terms/identifier> "714cf731-ee07-11e6-bb26-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/3bf3c50c-9170-4d92-9e3e-61c1f3b3c073> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3bf3c50c-9170-4d92-9e3e-61c1f3b3c073";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e8cdf86215d2202a9001f93e1ed3b7577885fe972a799a30f29998bf0fb34e02>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/fc9ea868-e59f-4ca3-95c1-3cd52e0c87e6> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fc9ea868-e59f-4ca3-95c1-3cd52e0c87e6";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0c471075e7f9f4f6b5c12abf3ed2acb4b1c2dd17545671ae2359ac2e9d524647>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/6c975e81-be1c-4b1d-918a-a01fcb4ed8b7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6c975e81-be1c-4b1d-918a-a01fcb4ed8b7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden in beide richtingen, voor iedere bestuurder</p>/n<p>de maatregel geldt niet voor fietsers en bestuurders van speed pedelecs</p>" .

@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/15e6f7af9ba7162faff36112f2d3f10a> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/0d7f0290-25b5-4c65-8120-21e61ef42c9f> .
+
+<http://data.lblod.info/templates/0d7f0290-25b5-4c65-8120-21e61ef42c9f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0d7f0290-25b5-4c65-8120-21e61ef42c9f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren op de rijbaan is verboden</p>" .

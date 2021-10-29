@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/e40170b8-17ff-4aa5-8f11-9c25116a4cbb> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e40170b8-17ff-4aa5-8f11-9c25116a4cbb";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/90a5e554-1e39-4382-9c7a-89ce125a5406>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f3cff068-9c2f-4851-94cf-960cfdb92844>;
+   <http://purl.org/dc/terms/identifier> "b27dd750-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/90a5e554-1e39-4382-9c7a-89ce125a5406> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "90a5e554-1e39-4382-9c7a-89ce125a5406";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7b796f77edc7d487881bd4fbc5faebda6d803ff899740de440211257d706c136>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/f3cff068-9c2f-4851-94cf-960cfdb92844> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f3cff068-9c2f-4851-94cf-960cfdb92844";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen klasse A moeten het ${rijrichting}fietspad volgen, voor zover het in de door hen gevolgde rijrichting is gesignaleerd</p>" .

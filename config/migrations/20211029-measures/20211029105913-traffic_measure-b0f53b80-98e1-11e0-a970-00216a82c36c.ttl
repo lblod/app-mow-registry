@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/a7c7cc28-95d3-4176-a94d-668472b0bc8d> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a7c7cc28-95d3-4176-a94d-668472b0bc8d";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/dea91916-ee2d-4cfb-90d5-92bfcaa27cf6>,
+     <http://data.lblod.info/must-use-relations/cebb07d6-83ae-40e4-a045-de7061ae768a>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/db29e4fb-6e15-45a7-a631-a3a22a86b36f>;
+   <http://purl.org/dc/terms/identifier> "b0f53b80-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/cebb07d6-83ae-40e4-a045-de7061ae768a> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cebb07d6-83ae-40e4-a045-de7061ae768a";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ef95e7f29f423cb55cfb085749607778bfaf770137e9b0cfc3362f374094985f>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/dea91916-ee2d-4cfb-90d5-92bfcaa27cf6> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "dea91916-ee2d-4cfb-90d5-92bfcaa27cf6";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/db29e4fb-6e15-45a7-a631-a3a22a86b36f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "db29e4fb-6e15-45a7-a631-a3a22a86b36f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht rechtdoor te rijden</p>/n<p>de maatregel geldt niet voor bussen</p>" .

@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeerslichtconcept/9c78205e98520de0e6d683e97179ba57> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/568b9c5d-a97c-4920-8346-f8430b405d5c> .
+
+<http://data.lblod.info/templates/568b9c5d-a97c-4920-8346-f8430b405d5c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "568b9c5d-a97c-4920-8346-f8430b405d5c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten de rijstrook zo vlug mogelijk verlaten in de richting door de pijl aangewezen. Het aantal rijstroken die in de gevolgde rijrichting mogen gebruikt worden, zal verminderen</p>" .

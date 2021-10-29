@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/cd4c7f15-bf1a-4892-8a0c-1ef657aec719> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cd4c7f15-bf1a-4892-8a0c-1ef657aec719";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/9c6cbe5a-65a0-4ceb-b0c5-f1a23bf8ae1b>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2b4b6aea-4c6a-4f3b-bbdf-82e7ebf4563c>;
+   <http://purl.org/dc/terms/identifier> "dd369402-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/9c6cbe5a-65a0-4ceb-b0c5-f1a23bf8ae1b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9c6cbe5a-65a0-4ceb-b0c5-f1a23bf8ae1b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/9179cde8679045eede189507de51789a>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/2b4b6aea-4c6a-4f3b-bbdf-82e7ebf4563c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2b4b6aea-4c6a-4f3b-bbdf-82e7ebf4563c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de denkbeeldige rand van de rijbaan wordt aangeduid. Het deel van de openbare weg dat gelegen is aan de andere kant van deze streep is voorbehouden voor het stilstaan en parkeren, behalve op autosnelwegen en autowegen</p>" .

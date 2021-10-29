@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/2c103103-e48c-4afc-8852-8d049362f32e> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2c103103-e48c-4afc-8852-8d049362f32e";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/b69f97f3-c765-49ac-9a83-5832c57cae09>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/587fae02-cc4f-4f1b-b1e7-b768cb73fa01>;
+   <http://purl.org/dc/terms/identifier> "b29aae20-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/b69f97f3-c765-49ac-9a83-5832c57cae09> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b69f97f3-c765-49ac-9a83-5832c57cae09";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4cdd5c7ae7f47341ae64e5a6f0d87ef4af6a73fc3cd2ba5b1a46cd0fa9c83465>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/587fae02-cc4f-4f1b-b1e7-b768cb73fa01> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "587fae02-cc4f-4f1b-b1e7-b768cb73fa01";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ruiters zijn verplicht de voorbehouden weg te volgen</p>" .

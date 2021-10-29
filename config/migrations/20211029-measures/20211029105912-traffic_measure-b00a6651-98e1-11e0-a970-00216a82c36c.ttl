@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/a4ee48ad-d392-47a1-92ea-f3e84a6ee203> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a4ee48ad-d392-47a1-92ea-f3e84a6ee203";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/6813a02d-61b1-4873-a29d-cbac47ea84b8>,
+     <http://data.lblod.info/must-use-relations/5218aca6-3e64-4c66-83d0-290106fa90cc>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f4dea41f-cb74-447c-bb4a-6dd6b8c522c0>;
+   <http://purl.org/dc/terms/identifier> "b00a6651-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/5218aca6-3e64-4c66-83d0-290106fa90cc> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5218aca6-3e64-4c66-83d0-290106fa90cc";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/6813a02d-61b1-4873-a29d-cbac47ea84b8> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6813a02d-61b1-4873-a29d-cbac47ea84b8";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/11a07b567d603a2f01a987ce4feea54c709a57449554debc5f5ae63c602c722b>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/f4dea41f-cb74-447c-bb4a-6dd6b8c522c0> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f4dea41f-cb74-447c-bb4a-6dd6b8c522c0";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen of slepen waarvan de lengte, lading inbegrepen, groter is dan ${lengte_voertuig} meter</p>/n<p>de maatregel geldt niet voor plaatselijk verkeer</p>" .

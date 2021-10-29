@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/013a38ee-fc3b-47ca-84ac-9ba896e14ad1> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "013a38ee-fc3b-47ca-84ac-9ba896e14ad1";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/cec6bea9-0df6-41b7-b37b-e10a3b7fe39d>,
+     <http://data.lblod.info/must-use-relations/b83b3db1-ad6b-4d2d-a81f-da822395df06>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/5b878f02-aa3d-463f-a139-e1acfc02092e>;
+   <http://purl.org/dc/terms/identifier> "a94b1ad0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/b83b3db1-ad6b-4d2d-a81f-da822395df06> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b83b3db1-ad6b-4d2d-a81f-da822395df06";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/57fdbb852e7bdcb6450e61b8d6b837930a26881c6709e2e456c3544d5cb465c9>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/cec6bea9-0df6-41b7-b37b-e10a3b7fe39d> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cec6bea9-0df6-41b7-b37b-e10a3b7fe39d";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/db7f076463027c70137d3b899b76586aa8ea0cc38001ed8d880d37d4810410a0>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/5b878f02-aa3d-463f-a139-e1acfc02092e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5b878f02-aa3d-463f-a139-e1acfc02092e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het verkeersbord B1 wordt aangekondigd. De bestuurders zullen over ${aanduiding_afstand} meter voorrang moeten verlenen</p>/n<p>het tracé van de weg waarop de bestuurders aan het volgend kruispunt voorrang hebben, wordt aangegeven</p>" .

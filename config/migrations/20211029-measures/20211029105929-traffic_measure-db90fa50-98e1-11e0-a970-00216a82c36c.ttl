@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/ca34a0c1-fd19-406c-af0d-d7d8c525e454> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ca34a0c1-fd19-406c-af0d-d7d8c525e454";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/1c69cea3-b103-4b1b-b8b6-5d831461cb4d>,
+     <http://data.lblod.info/must-use-relations/dc817b53-a937-4482-a375-974521363ded>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c357bfe4-18ce-4e87-883d-bad743f58f76>;
+   <http://purl.org/dc/terms/identifier> "db90fa50-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/1c69cea3-b103-4b1b-b8b6-5d831461cb4d> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1c69cea3-b103-4b1b-b8b6-5d831461cb4d";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e8464868874fc0b87cad2fd84ecd58b1983561668765591ea58187afb5d39cd4>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/dc817b53-a937-4482-a375-974521363ded> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "dc817b53-a937-4482-a375-974521363ded";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/13e1ea2149022c8b94bf4668ba2161fe61e8ea0154025218c48fd066a4031961>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/c357bfe4-18ce-4e87-883d-bad743f58f76> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c357bfe4-18ce-4e87-883d-bad743f58f76";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bebouwde kom wordt afgebakend. Het begin van de bebouwde kom wordt aangeduid</p>/n<p>ook het einde van de bebouwde kom wordt aangeduid</p>" .

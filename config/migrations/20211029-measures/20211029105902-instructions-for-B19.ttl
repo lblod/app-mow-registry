@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/64d0148e08734e74f31a183130ab616a3fdb25ab8bd1c60a9cbb6b918908b244> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/cebc8ae1-fb7e-42ab-8402-0705c8b64f7e> .
+
+<http://data.lblod.info/templates/cebc8ae1-fb7e-42ab-8402-0705c8b64f7e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cebc8ae1-fb7e-42ab-8402-0705c8b64f7e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten voorrang verlenen aan de bestuurders die uit de tegenovergestelde richting komen</p>" .

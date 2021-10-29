@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/83decfc9-a89f-4b4c-b944-3df09ced5e5a> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "83decfc9-a89f-4b4c-b944-3df09ced5e5a";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/a7a99e7e-1893-4310-a521-01ae033cd203>,
+     <http://data.lblod.info/must-use-relations/683e2dc2-16cf-4ee3-b88b-295e50a8ea04>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/9056b279-219e-42d2-9c9c-d64669234d74>;
+   <http://purl.org/dc/terms/identifier> "bb5e7c30-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/683e2dc2-16cf-4ee3-b88b-295e50a8ea04> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "683e2dc2-16cf-4ee3-b88b-295e50a8ea04";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/f304fa07025853d008cb86709fea2a4c19894ce5031f41b04076e3039bce466a>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/a7a99e7e-1893-4310-a521-01ae033cd203> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a7a99e7e-1893-4310-a521-01ae033cd203";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/f74b9e8e4ddd1760f32d54063f96a3964846464bed031a942863f59f5187a268>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/9056b279-219e-42d2-9c9c-d64669234d74> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9056b279-219e-42d2-9c9c-d64669234d74";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor motorfietsen, personenauto's, auto's voor dubbel gebruik en minibussen</p>/n<p>de parkeerreglementering is beperkt tot een maximduur van ${beperking_tijd} minuten</p>" .

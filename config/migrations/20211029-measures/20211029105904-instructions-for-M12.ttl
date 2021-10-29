@@ -1,0 +1,12 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/734eff1afee00937cb46123d801e75ac98a1d26e186d8f2386cc6df45e31d324> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/95b55099-0ae8-4ee1-b29c-b9a61817541f>,
+     <http://data.lblod.info/templates/97d2ab22-11a7-4f88-8b08-fe1776046203> .
+
+<http://data.lblod.info/templates/95b55099-0ae8-4ee1-b29c-b9a61817541f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "95b55099-0ae8-4ee1-b29c-b9a61817541f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/97d2ab22-11a7-4f88-8b08-fe1776046203> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "97d2ab22-11a7-4f88-8b08-fe1776046203";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A en speed pedelecs
+</p>""" .

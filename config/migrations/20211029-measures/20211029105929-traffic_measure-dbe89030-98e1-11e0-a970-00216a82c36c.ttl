@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/305c6fd5-9c7c-441e-a711-d00a712f8a3e> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "305c6fd5-9c7c-441e-a711-d00a712f8a3e";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/1cc7e42a-b170-4501-9df4-b642a3bd2029>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/539aaf16-e1d3-4703-a8c1-89d3c19a0e6c>;
+   <http://purl.org/dc/terms/identifier> "dbe89030-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/1cc7e42a-b170-4501-9df4-b642a3bd2029> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1cc7e42a-b170-4501-9df4-b642a3bd2029";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/d2eaca5fcc21522d4f1732550bc78e8b6a935e974c6350896ee59ed2c92fbf42>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/539aaf16-e1d3-4703-a8c1-89d3c19a0e6c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "539aaf16-e1d3-4703-a8c1-89d3c19a0e6c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>${verkeersregel}. Deze verkeersregel is slechts van toepassing op ${beschrijving_rijstroken}</p>" .

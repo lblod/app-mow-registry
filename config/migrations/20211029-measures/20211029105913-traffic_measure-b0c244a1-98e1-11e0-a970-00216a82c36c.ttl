@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/c10ae1ca-438a-43b9-9170-8ac2d5bd24e0> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c10ae1ca-438a-43b9-9170-8ac2d5bd24e0";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/41755116-90ed-4029-8d91-d7ecf43af9fb>,
+     <http://data.lblod.info/must-use-relations/400e3507-aa04-4068-bbc3-2aa652527604>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2a731978-7a5f-40c1-836e-f6a7baad0259>;
+   <http://purl.org/dc/terms/identifier> "b0c244a1-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/400e3507-aa04-4068-bbc3-2aa652527604> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "400e3507-aa04-4068-bbc3-2aa652527604";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/41755116-90ed-4029-8d91-d7ecf43af9fb> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "41755116-90ed-4029-8d91-d7ecf43af9fb";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/55f0a4e186dc201149bd8509e0ea6fe363b86ef16f6f0766557a946572deb168>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/2a731978-7a5f-40c1-836e-f6a7baad0259> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2a731978-7a5f-40c1-836e-f6a7baad0259";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders de cruise control of kruissnelheidsregelaar te gebruiken</p>/n<p>de maatregel geldt alleen voor de bestuurders van voertuigen waarvan de maximale toegelaten massa hoger is dan ${massa} ton</p>" .

@@ -1,0 +1,51 @@
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/202b9afdd4724ae01517ab7585e18953> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a5b4bab6-4712-4039-9f79-a3776585eafa>,
+     <http://data.lblod.info/templates/6a58cf71-266d-40d7-ac7b-5fd0ed951129>,
+     <http://data.lblod.info/templates/d17f34fb-8cdd-43a6-8e0f-d0c4d37ca5a6>,
+     <http://data.lblod.info/templates/665f0f59-76b4-409c-aad5-30e317e1687b>,
+     <http://data.lblod.info/templates/2259d953-9bf4-45c3-8f60-a52dc66b73ee>,
+     <http://data.lblod.info/templates/827b69a1-4138-460e-966b-02bd0a823d36>,
+     <http://data.lblod.info/templates/8973f243-9fab-4518-9a5a-a0877943d692>,
+     <http://data.lblod.info/templates/2599c7fc-65ae-4ca0-a0da-a08b33d8743c>,
+     <http://data.lblod.info/templates/184f59fc-d2e2-4cab-bd9c-069a60243842>,
+     <http://data.lblod.info/templates/65591b23-7502-4388-8296-2eb1a2341ba2> .
+
+<http://data.lblod.info/templates/184f59fc-d2e2-4cab-bd9c-069a60243842> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "184f59fc-d2e2-4cab-bd9c-069a60243842";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders hebben voorrang</p>" .
+
+<http://data.lblod.info/templates/2259d953-9bf4-45c3-8f60-a52dc66b73ee> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2259d953-9bf4-45c3-8f60-a52dc66b73ee";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers rijden in de twee rijrichtingen op de dwarslopende openbare weg die men gaat oprijden</p>" .
+
+<http://data.lblod.info/templates/2599c7fc-65ae-4ca0-a0da-a08b33d8743c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2599c7fc-65ae-4ca0-a0da-a08b33d8743c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen rijden in de twee rijrichtingen op de dwarslopende openbare weg die men gaat oprijden</p>" .
+
+<http://data.lblod.info/templates/65591b23-7502-4388-8296-2eb1a2341ba2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "65591b23-7502-4388-8296-2eb1a2341ba2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de voorrangsweg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/665f0f59-76b4-409c-aad5-30e317e1687b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "665f0f59-76b4-409c-aad5-30e317e1687b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten stoppen en voorrang verlenen</p>" .
+
+<http://data.lblod.info/templates/6a58cf71-266d-40d7-ac7b-5fd0ed951129> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6a58cf71-266d-40d7-ac7b-5fd0ed951129";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de plaats waar de bestuurders moeten stoppen ingevolge ${stop_verkeersteken} wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/827b69a1-4138-460e-966b-02bd0a823d36> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "827b69a1-4138-460e-966b-02bd0a823d36";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het tracé van de weg waarop de bestuurders aan het volgend kruispunt voorrang hebben, wordt aangegeven</p>" .
+
+<http://data.lblod.info/templates/8973f243-9fab-4518-9a5a-a0877943d692> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8973f243-9fab-4518-9a5a-a0877943d692";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de voorrangsweg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/a5b4bab6-4712-4039-9f79-a3776585eafa> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a5b4bab6-4712-4039-9f79-a3776585eafa";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt alleen voor de fietsers</p>" .
+
+<http://data.lblod.info/templates/d17f34fb-8cdd-43a6-8e0f-d0c4d37ca5a6> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d17f34fb-8cdd-43a6-8e0f-d0c4d37ca5a6";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt alleen voor de fietsers en bestuurders van tweewielige bromfietsen</p>" .

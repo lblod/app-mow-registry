@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/b492bcd3-4a0e-40f0-b90d-0154d710d1e2> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b492bcd3-4a0e-40f0-b90d-0154d710d1e2";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/4fa0e6e4-2ac0-4798-bc6d-ef2612714a36>,
+     <http://data.lblod.info/must-use-relations/ccb92f3e-a3ae-40b3-b454-f40242b71c36>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/01ac8b22-ac70-44d7-a868-8d8f72a2d0e9>;
+   <http://purl.org/dc/terms/identifier> "bba0b550-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/4fa0e6e4-2ac0-4798-bc6d-ef2612714a36> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4fa0e6e4-2ac0-4798-bc6d-ef2612714a36";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/f74b9e8e4ddd1760f32d54063f96a3964846464bed031a942863f59f5187a268>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/ccb92f3e-a3ae-40b3-b454-f40242b71c36> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ccb92f3e-a3ae-40b3-b454-f40242b71c36";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7caaef3cd26c046e13d8b8e83e779b6c77cb9e7330dd714ed902322f68be52e8>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/01ac8b22-ac70-44d7-a868-8d8f72a2d0e9> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "01ac8b22-ac70-44d7-a868-8d8f72a2d0e9";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor motorfietsen, personenauto's, auto's voor dubbel gebruik en minibussen</p>/n<p>het parkeren toegelaten is beperkt tot de volgende uren: van ${begintijd} tot ${eindtijd}u.</p>" .

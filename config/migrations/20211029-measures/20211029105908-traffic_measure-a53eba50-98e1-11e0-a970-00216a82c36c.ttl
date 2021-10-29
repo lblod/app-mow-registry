@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/c22d0ed6-076e-491e-b296-5180258fe4a1> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c22d0ed6-076e-491e-b296-5180258fe4a1";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/55a6c43c-7e89-43a2-95ee-ff7011506153>,
+     <http://data.lblod.info/must-use-relations/d7a21bad-77de-4d4a-b396-2cd223213925>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/474e8c1a-4f14-4d12-bb83-c98d889e9a76>;
+   <http://purl.org/dc/terms/identifier> "a53eba50-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/55a6c43c-7e89-43a2-95ee-ff7011506153> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "55a6c43c-7e89-43a2-95ee-ff7011506153";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/367e8886caac739058332e5f9087d4412a15fafeed0ac1d270c71643a7dd727a>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/d7a21bad-77de-4d4a-b396-2cd223213925> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d7a21bad-77de-4d4a-b396-2cd223213925";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e076d4553d8995d0739ad74dc30dbb5cf4095b6c0a9e9a68503e7a7da03f3b9e>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/474e8c1a-4f14-4d12-bb83-c98d889e9a76> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "474e8c1a-4f14-4d12-bb83-c98d889e9a76";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten voorrang verlenen</p>/n<p>fietsers en bestuurders van tweewielige bromfietsen rijden in de twee rijrichtingen op de dwarslopende openbare weg die men gaat oprijden</p>" .

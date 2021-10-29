@@ -1,0 +1,35 @@
+
+<http://data.lblod.info/traffic-measure-concepts/05f2187b-36da-4e94-90ce-4381fbe1b166> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "05f2187b-36da-4e94-90ce-4381fbe1b166";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/0f9c1152-21f7-4876-8f78-0d6a68f6c57f>,
+     <http://data.lblod.info/must-use-relations/21a4ccb8-bfee-4a38-aef1-a5a0dbd1bc40>,
+     <http://data.lblod.info/must-use-relations/41d3dc9c-0094-4754-bf1b-8f804e055a4b>,
+     <http://data.lblod.info/must-use-relations/83a111a8-138a-4b20-b94e-3e768db0a30f>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/50be439f-2ba3-4457-b061-9025658107ac>;
+   <http://purl.org/dc/terms/identifier> "8a42db80-670d-11e3-aa7d-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/0f9c1152-21f7-4876-8f78-0d6a68f6c57f> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0f9c1152-21f7-4876-8f78-0d6a68f6c57f";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/735cd32e48f1535d2c9a1dc572e8e03a3d5907b7402675f901672d6c28d1a341>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/must-use-relations/21a4ccb8-bfee-4a38-aef1-a5a0dbd1bc40> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "21a4ccb8-bfee-4a38-aef1-a5a0dbd1bc40";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0b8edba107bc181f01ea9fcf241c76f6befff04e15a697acf1c6cdeb49e71868>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/41d3dc9c-0094-4754-bf1b-8f804e055a4b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "41d3dc9c-0094-4754-bf1b-8f804e055a4b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/83a111a8-138a-4b20-b94e-3e768db0a30f> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "83a111a8-138a-4b20-b94e-3e768db0a30f";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 3 .
+
+<http://data.lblod.info/templates/50be439f-2ba3-4457-b061-9025658107ac> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "50be439f-2ba3-4457-b061-9025658107ac";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is toegelaten;
+de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden</p>/n<p>het gebruik van de schijf is voorgeschreven ${beperking_tijd};
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>/n<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>""" .

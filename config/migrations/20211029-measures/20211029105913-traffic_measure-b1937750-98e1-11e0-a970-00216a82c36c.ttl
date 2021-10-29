@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/6ce86508-0d7d-4f0c-bea0-6eb8ca831d0a> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6ce86508-0d7d-4f0c-bea0-6eb8ca831d0a";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/0b654eb9-8c76-4403-bfdf-53309fd5458e>,
+     <http://data.lblod.info/must-use-relations/bf84b2fd-0b97-46f0-9170-503759bfe79f>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/540aeaab-c419-41e2-858c-ef1780fe154a>;
+   <http://purl.org/dc/terms/identifier> "b1937750-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/0b654eb9-8c76-4403-bfdf-53309fd5458e> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0b654eb9-8c76-4403-bfdf-53309fd5458e";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0354a9248d379808250847432a584e4dc2be39d0eaec787dff319a30e407e053>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/bf84b2fd-0b97-46f0-9170-503759bfe79f> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bf84b2fd-0b97-46f0-9170-503759bfe79f";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ef95e7f29f423cb55cfb085749607778bfaf770137e9b0cfc3362f374094985f>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/540aeaab-c419-41e2-858c-ef1780fe154a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "540aeaab-c419-41e2-858c-ef1780fe154a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht de hindernis langs links voorbij te rijden</p>/n<p>de maatregel geldt niet voor fietsers</p>" .

@@ -1,0 +1,51 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/57fdbb852e7bdcb6450e61b8d6b837930a26881c6709e2e456c3544d5cb465c9> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/1448e2e2-7e34-4601-9e4d-a041458af999>,
+     <http://data.lblod.info/templates/86a91878-78c7-4d32-ba31-110cb614dd00>,
+     <http://data.lblod.info/templates/70e09100-05d7-468b-b157-536e2c16ff2b>,
+     <http://data.lblod.info/templates/4802f429-4916-4c73-afc5-b88a9bb636bd>,
+     <http://data.lblod.info/templates/b04fb8f5-e2db-4520-9001-4d145be28295>,
+     <http://data.lblod.info/templates/56b70d34-a060-4bb3-a9b6-4b3c0ba1a0ce>,
+     <http://data.lblod.info/templates/40a590fa-0af1-4626-99d2-2d83d20229f7>,
+     <http://data.lblod.info/templates/5c648270-7ec7-4669-8b45-81ccf9c48446>,
+     <http://data.lblod.info/templates/6d06480f-21ba-463a-8e92-1eab7aeca83c>,
+     <http://data.lblod.info/templates/e061025c-7bcf-4723-88c4-e176f10675c2> .
+
+<http://data.lblod.info/templates/1448e2e2-7e34-4601-9e4d-a041458af999> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1448e2e2-7e34-4601-9e4d-a041458af999";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de voorrangsweg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/40a590fa-0af1-4626-99d2-2d83d20229f7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "40a590fa-0af1-4626-99d2-2d83d20229f7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten voorrang verlenen</p>" .
+
+<http://data.lblod.info/templates/4802f429-4916-4c73-afc5-b88a9bb636bd> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4802f429-4916-4c73-afc5-b88a9bb636bd";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders hebben voorrang</p>" .
+
+<http://data.lblod.info/templates/56b70d34-a060-4bb3-a9b6-4b3c0ba1a0ce> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "56b70d34-a060-4bb3-a9b6-4b3c0ba1a0ce";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het tracé van de weg waarop de bestuurders aan het volgend kruispunt voorrang hebben, wordt aangegeven</p>" .
+
+<http://data.lblod.info/templates/5c648270-7ec7-4669-8b45-81ccf9c48446> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5c648270-7ec7-4669-8b45-81ccf9c48446";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de plaats waar de bestuurders, zo nodig,  moeten stoppen om voorrang te verlenen, wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/6d06480f-21ba-463a-8e92-1eab7aeca83c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6d06480f-21ba-463a-8e92-1eab7aeca83c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten stoppen en voorrang verlenen</p>" .
+
+<http://data.lblod.info/templates/70e09100-05d7-468b-b157-536e2c16ff2b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "70e09100-05d7-468b-b157-536e2c16ff2b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers rijden in de twee rijrichtingen op de dwarslopende openbare weg die men gaat oprijden</p>" .
+
+<http://data.lblod.info/templates/86a91878-78c7-4d32-ba31-110cb614dd00> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "86a91878-78c7-4d32-ba31-110cb614dd00";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen rijden in de twee rijrichtingen op de dwarslopende openbare weg die men gaat oprijden</p>" .
+
+<http://data.lblod.info/templates/b04fb8f5-e2db-4520-9001-4d145be28295> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b04fb8f5-e2db-4520-9001-4d145be28295";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de voorrangsweg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/e061025c-7bcf-4723-88c4-e176f10675c2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e061025c-7bcf-4723-88c4-e176f10675c2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de plaats waar de bestuurders moeten stoppen ingevolge ${stop_verkeersteken} wordt aangeduid</p>" .

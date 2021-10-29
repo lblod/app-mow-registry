@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/d3d3c235-ba83-46fc-95c5-d1fb0e9e8cfe> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d3d3c235-ba83-46fc-95c5-d1fb0e9e8cfe";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/643b811f-d67b-4a97-ba14-d0eed1a05fa3>,
+     <http://data.lblod.info/must-use-relations/3a6a249c-c773-4eae-80d4-79340010917b>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/58f499e3-6841-4848-93dc-72b7afd3a851>;
+   <http://purl.org/dc/terms/identifier> "bb014101-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/3a6a249c-c773-4eae-80d4-79340010917b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3a6a249c-c773-4eae-80d4-79340010917b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/44354ebf53e7112f55f992b3290d810f5291438b536af1f3ca8e5c630e25c75d>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/643b811f-d67b-4a97-ba14-d0eed1a05fa3> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "643b811f-d67b-4a97-ba14-d0eed1a05fa3";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/f74b9e8e4ddd1760f32d54063f96a3964846464bed031a942863f59f5187a268>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/58f499e3-6841-4848-93dc-72b7afd3a851> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "58f499e3-6841-4848-93dc-72b7afd3a851";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor motorfietsen, personenauto's, auto's voor dubbel gebruik en minibussen</p>/n<p>het begin van de parkeerreglementering wordt aangeduid</p>" .

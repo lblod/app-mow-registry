@@ -1,0 +1,22 @@
+
+<http://data.lblod.info/traffic-measure-concepts/cb4283b7-7ac9-4b97-8ba2-7186ac8bc5d7> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cb4283b7-7ac9-4b97-8ba2-7186ac8bc5d7";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/bef1fc64-c5b9-4043-84eb-825a8146e657>,
+     <http://data.lblod.info/must-use-relations/b5867568-3a3a-4b77-829b-ee749c70316f>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ff8745df-7b1c-430f-9b46-567c0192f305>;
+   <http://purl.org/dc/terms/identifier> "f6987ce0-667a-11e5-8435-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/b5867568-3a3a-4b77-829b-ee749c70316f> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b5867568-3a3a-4b77-829b-ee749c70316f";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0b8edba107bc181f01ea9fcf241c76f6befff04e15a697acf1c6cdeb49e71868>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/bef1fc64-c5b9-4043-84eb-825a8146e657> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bef1fc64-c5b9-4043-84eb-825a8146e657";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/ff8745df-7b1c-430f-9b46-567c0192f305> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ff8745df-7b1c-430f-9b46-567c0192f305";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is toegelaten</p>/n<p>het parkeren is voorbehouden voor voertuigen waarop de bewonerskaart is aangebracht; 
+het parkeren is voorbehouden tijdens volgende periode: ${beperking_tijd}</p>""" .

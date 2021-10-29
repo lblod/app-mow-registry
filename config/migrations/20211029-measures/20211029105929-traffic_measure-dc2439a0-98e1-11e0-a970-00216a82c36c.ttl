@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/e5197653-c4b7-4505-bf58-cb8213d22ccb> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e5197653-c4b7-4505-bf58-cb8213d22ccb";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/ea155d64-a95b-41f4-bce2-a1ba4377ee35>,
+     <http://data.lblod.info/must-use-relations/51a83af1-9341-41d5-b5ad-1ace4cebc22f>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c903ee83-c98b-467b-850a-681004df646d>;
+   <http://purl.org/dc/terms/identifier> "dc2439a0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/51a83af1-9341-41d5-b5ad-1ace4cebc22f> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "51a83af1-9341-41d5-b5ad-1ace4cebc22f";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a044fe2e77e31276281d1e915f9cfbd97cc4bfc7505087987a13d9b27f2a1ca4>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/ea155d64-a95b-41f4-bce2-a1ba4377ee35> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ea155d64-a95b-41f4-bce2-a1ba4377ee35";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/00c62afceb8661521659394983ff910b2b9cecd92b11ae0376bdb94b9d8c594c>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/c903ee83-c98b-467b-850a-681004df646d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c903ee83-c98b-467b-850a-681004df646d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers en ruiters wordt aangeduid</p>/n<p>de weg wordt voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers en ruiters. Het begin van de voorbehouden weg wordt aangeduid</p>" .

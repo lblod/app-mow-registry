@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/600b30431b96653057da8e807aa49c299ea450433b59291ba1e2442656d309ab> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/5cd5eac8-b19e-4ca9-acae-b6133eb55c48> .
+
+<http://data.lblod.info/templates/5cd5eac8-b19e-4ca9-acae-b6133eb55c48> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5cd5eac8-b19e-4ca9-acae-b6133eb55c48";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers mogen in beide richtingen rijden</p>" .

@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/08c6be48-1010-4ff5-a347-6992ab19e933> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "08c6be48-1010-4ff5-a347-6992ab19e933";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/62bf02c2-09bc-4418-8e6f-a03e9622b752>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2febbc29-3b80-4db3-86b8-1f1d4726d3cc>;
+   <http://purl.org/dc/terms/identifier> "db8adfd0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/62bf02c2-09bc-4418-8e6f-a03e9622b752> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "62bf02c2-09bc-4418-8e6f-a03e9622b752";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/c325e2c889471d83f36a825b68a0801de16c2a4ba7e36a4c897f6c3493125dcf>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/2febbc29-3b80-4db3-86b8-1f1d4726d3cc> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2febbc29-3b80-4db3-86b8-1f1d4726d3cc";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het halfmaandelijks parkeren is van toepassing</p>" .

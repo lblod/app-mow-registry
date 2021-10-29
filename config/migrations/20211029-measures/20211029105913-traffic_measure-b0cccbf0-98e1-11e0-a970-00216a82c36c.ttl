@@ -1,0 +1,27 @@
+
+<http://data.lblod.info/traffic-measure-concepts/addfc752-212c-48ea-a7e1-dc3fb857cb42> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "addfc752-212c-48ea-a7e1-dc3fb857cb42";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/71e40cde-bcf0-4fdb-836d-d33d24120ad4>,
+     <http://data.lblod.info/must-use-relations/c14d8f1c-23ba-4149-ae77-706656f1c3bd>,
+     <http://data.lblod.info/must-use-relations/c705e801-9975-4659-be28-a5935e2d9723>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/673cea55-f719-45b7-a01d-48020323beef>;
+   <http://purl.org/dc/terms/identifier> "b0cccbf0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/71e40cde-bcf0-4fdb-836d-d33d24120ad4> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "71e40cde-bcf0-4fdb-836d-d33d24120ad4";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6d546c2d3ee4a4fb232dbc72a0f4d6e6b27344ceb4ec3d03f8f98cc669f5f280>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/must-use-relations/c14d8f1c-23ba-4149-ae77-706656f1c3bd> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c14d8f1c-23ba-4149-ae77-706656f1c3bd";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/55f0a4e186dc201149bd8509e0ea6fe363b86ef16f6f0766557a946572deb168>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/c705e801-9975-4659-be28-a5935e2d9723> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c705e801-9975-4659-be28-a5935e2d9723";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/673cea55-f719-45b7-a01d-48020323beef> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "673cea55-f719-45b7-a01d-48020323beef";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin en het einde van het verbod de cruise control of kruissnelheidsregelaar te gebruiken worden aangeduid</p>/n<p>het is verboden voor bestuurders de cruise control of kruissnelheidsregelaar te gebruiken</p>/n<p>de maatregel geldt alleen voor de bestuurders van voertuigen waarvan de maximale toegelaten massa hoger is dan ${massa} ton</p>" .

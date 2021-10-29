@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/4897fbe7-635f-40b1-8cd1-8c735605ed4c> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4897fbe7-635f-40b1-8cd1-8c735605ed4c";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/16b51245-c992-487f-b449-95a3380e3afe>,
+     <http://data.lblod.info/must-use-relations/de0836b2-b0e7-4b1e-b699-65e900b8e871>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/78b523a3-64a2-432d-b781-797cd17f12d2>;
+   <http://purl.org/dc/terms/identifier> "b1d625a0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/16b51245-c992-487f-b449-95a3380e3afe> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "16b51245-c992-487f-b449-95a3380e3afe";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bc312fc26af5cf71e7616e1d9fd0e3a34f8c44b0d97dfa8ab8a532d1faac3b87>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/de0836b2-b0e7-4b1e-b699-65e900b8e871> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "de0836b2-b0e7-4b1e-b699-65e900b8e871";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ef95e7f29f423cb55cfb085749607778bfaf770137e9b0cfc3362f374094985f>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/78b523a3-64a2-432d-b781-797cd17f12d2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "78b523a3-64a2-432d-b781-797cd17f12d2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht de hindernis langs rechts voorbij te rijden</p>/n<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A</p>" .

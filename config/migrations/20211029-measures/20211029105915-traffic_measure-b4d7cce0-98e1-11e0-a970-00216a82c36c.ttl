@@ -1,0 +1,47 @@
+
+<http://data.lblod.info/traffic-measure-concepts/307f1245-4116-4b12-95bd-f45d70e3f3e5> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "307f1245-4116-4b12-95bd-f45d70e3f3e5";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/0cb2eed0-38b1-490e-8ab9-46c2bffe4e3a>,
+     <http://data.lblod.info/must-use-relations/7465f054-7892-456c-9493-1c051fe38568>,
+     <http://data.lblod.info/must-use-relations/1f3dc4e6-5550-4334-8785-a437fdb1b071>,
+     <http://data.lblod.info/must-use-relations/1605532b-8488-4f21-b6f8-efddc213b0d4>,
+     <http://data.lblod.info/must-use-relations/1756d8ac-8d1e-4bd6-9fb0-3179d171966e>,
+     <http://data.lblod.info/must-use-relations/c9f67475-529e-49be-9496-c20ea5852a29>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/269f9148-5332-4566-b123-74383a05c9d3>;
+   <http://purl.org/dc/terms/identifier> "b4d7cce0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/0cb2eed0-38b1-490e-8ab9-46c2bffe4e3a> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0cb2eed0-38b1-490e-8ab9-46c2bffe4e3a";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/735cd32e48f1535d2c9a1dc572e8e03a3d5907b7402675f901672d6c28d1a341>;
+   <http://purl.org/linked-data/cube#order> 4 .
+
+<http://data.lblod.info/must-use-relations/1605532b-8488-4f21-b6f8-efddc213b0d4> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1605532b-8488-4f21-b6f8-efddc213b0d4";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b5e9f13d81ac78f0002aac342f4eb866394598088cfe0276013b928afd1560f8>;
+   <http://purl.org/linked-data/cube#order> 3 .
+
+<http://data.lblod.info/must-use-relations/1756d8ac-8d1e-4bd6-9fb0-3179d171966e> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1756d8ac-8d1e-4bd6-9fb0-3179d171966e";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/735cd32e48f1535d2c9a1dc572e8e03a3d5907b7402675f901672d6c28d1a341>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/1f3dc4e6-5550-4334-8785-a437fdb1b071> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1f3dc4e6-5550-4334-8785-a437fdb1b071";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4f857c0f9709924a47488596aee4387e2729c35b5dd512c5492a9b78715bd326>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/7465f054-7892-456c-9493-1c051fe38568> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7465f054-7892-456c-9493-1c051fe38568";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 5 .
+
+<http://data.lblod.info/must-use-relations/c9f67475-529e-49be-9496-c20ea5852a29> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c9f67475-529e-49be-9496-c20ea5852a29";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/templates/269f9148-5332-4566-b123-74383a05c9d3> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "269f9148-5332-4566-b123-74383a05c9d3";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is verboden van de 16e tot het einde van de maand</p>/n<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>/n<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>/n<p>het parkeren is verboden van de 1e tot de 15e van de maand</p>/n<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>/n<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .

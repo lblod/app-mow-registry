@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/e394b99d-10eb-4ccb-a678-c074cccdf644> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e394b99d-10eb-4ccb-a678-c074cccdf644";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/21535dea-d43f-4b2e-867e-407baa117120>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a34fcf3a-9392-4633-aaeb-632baef1c919>;
+   <http://purl.org/dc/terms/identifier> "a50fbb10-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/21535dea-d43f-4b2e-867e-407baa117120> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "21535dea-d43f-4b2e-867e-407baa117120";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeerslichtconcept/00fb203200e318350886c833f6c98517>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/a34fcf3a-9392-4633-aaeb-632baef1c919> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a34fcf3a-9392-4633-aaeb-632baef1c919";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de voetgangers moeten de lichten van de tweekleurige voetgangerslichten opvolgen</p>" .

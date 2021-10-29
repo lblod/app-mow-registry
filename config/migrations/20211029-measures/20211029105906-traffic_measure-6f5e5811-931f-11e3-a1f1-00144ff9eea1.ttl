@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/35e8263c-6afe-400f-b9db-c8e3d816d936> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "35e8263c-6afe-400f-b9db-c8e3d816d936";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/9cb183f9-7ecf-44b0-a3e5-ef2fbef7e943>,
+     <http://data.lblod.info/must-use-relations/d1806b35-fd03-4d06-8789-d02a5de52961>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/238413a1-5d05-403e-8aca-10b00956ba41>;
+   <http://purl.org/dc/terms/identifier> "6f5e5811-931f-11e3-a1f1-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/9cb183f9-7ecf-44b0-a3e5-ef2fbef7e943> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9cb183f9-7ecf-44b0-a3e5-ef2fbef7e943";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/d1806b35-fd03-4d06-8789-d02a5de52961> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d1806b35-fd03-4d06-8789-d02a5de52961";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/2b08f73a820e4998ba2df0155922f480f1f13a286f34949dad8af8914d4f77cd>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/238413a1-5d05-403e-8aca-10b00956ba41> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "238413a1-5d05-403e-8aca-10b00956ba41";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen gebruikt voor het vervoer van zaken</p>/n<p>de maatregel geldt niet voor plaatselijk verkeer</p>" .

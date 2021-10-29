@@ -1,0 +1,33 @@
+
+<http://data.lblod.info/traffic-measure-concepts/453a16ef-8cda-4d5e-bf82-aaddf58c8a20> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "453a16ef-8cda-4d5e-bf82-aaddf58c8a20";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/99910ce3-1969-45bc-a63a-a68f78bbad1f>,
+     <http://data.lblod.info/must-use-relations/19bfd83f-f19c-491f-88f7-3d52daafc4fc>,
+     <http://data.lblod.info/must-use-relations/bf0ccf37-cff5-42fb-919c-3e85bf41cf28>,
+     <http://data.lblod.info/must-use-relations/2f2e8c21-c99f-4b13-90ba-ef771eecb86c>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/5b07ab89-0357-46be-aff6-db4f3681582b>;
+   <http://purl.org/dc/terms/identifier> "64a8fe30-ee06-11e6-bb26-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/19bfd83f-f19c-491f-88f7-3d52daafc4fc> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "19bfd83f-f19c-491f-88f7-3d52daafc4fc";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/87633686f31916bfc50b2225ce37ec54affbc79f79e9eea1e4a5cf64740697f4>;
+   <http://purl.org/linked-data/cube#order> 3 .
+
+<http://data.lblod.info/must-use-relations/2f2e8c21-c99f-4b13-90ba-ef771eecb86c> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2f2e8c21-c99f-4b13-90ba-ef771eecb86c";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7d6a7b43528f9c71a42780a01dd1e43e1db1e2675c4f3e18effe6939bbc663ee>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/99910ce3-1969-45bc-a63a-a68f78bbad1f> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "99910ce3-1969-45bc-a63a-a68f78bbad1f";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a14b8cd76fbf8e965f47adc3644eec7c9aaeb64927c755a6fb67de6d63a236ef>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/must-use-relations/bf0ccf37-cff5-42fb-919c-3e85bf41cf28> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bf0ccf37-cff5-42fb-919c-3e85bf41cf28";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0c471075e7f9f4f6b5c12abf3ed2acb4b1c2dd17545671ae2359ac2e9d524647>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/5b07ab89-0357-46be-aff6-db4f3681582b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5b07ab89-0357-46be-aff6-db4f3681582b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>verboden rijrichting voor iedere bestuurder</p>/n<p>de maatregel geldt niet voor fietsers en bestuurders van speed pedelecs</p>/n<p>toegelaten rijrichting op de openbare weg met eenrichtingsverkeer</p>/n<p>fietsers en bestuurders van speed pedelecs mogen in de twee richtingen rijden</p>" .

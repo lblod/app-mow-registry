@@ -1,0 +1,22 @@
+
+<http://data.lblod.info/traffic-measure-concepts/6810930e-6c9b-42fa-aec0-c0f89ee98951> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6810930e-6c9b-42fa-aec0-c0f89ee98951";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/ab89ee46-c07e-48ef-b0b7-14028606208c>,
+     <http://data.lblod.info/must-use-relations/3f51f23f-90b1-4dcc-816f-14d47dc4b1a9>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/02c86fa9-0025-4257-99e3-f41b49a07251>;
+   <http://purl.org/dc/terms/identifier> "c4551a10-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/3f51f23f-90b1-4dcc-816f-14d47dc4b1a9> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3f51f23f-90b1-4dcc-816f-14d47dc4b1a9";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/ab89ee46-c07e-48ef-b0b7-14028606208c> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ab89ee46-c07e-48ef-b0b7-14028606208c";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4a2ec210cf9459059de87c11a70b40d957edeb78f302963e1a526a47406d11ec>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/02c86fa9-0025-4257-99e3-f41b49a07251> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "02c86fa9-0025-4257-99e3-f41b49a07251";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is voorbehouden voor autocars</p>/n<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd}</p>""" .

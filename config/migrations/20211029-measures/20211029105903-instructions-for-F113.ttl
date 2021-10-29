@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/3037b526b0e73c6764ef1071f2658b5ba74287d2fdb30a4657355dfb621b85fe> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c07a0ea2-642e-4752-9227-bcd66f19d71c> .
+
+<http://data.lblod.info/templates/c07a0ea2-642e-4752-9227-bcd66f19d71c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c07a0ea2-642e-4752-9227-bcd66f19d71c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de fietsstraat wordt afgebakend. Het begin van de fietsstraat wordt aangeduid </p>" .

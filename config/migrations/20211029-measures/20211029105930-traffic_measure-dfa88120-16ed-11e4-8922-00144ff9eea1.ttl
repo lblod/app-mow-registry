@@ -1,0 +1,33 @@
+
+<http://data.lblod.info/traffic-measure-concepts/45097888-27f2-45aa-a3cd-235ea7867d1d> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "45097888-27f2-45aa-a3cd-235ea7867d1d";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/4d5dbd5b-d478-4d94-b601-7820d65fa02f>,
+     <http://data.lblod.info/must-use-relations/50361065-5570-43f1-8065-6b849aa9f351>,
+     <http://data.lblod.info/must-use-relations/05b79b52-dc89-41bb-801a-1decde916e08>,
+     <http://data.lblod.info/must-use-relations/aedb122b-c5c7-4d2c-a049-d627eb421676>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/98a1350d-add1-42f9-9466-669916e27350>;
+   <http://purl.org/dc/terms/identifier> "dfa88120-16ed-11e4-8922-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/05b79b52-dc89-41bb-801a-1decde916e08> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "05b79b52-dc89-41bb-801a-1decde916e08";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/dd1cc83a59b31d835a0fb0dfcd791351>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/must-use-relations/4d5dbd5b-d478-4d94-b601-7820d65fa02f> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4d5dbd5b-d478-4d94-b601-7820d65fa02f";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/50361065-5570-43f1-8065-6b849aa9f351> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "50361065-5570-43f1-8065-6b849aa9f351";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7d6a7b43528f9c71a42780a01dd1e43e1db1e2675c4f3e18effe6939bbc663ee>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/aedb122b-c5c7-4d2c-a049-d627eb421676> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "aedb122b-c5c7-4d2c-a049-d627eb421676";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4bab5d3b6d4cdfa0d66dcc14ee7107275e2e71e14aa7940e51bc3e94d804c993>;
+   <http://purl.org/linked-data/cube#order> 3 .
+
+<http://data.lblod.info/templates/98a1350d-add1-42f9-9466-669916e27350> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "98a1350d-add1-42f9-9466-669916e27350";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bijzondere overrijdbare bedding wordt aangeduid</p>/n<p>verboden rijrichting voor iedere bestuurder</p>/n<p>de maatregel geldt niet voor bussen</p>/n<p>er wordt een bedding voorbehouden voor voertuigen van geregelde diensten voor gemeenschappelijk vervoer</p>" .

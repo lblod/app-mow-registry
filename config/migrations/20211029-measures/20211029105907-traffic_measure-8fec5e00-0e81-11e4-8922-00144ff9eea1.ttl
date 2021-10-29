@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/58ea4f2c-074f-4ec7-ad7e-aab074f11490> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "58ea4f2c-074f-4ec7-ad7e-aab074f11490";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/f4d80413-1af5-487d-9d4f-5e509bcc7ea0>,
+     <http://data.lblod.info/must-use-relations/ae833467-8f81-4ce5-ad69-ef6928942391>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ba723292-63ce-4c67-a550-3f609507b81a>;
+   <http://purl.org/dc/terms/identifier> "8fec5e00-0e81-11e4-8922-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/ae833467-8f81-4ce5-ad69-ef6928942391> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ae833467-8f81-4ce5-ad69-ef6928942391";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/2459b5097db8d047623e0cb56f379b0e>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/f4d80413-1af5-487d-9d4f-5e509bcc7ea0> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f4d80413-1af5-487d-9d4f-5e509bcc7ea0";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/3674525b2c0a5d3fa43dcfe11525588b1391b809668234599144a9bfb2e45ea2>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/ba723292-63ce-4c67-a550-3f609507b81a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ba723292-63ce-4c67-a550-3f609507b81a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de rijstroken van de rijbaan met een strook voorbehouden voor autobussen worden aangeduid. Ook ${toegelaten voertuigen op de busstrook} worden op de voorbehouden strook toegelaten</p>/n<p>er wordt een rijstrook voorbehouden voor voertuigen van geregelde diensten voor gemeenschappelijk vervoer, taxi's en aan voertuigen voor schoolvervoer</p>" .

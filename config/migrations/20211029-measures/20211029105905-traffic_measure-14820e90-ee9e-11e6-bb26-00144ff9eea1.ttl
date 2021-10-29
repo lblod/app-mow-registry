@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/b9008409-f9d7-4ebb-b63d-f20e34558c22> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b9008409-f9d7-4ebb-b63d-f20e34558c22";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/3104b104-67c0-4ca3-a789-021f93bf5e31>,
+     <http://data.lblod.info/must-use-relations/7d28fa2d-e87f-419a-a222-b00614b5ae53>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2027a4e0-d3f1-486c-9c9f-b0e62555a3b7>;
+   <http://purl.org/dc/terms/identifier> "14820e90-ee9e-11e6-bb26-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/3104b104-67c0-4ca3-a789-021f93bf5e31> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3104b104-67c0-4ca3-a789-021f93bf5e31";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/9375ac24955c89adb412e5bb7e3c4f56d0ebde1022963bf84e52affd987715e3>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/7d28fa2d-e87f-419a-a222-b00614b5ae53> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7d28fa2d-e87f-419a-a222-b00614b5ae53";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7b796f77edc7d487881bd4fbc5faebda6d803ff899740de440211257d706c136>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/2027a4e0-d3f1-486c-9c9f-b0e62555a3b7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2027a4e0-d3f1-486c-9c9f-b0e62555a3b7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen klasse A moeten het ${rijrichting}fietspad volgen, voor zover het in de door hen gevolgde rijrichting is gesignaleerd</p>/n<p>het fietspad moet worden gevolgd door bestuurders van speed pedelecs</p>" .

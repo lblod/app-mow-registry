@@ -1,0 +1,50 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/41878402-0512-44ea-94b9-389f0c16824d>,
+     <http://data.lblod.info/templates/2b0d723b-eb4f-4630-ac31-f1b8dd261073>,
+     <http://data.lblod.info/templates/47e25a1d-9ee4-4d1c-803b-953b95b3cc2b>,
+     <http://data.lblod.info/templates/a13ed8c8-6bb2-40c3-8265-f5b768964781>,
+     <http://data.lblod.info/templates/17d0f645-9f1f-4689-9d39-947e2233d84f>,
+     <http://data.lblod.info/templates/4c7aa442-9506-4792-a50c-eecee557e673>,
+     <http://data.lblod.info/templates/b9cd2aac-8f32-4c95-9fe6-01da5485305a>,
+     <http://data.lblod.info/templates/135ddff4-924a-4726-bdcb-ee95ab9fab35>,
+     <http://data.lblod.info/templates/11f57cec-2d15-40a9-a3b7-297edeb5b5d0> .
+
+<http://data.lblod.info/templates/11f57cec-2d15-40a9-a3b7-297edeb5b5d0> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "11f57cec-2d15-40a9-a3b7-297edeb5b5d0";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/135ddff4-924a-4726-bdcb-ee95ab9fab35> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "135ddff4-924a-4726-bdcb-ee95ab9fab35";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor volgende categorie van voertuigen: ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/17d0f645-9f1f-4689-9d39-947e2233d84f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "17d0f645-9f1f-4689-9d39-947e2233d84f";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd};
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .
+
+<http://data.lblod.info/templates/2b0d723b-eb4f-4630-ac31-f1b8dd261073> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2b0d723b-eb4f-4630-ac31-f1b8dd261073";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/41878402-0512-44ea-94b9-389f0c16824d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "41878402-0512-44ea-94b9-389f0c16824d";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .
+
+<http://data.lblod.info/templates/47e25a1d-9ee4-4d1c-803b-953b95b3cc2b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "47e25a1d-9ee4-4d1c-803b-953b95b3cc2b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van meer dan 300 meter</p>" .
+
+<http://data.lblod.info/templates/4c7aa442-9506-4792-a50c-eecee557e673> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4c7aa442-9506-4792-a50c-eecee557e673";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>" .
+
+<http://data.lblod.info/templates/a13ed8c8-6bb2-40c3-8265-f5b768964781> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a13ed8c8-6bb2-40c3-8265-f5b768964781";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden</p>" .
+
+<http://data.lblod.info/templates/b9cd2aac-8f32-4c95-9fe6-01da5485305a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b9cd2aac-8f32-4c95-9fe6-01da5485305a";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd}</p>""" .

@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/4df45f17-5e19-46d5-be79-8e7ab4a279dd> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4df45f17-5e19-46d5-be79-8e7ab4a279dd";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/01647573-4d2c-40e6-a09f-751d1113b39a>,
+     <http://data.lblod.info/must-use-relations/4ed64a85-b625-4bf7-b199-70980201c604>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/3106eccc-bd0b-472a-b3a6-11f3e407e217>;
+   <http://purl.org/dc/terms/identifier> "15b49a80-0b34-11e4-8922-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/01647573-4d2c-40e6-a09f-751d1113b39a> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "01647573-4d2c-40e6-a09f-751d1113b39a";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7d6a7b43528f9c71a42780a01dd1e43e1db1e2675c4f3e18effe6939bbc663ee>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/4ed64a85-b625-4bf7-b199-70980201c604> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4ed64a85-b625-4bf7-b199-70980201c604";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0354a9248d379808250847432a584e4dc2be39d0eaec787dff319a30e407e053>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/3106eccc-bd0b-472a-b3a6-11f3e407e217> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3106eccc-bd0b-472a-b3a6-11f3e407e217";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>verboden rijrichting voor iedere bestuurder. Het verbod is niet van toepassing op het geheel van de openbare weg</p>/n<p>de maatregel geldt niet voor fietsers</p>" .

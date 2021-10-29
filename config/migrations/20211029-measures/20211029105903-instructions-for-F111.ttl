@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ec0dd82c6870eef371bcd7e3bb57707aab6f3533f94cdefbe1dc079edbc4c8a9> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a0776592-deda-41d1-b4fe-eee2bbcb7273> .
+
+<http://data.lblod.info/templates/a0776592-deda-41d1-b4fe-eee2bbcb7273> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a0776592-deda-41d1-b4fe-eee2bbcb7273";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de fietsstraat wordt aangeduid</p>" .

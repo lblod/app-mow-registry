@@ -1,0 +1,45 @@
+
+<http://data.lblod.info/traffic-measure-concepts/5ab59c6b-827b-44e1-9e51-c905ffebea59> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5ab59c6b-827b-44e1-9e51-c905ffebea59";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/6325217c-6d25-4f55-a75e-ba9759aac8dc>,
+     <http://data.lblod.info/must-use-relations/6f02ff09-0302-463f-9c28-bf66629223cd>,
+     <http://data.lblod.info/must-use-relations/067b6547-3ab2-4211-b836-de7289b3a80f>,
+     <http://data.lblod.info/must-use-relations/a828078d-782a-4892-8b9b-5babd922b14a>,
+     <http://data.lblod.info/must-use-relations/121429f4-ca80-41e1-a653-39bcbd8a8b80>,
+     <http://data.lblod.info/must-use-relations/0e44fb43-7b36-4d57-89f8-47913fed85fc>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/465518f3-3f30-4957-95cc-bc3af36865fb>;
+   <http://purl.org/dc/terms/identifier> "f22ad560-edd1-11e6-bb26-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/067b6547-3ab2-4211-b836-de7289b3a80f> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "067b6547-3ab2-4211-b836-de7289b3a80f";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/d6994e5d8b2cfedffaad046aa1a0701e892b2f4feb901fadbf7814f678ae5663>;
+   <http://purl.org/linked-data/cube#order> 3 .
+
+<http://data.lblod.info/must-use-relations/0e44fb43-7b36-4d57-89f8-47913fed85fc> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0e44fb43-7b36-4d57-89f8-47913fed85fc";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0527c3b6261a500eade105ef371d355c2b950fcdd14302bdfc6711da2933f33a>;
+   <http://purl.org/linked-data/cube#order> 4 .
+
+<http://data.lblod.info/must-use-relations/121429f4-ca80-41e1-a653-39bcbd8a8b80> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "121429f4-ca80-41e1-a653-39bcbd8a8b80";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/44354ebf53e7112f55f992b3290d810f5291438b536af1f3ca8e5c630e25c75d>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/6325217c-6d25-4f55-a75e-ba9759aac8dc> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6325217c-6d25-4f55-a75e-ba9759aac8dc";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0b8edba107bc181f01ea9fcf241c76f6befff04e15a697acf1c6cdeb49e71868>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/6f02ff09-0302-463f-9c28-bf66629223cd> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6f02ff09-0302-463f-9c28-bf66629223cd";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/3536ac197567d5c95e40959ec4f822bc54c2726e405cea617bffa2117d80b9c8>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/must-use-relations/a828078d-782a-4892-8b9b-5babd922b14a> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a828078d-782a-4892-8b9b-5babd922b14a";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7caaef3cd26c046e13d8b8e83e779b6c77cb9e7330dd714ed902322f68be52e8>;
+   <http://purl.org/linked-data/cube#order> 5 .
+
+<http://data.lblod.info/templates/465518f3-3f30-4957-95cc-bc3af36865fb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "465518f3-3f30-4957-95cc-bc3af36865fb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is toegelaten</p>/n<p>de maatregel geldt alleen voor de fietsers en bestuurders van tweewielige bromfietsen</p>/n<p>de parkeerreglementering geldt over een afstand van meer dan 300 meter</p>/n<p>het parkeren is voorbehouden tijdens volgende periode ${beperking_tijd}</p>/n<p>het begin van de parkeerreglementering wordt aangeduid</p>/n<p>het einde van de parkeerreglementering wordt aangeduid</p>" .

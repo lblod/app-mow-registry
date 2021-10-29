@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/c9a42cc4-6b0f-423d-979f-31b7e6487eb9> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c9a42cc4-6b0f-423d-979f-31b7e6487eb9";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/449488f9-6bde-4458-bd87-cee8df1238e5>,
+     <http://data.lblod.info/must-use-relations/ef041baf-ba1b-44c7-9c28-801e34e8dacd>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/5ae4cf0a-b91c-472b-b402-8a7c76487cbc>;
+   <http://purl.org/dc/terms/identifier> "146ee720-0e81-11e4-8922-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/449488f9-6bde-4458-bd87-cee8df1238e5> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "449488f9-6bde-4458-bd87-cee8df1238e5";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/3674525b2c0a5d3fa43dcfe11525588b1391b809668234599144a9bfb2e45ea2>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/ef041baf-ba1b-44c7-9c28-801e34e8dacd> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ef041baf-ba1b-44c7-9c28-801e34e8dacd";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/2459b5097db8d047623e0cb56f379b0e>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/5ae4cf0a-b91c-472b-b402-8a7c76487cbc> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5ae4cf0a-b91c-472b-b402-8a7c76487cbc";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de rijstroken van de rijbaan met een strook voorbehouden voor autobussen worden aangeduid</p>/n<p>er wordt een rijstrook voorbehouden voor voertuigen van geregelde diensten voor gemeenschappelijk vervoer, taxi's en aan voertuigen voor schoolvervoer</p>" .

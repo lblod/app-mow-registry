@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeerslichtconcept/00fb203200e318350886c833f6c98517> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/8b35d9b4-a65e-4b51-854c-a593735a518e> .
+
+<http://data.lblod.info/templates/8b35d9b4-a65e-4b51-854c-a593735a518e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8b35d9b4-a65e-4b51-854c-a593735a518e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de voetgangers moeten de lichten van de tweekleurige voetgangerslichten opvolgen</p>" .
