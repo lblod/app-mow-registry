@@ -65,12 +65,6 @@
       "name": "nodeShape",
       "class": "sh:NodeShape",
       "super": ["shape"],
-      "attributes": {
-        "label": {
-          "type": "string",
-          "predicate": "skos:prefLabel"
-        }
-      },
       "new-resource-base": "http://data.lblod.info/NodeShapes/"
     },
     "concepts":{
@@ -173,6 +167,12 @@
       "name": "trafficMeasureConcept",
       "class": "lblodmow:TrafficMeasureConcept",
       "super": ["concept"],
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
       "new-resource-base": "http://data.lblod.info/traffic-measure-concepts/"
     },
     "road-sign-concepts": {
