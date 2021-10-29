@@ -68,6 +68,10 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/road-marking-concepts/"
   end
 
+  match "/traffic-measure-concepts/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://resource/traffic-measure-concepts/"
+  end
+
   match "/road-marking-concept-status/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://resource/road-marking-concept-status/"
   end
@@ -127,6 +131,7 @@ defmodule Dispatcher do
   match "/groups/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://resource/groups/"
   end
+
 
   ###############################################################
   # login specific
