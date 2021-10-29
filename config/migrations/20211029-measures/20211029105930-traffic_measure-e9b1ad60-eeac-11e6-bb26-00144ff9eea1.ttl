@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/d77e0a3b-421c-43cc-93c8-8001066b9170> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d77e0a3b-421c-43cc-93c8-8001066b9170";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/95ff4c74-c140-4675-af1e-8990f72124d7>,
+     <http://data.lblod.info/must-use-relations/f139bab4-509f-4bac-8ea0-4e7312686dc4>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f477bb9f-0eb9-44c5-89c5-4f2c4a3a89aa>;
+   <http://purl.org/dc/terms/identifier> "e9b1ad60-eeac-11e6-bb26-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/95ff4c74-c140-4675-af1e-8990f72124d7> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "95ff4c74-c140-4675-af1e-8990f72124d7";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/00c62afceb8661521659394983ff910b2b9cecd92b11ae0376bdb94b9d8c594c>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/f139bab4-509f-4bac-8ea0-4e7312686dc4> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f139bab4-509f-4bac-8ea0-4e7312686dc4";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a044fe2e77e31276281d1e915f9cfbd97cc4bfc7505087987a13d9b27f2a1ca4>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/f477bb9f-0eb9-44c5-89c5-4f2c4a3a89aa> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f477bb9f-0eb9-44c5-89c5-4f2c4a3a89aa";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers, fietsers, ruiters en bestuurders van speed pedelecs. Het begin van de voorbehouden weg wordt aangeduid</p>/n<p>ook het einde van de weg voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers, fietsers, ruiters en bestuurders van speed pedelecs wordt aangeduid</p>" .

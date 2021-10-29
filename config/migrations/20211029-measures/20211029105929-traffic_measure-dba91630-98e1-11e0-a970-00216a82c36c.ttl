@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/e40ab2d4-caf5-431f-a64c-e2288cc44a7d> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e40ab2d4-caf5-431f-a64c-e2288cc44a7d";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/c012e499-744b-4055-b726-62870886e701>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a673a577-6d5e-47df-ab9d-625f887502c2>;
+   <http://purl.org/dc/terms/identifier> "dba91630-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/c012e499-744b-4055-b726-62870886e701> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c012e499-744b-4055-b726-62870886e701";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/538c99f7923838b697983a850a957fce6013d760e3a55b55b54bd5e212d40a61>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/a673a577-6d5e-47df-ab9d-625f887502c2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a673a577-6d5e-47df-ab9d-625f887502c2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>bestuurders moeten een welbepaalde richting kiezen. Volgende richtingen worden aangeduid: ${richting}</p>" .

@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/70638735-aa93-484f-a640-caac20623ad4> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "70638735-aa93-484f-a640-caac20623ad4";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/40dc25da-bfdb-4110-866f-2170a05faa38>,
+     <http://data.lblod.info/must-use-relations/a17aef7e-44d6-464e-b881-b3e7f30c21ec>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/7ce8a04d-b181-4a15-95f4-965c1458e4e6>;
+   <http://purl.org/dc/terms/identifier> "dc204200-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/40dc25da-bfdb-4110-866f-2170a05faa38> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "40dc25da-bfdb-4110-866f-2170a05faa38";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/00c62afceb8661521659394983ff910b2b9cecd92b11ae0376bdb94b9d8c594c>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/a17aef7e-44d6-464e-b881-b3e7f30c21ec> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a17aef7e-44d6-464e-b881-b3e7f30c21ec";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a044fe2e77e31276281d1e915f9cfbd97cc4bfc7505087987a13d9b27f2a1ca4>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/7ce8a04d-b181-4a15-95f4-965c1458e4e6> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7ce8a04d-b181-4a15-95f4-965c1458e4e6";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers en fietsers. Het begin van de voorbehouden weg wordt aangeduid</p>/n<p>ook het einde van de weg voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers en fietsers wordt aangeduid</p>" .

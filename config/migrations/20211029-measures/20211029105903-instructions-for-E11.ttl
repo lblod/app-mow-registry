@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/c325e2c889471d83f36a825b68a0801de16c2a4ba7e36a4c897f6c3493125dcf> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/59ff855f-a491-49c0-9a67-7094e8c0d70e> .
+
+<http://data.lblod.info/templates/59ff855f-a491-49c0-9a67-7094e8c0d70e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "59ff855f-a491-49c0-9a67-7094e8c0d70e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het halfmaandelijks parkeren is van toepassing</p>" .

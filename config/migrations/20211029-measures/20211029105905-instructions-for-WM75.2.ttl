@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/9179cde8679045eede189507de51789a> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c7173850-d409-4891-8cca-9d7c807bfcca> .
+
+<http://data.lblod.info/templates/c7173850-d409-4891-8cca-9d7c807bfcca> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c7173850-d409-4891-8cca-9d7c807bfcca";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de denkbeeldige rand van de rijbaan wordt aangeduid. Het deel van de openbare weg dat gelegen is aan de andere kant van deze streep is voorbehouden voor het stilstaan en parkeren, behalve op autosnelwegen en autowegen</p>" .

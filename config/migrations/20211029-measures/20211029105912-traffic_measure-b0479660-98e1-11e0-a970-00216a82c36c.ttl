@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/7d91b922-6398-4eb5-8539-6a5f30c9c8c7> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7d91b922-6398-4eb5-8539-6a5f30c9c8c7";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/afc6c51b-b5c8-4354-a933-ec89797e4d2d>,
+     <http://data.lblod.info/must-use-relations/e52c903c-df58-414d-b313-cae12f0d2737>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/244642b6-2fa5-4939-94a0-2716b7288470>;
+   <http://purl.org/dc/terms/identifier> "b0479660-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/afc6c51b-b5c8-4354-a933-ec89797e4d2d> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "afc6c51b-b5c8-4354-a933-ec89797e4d2d";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/e52c903c-df58-414d-b313-cae12f0d2737> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e52c903c-df58-414d-b313-cae12f0d2737";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/22e5942e1f2f0e0e4162ec69933e317ede9c3c10200980665a682d30f19034e4>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/244642b6-2fa5-4939-94a0-2716b7288470> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "244642b6-2fa5-4939-94a0-2716b7288470";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden links af te slaan</p>/n<p>de maatregel geldt alleen voor de bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan ${massa} ton</p>" .

@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/55fb9a91-92a3-4a74-b98b-b37f1d46d115> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "55fb9a91-92a3-4a74-b98b-b37f1d46d115";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/b1368066-cb08-465f-a687-72a485c17f6c>,
+     <http://data.lblod.info/must-use-relations/a9b94b4b-9e27-4d57-b39e-6dacef6ac5e3>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/878a2830-4117-4282-96c0-ed93eadad3ce>;
+   <http://purl.org/dc/terms/identifier> "a994ce00-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/a9b94b4b-9e27-4d57-b39e-6dacef6ac5e3> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a9b94b4b-9e27-4d57-b39e-6dacef6ac5e3";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0527c3b6261a500eade105ef371d355c2b950fcdd14302bdfc6711da2933f33a>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/b1368066-cb08-465f-a687-72a485c17f6c> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b1368066-cb08-465f-a687-72a485c17f6c";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/1b0064d6a66dc26109c3173acb5254c81e508aa875ff16764b6d45cb34ef651a>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/878a2830-4117-4282-96c0-ed93eadad3ce> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "878a2830-4117-4282-96c0-ed93eadad3ce";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten stoppen en voorrang verlenen</p>/n<p>de maatregel geldt alleen voor de fietsers en bestuurders van tweewielige bromfietsen</p>" .

@@ -1,0 +1,22 @@
+
+<http://data.lblod.info/traffic-measure-concepts/3517a53d-94de-4dae-a50e-9eea87dfdc38> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3517a53d-94de-4dae-a50e-9eea87dfdc38";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/ebfb471a-cd92-4acb-b9e4-9bba8cede066>,
+     <http://data.lblod.info/must-use-relations/8c44a498-52db-41bb-a8ab-b13a69af9468>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/fec9b5ae-553f-44a0-959c-10ce8a7fdd8d>;
+   <http://purl.org/dc/terms/identifier> "c18cab40-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/8c44a498-52db-41bb-a8ab-b13a69af9468> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8c44a498-52db-41bb-a8ab-b13a69af9468";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/ebfb471a-cd92-4acb-b9e4-9bba8cede066> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ebfb471a-cd92-4acb-b9e4-9bba8cede066";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/9a99ae7486d2f485d6540fb82b5c12d732788b46dcc66a2a5fcd0966929c6a43>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/fec9b5ae-553f-44a0-959c-10ce8a7fdd8d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fec9b5ae-553f-44a0-959c-10ce8a7fdd8d";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is voorbehouden voor lichte vrachtauto's en vrachtauto's</p>/n<p>het parkeren is betalend 
+het betalend parkeren geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .

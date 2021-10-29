@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/92e20e82-8cc4-4f44-8d4f-3c16a9703bdd> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "92e20e82-8cc4-4f44-8d4f-3c16a9703bdd";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/0e47dfd9-8423-4815-a9ab-a7c3e0f6a125>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/4cf196c0-e9e1-4bef-90f7-100e1e29aa5b>;
+   <http://purl.org/dc/terms/identifier> "40110c50-60d0-11e3-ae88-00216b58a9ba" .
+
+<http://data.lblod.info/must-use-relations/0e47dfd9-8423-4815-a9ab-a7c3e0f6a125> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0e47dfd9-8423-4815-a9ab-a7c3e0f6a125";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4a03dff5c229e10fbe2544c11236dfce5ab592d70626a0a0671ee23c16585fa6>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/4cf196c0-e9e1-4bef-90f7-100e1e29aa5b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4cf196c0-e9e1-4bef-90f7-100e1e29aa5b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>alle plaatselijke verbodsbepalingen opgelegd aan de voertuigen in beweging zijn ten einde</p>" .

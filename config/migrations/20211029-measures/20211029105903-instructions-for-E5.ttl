@@ -1,0 +1,11 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4f857c0f9709924a47488596aee4387e2729c35b5dd512c5492a9b78715bd326> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/bac2e54a-6c3c-48a1-9dc9-b1179568117f>,
+     <http://data.lblod.info/templates/7b89e249-586f-4b9e-9544-6acef0a08074> .
+
+<http://data.lblod.info/templates/7b89e249-586f-4b9e-9544-6acef0a08074> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7b89e249-586f-4b9e-9544-6acef0a08074";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is verboden van de 1e tot de 15e van de maand</p>" .
+
+<http://data.lblod.info/templates/bac2e54a-6c3c-48a1-9dc9-b1179568117f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bac2e54a-6c3c-48a1-9dc9-b1179568117f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is verboden van de 16e tot het einde van de maand</p>" .

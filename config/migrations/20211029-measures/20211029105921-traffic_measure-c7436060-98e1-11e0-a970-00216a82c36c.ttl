@@ -1,0 +1,22 @@
+
+<http://data.lblod.info/traffic-measure-concepts/f7ff76b5-81a5-4e63-877d-9f40ce3b5464> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f7ff76b5-81a5-4e63-877d-9f40ce3b5464";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/037666be-cfed-49d6-9a47-4e4b9cb1536e>,
+     <http://data.lblod.info/must-use-relations/ac4c54f5-35a3-4baf-97ac-05d73bfd07c9>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/75019e99-7932-484f-a319-89ff1fe26bf1>;
+   <http://purl.org/dc/terms/identifier> "c7436060-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/037666be-cfed-49d6-9a47-4e4b9cb1536e> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "037666be-cfed-49d6-9a47-4e4b9cb1536e";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bd68717b59b32f5cfc66e459f72f7fef6ff8bc33d9276dcc2ca7c8ca7e860371>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/ac4c54f5-35a3-4baf-97ac-05d73bfd07c9> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ac4c54f5-35a3-4baf-97ac-05d73bfd07c9";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/75019e99-7932-484f-a319-89ff1fe26bf1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "75019e99-7932-484f-a319-89ff1fe26bf1";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het is verplicht te parkeren op de berm of op het trottoir</p>/n<p>het parkeren is betalend 
+het betalend parkeren geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .

@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/a2be5c35-612b-465e-a08d-8f78ae81d2f7> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a2be5c35-612b-465e-a08d-8f78ae81d2f7";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/5c22258b-086d-47b1-9d7e-15d304d961ce>,
+     <http://data.lblod.info/must-use-relations/d3ad86f4-e88b-46bf-bc1f-2e456b75a4a3>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/8cc02595-5790-463b-8742-cef15e456e9d>;
+   <http://purl.org/dc/terms/identifier> "b0895a50-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/5c22258b-086d-47b1-9d7e-15d304d961ce> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5c22258b-086d-47b1-9d7e-15d304d961ce";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/1a87027d46dd7d4a3cd3084db904dfe5d22e0cb0ae7dcc47ebed18eec7e52f81>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/d3ad86f4-e88b-46bf-bc1f-2e456b75a4a3> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d3ad86f4-e88b-46bf-bc1f-2e456b75a4a3";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/11a00892550b4d76a4021b11c9769d4d8812e80a42808da341d72e49f81c5a0c>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/8cc02595-5790-463b-8742-cef15e456e9d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8cc02595-5790-463b-8742-cef15e456e9d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin en het einde van het inhaalverbod worden aangeduid</p>/n<p>het is verboden voor bestuurders een gespan of een voertuig met meer dan twee wielen links in te halen</p>" .

@@ -1,0 +1,21 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a12dc2565be0dd45f62af20493a2dbc17d83b544db425a804bdbe56f6d99b8cd> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c71a92ee-1fbe-43d9-aec4-42f3a7ad37f4>,
+     <http://data.lblod.info/templates/20110637-4360-4e41-9fce-398fc4ac96fb>,
+     <http://data.lblod.info/templates/46aaa379-afa6-43b5-803d-c68686ef6444>,
+     <http://data.lblod.info/templates/acd96e42-26e2-41a7-bae4-2c466c7130fe> .
+
+<http://data.lblod.info/templates/20110637-4360-4e41-9fce-398fc4ac96fb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "20110637-4360-4e41-9fce-398fc4ac96fb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van ruiters en fietsers. Het begin van de voorbehouden weg wordt aangeduid, alsook het deel van de weg dat bestemd is voor de verschillende categorieën van weggebruikers</p>" .
+
+<http://data.lblod.info/templates/46aaa379-afa6-43b5-803d-c68686ef6444> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "46aaa379-afa6-43b5-803d-c68686ef6444";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van voetgangers en ruiters. Het begin van de voorbehouden weg wordt aangeduid, alsook het deel van de weg dat bestemd is voor de verschillende categorieën van weggebruikers</p>" .
+
+<http://data.lblod.info/templates/acd96e42-26e2-41a7-bae4-2c466c7130fe> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "acd96e42-26e2-41a7-bae4-2c466c7130fe";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van voetgangers en fietsers. Het begin van de voorbehouden weg wordt aangeduid, alsook het deel van de weg dat bestemd is voor de verschillende categorieën van weggebruikers</p>" .
+
+<http://data.lblod.info/templates/c71a92ee-1fbe-43d9-aec4-42f3a7ad37f4> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c71a92ee-1fbe-43d9-aec4-42f3a7ad37f4";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van voetgangers, fietsers en bestuurders van speed pedelecs. Het begin van de voorbehouden weg wordt aangeduid, alsook het deel van de weg dat bestemd is voor de verschillende categorie&euml;n van weggebruikers</p>" .

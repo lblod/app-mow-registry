@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/d0c3b990-50aa-4682-87f7-43d59c27f7e3> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d0c3b990-50aa-4682-87f7-43d59c27f7e3";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/099e5dcf-c2d9-470f-92dd-a9c965fb7287>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/5f8c557a-8500-4104-ba84-96b90c9830f8>;
+   <http://purl.org/dc/terms/identifier> "b07a8d40-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/099e5dcf-c2d9-470f-92dd-a9c965fb7287> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "099e5dcf-c2d9-470f-92dd-a9c965fb7287";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/dfa07fdaeb6870f1e2922ba694f0fbf5b929f2f9249b785d7c0591b0201ba4c8>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/5f8c557a-8500-4104-ba84-96b90c9830f8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5f8c557a-8500-4104-ba84-96b90c9830f8";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders te keren</p>" .

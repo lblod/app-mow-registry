@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/5d996538-14d4-42e7-869c-ce9b6d0cd5c3> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5d996538-14d4-42e7-869c-ce9b6d0cd5c3";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/c57b92ce-8065-42b1-9dd0-2dc6e4a53e5e>,
+     <http://data.lblod.info/must-use-relations/8ba6a1f5-8076-4438-be8e-a717a42c9b71>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/eafa4a54-25b5-47de-8111-04ab710f0d2d>;
+   <http://purl.org/dc/terms/identifier> "682277a0-8e3f-11e3-a1f1-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/8ba6a1f5-8076-4438-be8e-a717a42c9b71> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8ba6a1f5-8076-4438-be8e-a717a42c9b71";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/c57b92ce-8065-42b1-9dd0-2dc6e4a53e5e> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c57b92ce-8065-42b1-9dd0-2dc6e4a53e5e";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/527b2109b1aacf1a69f31cdae3721302a51a118469ac337c85aba921fa0dca13>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/eafa4a54-25b5-47de-8111-04ab710f0d2d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "eafa4a54-25b5-47de-8111-04ab710f0d2d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van motorvoertuigen met meer dan twee wielen en van motorfietsen met zijspan</p>/n<p>de maatregel geldt niet voor plaatselijk verkeer</p>" .

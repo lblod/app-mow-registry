@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/7f718d29-d748-427e-b630-6fdb2ff701bd> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7f718d29-d748-427e-b630-6fdb2ff701bd";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/7d0dd02c-03b3-46bb-85fa-db8e9cd9735c>,
+     <http://data.lblod.info/must-use-relations/eafa4298-f1e9-42a2-8071-42a891ad8ad0>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/40fab20a-f9c2-4af5-805b-434a75e67cc7>;
+   <http://purl.org/dc/terms/identifier> "c4270530-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/7d0dd02c-03b3-46bb-85fa-db8e9cd9735c> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7d0dd02c-03b3-46bb-85fa-db8e9cd9735c";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4a2ec210cf9459059de87c11a70b40d957edeb78f302963e1a526a47406d11ec>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/eafa4298-f1e9-42a2-8071-42a891ad8ad0> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "eafa4298-f1e9-42a2-8071-42a891ad8ad0";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/40fab20a-f9c2-4af5-805b-434a75e67cc7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "40fab20a-f9c2-4af5-805b-434a75e67cc7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor autocars</p>/n<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden</p>" .

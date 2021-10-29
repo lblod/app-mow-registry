@@ -1,0 +1,86 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/84567323c818fdb559cc3df4dbc141d3e24efcf6f528473c5c0ec20e180e56e2> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a100eb1c-2e84-4a29-87a8-f8de8a435e98>,
+     <http://data.lblod.info/templates/17f8cc5a-5a48-4e71-b942-591dec05bf2e>,
+     <http://data.lblod.info/templates/dcabf054-c46d-46a0-a319-1f292c309961>,
+     <http://data.lblod.info/templates/9c226277-f126-4737-8105-4724dcdd5d9f>,
+     <http://data.lblod.info/templates/781737b5-86c2-4287-bee8-1368bf8dc3a0>,
+     <http://data.lblod.info/templates/7273029c-dd33-4a23-8adf-904e86f80092>,
+     <http://data.lblod.info/templates/19b8fe7e-3925-4549-86d3-06f2ef33def1>,
+     <http://data.lblod.info/templates/7bea2fec-2587-4b7a-8aac-fb8c100b7eab>,
+     <http://data.lblod.info/templates/5d8e654f-a866-4532-ad45-862a19a4f78f>,
+     <http://data.lblod.info/templates/a0669728-6294-4fe2-a0b7-e67df5c6e22a>,
+     <http://data.lblod.info/templates/a60da515-bc9e-4eba-80f4-5f57d0cac0ef>,
+     <http://data.lblod.info/templates/decea935-4057-4da7-957e-9be87d741066>,
+     <http://data.lblod.info/templates/63092b54-9d25-4f71-9524-a53794f65737>,
+     <http://data.lblod.info/templates/6b5404a0-3182-4838-b1ff-4a394547aad4>,
+     <http://data.lblod.info/templates/c2854fbd-3d7c-411a-a9c2-9f2671c96fbd>,
+     <http://data.lblod.info/templates/6e4e5a69-be1a-4744-9f20-ff6788c0a4ab> .
+
+<http://data.lblod.info/templates/17f8cc5a-5a48-4e71-b942-591dec05bf2e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "17f8cc5a-5a48-4e71-b942-591dec05bf2e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor de voertuigen die gebruikt worden door personen met een handicap</p>" .
+
+<http://data.lblod.info/templates/19b8fe7e-3925-4549-86d3-06f2ef33def1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "19b8fe7e-3925-4549-86d3-06f2ef33def1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/5d8e654f-a866-4532-ad45-862a19a4f78f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5d8e654f-a866-4532-ad45-862a19a4f78f";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd}</p>""" .
+
+<http://data.lblod.info/templates/63092b54-9d25-4f71-9524-a53794f65737> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "63092b54-9d25-4f71-9524-a53794f65737";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering is beperkt tot een maximduur van ${beperking_tijd} minuten</p>" .
+
+<http://data.lblod.info/templates/6b5404a0-3182-4838-b1ff-4a394547aad4> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6b5404a0-3182-4838-b1ff-4a394547aad4";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden</p>" .
+
+<http://data.lblod.info/templates/6e4e5a69-be1a-4744-9f20-ff6788c0a4ab> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6e4e5a69-be1a-4744-9f20-ff6788c0a4ab";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd};
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .
+
+<http://data.lblod.info/templates/7273029c-dd33-4a23-8adf-904e86f80092> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7273029c-dd33-4a23-8adf-904e86f80092";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .
+
+<http://data.lblod.info/templates/781737b5-86c2-4287-bee8-1368bf8dc3a0> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "781737b5-86c2-4287-bee8-1368bf8dc3a0";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/7bea2fec-2587-4b7a-8aac-fb8c100b7eab> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7bea2fec-2587-4b7a-8aac-fb8c100b7eab";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>" .
+
+<http://data.lblod.info/templates/9c226277-f126-4737-8105-4724dcdd5d9f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9c226277-f126-4737-8105-4724dcdd5d9f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is betalend; de parkeerreglementering is beperkt ${maximumduur betalend parkeren}</p>" .
+
+<http://data.lblod.info/templates/a0669728-6294-4fe2-a0b7-e67df5c6e22a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a0669728-6294-4fe2-a0b7-e67df5c6e22a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het verbod geldt voor volgende categorie van voertuigen: ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/a100eb1c-2e84-4a29-87a8-f8de8a435e98> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a100eb1c-2e84-4a29-87a8-f8de8a435e98";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van meer dan 300 meter</p>" .
+
+<http://data.lblod.info/templates/a60da515-bc9e-4eba-80f4-5f57d0cac0ef> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a60da515-bc9e-4eba-80f4-5f57d0cac0ef";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor volgende categorie van voertuigen: ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/c2854fbd-3d7c-411a-a9c2-9f2671c96fbd> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c2854fbd-3d7c-411a-a9c2-9f2671c96fbd";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is betalend</p>" .
+
+<http://data.lblod.info/templates/dcabf054-c46d-46a0-a319-1f292c309961> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "dcabf054-c46d-46a0-a319-1f292c309961";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor voertuigen waarop de bewonerskaart is aangebracht</p>" .
+
+<http://data.lblod.info/templates/decea935-4057-4da7-957e-9be87d741066> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "decea935-4057-4da7-957e-9be87d741066";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is voorbehouden voor volgende categorie van voertuigen: ${categorie_voertuig}; 
+het parkeren is voorbehouden tijdens volgende periode: ${beperking_tijd} </p>""" .

@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/0095e08f-4cc0-4d61-ba8b-f679ee4298e2> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0095e08f-4cc0-4d61-ba8b-f679ee4298e2";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/edd8395a-7099-46ad-9ed4-9ebed3081b58>,
+     <http://data.lblod.info/must-use-relations/bd28ddf0-846a-46d3-83b3-97a963311ae7>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/3a3a7cc9-5328-46eb-acce-ba73a4756c45>;
+   <http://purl.org/dc/terms/identifier> "8fa62a60-7af7-11e4-a7b5-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/bd28ddf0-846a-46d3-83b3-97a963311ae7> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bd28ddf0-846a-46d3-83b3-97a963311ae7";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/e735019fc999d0180cdb4afb2ea6b75a>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/edd8395a-7099-46ad-9ed4-9ebed3081b58> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "edd8395a-7099-46ad-9ed4-9ebed3081b58";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/62322bcd7dbc57bff8219bd973ea664671c3788c7444be7bd6e2b8a773f4308b>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/3a3a7cc9-5328-46eb-acce-ba73a4756c45> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3a3a7cc9-5328-46eb-acce-ba73a4756c45";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten de rijstrook volgen om in de door de pijlen aangewezen richting te rijden</p>/n<p>voorsorteringspijlen op de rijbaan worden aangekondigd. Bestuurders moeten een welbepaalde rijstrook kiezen</p>" .

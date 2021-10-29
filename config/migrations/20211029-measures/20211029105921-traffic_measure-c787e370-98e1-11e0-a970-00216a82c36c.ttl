@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/48b6798d-c560-4900-8e79-344c67cfa56c> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "48b6798d-c560-4900-8e79-344c67cfa56c";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/bca61005-ccee-4b8c-b746-ba5bee39de76>,
+     <http://data.lblod.info/must-use-relations/afe73472-0e1d-445d-b9ed-f7322c5a8f68>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/1b4197d2-6c10-4831-bb2f-92494a6fe75c>;
+   <http://purl.org/dc/terms/identifier> "c787e370-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/afe73472-0e1d-445d-b9ed-f7322c5a8f68> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "afe73472-0e1d-445d-b9ed-f7322c5a8f68";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bd68717b59b32f5cfc66e459f72f7fef6ff8bc33d9276dcc2ca7c8ca7e860371>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/bca61005-ccee-4b8c-b746-ba5bee39de76> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bca61005-ccee-4b8c-b746-ba5bee39de76";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/44354ebf53e7112f55f992b3290d810f5291438b536af1f3ca8e5c630e25c75d>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/1b4197d2-6c10-4831-bb2f-92494a6fe75c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1b4197d2-6c10-4831-bb2f-92494a6fe75c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verplicht te parkeren op de berm of op het trottoir</p>/n<p>het begin van de parkeerreglementering wordt aangeduid</p>" .

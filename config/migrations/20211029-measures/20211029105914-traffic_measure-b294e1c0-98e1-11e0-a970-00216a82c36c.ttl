@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/b953152e-f542-486f-8761-9321083fecf1> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b953152e-f542-486f-8761-9321083fecf1";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/d45a272c-8849-4fa3-9d7c-39bcd359eff9>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/357a47ae-99d9-44a9-b09e-bac32c7dc42b>;
+   <http://purl.org/dc/terms/identifier> "b294e1c0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/d45a272c-8849-4fa3-9d7c-39bcd359eff9> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d45a272c-8849-4fa3-9d7c-39bcd359eff9";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/32a6431ad5ad20c5bc5eca29bcbbe0ce6bca180ac0a7fceed6e05127e60c16f0>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/357a47ae-99d9-44a9-b09e-bac32c7dc42b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "357a47ae-99d9-44a9-b09e-bac32c7dc42b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voetgangers en fietsers moeten het deel van de openbare weg voor hen voorbehouden volgen</p>" .

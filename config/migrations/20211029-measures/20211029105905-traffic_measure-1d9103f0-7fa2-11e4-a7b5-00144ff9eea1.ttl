@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/4fe368b9-762c-40d5-b849-d1cf20eaac6b> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4fe368b9-762c-40d5-b849-d1cf20eaac6b";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/97fd85fe-d27a-48e2-9110-40868343a7ce>,
+     <http://data.lblod.info/must-use-relations/acf6d363-518f-4f85-aa2f-66183af4a515>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/54083beb-ebfa-4050-bb60-725e0ff10aeb>;
+   <http://purl.org/dc/terms/identifier> "1d9103f0-7fa2-11e4-a7b5-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/97fd85fe-d27a-48e2-9110-40868343a7ce> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "97fd85fe-d27a-48e2-9110-40868343a7ce";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/47b523a23f2f2f578d171d5d78d343d01f9b215858733370177c5aab37baa29c>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/acf6d363-518f-4f85-aa2f-66183af4a515> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "acf6d363-518f-4f85-aa2f-66183af4a515";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/527b2109b1aacf1a69f31cdae3721302a51a118469ac337c85aba921fa0dca13>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/54083beb-ebfa-4050-bb60-725e0ff10aeb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "54083beb-ebfa-4050-bb60-725e0ff10aeb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van motorvoertuigen met meer dan twee wielen en van motorfietsen met zijspan</p>/n<p>de toegang is verboden voor bestuurders van motorfietsen</p>" .

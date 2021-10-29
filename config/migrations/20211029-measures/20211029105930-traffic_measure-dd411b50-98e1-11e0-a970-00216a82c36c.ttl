@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/d798c6c2-ec6b-49a2-bf96-95cc475b8f1d> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d798c6c2-ec6b-49a2-bf96-95cc475b8f1d";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/966f3853-1edb-47b7-af13-b65379b9350e>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f776d396-8b3b-4805-9f18-f0231bf10d2e>;
+   <http://purl.org/dc/terms/identifier> "dd411b50-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/966f3853-1edb-47b7-af13-b65379b9350e> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "966f3853-1edb-47b7-af13-b65379b9350e";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/68decc688d862a9ff700c181b67b6bb4>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/f776d396-8b3b-4805-9f18-f0231bf10d2e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f776d396-8b3b-4805-9f18-f0231bf10d2e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de afgebakende plaats wordt voorbehouden voor voertuigen van geregelde diensten voor gemeenschappelijk vervoer. Stilstaan en parkeren op deze markering is verboden</p>" .

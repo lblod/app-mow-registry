@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/39075834-39d1-4dae-b57b-dd496ed0f4e3> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "39075834-39d1-4dae-b57b-dd496ed0f4e3";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/a70cd1b3-e65c-4513-874a-7131866d6de6>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/864b4679-781b-4251-bf5d-5072e8ebff37>;
+   <http://purl.org/dc/terms/identifier> "b28e5210-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/a70cd1b3-e65c-4513-874a-7131866d6de6> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a70cd1b3-e65c-4513-874a-7131866d6de6";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/eadf7c2db13f747a7241c4689a212e02f4c93f6957844fa4ff26fdf2ce6165bc>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/864b4679-781b-4251-bf5d-5072e8ebff37> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "864b4679-781b-4251-bf5d-5072e8ebff37";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voetgangers, fietsers en bestuurders van tweewielige bromfietsen klasse A moeten het deel van de openbare weg voor hen voorbehouden volgen. Voetgangers moeten daarbij het rechtse gedeelte volgen, fietsers en bestuurders van tweewielige bromfietsen klasse A het linkse gedeelte</p>" .

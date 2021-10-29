@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a14b8cd76fbf8e965f47adc3644eec7c9aaeb64927c755a6fb67de6d63a236ef> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/75c8c0b3-6156-4282-930e-e54ffb0bf0dd> .
+
+<http://data.lblod.info/templates/75c8c0b3-6156-4282-930e-e54ffb0bf0dd> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "75c8c0b3-6156-4282-930e-e54ffb0bf0dd";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>toegelaten rijrichting op de openbare weg met eenrichtingsverkeer</p>" .

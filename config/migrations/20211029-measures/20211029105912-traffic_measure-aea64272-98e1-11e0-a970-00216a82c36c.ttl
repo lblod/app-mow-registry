@@ -1,0 +1,33 @@
+
+<http://data.lblod.info/traffic-measure-concepts/0e2fda84-7474-4347-80a1-634a8344bff8> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0e2fda84-7474-4347-80a1-634a8344bff8";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/406cf91d-8383-41ed-b19c-66c43973e8f4>,
+     <http://data.lblod.info/must-use-relations/b5008b07-e9f7-46c6-b3cb-174f864e02a6>,
+     <http://data.lblod.info/must-use-relations/34c107c3-fe52-49f7-9ffa-cd3f85032540>,
+     <http://data.lblod.info/must-use-relations/e76776f3-f098-4351-aece-795fd6584119>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/25c7e517-bead-4e50-aba4-87e0405ba670>;
+   <http://purl.org/dc/terms/identifier> "aea64272-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/34c107c3-fe52-49f7-9ffa-cd3f85032540> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "34c107c3-fe52-49f7-9ffa-cd3f85032540";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/406cf91d-8383-41ed-b19c-66c43973e8f4> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "406cf91d-8383-41ed-b19c-66c43973e8f4";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/2459b5097db8d047623e0cb56f379b0e>;
+   <http://purl.org/linked-data/cube#order> 3 .
+
+<http://data.lblod.info/must-use-relations/b5008b07-e9f7-46c6-b3cb-174f864e02a6> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b5008b07-e9f7-46c6-b3cb-174f864e02a6";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7d6a7b43528f9c71a42780a01dd1e43e1db1e2675c4f3e18effe6939bbc663ee>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/e76776f3-f098-4351-aece-795fd6584119> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e76776f3-f098-4351-aece-795fd6584119";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/3674525b2c0a5d3fa43dcfe11525588b1391b809668234599144a9bfb2e45ea2>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/templates/25c7e517-bead-4e50-aba4-87e0405ba670> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "25c7e517-bead-4e50-aba4-87e0405ba670";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>er wordt een rijstrook voorbehouden voor voertuigen van geregelde diensten voor gemeenschappelijk vervoer, taxi's en aan voertuigen voor schoolvervoer</p>/n<p>de rijstroken van de rijbaan met een strook voorbehouden voor autobussen worden aangeduid. Voor elk van de rijstroken wordt de rijrichting aangeduid</p>/n<p>verboden rijrichting voor iedere bestuurder</p>/n<p>de maatregel geldt niet voor bussen</p>" .

@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/931f53bb-2688-45fc-89be-bd364e014b9c> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "931f53bb-2688-45fc-89be-bd364e014b9c";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/c8e2f004-a653-4e09-8525-9c9557b538bb>,
+     <http://data.lblod.info/must-use-relations/894338a6-47e8-4ca9-9ec8-cdbdfa254970>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2321f920-8bcc-4176-8305-fa9f4b63b4fb>;
+   <http://purl.org/dc/terms/identifier> "b9fe7700-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/894338a6-47e8-4ca9-9ec8-cdbdfa254970> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "894338a6-47e8-4ca9-9ec8-cdbdfa254970";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0b8edba107bc181f01ea9fcf241c76f6befff04e15a697acf1c6cdeb49e71868>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/c8e2f004-a653-4e09-8525-9c9557b538bb> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c8e2f004-a653-4e09-8525-9c9557b538bb";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/84567323c818fdb559cc3df4dbc141d3e24efcf6f528473c5c0ec20e180e56e2>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/2321f920-8bcc-4176-8305-fa9f4b63b4fb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2321f920-8bcc-4176-8305-fa9f4b63b4fb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is toegelaten</p>/n<p>het parkeren is voorbehouden voor de voertuigen die gebruikt worden door personen met een handicap</p>" .

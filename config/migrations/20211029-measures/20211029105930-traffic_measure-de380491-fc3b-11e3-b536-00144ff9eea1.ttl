@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/0e6a7de1-ec5f-4d8e-9eb2-2890b835ee6d> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0e6a7de1-ec5f-4d8e-9eb2-2890b835ee6d";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/a5c0ddf7-4858-4cf7-ab3b-60b5293c75d2>,
+     <http://data.lblod.info/must-use-relations/02fefb1c-9dd7-4615-9618-68cefbacb031>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c141cbc8-1ceb-4620-ad72-d49953073f87>;
+   <http://purl.org/dc/terms/identifier> "de380491-fc3b-11e3-b536-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/02fefb1c-9dd7-4615-9618-68cefbacb031> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "02fefb1c-9dd7-4615-9618-68cefbacb031";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/a5c0ddf7-4858-4cf7-ab3b-60b5293c75d2> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a5c0ddf7-4858-4cf7-ab3b-60b5293c75d2";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/11a07b567d603a2f01a987ce4feea54c709a57449554debc5f5ae63c602c722b>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/c141cbc8-1ceb-4620-ad72-d49953073f87> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c141cbc8-1ceb-4620-ad72-d49953073f87";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen of slepen waarvan de lengte, lading inbegrepen, groter is dan ${lengte_voertuig} meter</p>/n<p>de maatregel geldt niet voor ${categorie_voertuig}</p>" .

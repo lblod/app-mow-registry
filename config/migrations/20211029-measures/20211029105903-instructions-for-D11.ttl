@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b0b50921fd34b0b2d4b4a8c72dbb7872071dc3b15a492ac77683707d308feae1> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/36fcca08-2fd1-4d7d-be4c-692dd623479e> .
+
+<http://data.lblod.info/templates/36fcca08-2fd1-4d7d-be4c-692dd623479e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "36fcca08-2fd1-4d7d-be4c-692dd623479e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voetgangers zijn verplicht de voorbehouden weg te volgen</p>" .

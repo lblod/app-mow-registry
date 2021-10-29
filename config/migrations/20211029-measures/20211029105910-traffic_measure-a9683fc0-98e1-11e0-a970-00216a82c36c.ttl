@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/3bdc946b-c570-41e1-b878-c821ea520e48> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3bdc946b-c570-41e1-b878-c821ea520e48";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/67a3df33-3dc2-479e-9d20-d1ae8be54b7f>,
+     <http://data.lblod.info/must-use-relations/26dc3b0d-5b57-4cb9-bdc3-2953af4f7c56>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ce147625-ec37-41f8-8118-c9359ef97973>;
+   <http://purl.org/dc/terms/identifier> "a9683fc0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/26dc3b0d-5b57-4cb9-bdc3-2953af4f7c56> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "26dc3b0d-5b57-4cb9-bdc3-2953af4f7c56";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/367e8886caac739058332e5f9087d4412a15fafeed0ac1d270c71643a7dd727a>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/67a3df33-3dc2-479e-9d20-d1ae8be54b7f> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "67a3df33-3dc2-479e-9d20-d1ae8be54b7f";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/1b0064d6a66dc26109c3173acb5254c81e508aa875ff16764b6d45cb34ef651a>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/ce147625-ec37-41f8-8118-c9359ef97973> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ce147625-ec37-41f8-8118-c9359ef97973";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten stoppen en voorrang verlenen</p>/n<p>fietsers en bestuurders van tweewielige bromfietsen rijden in de twee rijrichtingen op de dwarslopende openbare weg die men gaat oprijden</p>" .

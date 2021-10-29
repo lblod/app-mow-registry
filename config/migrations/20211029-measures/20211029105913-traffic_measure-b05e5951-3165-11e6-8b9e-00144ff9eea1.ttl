@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/c7a9de9f-83a6-4a09-a579-c436e1689249> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c7a9de9f-83a6-4a09-a579-c436e1689249";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/a15f014b-35dd-499a-af64-b1eb5f1801a3>,
+     <http://data.lblod.info/must-use-relations/3f452759-b501-44cd-b857-8c081f47befd>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/b89de38a-6ab3-4f74-be12-a0877f63e7d2>;
+   <http://purl.org/dc/terms/identifier> "b05e5951-3165-11e6-8b9e-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/3f452759-b501-44cd-b857-8c081f47befd> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3f452759-b501-44cd-b857-8c081f47befd";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/f74b9e8e4ddd1760f32d54063f96a3964846464bed031a942863f59f5187a268>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/a15f014b-35dd-499a-af64-b1eb5f1801a3> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a15f014b-35dd-499a-af64-b1eb5f1801a3";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/f304fa07025853d008cb86709fea2a4c19894ce5031f41b04076e3039bce466a>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/b89de38a-6ab3-4f74-be12-a0877f63e7d2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b89de38a-6ab3-4f74-be12-a0877f63e7d2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor motorfietsen, personenauto's, auto's voor dubbel gebruik en minibussen</p>/n<p>de parkeerreglementering is beperkt en geldt ${beperking tijd}</p>" .

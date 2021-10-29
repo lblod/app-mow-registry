@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/68decc688d862a9ff700c181b67b6bb4> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f71b5fe2-1052-4788-a1f0-1e580299b61e> .
+
+<http://data.lblod.info/templates/f71b5fe2-1052-4788-a1f0-1e580299b61e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f71b5fe2-1052-4788-a1f0-1e580299b61e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de afgebakende plaats wordt voorbehouden voor voertuigen van geregelde diensten voor gemeenschappelijk vervoer. Stilstaan en parkeren op deze markering is verboden</p>" .

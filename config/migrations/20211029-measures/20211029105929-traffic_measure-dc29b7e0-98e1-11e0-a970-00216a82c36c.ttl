@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/9ea440a1-66f0-4340-ae21-48d75e10d1fd> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9ea440a1-66f0-4340-ae21-48d75e10d1fd";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/9ab0e9b7-cc2d-4a3f-afe3-21dcafd2c47f>,
+     <http://data.lblod.info/must-use-relations/3409141b-ea08-4e01-ae56-0b9a464bdd44>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f0130460-7dc7-441f-802f-8e529e68eb67>;
+   <http://purl.org/dc/terms/identifier> "dc29b7e0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/3409141b-ea08-4e01-ae56-0b9a464bdd44> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3409141b-ea08-4e01-ae56-0b9a464bdd44";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5a99bb07ee0886bcbc996b67327b2977bc70e67ad9ee9649d7e24f44f68b4684>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/9ab0e9b7-cc2d-4a3f-afe3-21dcafd2c47f> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9ab0e9b7-cc2d-4a3f-afe3-21dcafd2c47f";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e6f178e53fc9ae0d1d17616ef08d3873f6892bfc46acf1f8850a77d34d4f85d2>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/f0130460-7dc7-441f-802f-8e529e68eb67> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f0130460-7dc7-441f-802f-8e529e68eb67";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de voetgangerszone wordt aangeduid</p>/n<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid</p>" .

@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/ef3905f5-8176-4c88-a31d-321a3e28b0ce> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ef3905f5-8176-4c88-a31d-321a3e28b0ce";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/61cd48aa-afe4-499f-a62d-af5bf354a3ea>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f28e46d5-f6be-47d1-a333-11eaa91b8650>;
+   <http://purl.org/dc/terms/identifier> "dd3c1240-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/61cd48aa-afe4-499f-a62d-af5bf354a3ea> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "61cd48aa-afe4-499f-a62d-af5bf354a3ea";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/3643bf425d87dd787415022f5334b8f7>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/f28e46d5-f6be-47d1-a333-11eaa91b8650> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f28e46d5-f6be-47d1-a333-11eaa91b8650";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen moeten de oversteekplaats volgen om de rijbaan over te steken</p>" .

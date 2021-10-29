@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/8eee4ead-609f-4292-b24d-90d05f53b5f2> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8eee4ead-609f-4292-b24d-90d05f53b5f2";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/09e94c2f-c2d3-4be1-85bd-78fb04144826>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/50cdcd86-5d2d-42c1-ba5d-060efcd5b40a>;
+   <http://purl.org/dc/terms/identifier> "b0011780-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/09e94c2f-c2d3-4be1-85bd-78fb04144826> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "09e94c2f-c2d3-4be1-85bd-78fb04144826";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6863e3797bc06c1ef11a793e4462a32ccfc45d31642213209c15f87339a279f5>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/50cdcd86-5d2d-42c1-ba5d-060efcd5b40a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "50cdcd86-5d2d-42c1-ba5d-060efcd5b40a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen die de gevaarlijke verontreinigende stoffen, bepaald door de voor vervoer van gevaarlijke goederen bevoegde Ministers, vervoeren</p>" .

@@ -1,0 +1,46 @@
+
+<http://data.lblod.info/traffic-measure-concepts/0121ec10-0cc8-4438-a6d8-72e5e7ab6133> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0121ec10-0cc8-4438-a6d8-72e5e7ab6133";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/5171d70a-2d51-4227-9cef-a78e598d1fe6>,
+     <http://data.lblod.info/must-use-relations/21538877-04df-402e-88a9-f7fc4609c9d1>,
+     <http://data.lblod.info/must-use-relations/8730de1a-d716-4a55-a999-8d1e1fa9a6f4>,
+     <http://data.lblod.info/must-use-relations/da208977-0ee8-40ff-9193-b78924ec4d34>,
+     <http://data.lblod.info/must-use-relations/921a0760-b700-40e6-8b8c-9e1119d94a0c>,
+     <http://data.lblod.info/must-use-relations/0d972470-55fa-4ab7-a9e8-7e78c219357e>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2b3b5c90-8735-44ba-856f-478245b6bc53>;
+   <http://purl.org/dc/terms/identifier> "e3842e70-60b3-11e3-a949-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/0d972470-55fa-4ab7-a9e8-7e78c219357e> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0d972470-55fa-4ab7-a9e8-7e78c219357e";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/84567323c818fdb559cc3df4dbc141d3e24efcf6f528473c5c0ec20e180e56e2>;
+   <http://purl.org/linked-data/cube#order> 5 .
+
+<http://data.lblod.info/must-use-relations/21538877-04df-402e-88a9-f7fc4609c9d1> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "21538877-04df-402e-88a9-f7fc4609c9d1";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 4 .
+
+<http://data.lblod.info/must-use-relations/5171d70a-2d51-4227-9cef-a78e598d1fe6> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5171d70a-2d51-4227-9cef-a78e598d1fe6";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/44354ebf53e7112f55f992b3290d810f5291438b536af1f3ca8e5c630e25c75d>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/8730de1a-d716-4a55-a999-8d1e1fa9a6f4> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8730de1a-d716-4a55-a999-8d1e1fa9a6f4";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0b8edba107bc181f01ea9fcf241c76f6befff04e15a697acf1c6cdeb49e71868>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/921a0760-b700-40e6-8b8c-9e1119d94a0c> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "921a0760-b700-40e6-8b8c-9e1119d94a0c";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/d6994e5d8b2cfedffaad046aa1a0701e892b2f4feb901fadbf7814f678ae5663>;
+   <http://purl.org/linked-data/cube#order> 3 .
+
+<http://data.lblod.info/must-use-relations/da208977-0ee8-40ff-9193-b78924ec4d34> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "da208977-0ee8-40ff-9193-b78924ec4d34";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/3536ac197567d5c95e40959ec4f822bc54c2726e405cea617bffa2117d80b9c8>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/templates/2b3b5c90-8735-44ba-856f-478245b6bc53> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2b3b5c90-8735-44ba-856f-478245b6bc53";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is toegelaten</p>/n<p>de parkeerreglementering geldt over een afstand van meer dan 300 meter</p>/n<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>/n<p>het parkeren is voorbehouden voor volgende categorie van voertuigen: ${categorie_voertuig}</p>/n<p>het begin van de parkeerreglementering wordt aangeduid</p>/n<p>het einde van de parkeerreglementering wordt aangeduid</p>""" .

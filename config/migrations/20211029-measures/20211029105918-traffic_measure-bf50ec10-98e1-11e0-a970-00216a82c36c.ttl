@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/4e1249ce-6b1e-48fd-933f-26524210f2e9> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4e1249ce-6b1e-48fd-933f-26524210f2e9";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/304e54a6-eff8-4b37-8fb5-3081eb4f2ca4>,
+     <http://data.lblod.info/must-use-relations/352dbe32-6b22-4bd9-ab70-db97f3c5d03d>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/045802b4-339e-4989-8525-ddcd2e993bce>;
+   <http://purl.org/dc/terms/identifier> "bf50ec10-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/304e54a6-eff8-4b37-8fb5-3081eb4f2ca4> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "304e54a6-eff8-4b37-8fb5-3081eb4f2ca4";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/f304fa07025853d008cb86709fea2a4c19894ce5031f41b04076e3039bce466a>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/352dbe32-6b22-4bd9-ab70-db97f3c5d03d> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "352dbe32-6b22-4bd9-ab70-db97f3c5d03d";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/9a99ae7486d2f485d6540fb82b5c12d732788b46dcc66a2a5fcd0966929c6a43>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/045802b4-339e-4989-8525-ddcd2e993bce> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "045802b4-339e-4989-8525-ddcd2e993bce";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor lichte vrachtauto's en vrachtauto's</p>/n<p>de parkeerreglementering is beperkt tot een maximduur van ${beperking_tijd} minuten</p>" .

@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/f41fc8ec-59ba-4d32-81b2-be749ab885e2> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f41fc8ec-59ba-4d32-81b2-be749ab885e2";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/687f9603-af7e-42cd-b0b8-73e6350a8ba8>,
+     <http://data.lblod.info/must-use-relations/85b69a74-2142-4e58-b91e-3b155f5c62cb>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/dbe5cef9-b506-416b-a332-28e287eb36ae>;
+   <http://purl.org/dc/terms/identifier> "b03790d0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/687f9603-af7e-42cd-b0b8-73e6350a8ba8> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "687f9603-af7e-42cd-b0b8-73e6350a8ba8";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/22e5942e1f2f0e0e4162ec69933e317ede9c3c10200980665a682d30f19034e4>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/85b69a74-2142-4e58-b91e-3b155f5c62cb> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "85b69a74-2142-4e58-b91e-3b155f5c62cb";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0354a9248d379808250847432a584e4dc2be39d0eaec787dff319a30e407e053>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/dbe5cef9-b506-416b-a332-28e287eb36ae> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "dbe5cef9-b506-416b-a332-28e287eb36ae";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden links af te slaan</p>/n<p>de maatregel geldt niet voor fietsers</p>" .

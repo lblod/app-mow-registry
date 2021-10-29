@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/3f5f8630-8d1c-4a87-9868-a0aa342636ef> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3f5f8630-8d1c-4a87-9868-a0aa342636ef";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/d777a41a-588d-4681-aabf-b6767ab7c7fd>,
+     <http://data.lblod.info/must-use-relations/d5af833b-53da-4196-a40e-a7b76f6155c4>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/45895f19-0c22-4ef7-9a29-245a25afb0a8>;
+   <http://purl.org/dc/terms/identifier> "db9280f0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/d5af833b-53da-4196-a40e-a7b76f6155c4> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d5af833b-53da-4196-a40e-a7b76f6155c4";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ecedfa0ac528d4ba21050a5ff32e8f320fb7f1da82c799c29b1fa85fcf0a9024>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/d777a41a-588d-4681-aabf-b6767ab7c7fd> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d777a41a-588d-4681-aabf-b6767ab7c7fd";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/2721df3072ab4e96f50b345524806082f37252e7a1a802b14d640c3cfd7a1d49>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/45895f19-0c22-4ef7-9a29-245a25afb0a8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "45895f19-0c22-4ef7-9a29-245a25afb0a8";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de zone 30 wordt aangeduid</p>/n<p>de zone 30 wordt afgebakend. Het begin van de zone 30 wordt aangeduid</p>" .

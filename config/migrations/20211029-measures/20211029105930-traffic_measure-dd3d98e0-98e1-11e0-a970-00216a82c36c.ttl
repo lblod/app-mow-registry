@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/8b60e7eb-a3c9-4629-817e-53f5ad806d78> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8b60e7eb-a3c9-4629-817e-53f5ad806d78";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/27463d61-663b-4aaa-8a06-8fda9f904527>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ce9fe2c9-6806-472e-8d9d-39a7802c1e25>;
+   <http://purl.org/dc/terms/identifier> "dd3d98e0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/27463d61-663b-4aaa-8a06-8fda9f904527> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "27463d61-663b-4aaa-8a06-8fda9f904527";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/6e4088cc35ae34f65b8a1ba4350ce26e>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/ce9fe2c9-6806-472e-8d9d-39a7802c1e25> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ce9fe2c9-6806-472e-8d9d-39a7802c1e25";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>bestuurders mogen niet rijden, stilstaan of parkeren op de markeringen</p>" .

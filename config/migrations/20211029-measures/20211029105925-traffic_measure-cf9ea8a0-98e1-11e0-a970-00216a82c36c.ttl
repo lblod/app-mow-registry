@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/aff6f50a-63c4-4c6e-8a2c-02a068ae78b5> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "aff6f50a-63c4-4c6e-8a2c-02a068ae78b5";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/447f0c5c-0d86-4ad3-bb6c-ecff854342df>,
+     <http://data.lblod.info/must-use-relations/da20b82d-592c-4554-87da-541037405269>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/9dc02843-41c7-4855-bf2f-45d9dbfce002>;
+   <http://purl.org/dc/terms/identifier> "cf9ea8a0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/447f0c5c-0d86-4ad3-bb6c-ecff854342df> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "447f0c5c-0d86-4ad3-bb6c-ecff854342df";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4666c7f416e910d3b442c51c1c32bbe3ce9ad324c2f07badfad9610431bf1484>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/da20b82d-592c-4554-87da-541037405269> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "da20b82d-592c-4554-87da-541037405269";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/44354ebf53e7112f55f992b3290d810f5291438b536af1f3ca8e5c630e25c75d>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/9dc02843-41c7-4855-bf2f-45d9dbfce002> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9dc02843-41c7-4855-bf2f-45d9dbfce002";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verplicht te parkeren op de rijbaan</p>/n<p>het begin van de parkeerreglementering wordt aangeduid</p>" .

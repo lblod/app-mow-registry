@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/0bd6e495-4176-4753-82ec-ea7175ccfe8a> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0bd6e495-4176-4753-82ec-ea7175ccfe8a";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/0d81d0c1-a312-4af4-9fd6-ee57196cc16c>,
+     <http://data.lblod.info/must-use-relations/b07afc8c-dfeb-4e62-b07a-0632085e0a5c>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/d9130619-e4b9-4bd5-9c1f-e091640f67dc>;
+   <http://purl.org/dc/terms/identifier> "d6e27f90-60d7-11e3-bb9c-00216b58a9ba" .
+
+<http://data.lblod.info/must-use-relations/0d81d0c1-a312-4af4-9fd6-ee57196cc16c> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0d81d0c1-a312-4af4-9fd6-ee57196cc16c";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ec0dd82c6870eef371bcd7e3bb57707aab6f3533f94cdefbe1dc079edbc4c8a9>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/b07afc8c-dfeb-4e62-b07a-0632085e0a5c> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b07afc8c-dfeb-4e62-b07a-0632085e0a5c";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/3037b526b0e73c6764ef1071f2658b5ba74287d2fdb30a4657355dfb621b85fe>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/d9130619-e4b9-4bd5-9c1f-e091640f67dc> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d9130619-e4b9-4bd5-9c1f-e091640f67dc";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de fietsstraat wordt aangeduid</p>/n<p>de fietsstraat wordt afgebakend. Het begin van de fietsstraat wordt aangeduid </p>" .

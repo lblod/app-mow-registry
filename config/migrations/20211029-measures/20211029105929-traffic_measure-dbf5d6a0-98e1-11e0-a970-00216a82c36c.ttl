@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/0b3f00b9-9dec-4357-85bf-ab8a311f9f4e> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0b3f00b9-9dec-4357-85bf-ab8a311f9f4e";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/75832d43-ae74-434e-b8a9-a7a58a57259e>,
+     <http://data.lblod.info/must-use-relations/f86e960a-037f-411a-84aa-73e265fee9cb>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/d5aee39f-8f27-4344-bd79-c5c5970cddbc>;
+   <http://purl.org/dc/terms/identifier> "dbf5d6a0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/75832d43-ae74-434e-b8a9-a7a58a57259e> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "75832d43-ae74-434e-b8a9-a7a58a57259e";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b01d15be48cc1bd95ada28cae1c18e37e64fbb723a83950eb6f9b1126b63c692>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/f86e960a-037f-411a-84aa-73e265fee9cb> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f86e960a-037f-411a-84aa-73e265fee9cb";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/02ee9abc37a79c9b74cab7eb93cc00c69aeeacac3fb2f6c34733a34c5ab94e9a>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/d5aee39f-8f27-4344-bd79-c5c5970cddbc> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d5aee39f-8f27-4344-bd79-c5c5970cddbc";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van ruiters wordt aangeduid</p>/n<p>de weg wordt voorbehouden voor het verkeer van ruiters. Het begin van de voorbehouden weg wordt aangeduid</p>" .

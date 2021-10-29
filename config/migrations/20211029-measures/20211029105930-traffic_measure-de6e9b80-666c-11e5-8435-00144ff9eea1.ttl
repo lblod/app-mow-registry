@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/f756c4aa-010f-439d-9292-cb83436d8909> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f756c4aa-010f-439d-9292-cb83436d8909";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/4fa1c7e7-01dc-44b8-9c4c-7e772cfe9d92>,
+     <http://data.lblod.info/must-use-relations/15561c2d-6a8a-4f33-86de-928627371dc5>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/487d3089-d257-468f-9d24-c136b87d86d9>;
+   <http://purl.org/dc/terms/identifier> "de6e9b80-666c-11e5-8435-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/15561c2d-6a8a-4f33-86de-928627371dc5> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "15561c2d-6a8a-4f33-86de-928627371dc5";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b667a243b8ec32abc8cae6ff5cdff6dafb667cf1ddec6ff015824b451895d4d2>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/4fa1c7e7-01dc-44b8-9c4c-7e772cfe9d92> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4fa1c7e7-01dc-44b8-9c4c-7e772cfe9d92";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/84567323c818fdb559cc3df4dbc141d3e24efcf6f528473c5c0ec20e180e56e2>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/487d3089-d257-468f-9d24-c136b87d86d9> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "487d3089-d257-468f-9d24-c136b87d86d9";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is verboden</p>/n<p>het verbod geldt voor volgende categorie van voertuigen: ${categorie_voertuig}</p>" .

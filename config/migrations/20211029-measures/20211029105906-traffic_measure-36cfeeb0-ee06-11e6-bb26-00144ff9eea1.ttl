@@ -1,0 +1,22 @@
+
+<http://data.lblod.info/traffic-measure-concepts/11d8ef30-2359-4019-aba8-ebb78695aaf3> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "11d8ef30-2359-4019-aba8-ebb78695aaf3";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/534cee6c-907e-4c5c-af8c-3832a434d18b>,
+     <http://data.lblod.info/must-use-relations/737a66eb-4265-46c4-9b27-81de9a21d5c6>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/1b2bd998-ff05-43a4-948f-3fbf4af3517c>;
+   <http://purl.org/dc/terms/identifier> "36cfeeb0-ee06-11e6-bb26-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/534cee6c-907e-4c5c-af8c-3832a434d18b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "534cee6c-907e-4c5c-af8c-3832a434d18b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7d6a7b43528f9c71a42780a01dd1e43e1db1e2675c4f3e18effe6939bbc663ee>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/737a66eb-4265-46c4-9b27-81de9a21d5c6> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "737a66eb-4265-46c4-9b27-81de9a21d5c6";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/734eff1afee00937cb46123d801e75ac98a1d26e186d8f2386cc6df45e31d324>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/1b2bd998-ff05-43a4-948f-3fbf4af3517c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1b2bd998-ff05-43a4-948f-3fbf4af3517c";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>verboden rijrichting voor iedere bestuurder. Het verbod is niet van toepassing op het geheel van de openbare weg</p>/n<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A en speed pedelecs
+</p>""" .

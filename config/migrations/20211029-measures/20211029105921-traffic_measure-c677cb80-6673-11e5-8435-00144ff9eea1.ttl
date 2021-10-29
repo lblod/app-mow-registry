@@ -1,0 +1,22 @@
+
+<http://data.lblod.info/traffic-measure-concepts/b9c640fc-379d-4605-aaff-9619303c7a31> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b9c640fc-379d-4605-aaff-9619303c7a31";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/d943efdf-fd46-4336-8e1a-29e1398ae870>,
+     <http://data.lblod.info/must-use-relations/8ee99838-daa6-4761-98e9-67b81f30610d>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/3d5f67d8-9082-426f-bd70-10c5f10b33b6>;
+   <http://purl.org/dc/terms/identifier> "c677cb80-6673-11e5-8435-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/8ee99838-daa6-4761-98e9-67b81f30610d> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8ee99838-daa6-4761-98e9-67b81f30610d";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0b8edba107bc181f01ea9fcf241c76f6befff04e15a697acf1c6cdeb49e71868>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/d943efdf-fd46-4336-8e1a-29e1398ae870> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d943efdf-fd46-4336-8e1a-29e1398ae870";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/84567323c818fdb559cc3df4dbc141d3e24efcf6f528473c5c0ec20e180e56e2>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/3d5f67d8-9082-426f-bd70-10c5f10b33b6> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3d5f67d8-9082-426f-bd70-10c5f10b33b6";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is toegelaten</p>/n<p>het parkeren is voorbehouden voor volgende categorie van voertuigen: ${categorie_voertuig}; 
+het parkeren is voorbehouden tijdens volgende periode: ${beperking_tijd} </p>""" .

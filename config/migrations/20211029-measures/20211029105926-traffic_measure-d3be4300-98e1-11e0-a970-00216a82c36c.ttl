@@ -1,0 +1,23 @@
+
+<http://data.lblod.info/traffic-measure-concepts/3055753d-44e9-45b4-b3e1-a028dabbaf18> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3055753d-44e9-45b4-b3e1-a028dabbaf18";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/ee361c70-5166-4392-98d8-7c44cd5c02e9>,
+     <http://data.lblod.info/must-use-relations/062ce3d4-b1c4-46cd-9559-cd9a2eea6b82>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/62a1ba20-1974-4e5a-9a6c-0370639fc73c>;
+   <http://purl.org/dc/terms/identifier> "d3be4300-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/062ce3d4-b1c4-46cd-9559-cd9a2eea6b82> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "062ce3d4-b1c4-46cd-9559-cd9a2eea6b82";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/ee361c70-5166-4392-98d8-7c44cd5c02e9> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ee361c70-5166-4392-98d8-7c44cd5c02e9";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5446d50a99626e166d9c93fa1a1be0a5be5cb038388d837a5efdc316a441c5c0>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/62a1ba20-1974-4e5a-9a6c-0370639fc73c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "62a1ba20-1974-4e5a-9a6c-0370639fc73c";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is voorbehouden voor kampeerauto's</p>/n<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd};
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .

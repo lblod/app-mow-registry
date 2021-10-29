@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/fdb48b74-0d72-4325-8676-39529b129238> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fdb48b74-0d72-4325-8676-39529b129238";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/4b0a12aa-d361-479f-a4c7-3e364e545b87>,
+     <http://data.lblod.info/must-use-relations/db2823fb-4c66-46a8-a819-912f38d8a0cb>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e55cb8e0-ee2a-44de-a81c-3714d7939379>;
+   <http://purl.org/dc/terms/identifier> "d38112f0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/4b0a12aa-d361-479f-a4c7-3e364e545b87> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4b0a12aa-d361-479f-a4c7-3e364e545b87";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7caaef3cd26c046e13d8b8e83e779b6c77cb9e7330dd714ed902322f68be52e8>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/db2823fb-4c66-46a8-a819-912f38d8a0cb> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "db2823fb-4c66-46a8-a819-912f38d8a0cb";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5446d50a99626e166d9c93fa1a1be0a5be5cb038388d837a5efdc316a441c5c0>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/e55cb8e0-ee2a-44de-a81c-3714d7939379> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e55cb8e0-ee2a-44de-a81c-3714d7939379";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor kampeerauto's</p>/n<p>het parkeren toegelaten is beperkt tot de volgende uren: van ${begintijd} tot ${eindtijd}u.</p>" .

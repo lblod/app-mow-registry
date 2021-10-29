@@ -1,0 +1,22 @@
+
+<http://data.lblod.info/traffic-measure-concepts/d71c68bb-5e37-4c62-af04-542285ed5082> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d71c68bb-5e37-4c62-af04-542285ed5082";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/37492a14-ad5a-4cd0-9245-be385cfdc1b6>,
+     <http://data.lblod.info/must-use-relations/e8b5ad56-7f47-4158-bf91-732bd336a81b>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/7c9c56c8-a3dd-4170-a7a5-543c0bf43de9>;
+   <http://purl.org/dc/terms/identifier> "bc928f60-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/37492a14-ad5a-4cd0-9245-be385cfdc1b6> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "37492a14-ad5a-4cd0-9245-be385cfdc1b6";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/f74b9e8e4ddd1760f32d54063f96a3964846464bed031a942863f59f5187a268>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/e8b5ad56-7f47-4158-bf91-732bd336a81b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e8b5ad56-7f47-4158-bf91-732bd336a81b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/7c9c56c8-a3dd-4170-a7a5-543c0bf43de9> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7c9c56c8-a3dd-4170-a7a5-543c0bf43de9";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is voorbehouden voor motorfietsen, personenauto's, auto's voor dubbel gebruik en minibussen</p>/n<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd}</p>""" .

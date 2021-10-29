@@ -1,0 +1,39 @@
+
+<http://data.lblod.info/traffic-measure-concepts/b65e8034-d252-428d-bc33-3421ac24f240> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b65e8034-d252-428d-bc33-3421ac24f240";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/c8f7e8aa-76ff-4b9f-af8b-494c2d47e366>,
+     <http://data.lblod.info/must-use-relations/ac30180f-3a65-4813-835a-f6816461585c>,
+     <http://data.lblod.info/must-use-relations/38493677-26f3-45b3-86cf-5d96cda99b26>,
+     <http://data.lblod.info/must-use-relations/1ca046c0-d2d5-430c-b12c-169b13db48ab>,
+     <http://data.lblod.info/must-use-relations/53979122-6c96-4836-98d4-a455bfa21cb0>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/8b829db8-2209-457f-a383-c023c2cd4b80>;
+   <http://purl.org/dc/terms/identifier> "aae12421-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/1ca046c0-d2d5-430c-b12c-169b13db48ab> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1ca046c0-d2d5-430c-b12c-169b13db48ab";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e84d5732cf1299f012da33d3f8d76b0dfb7213ae86f0ed0fe76044f7f900424f>;
+   <http://purl.org/linked-data/cube#order> 4 .
+
+<http://data.lblod.info/must-use-relations/38493677-26f3-45b3-86cf-5d96cda99b26> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "38493677-26f3-45b3-86cf-5d96cda99b26";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/62da21c7e453f5de930d244fbcf47580bd1f1b1773faf0c4c15a81a8f2cc3879>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/53979122-6c96-4836-98d4-a455bfa21cb0> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "53979122-6c96-4836-98d4-a455bfa21cb0";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/439b3909b6eae9c6a87120b407e1bdcc0245cda415266347b1f4b930f3573535>;
+   <http://purl.org/linked-data/cube#order> 3 .
+
+<http://data.lblod.info/must-use-relations/ac30180f-3a65-4813-835a-f6816461585c> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ac30180f-3a65-4813-835a-f6816461585c";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/1b0064d6a66dc26109c3173acb5254c81e508aa875ff16764b6d45cb34ef651a>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/c8f7e8aa-76ff-4b9f-af8b-494c2d47e366> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c8f7e8aa-76ff-4b9f-af8b-494c2d47e366";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/202b9afdd4724ae01517ab7585e18953>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/templates/8b829db8-2209-457f-a383-c023c2cd4b80> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8b829db8-2209-457f-a383-c023c2cd4b80";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de voorrangsweg wordt aangeduid</p>/n<p>de voorrangsweg wordt aangeduid</p>/n<p>de bestuurders moeten stoppen en voorrang verlenen</p>/n<p>fietsers rijden in de twee rijrichtingen op de dwarslopende openbare weg die men gaat oprijden</p>/n<p>de plaats waar de bestuurders moeten stoppen ingevolge ${stop_verkeersteken} wordt aangeduid</p>" .

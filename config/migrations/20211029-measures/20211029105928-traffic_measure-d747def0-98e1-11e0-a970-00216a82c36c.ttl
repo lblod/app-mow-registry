@@ -1,0 +1,22 @@
+
+<http://data.lblod.info/traffic-measure-concepts/e4f5178f-ffba-4054-b69f-b13553d62350> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e4f5178f-ffba-4054-b69f-b13553d62350";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/1a7fd75c-0e13-42eb-a61b-f6d82047843c>,
+     <http://data.lblod.info/must-use-relations/5c750e64-c3b5-4e48-b40e-f7c383fa555d>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/21e73f06-2553-4552-bc44-cb4fe8291302>;
+   <http://purl.org/dc/terms/identifier> "d747def0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/1a7fd75c-0e13-42eb-a61b-f6d82047843c> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1a7fd75c-0e13-42eb-a61b-f6d82047843c";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/c013a71f9cd0f6084cd5beac514f11edb27aeb99cb9ed375150567c71db3b061>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/5c750e64-c3b5-4e48-b40e-f7c383fa555d> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5c750e64-c3b5-4e48-b40e-f7c383fa555d";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/21e73f06-2553-4552-bc44-cb4fe8291302> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "21e73f06-2553-4552-bc44-cb4fe8291302";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is voorbehouden voor motorfietsen</p>/n<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .

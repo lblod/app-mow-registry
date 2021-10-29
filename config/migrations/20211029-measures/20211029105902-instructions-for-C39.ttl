@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6cebe8cd9a145b9791d607b6b66fee19a080ab8efecdca98bef9dde1d7a3c228> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2bccf146-a56f-47f6-98be-2050075a1758> .
+
+<http://data.lblod.info/templates/2bccf146-a56f-47f6-98be-2050075a1758> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2bccf146-a56f-47f6-98be-2050075a1758";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders van voertuigen of slepen gebruikt voor het vervoer van zaken, waarvan de maximale toegelaten massa meer dan 3.500 kg bedraagt een gespan of een voertuig met meer dan twee wielen links in te halen</p>" .

@@ -1,0 +1,11 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/1a87027d46dd7d4a3cd3084db904dfe5d22e0cb0ae7dcc47ebed18eec7e52f81> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/5168a78e-7c02-455c-95df-1b1466c2cc5a>,
+     <http://data.lblod.info/templates/fc94b3ca-86ea-459a-8846-b91b0da54379> .
+
+<http://data.lblod.info/templates/5168a78e-7c02-455c-95df-1b1466c2cc5a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5168a78e-7c02-455c-95df-1b1466c2cc5a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin en het einde van het inhaalverbod worden aangeduid</p>" .
+
+<http://data.lblod.info/templates/fc94b3ca-86ea-459a-8846-b91b0da54379> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fc94b3ca-86ea-459a-8846-b91b0da54379";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders een gespan of een voertuig met meer dan twee wielen links in te halen</p>" .

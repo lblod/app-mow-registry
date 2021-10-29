@@ -1,0 +1,21 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/31bdd8a00cbe10bbe2908760820ca07226cb9bfd829e84e87b859d21d4bf6da5> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c8325d11-68d8-4d1c-9fa8-d9dc27c8dd6b>,
+     <http://data.lblod.info/templates/dd429699-599b-4c2a-b191-e8c6237e42ad>,
+     <http://data.lblod.info/templates/b8951105-07da-411e-8388-4ae3fc98ae37>,
+     <http://data.lblod.info/templates/e831c90e-ba55-4cd5-b70f-b6382618eddb> .
+
+<http://data.lblod.info/templates/b8951105-07da-411e-8388-4ae3fc98ae37> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b8951105-07da-411e-8388-4ae3fc98ae37";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers, fietsers en bestuurders van speed pedelecs wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/c8325d11-68d8-4d1c-9fa8-d9dc27c8dd6b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c8325d11-68d8-4d1c-9fa8-d9dc27c8dd6b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers en ruiters wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/dd429699-599b-4c2a-b191-e8c6237e42ad> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "dd429699-599b-4c2a-b191-e8c6237e42ad";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers en fietsers wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/e831c90e-ba55-4cd5-b70f-b6382618eddb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e831c90e-ba55-4cd5-b70f-b6382618eddb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van ruiters en fietsers wordt aangeduid</p>" .

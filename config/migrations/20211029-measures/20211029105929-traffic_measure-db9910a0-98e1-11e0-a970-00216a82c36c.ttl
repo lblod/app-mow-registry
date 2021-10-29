@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/6ba2a50f-a522-4eb2-9c90-9ef2a0b28cdf> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6ba2a50f-a522-4eb2-9c90-9ef2a0b28cdf";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/791891c1-6d67-483a-9537-bd97f0bc8d65>,
+     <http://data.lblod.info/must-use-relations/90351f68-2d2f-4303-bfd3-1f4e2f11add7>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/8b8935d4-40ee-4211-8580-2f0b64ad5736>;
+   <http://purl.org/dc/terms/identifier> "db9910a0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/791891c1-6d67-483a-9537-bd97f0bc8d65> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "791891c1-6d67-483a-9537-bd97f0bc8d65";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b4ce49f90460d0ed702ae714771dda6504e1e85b17eb7e89ec6fe00dfa444fbc>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/90351f68-2d2f-4303-bfd3-1f4e2f11add7> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "90351f68-2d2f-4303-bfd3-1f4e2f11add7";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5d898e118d9f413d489cefe38a675ecab0c3a1a554475275b32fdb1e7f3a25da>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/8b8935d4-40ee-4211-8580-2f0b64ad5736> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8b8935d4-40ee-4211-8580-2f0b64ad5736";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de autoweg wordt aangeduid</p>/n<p>het begin van de autoweg wordt aangeduid</p>" .

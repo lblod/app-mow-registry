@@ -1,0 +1,27 @@
+
+<http://data.lblod.info/traffic-measure-concepts/ad4536e2-569d-4be1-900a-1a4879b27266> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ad4536e2-569d-4be1-900a-1a4879b27266";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/b331d28a-a8d1-4155-986c-746ff7a83bc1>,
+     <http://data.lblod.info/must-use-relations/a3a2697d-13a1-4025-8913-fdb3f256eae4>,
+     <http://data.lblod.info/must-use-relations/c9c865a6-8782-4821-aa2a-42ceda819d69>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/b082fe6f-1f32-43fc-adb6-edcaf2b8460c>;
+   <http://purl.org/dc/terms/identifier> "b1fb87f0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/a3a2697d-13a1-4025-8913-fdb3f256eae4> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a3a2697d-13a1-4025-8913-fdb3f256eae4";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ef95e7f29f423cb55cfb085749607778bfaf770137e9b0cfc3362f374094985f>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/b331d28a-a8d1-4155-986c-746ff7a83bc1> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b331d28a-a8d1-4155-986c-746ff7a83bc1";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bc312fc26af5cf71e7616e1d9fd0e3a34f8c44b0d97dfa8ab8a532d1faac3b87>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/must-use-relations/c9c865a6-8782-4821-aa2a-42ceda819d69> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c9c865a6-8782-4821-aa2a-42ceda819d69";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/b082fe6f-1f32-43fc-adb6-edcaf2b8460c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b082fe6f-1f32-43fc-adb6-edcaf2b8460c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht de hindernis langs rechts voorbij te rijden</p>/n<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A</p>/n<p>de maatregel geldt niet voor bussen</p>" .

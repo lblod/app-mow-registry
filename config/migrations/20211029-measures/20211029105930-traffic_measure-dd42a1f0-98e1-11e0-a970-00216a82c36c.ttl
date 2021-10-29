@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/68ee3744-e756-45dc-99f2-2e28ac510488> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "68ee3744-e756-45dc-99f2-2e28ac510488";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/8b97ff87-0d27-4fe8-b3d3-83c1a66ccb1e>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/cc9d5ff0-5046-400d-8ad6-e2f1c961b381>;
+   <http://purl.org/dc/terms/identifier> "dd42a1f0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/8b97ff87-0d27-4fe8-b3d3-83c1a66ccb1e> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8b97ff87-0d27-4fe8-b3d3-83c1a66ccb1e";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/e735019fc999d0180cdb4afb2ea6b75a>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/cc9d5ff0-5046-400d-8ad6-e2f1c961b381> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cc9d5ff0-5046-400d-8ad6-e2f1c961b381";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten de rijstrook volgen om in de door de pijlen aangewezen richting te rijden</p>" .

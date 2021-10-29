@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/d7326583-a0e2-4508-a7d3-4a6afcf52ab1> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d7326583-a0e2-4508-a7d3-4a6afcf52ab1";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/53e12b02-add1-4624-9c5e-08c7fbdf7971>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/8ab1fa31-da05-4bba-af1a-dacc3d376021>;
+   <http://purl.org/dc/terms/identifier> "b0075910-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/53e12b02-add1-4624-9c5e-08c7fbdf7971> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "53e12b02-add1-4624-9c5e-08c7fbdf7971";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/11a07b567d603a2f01a987ce4feea54c709a57449554debc5f5ae63c602c722b>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/8ab1fa31-da05-4bba-af1a-dacc3d376021> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8ab1fa31-da05-4bba-af1a-dacc3d376021";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen of slepen waarvan de lengte, lading inbegrepen, groter is dan ${lengte_voertuig} meter</p>" .

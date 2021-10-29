@@ -1,0 +1,14 @@
+INSERT {
+  GRAPH ?g {
+    ?nodeShape a <http://www.w3.org/ns/shacl#NodeShape>, <http://www.w3.org/ns/shacl#Shape> ;
+      <http://mu.semte.ch/vocabularies/core/uuid> ?nodeShapeUuid ;
+      <http://www.w3.org/ns/shacl#targetClass> <http://data.vlaanderen.be/ns#Verkeersmaatregel> ;
+      <http://mu.semte.ch/vocabularies/ext/targetHasConcept> ?measureConcept .
+  }
+} WHERE {
+  GRAPH ?g {
+    ?measureConcept a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept> .
+  }
+  BIND(SHA256(CONCAT(STR(?measureConcept), "nodeShape")) as ?nodeShapeUuid) .
+  BIND(IRI(CONCAT("http://data.lblod.info/id/node-shapes/", ?nodeShapeUuid)) AS ?nodeShape) .
+}

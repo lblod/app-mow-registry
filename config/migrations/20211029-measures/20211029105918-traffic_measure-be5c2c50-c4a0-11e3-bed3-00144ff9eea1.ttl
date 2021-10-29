@@ -1,0 +1,22 @@
+
+<http://data.lblod.info/traffic-measure-concepts/f0da8fab-40ba-43ee-9058-067d6ab62857> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f0da8fab-40ba-43ee-9058-067d6ab62857";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/48a01d08-5313-48a9-bcd3-41339a09cf28>,
+     <http://data.lblod.info/must-use-relations/57019fe7-f59b-4618-90b4-6a4aa1a3018a>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/625f8865-e04f-4b85-9583-eb06ffca3f3a>;
+   <http://purl.org/dc/terms/identifier> "be5c2c50-c4a0-11e3-bed3-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/48a01d08-5313-48a9-bcd3-41339a09cf28> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "48a01d08-5313-48a9-bcd3-41339a09cf28";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5a99bb07ee0886bcbc996b67327b2977bc70e67ad9ee9649d7e24f44f68b4684>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/57019fe7-f59b-4618-90b4-6a4aa1a3018a> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "57019fe7-f59b-4618-90b4-6a4aa1a3018a";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e6f178e53fc9ae0d1d17616ef08d3873f6892bfc46acf1f8850a77d34d4f85d2>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/625f8865-e04f-4b85-9583-eb06ffca3f3a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "625f8865-e04f-4b85-9583-eb06ffca3f3a";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>ook het einde van de voetgangerszone wordt aangeduid</p>/n<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+fietsers hebben eveneens toegang. De toegang is beperkt ${beperking tijd_fiets}</p>""" .

@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/22e5942e1f2f0e0e4162ec69933e317ede9c3c10200980665a682d30f19034e4> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e71a8638-c354-4c40-ad18-80fca7b1474f> .
+
+<http://data.lblod.info/templates/e71a8638-c354-4c40-ad18-80fca7b1474f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e71a8638-c354-4c40-ad18-80fca7b1474f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden links af te slaan</p>" .

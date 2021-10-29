@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/f2da93bf-b96b-437e-a101-7e2c35742041> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f2da93bf-b96b-437e-a101-7e2c35742041";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/1e8c9292-c5f0-43c6-8d74-4d685fedfc2b>,
+     <http://data.lblod.info/must-use-relations/89ba9540-02cb-4e70-b899-baabf2b07a65>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/52cc3bc7-adb5-4cfd-ad48-4e1bdffbb0e7>;
+   <http://purl.org/dc/terms/identifier> "b017d3d0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/1e8c9292-c5f0-43c6-8d74-4d685fedfc2b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1e8c9292-c5f0-43c6-8d74-4d685fedfc2b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/89ba9540-02cb-4e70-b899-baabf2b07a65> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "89ba9540-02cb-4e70-b899-baabf2b07a65";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/69789f034ab0b39016cd2d17ac594edf1aaf3f5b7e167fb85025483c2bd63bf2>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/52cc3bc7-adb5-4cfd-ad48-4e1bdffbb0e7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "52cc3bc7-adb5-4cfd-ad48-4e1bdffbb0e7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen waarvan de breedte, lading inbegrepen, groter is dan ${breedte_voertuig} meter</p>/n<p>de maatregel geldt niet voor plaatselijk verkeer</p>" .

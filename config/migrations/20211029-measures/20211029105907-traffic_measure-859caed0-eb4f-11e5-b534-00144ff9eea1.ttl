@@ -1,0 +1,27 @@
+
+<http://data.lblod.info/traffic-measure-concepts/a1c60a56-fccc-4984-b7e0-c9ad4dd79e9e> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a1c60a56-fccc-4984-b7e0-c9ad4dd79e9e";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/40df12d2-9bfe-4b24-bbad-0bfe0f7d07cd>,
+     <http://data.lblod.info/must-use-relations/0ed99ba7-a940-4cbb-a04c-78a6978a72ec>,
+     <http://data.lblod.info/must-use-relations/5ae92753-efbb-4e41-9293-53b26d8a84f5>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/9d7a7cea-bcb8-4f55-a531-31fa2f480aba>;
+   <http://purl.org/dc/terms/identifier> "859caed0-eb4f-11e5-b534-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/0ed99ba7-a940-4cbb-a04c-78a6978a72ec> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0ed99ba7-a940-4cbb-a04c-78a6978a72ec";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0354a9248d379808250847432a584e4dc2be39d0eaec787dff319a30e407e053>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/40df12d2-9bfe-4b24-bbad-0bfe0f7d07cd> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "40df12d2-9bfe-4b24-bbad-0bfe0f7d07cd";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/must-use-relations/5ae92753-efbb-4e41-9293-53b26d8a84f5> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5ae92753-efbb-4e41-9293-53b26d8a84f5";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/22e5942e1f2f0e0e4162ec69933e317ede9c3c10200980665a682d30f19034e4>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/9d7a7cea-bcb8-4f55-a531-31fa2f480aba> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9d7a7cea-bcb8-4f55-a531-31fa2f480aba";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden links af te slaan</p>/n<p>de maatregel geldt niet voor ${categorie_voertuig}</p>/n<p>de maatregel geldt niet voor fietsers</p>" .

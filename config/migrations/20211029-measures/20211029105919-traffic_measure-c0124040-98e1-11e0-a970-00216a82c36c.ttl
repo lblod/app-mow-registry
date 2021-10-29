@@ -1,0 +1,27 @@
+
+<http://data.lblod.info/traffic-measure-concepts/17fee6f4-2bea-45b3-9c56-f924286646e8> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "17fee6f4-2bea-45b3-9c56-f924286646e8";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/6e4073ab-2435-4003-bcbb-17f8104b0b79>,
+     <http://data.lblod.info/must-use-relations/bdf1967e-7bad-441b-88f8-8c183348bb57>,
+     <http://data.lblod.info/must-use-relations/988a31f3-f3ef-4e3c-8f0b-879046b5332b>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a8116120-cfed-497a-83e8-4ea86d54e085>;
+   <http://purl.org/dc/terms/identifier> "c0124040-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/6e4073ab-2435-4003-bcbb-17f8104b0b79> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6e4073ab-2435-4003-bcbb-17f8104b0b79";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/735cd32e48f1535d2c9a1dc572e8e03a3d5907b7402675f901672d6c28d1a341>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/988a31f3-f3ef-4e3c-8f0b-879046b5332b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "988a31f3-f3ef-4e3c-8f0b-879046b5332b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/84567323c818fdb559cc3df4dbc141d3e24efcf6f528473c5c0ec20e180e56e2>;
+   <http://purl.org/linked-data/cube#order> 2 .
+
+<http://data.lblod.info/must-use-relations/bdf1967e-7bad-441b-88f8-8c183348bb57> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bdf1967e-7bad-441b-88f8-8c183348bb57";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/9a99ae7486d2f485d6540fb82b5c12d732788b46dcc66a2a5fcd0966929c6a43>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/a8116120-cfed-497a-83e8-4ea86d54e085> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a8116120-cfed-497a-83e8-4ea86d54e085";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor lichte vrachtauto's en vrachtauto's</p>/n<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>/n<p>het parkeren is voorbehouden voor volgende categorie van voertuigen: ${categorie_voertuig}</p>" .

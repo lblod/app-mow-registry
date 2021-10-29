@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/703f12b0-37bd-4b84-b2d4-bb501610a029> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "703f12b0-37bd-4b84-b2d4-bb501610a029";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/9b2eb665-ef65-4696-a9c1-ae7e8c383b85>,
+     <http://data.lblod.info/must-use-relations/a046f767-ded8-42fb-963d-bead41d99a84>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/3d92b5d4-14de-4d79-893b-952b0da37ac2>;
+   <http://purl.org/dc/terms/identifier> "2af48680-eead-11e6-bb26-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/9b2eb665-ef65-4696-a9c1-ae7e8c383b85> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9b2eb665-ef65-4696-a9c1-ae7e8c383b85";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/31bdd8a00cbe10bbe2908760820ca07226cb9bfd829e84e87b859d21d4bf6da5>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/a046f767-ded8-42fb-963d-bead41d99a84> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a046f767-ded8-42fb-963d-bead41d99a84";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a12dc2565be0dd45f62af20493a2dbc17d83b544db425a804bdbe56f6d99b8cd>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/3d92b5d4-14de-4d79-893b-952b0da37ac2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3d92b5d4-14de-4d79-893b-952b0da37ac2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers, fietsers en bestuurders van speed pedelecs wordt aangeduid</p>/n<p>de weg wordt voorbehouden voor het verkeer van voetgangers, fietsers en bestuurders van speed pedelecs. Het begin van de voorbehouden weg wordt aangeduid, alsook het deel van de weg dat bestemd is voor de verschillende categorie&euml;n van weggebruikers</p>" .

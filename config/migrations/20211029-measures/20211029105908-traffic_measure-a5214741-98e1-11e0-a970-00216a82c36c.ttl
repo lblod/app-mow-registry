@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/d58a9d1e-004d-4035-a952-1d9b44dc9546> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d58a9d1e-004d-4035-a952-1d9b44dc9546";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/d94afcb3-9519-468b-8559-69380a7fc33b>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/204859a8-b295-4e40-bf22-4654aa060450>;
+   <http://purl.org/dc/terms/identifier> "a5214741-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/d94afcb3-9519-468b-8559-69380a7fc33b> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d94afcb3-9519-468b-8559-69380a7fc33b";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e076d4553d8995d0739ad74dc30dbb5cf4095b6c0a9e9a68503e7a7da03f3b9e>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/204859a8-b295-4e40-bf22-4654aa060450> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "204859a8-b295-4e40-bf22-4654aa060450";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten voorrang verlenen</p>" .

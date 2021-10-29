@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/d92352e1-bafc-4dbd-843b-4e9a70d2212d> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d92352e1-bafc-4dbd-843b-4e9a70d2212d";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/2f55ec2f-2e27-4161-9d59-86d9d481a727>,
+     <http://data.lblod.info/must-use-relations/8766d21e-d830-48e5-8ed4-08073e56db41>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/6418b063-5e08-47bc-9576-1a878618da80>;
+   <http://purl.org/dc/terms/identifier> "b1326b90-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/2f55ec2f-2e27-4161-9d59-86d9d481a727> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2f55ec2f-2e27-4161-9d59-86d9d481a727";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ef95e7f29f423cb55cfb085749607778bfaf770137e9b0cfc3362f374094985f>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/8766d21e-d830-48e5-8ed4-08073e56db41> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8766d21e-d830-48e5-8ed4-08073e56db41";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/6418b063-5e08-47bc-9576-1a878618da80> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6418b063-5e08-47bc-9576-1a878618da80";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht links af te slaan</p>/n<p>de maatregel geldt niet voor bussen</p>" .

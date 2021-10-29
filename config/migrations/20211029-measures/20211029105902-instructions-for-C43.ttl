@@ -1,0 +1,11 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/1c6110b80aad28134ee6cc79cf506a65a0488d1c649841e152ffbdb5031bb5ee> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/5a3dd767-4e4b-48a1-83bf-1c56c488a5c5>,
+     <http://data.lblod.info/templates/4a06716b-ac2a-464e-bdbf-5f0a792c37b2> .
+
+<http://data.lblod.info/templates/4a06716b-ac2a-464e-bdbf-5f0a792c37b2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4a06716b-ac2a-464e-bdbf-5f0a792c37b2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders sneller te rijden dan ${snelheidsbeperking} km per uur</p>" .
+
+<http://data.lblod.info/templates/5a3dd767-4e4b-48a1-83bf-1c56c488a5c5> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5a3dd767-4e4b-48a1-83bf-1c56c488a5c5";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin en het einde van de opgelegde snelheidsbeperking worden aangeduid</p>" .

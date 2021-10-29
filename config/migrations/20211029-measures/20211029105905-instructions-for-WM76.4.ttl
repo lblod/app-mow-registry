@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/3643bf425d87dd787415022f5334b8f7> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/40f7f99a-9124-4d7a-9b59-36acf5dcb17a> .
+
+<http://data.lblod.info/templates/40f7f99a-9124-4d7a-9b59-36acf5dcb17a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "40f7f99a-9124-4d7a-9b59-36acf5dcb17a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen moeten de oversteekplaats volgen om de rijbaan over te steken</p>" .

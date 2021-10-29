@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/3775ecd9-f61a-4648-a8e5-f71749e154dc> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3775ecd9-f61a-4648-a8e5-f71749e154dc";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/4c3c664c-ff6d-4a22-8f65-86f41ee9cbbd>,
+     <http://data.lblod.info/must-use-relations/417f1549-f41c-4a10-b8a8-e61d2e117c75>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/fca6e730-cc21-42e2-8c9c-e934691fb85a>;
+   <http://purl.org/dc/terms/identifier> "07f15130-b21d-11e6-bb26-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/417f1549-f41c-4a10-b8a8-e61d2e117c75> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "417f1549-f41c-4a10-b8a8-e61d2e117c75";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bc312fc26af5cf71e7616e1d9fd0e3a34f8c44b0d97dfa8ab8a532d1faac3b87>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/4c3c664c-ff6d-4a22-8f65-86f41ee9cbbd> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4c3c664c-ff6d-4a22-8f65-86f41ee9cbbd";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e8cdf86215d2202a9001f93e1ed3b7577885fe972a799a30f29998bf0fb34e02>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/fca6e730-cc21-42e2-8c9c-e934691fb85a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fca6e730-cc21-42e2-8c9c-e934691fb85a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden in beide richtingen, voor iedere bestuurder</p>/n<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A</p>" .

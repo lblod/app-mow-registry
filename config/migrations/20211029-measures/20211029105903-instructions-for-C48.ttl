@@ -1,0 +1,11 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/55f0a4e186dc201149bd8509e0ea6fe363b86ef16f6f0766557a946572deb168> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/9ceb9101-7ad3-4d05-bc89-42d79dbe602a>,
+     <http://data.lblod.info/templates/2486e007-8a6a-4eec-adea-e013bd529e66> .
+
+<http://data.lblod.info/templates/2486e007-8a6a-4eec-adea-e013bd529e66> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2486e007-8a6a-4eec-adea-e013bd529e66";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders de cruise control of kruissnelheidsregelaar te gebruiken</p>" .
+
+<http://data.lblod.info/templates/9ceb9101-7ad3-4d05-bc89-42d79dbe602a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9ceb9101-7ad3-4d05-bc89-42d79dbe602a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin en het einde van het verbod de cruise control of kruissnelheidsregelaar te gebruiken worden aangeduid</p>" .

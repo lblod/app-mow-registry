@@ -1,0 +1,23 @@
+
+<http://data.lblod.info/traffic-measure-concepts/ea181c05-9f49-4b62-965f-aaca0e23fa78> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ea181c05-9f49-4b62-965f-aaca0e23fa78";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/225d0d39-4fb5-4763-af29-c7b2ac74bf46>,
+     <http://data.lblod.info/must-use-relations/c1a02743-f490-4023-9a00-647256f51ef9>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/071af325-5f6f-4119-86e4-8b8feaa6c80f>;
+   <http://purl.org/dc/terms/identifier> "cb576200-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/225d0d39-4fb5-4763-af29-c7b2ac74bf46> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "225d0d39-4fb5-4763-af29-c7b2ac74bf46";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/c1a02743-f490-4023-9a00-647256f51ef9> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c1a02743-f490-4023-9a00-647256f51ef9";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/47c9ffa15a0316eb8144e48eed44bef295c2ea742b37ab6675268611cbbb5b64>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/071af325-5f6f-4119-86e4-8b8feaa6c80f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "071af325-5f6f-4119-86e4-8b8feaa6c80f";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het is verplicht te parkeren deels op de berm of op het trottoir</p>/n<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd};
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .

@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/158a539c-949f-4e5e-9499-21823560933f> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "158a539c-949f-4e5e-9499-21823560933f";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/854db44b-c7f0-4ecc-8f21-143323c184f0>,
+     <http://data.lblod.info/must-use-relations/b769ed7a-eefe-4253-9ecd-3268468004b5>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/153d596f-bdcf-4252-809b-6d8b8276a971>;
+   <http://purl.org/dc/terms/identifier> "c14a7220-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/854db44b-c7f0-4ecc-8f21-143323c184f0> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "854db44b-c7f0-4ecc-8f21-143323c184f0";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/9a99ae7486d2f485d6540fb82b5c12d732788b46dcc66a2a5fcd0966929c6a43>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/b769ed7a-eefe-4253-9ecd-3268468004b5> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b769ed7a-eefe-4253-9ecd-3268468004b5";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/153d596f-bdcf-4252-809b-6d8b8276a971> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "153d596f-bdcf-4252-809b-6d8b8276a971";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor lichte vrachtauto's en vrachtauto's</p>/n<p>het parkeren is betalend</p>" .

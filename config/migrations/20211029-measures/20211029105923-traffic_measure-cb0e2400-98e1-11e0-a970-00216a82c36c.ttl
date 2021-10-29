@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/99d5ffd7-7b49-4a0b-a195-9952958d049d> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "99d5ffd7-7b49-4a0b-a195-9952958d049d";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/6eed606a-1487-44d5-a53e-cd54e44291fb>,
+     <http://data.lblod.info/must-use-relations/fb5c4c98-64de-4afc-a9ec-3af7c05038af>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/4064b14d-b194-484f-a8bc-b650777c7b6f>;
+   <http://purl.org/dc/terms/identifier> "cb0e2400-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/6eed606a-1487-44d5-a53e-cd54e44291fb> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6eed606a-1487-44d5-a53e-cd54e44291fb";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/47c9ffa15a0316eb8144e48eed44bef295c2ea742b37ab6675268611cbbb5b64>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/must-use-relations/fb5c4c98-64de-4afc-a9ec-3af7c05038af> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fb5c4c98-64de-4afc-a9ec-3af7c05038af";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7caaef3cd26c046e13d8b8e83e779b6c77cb9e7330dd714ed902322f68be52e8>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/templates/4064b14d-b194-484f-a8bc-b650777c7b6f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4064b14d-b194-484f-a8bc-b650777c7b6f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verplicht te parkeren deels op de berm of op het trottoir</p>/n<p>het parkeren toegelaten is beperkt tot de volgende uren: van ${begintijd} tot ${eindtijd}u.</p>" .

@@ -1,0 +1,15 @@
+
+<http://data.lblod.info/traffic-measure-concepts/fb40203c-d644-4f4a-a8f3-45163a9dcbe6> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fb40203c-d644-4f4a-a8f3-45163a9dcbe6";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/5c8d1a6a-25c2-4d2c-b8c3-b9b61a4456e6>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/522c9fff-6bd4-4ddf-85c9-f36c818e875d>;
+   <http://purl.org/dc/terms/identifier> "dd38ddf0-98e1-11e0-a970-00216a82c36c" .
+
+<http://data.lblod.info/must-use-relations/5c8d1a6a-25c2-4d2c-b8c3-b9b61a4456e6> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5c8d1a6a-25c2-4d2c-b8c3-b9b61a4456e6";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/34b31ed053d2b54d905867eddeeb7bcf>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/522c9fff-6bd4-4ddf-85c9-f36c818e875d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "522c9fff-6bd4-4ddf-85c9-f36c818e875d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voetgangers moeten de oversteekplaats volgen om de rijbaan over te steken</p>" .

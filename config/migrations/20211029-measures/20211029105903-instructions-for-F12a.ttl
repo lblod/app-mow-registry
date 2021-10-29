@@ -1,0 +1,6 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a03dc4c14ea95352be3a61e999b541bf18b13f979a0a8fe127feee53b4fae490> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ab41d5d3-23a6-4a23-a872-cf9ba8e208da> .
+
+<http://data.lblod.info/templates/ab41d5d3-23a6-4a23-a872-cf9ba8e208da> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ab41d5d3-23a6-4a23-a872-cf9ba8e208da";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het (woon)erf wordt afgebakend. Het begin van het (woon)erf wordt aangeduid</p>" .

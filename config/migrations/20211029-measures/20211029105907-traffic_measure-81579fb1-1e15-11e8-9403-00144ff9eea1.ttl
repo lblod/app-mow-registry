@@ -1,0 +1,21 @@
+
+<http://data.lblod.info/traffic-measure-concepts/7b5c538f-6264-487c-9dba-1ec7105e1da9> a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7b5c538f-6264-487c-9dba-1ec7105e1da9";
+   <http://mu.semte.ch/vocabularies/ext/relation> <http://data.lblod.info/must-use-relations/5cc7140d-e9c0-46f7-8aaa-d60807e23ef2>,
+     <http://data.lblod.info/must-use-relations/4f77eb50-d048-4ed0-9cc8-e8e6cbd44ef8>;
+   <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ff114b65-38a8-4b5a-aa52-13a0d55043d9>;
+   <http://purl.org/dc/terms/identifier> "81579fb1-1e15-11e8-9403-00144ff9eea1" .
+
+<http://data.lblod.info/must-use-relations/4f77eb50-d048-4ed0-9cc8-e8e6cbd44ef8> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4f77eb50-d048-4ed0-9cc8-e8e6cbd44ef8";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260>;
+   <http://purl.org/linked-data/cube#order> 1 .
+
+<http://data.lblod.info/must-use-relations/5cc7140d-e9c0-46f7-8aaa-d60807e23ef2> a <http://mu.semte.ch/vocabularies/ext/MustUseRelation>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5cc7140d-e9c0-46f7-8aaa-d60807e23ef2";
+   <http://mu.semte.ch/vocabularies/ext/concept> <http://data.vlaanderen.be/id/concept/Verkeersbordconcept/dfa07fdaeb6870f1e2922ba694f0fbf5b929f2f9249b785d7c0591b0201ba4c8>;
+   <http://purl.org/linked-data/cube#order> 0 .
+
+<http://data.lblod.info/templates/ff114b65-38a8-4b5a-aa52-13a0d55043d9> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ff114b65-38a8-4b5a-aa52-13a0d55043d9";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders te keren</p>/n<p>de maatregel geldt alleen voor de bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan ${massa} ton</p>" .
