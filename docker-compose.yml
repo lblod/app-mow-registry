@@ -61,7 +61,7 @@ services:
     restart: always
     logging: *default-logging
   resource:
-    image: semtech/mu-cl-resources:feature-inheritance
+    image: semtech/mu-cl-resources:latest
     links:
       - db:database
     volumes:
