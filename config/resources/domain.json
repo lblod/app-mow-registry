@@ -71,6 +71,12 @@
       "name": "concept",
       "class": "ext:Concept",
       "super": ["resource"],
+      "attributes": {
+        "valid": {
+          "type": "boolean",
+          "predicate": "ext:valid"
+        }
+      },
       "relationships": {
         "templates": {
           "predicate": "ext:template",
