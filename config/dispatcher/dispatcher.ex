@@ -10,7 +10,7 @@ defmodule Dispatcher do
   ]
 
   define_layers [ :api, :frontend, :not_found]
-  
+
   options "/*path", _ do
     conn
     |> Plug.Conn.put_resp_header( "access-control-allow-headers", "content-type,accept" )
@@ -134,6 +134,10 @@ defmodule Dispatcher do
   ###############################################################
   match "/mock/sessions/*path", %{ accept: %{any: true}, layer: :api} do
     Proxy.forward conn, path, "http://mocklogin/sessions/"
+  end
+
+  match "/sessions/*path", %{ accept: %{any: true}, layer: :api} do
+    Proxy.forward conn, path, "http://login/sessions/"
   end
 
   ###############################################################

@@ -98,3 +98,7 @@ services:
     image: semtech/static-file-service:0.2.0
     volumes:
       - ./data/static-files:/data
+  login:
+    image: semtech/mu-login-service:2.9.0
+    links:
+      - db:database
