@@ -102,3 +102,6 @@ services:
     image: semtech/mu-login-service:2.9.0
     links:
       - db:database
+    environment:
+      USERS_GRAPH: "http://mu.semte.ch/graphs/users"
+      SESSIONS_GRAPH: "http://mu.semte.ch/graphs/sessions"
