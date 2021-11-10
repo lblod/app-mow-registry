@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "scripts": [
+    {
+      "documentation": {
+        "command": "generate-login",
+        "description": "generate a login account",
+        "arguments": [
+        ]
+      },
+      "environment": {
+        "image": "ruby",
+        "interactive": true,
+        "script": "generate-login/run.sh"
+      },
+      "mounts": {
+        "app": "/project/"
+      }
+    }
+  ]
+}
