@@ -1,0 +1,30 @@
+DELETE {
+GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+?s <http://www.w3.org/2004/02/skos/core#scopeNote> ?definition
+}
+}
+INSERT { 
+GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+?s <http://www.w3.org/2004/02/skos/core#scopeNote> ?newDefinition 
+}
+}
+WHERE {
+?s <http://www.w3.org/2004/02/skos/core#scopeNote> ?definition
+      FILTER langMatches( lang(?definition), "*" )
+BIND(STR(?definition) AS ?newDefinition)
+};
+DELETE {
+GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+?s <http://www.w3.org/2004/02/skos/core#definition> ?definition
+}
+}
+INSERT { 
+GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+?s <http://www.w3.org/2004/02/skos/core#definition> ?newDefinition 
+}
+}
+WHERE {
+?s <http://www.w3.org/2004/02/skos/core#definition> ?definition
+      FILTER langMatches( lang(?definition), "*" )
+BIND(STR(?definition) AS ?newDefinition)
+}
