@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeerslichtconcept/ae0b8b2540921e82de0df629ec17622c> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/db6bcb09-ef92-4c9e-934d-bbb2d6635568> .
-
-<http://data.lblod.info/templates/db6bcb09-ef92-4c9e-934d-bbb2d6635568> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "db6bcb09-ef92-4c9e-934d-bbb2d6635568";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders van voertuigen van geregelde diensten voor gemeenschappelijk vervoer moeten de lichten van de bijzondere verkeerslichten voor het regelen van het verkeer van voertuigen van geregelde diensten voor gemeenschappelijk vervoer opvolgen</p>" .

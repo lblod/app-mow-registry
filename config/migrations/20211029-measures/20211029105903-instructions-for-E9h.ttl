@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5446d50a99626e166d9c93fa1a1be0a5be5cb038388d837a5efdc316a441c5c0> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e743ac8f-40b0-4401-b0b4-f857d1b1625d> .
-
-<http://data.lblod.info/templates/e743ac8f-40b0-4401-b0b4-f857d1b1625d> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "e743ac8f-40b0-4401-b0b4-f857d1b1625d";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor kampeerauto's</p>" .

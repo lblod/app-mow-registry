@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ecedfa0ac528d4ba21050a5ff32e8f320fb7f1da82c799c29b1fa85fcf0a9024> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/7a1e2f6d-6ac8-49c9-8ae6-094aac0c5a1a> .
-
-<http://data.lblod.info/templates/7a1e2f6d-6ac8-49c9-8ae6-094aac0c5a1a> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "7a1e2f6d-6ac8-49c9-8ae6-094aac0c5a1a";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de zone 30 wordt aangeduid</p>" .

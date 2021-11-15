@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/9a99ae7486d2f485d6540fb82b5c12d732788b46dcc66a2a5fcd0966929c6a43> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/fa625c14-7e77-4226-996f-35af82702471> .
-
-<http://data.lblod.info/templates/fa625c14-7e77-4226-996f-35af82702471> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "fa625c14-7e77-4226-996f-35af82702471";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor lichte vrachtauto's en vrachtauto's</p>" .

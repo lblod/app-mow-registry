@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/32a6431ad5ad20c5bc5eca29bcbbe0ce6bca180ac0a7fceed6e05127e60c16f0> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/25ebe6d0-41ea-49a4-bda9-13f5c7792caf> .
-
-<http://data.lblod.info/templates/25ebe6d0-41ea-49a4-bda9-13f5c7792caf> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "25ebe6d0-41ea-49a4-bda9-13f5c7792caf";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>voetgangers en fietsers moeten het deel van de openbare weg voor hen voorbehouden volgen</p>" .

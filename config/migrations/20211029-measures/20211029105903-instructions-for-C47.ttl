@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/36e7f05884aeb3cfe0ed5064713ca63ce7d9817dd14921eae9bd221766153216> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/10dd2dd9-6fae-460b-a325-862f6fe4bd7e> .
-
-<http://data.lblod.info/templates/10dd2dd9-6fae-460b-a325-862f6fe4bd7e> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "10dd2dd9-6fae-460b-a325-862f6fe4bd7e";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders de tolpost voorbij te rijden zonder te stoppen</p>" .

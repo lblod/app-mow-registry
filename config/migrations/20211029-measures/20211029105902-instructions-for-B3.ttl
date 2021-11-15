@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/db7f076463027c70137d3b899b76586aa8ea0cc38001ed8d880d37d4810410a0> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ae2a368b-54b9-4054-a1e8-b3e02e141ef4> .
-
-<http://data.lblod.info/templates/ae2a368b-54b9-4054-a1e8-b3e02e141ef4> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "ae2a368b-54b9-4054-a1e8-b3e02e141ef4";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het verkeersbord B1 wordt aangekondigd. De bestuurders zullen over ${aanduiding_afstand} meter voorrang moeten verlenen</p>" .

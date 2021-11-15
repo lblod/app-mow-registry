@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/81dacb65d15dc41b3f92ffeb9b6d8a776180c1261b69d74db5783bcdb3d3e79f> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/4f4a2b32-04db-4038-8cd0-cf6786c15406> .
-
-<http://data.lblod.info/templates/4f4a2b32-04db-4038-8cd0-cf6786c15406> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "4f4a2b32-04db-4038-8cd0-cf6786c15406";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van motorvoertuigen met vier wielen, geconstrueerd voor onverhard terrein, met een open carrosserie, een stuur als op een motorfiets en een zadel</p>" .

@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/d2eaca5fcc21522d4f1732550bc78e8b6a935e974c6350896ee59ed2c92fbf42> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/516b5fde-ce24-42fe-a36c-bd1c0734dbfa> .
-
-<http://data.lblod.info/templates/516b5fde-ce24-42fe-a36c-bd1c0734dbfa> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "516b5fde-ce24-42fe-a36c-bd1c0734dbfa";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>${verkeersregel}. Deze verkeersregel is slechts van toepassing op ${beschrijving_rijstroken}</p>" .

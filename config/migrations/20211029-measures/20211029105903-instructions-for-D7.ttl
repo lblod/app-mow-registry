@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7b796f77edc7d487881bd4fbc5faebda6d803ff899740de440211257d706c136> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/085eb2c1-a0dc-4b21-887c-d12db3a2e778> .
-
-<http://data.lblod.info/templates/085eb2c1-a0dc-4b21-887c-d12db3a2e778> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "085eb2c1-a0dc-4b21-887c-d12db3a2e778";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen klasse A moeten het ${rijrichting}fietspad volgen, voor zover het in de door hen gevolgde rijrichting is gesignaleerd</p>" .

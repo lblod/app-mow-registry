@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/54047e29ccc04a916773bfca49532da57a6cbb2d13cca7c0dd6b676b84e75576> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/cda313cf-62d0-45e5-8727-b7e27b5d3f7f> .
-
-<http://data.lblod.info/templates/cda313cf-62d0-45e5-8727-b7e27b5d3f7f> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "cda313cf-62d0-45e5-8727-b7e27b5d3f7f";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers mogen de driekleurige verkeerslichten voorbijrijden om rechts af te slaan, wanneer het verkeerslicht op rood of oranjegeel staat, op voorwaarde dat zij hierbij voorrang verlenen aan de andere weggebruikers die zich verplaatsen op de openbare weg of op de rijbaan</p>" .

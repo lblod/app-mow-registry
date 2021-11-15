@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/87633686f31916bfc50b2225ce37ec54affbc79f79e9eea1e4a5cf64740697f4> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2155e96b-02bc-4fc2-ab6c-abd01297cf2a> .
-
-<http://data.lblod.info/templates/2155e96b-02bc-4fc2-ab6c-abd01297cf2a> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "2155e96b-02bc-4fc2-ab6c-abd01297cf2a";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van speed pedelecs mogen in de twee richtingen rijden</p>" .

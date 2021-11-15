@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/538c99f7923838b697983a850a957fce6013d760e3a55b55b54bd5e212d40a61> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c52c946b-4105-4dae-abd7-5eb324f02623> .
-
-<http://data.lblod.info/templates/c52c946b-4105-4dae-abd7-5eb324f02623> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "c52c946b-4105-4dae-abd7-5eb324f02623";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>bestuurders moeten een welbepaalde richting kiezen. Volgende richtingen worden aangeduid: ${richting}</p>" .

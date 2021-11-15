@@ -67,6 +67,49 @@
       "super": ["shape"],
       "new-resource-base": "http://data.lblod.info/node-shapes/"
     },
+    "code-lists": {
+      "name": "codeList",
+      "class": "lblodmow:Codelist",
+      "attributes": {
+        "label":{
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships":{
+        "codeListOptions":{
+          "predicate": "skos:inScheme",
+          "target": "codeListOption",
+          "cardinality": "many",
+          "inverse": true
+        },
+        "mappings": {
+          "predicate": "ext:codeList",
+          "target": "mapping",
+          "cardinality": "many",
+          "inverse": true
+        }
+      },
+      "new-resource-base": "http://lblod.data.gift/concept-schemes/"
+    },
+    "code-list-options": {
+      "name": "codeListOption",
+      "class": "skos:Concept",
+      "attributes": {
+        "label":{
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships":{
+        "codeList":{
+          "predicate": "skos:inScheme",
+          "target": "codeList",
+          "cardinality": "one"
+        }
+      },
+      "new-resource-base": "http://lblod.data.gift/concepts/"
+    },
     "concepts":{
       "name": "concept",
       "class": "ext:Concept",
@@ -123,6 +166,11 @@
         }
       },
       "relationships": {
+        "codeList": {
+          "predicate": "ext:codeList",
+          "target": "codeList",
+          "cardinality": "one"
+        },
         "expects": {
           "predicate": "ext:expects",
           "target": "shape",

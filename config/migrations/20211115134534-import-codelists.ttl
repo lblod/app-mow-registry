@@ -1,0 +1,426 @@
+
+      <http://lblod.data.gift/concept-schemes/cdf4766b-8348-4e2b-a798-44e38d36a34f> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "cdf4766b-8348-4e2b-a798-44e38d36a34f" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "aantal" .
+    
+      <http://lblod.data.gift/concepts/f4e1b236-5669-4a1f-b006-ba7eb11d4367> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "f4e1b236-5669-4a1f-b006-ba7eb11d4367" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/cdf4766b-8348-4e2b-a798-44e38d36a34f> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "2" .
+      
+      <http://lblod.data.gift/concepts/23727f29-5052-4d55-a15b-27690eb82e8b> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "23727f29-5052-4d55-a15b-27690eb82e8b" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/cdf4766b-8348-4e2b-a798-44e38d36a34f> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "3" .
+      
+      <http://lblod.data.gift/concept-schemes/70885603-cb1a-484c-a685-fbce7af4a388> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "70885603-cb1a-484c-a685-fbce7af4a388" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "categorieVoertuig" .
+    
+      <http://lblod.data.gift/concepts/3202b95d-f82e-4d97-8d39-b4d0efa4f96c> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "3202b95d-f82e-4d97-8d39-b4d0efa4f96c" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/70885603-cb1a-484c-a685-fbce7af4a388> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "fietsen" .
+      
+      <http://lblod.data.gift/concepts/730ff564-8507-4acc-b9a6-c0455099a4ad> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "730ff564-8507-4acc-b9a6-c0455099a4ad" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/70885603-cb1a-484c-a685-fbce7af4a388> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "bromfietsen" .
+      
+      <http://lblod.data.gift/concepts/e6d04717-4989-4ebe-a6d9-d463508491c1> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "e6d04717-4989-4ebe-a6d9-d463508491c1" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/70885603-cb1a-484c-a685-fbce7af4a388> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "motorfietsen" .
+      
+      <http://lblod.data.gift/concepts/c0dafa73-57dc-482e-9d45-970b4d9a3120> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "c0dafa73-57dc-482e-9d45-970b4d9a3120" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/70885603-cb1a-484c-a685-fbce7af4a388> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "voor het vervoer van passagiers ontworpen en gebouwde voertuigen met meer dan acht zitplaatsen, die van de bestuurder niet meegerekend" .
+      
+      <http://lblod.data.gift/concepts/d84bd659-6376-4778-8997-0f3e2a484b3c> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "d84bd659-6376-4778-8997-0f3e2a484b3c" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/70885603-cb1a-484c-a685-fbce7af4a388> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "voertuigen bestemd voor het woon-werkverkeer" .
+      
+      <http://lblod.data.gift/concepts/d27b2a1d-7659-4dd1-9d19-0455c74ba5c9> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "d27b2a1d-7659-4dd1-9d19-0455c74ba5c9" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/70885603-cb1a-484c-a685-fbce7af4a388> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "taxi's" .
+      
+      <http://lblod.data.gift/concept-schemes/2cc77237-df07-4b8e-bc43-442cc097200b> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "2cc77237-df07-4b8e-bc43-442cc097200b" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "categorieVoertuig" .
+    
+      <http://lblod.data.gift/concepts/7cb78fed-658a-4c2b-8b31-5d027acb3dfa> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "7cb78fed-658a-4c2b-8b31-5d027acb3dfa" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/2cc77237-df07-4b8e-bc43-442cc097200b> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "fietsen" .
+      
+      <http://lblod.data.gift/concepts/0d25b828-7469-4b03-84ba-d09e4e17d649> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "0d25b828-7469-4b03-84ba-d09e4e17d649" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/2cc77237-df07-4b8e-bc43-442cc097200b> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "bromfietsen" .
+      
+      <http://lblod.data.gift/concepts/c9e17760-1ded-4298-8e2e-817a199349f3> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "c9e17760-1ded-4298-8e2e-817a199349f3" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/2cc77237-df07-4b8e-bc43-442cc097200b> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "motorfietsen" .
+      
+      <http://lblod.data.gift/concepts/86c74ec9-e9b0-4a61-93fc-7d35410051dd> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "86c74ec9-e9b0-4a61-93fc-7d35410051dd" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/2cc77237-df07-4b8e-bc43-442cc097200b> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "voor het vervoer van passagiers ontworpen en gebouwde voertuigen met meer dan acht zitplaatsen, die van de bestuurder niet meegerekend" .
+      
+      <http://lblod.data.gift/concepts/93616505-3a0a-46d0-8e7a-af6c18d2dd2a> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "93616505-3a0a-46d0-8e7a-af6c18d2dd2a" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/2cc77237-df07-4b8e-bc43-442cc097200b> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "de voertuigen bestemd voor het woon-werkverkeer" .
+      
+      <http://lblod.data.gift/concept-schemes/1a6fa842-0b50-4d41-9922-934cef57ed26> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "1a6fa842-0b50-4d41-9922-934cef57ed26" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "tijdensVolgendTijdsvenster" .
+    
+      <http://lblod.data.gift/concepts/39124d6d-9497-4b70-8e63-a4bde534384f> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "39124d6d-9497-4b70-8e63-a4bde534384f" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/1a6fa842-0b50-4d41-9922-934cef57ed26> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "op maandag" .
+      
+      <http://lblod.data.gift/concepts/b4ed6e96-e3ea-43aa-b5fe-a6cf5b5dd9d2> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "b4ed6e96-e3ea-43aa-b5fe-a6cf5b5dd9d2" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/1a6fa842-0b50-4d41-9922-934cef57ed26> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "op dinsdag" .
+      
+      <http://lblod.data.gift/concepts/f5d4ac60-34ea-422f-8af3-d06cba8322a9> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "f5d4ac60-34ea-422f-8af3-d06cba8322a9" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/1a6fa842-0b50-4d41-9922-934cef57ed26> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "op woensdag" .
+      
+      <http://lblod.data.gift/concepts/9b5c5290-7acf-4e35-a03f-9f098c103305> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "9b5c5290-7acf-4e35-a03f-9f098c103305" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/1a6fa842-0b50-4d41-9922-934cef57ed26> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "op donderdag" .
+      
+      <http://lblod.data.gift/concepts/ae4fced2-00eb-4256-8dd9-b7cc6bc1de7d> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "ae4fced2-00eb-4256-8dd9-b7cc6bc1de7d" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/1a6fa842-0b50-4d41-9922-934cef57ed26> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "op vrijdag" .
+      
+      <http://lblod.data.gift/concepts/ab07f8d3-8024-4ad9-855f-aad06364a2a2> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "ab07f8d3-8024-4ad9-855f-aad06364a2a2" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/1a6fa842-0b50-4d41-9922-934cef57ed26> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "op zaterdag" .
+      
+      <http://lblod.data.gift/concepts/01f49b5f-afe4-4bb0-9227-0007c162cdfe> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "01f49b5f-afe4-4bb0-9227-0007c162cdfe" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/1a6fa842-0b50-4d41-9922-934cef57ed26> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "van maandag tot en met vrijdag" .
+      
+      <http://lblod.data.gift/concepts/3d006195-f6be-4a08-b3fe-e4f014afafd6> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "3d006195-f6be-4a08-b3fe-e4f014afafd6" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/1a6fa842-0b50-4d41-9922-934cef57ed26> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "van zaterdag tot en met zondag" .
+      
+      <http://lblod.data.gift/concepts/a24a0dd7-96a1-4bf7-b50e-030f1a880f58> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "a24a0dd7-96a1-4bf7-b50e-030f1a880f58" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/1a6fa842-0b50-4d41-9922-934cef57ed26> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "van maag tot en met vrijdag van 8 tot 16 uur" .
+      
+      <http://lblod.data.gift/concept-schemes/289fa3a1-059b-4515-9f64-01c26f94b18a> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "289fa3a1-059b-4515-9f64-01c26f94b18a" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "typeParkeerkaart" .
+    
+      <http://lblod.data.gift/concepts/4eb6b10b-0c97-4c6d-b4bd-29c8551728df> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "4eb6b10b-0c97-4c6d-b4bd-29c8551728df" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/289fa3a1-059b-4515-9f64-01c26f94b18a> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "parkeerkaart" .
+      
+      <http://lblod.data.gift/concepts/584e82ab-f111-4594-8dc9-a4f360d727b6> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "584e82ab-f111-4594-8dc9-a4f360d727b6" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/289fa3a1-059b-4515-9f64-01c26f94b18a> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "bewonerskaart" .
+      
+      <http://lblod.data.gift/concepts/3b8f8854-7928-41be-b26d-cbe38cc315ef> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "3b8f8854-7928-41be-b26d-cbe38cc315ef" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/289fa3a1-059b-4515-9f64-01c26f94b18a> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "parkeerkaart voor autodelen" .
+      
+      <http://lblod.data.gift/concept-schemes/0d475a68-f824-4949-adf3-435862b7eb9e> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "0d475a68-f824-4949-adf3-435862b7eb9e" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "maximumduurBetalendParkeren" .
+    
+      <http://lblod.data.gift/concepts/df94ac95-8ee5-49f9-9972-6bcc4e4b1872> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "df94ac95-8ee5-49f9-9972-6bcc4e4b1872" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/0d475a68-f824-4949-adf3-435862b7eb9e> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "tot maximum 15 minuten" .
+      
+      <http://lblod.data.gift/concepts/d76b9687-5f26-4dc2-8d82-fd5a4ec50c27> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "d76b9687-5f26-4dc2-8d82-fd5a4ec50c27" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/0d475a68-f824-4949-adf3-435862b7eb9e> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "tot maximum 30 minuten" .
+      
+      <http://lblod.data.gift/concepts/46836dea-bd31-4c62-b619-c6e98b6c8621> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "46836dea-bd31-4c62-b619-c6e98b6c8621" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/0d475a68-f824-4949-adf3-435862b7eb9e> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "tot maximum 1 uur" .
+      
+      <http://lblod.data.gift/concepts/0b85ee39-4b0e-412e-acf4-ba156012a33e> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "0b85ee39-4b0e-412e-acf4-ba156012a33e" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/0d475a68-f824-4949-adf3-435862b7eb9e> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "tot maximum 15 minuten van maandag tot vrijdag" .
+      
+      <http://lblod.data.gift/concepts/453bad32-ddd3-4dda-9541-ec75fb39722f> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "453bad32-ddd3-4dda-9541-ec75fb39722f" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/0d475a68-f824-4949-adf3-435862b7eb9e> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "tot maximum 15 minuten van 7 tot 19u." .
+      
+      <http://lblod.data.gift/concepts/82b1f8b4-b7cd-4b4b-945e-bfb1e377ee39> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "82b1f8b4-b7cd-4b4b-945e-bfb1e377ee39" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/0d475a68-f824-4949-adf3-435862b7eb9e> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "tot maximum 15 minuten van 7 tot 19u. van maandag tot vrijdag" .
+      
+      <http://lblod.data.gift/concept-schemes/e9067f40-e1b0-4aac-a33f-43a3ffb9c301> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "e9067f40-e1b0-4aac-a33f-43a3ffb9c301" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "typeParkeerkaart" .
+    
+      <http://lblod.data.gift/concepts/3a60420d-4694-4422-933e-54476e4d6b80> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "3a60420d-4694-4422-933e-54476e4d6b80" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/e9067f40-e1b0-4aac-a33f-43a3ffb9c301> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "parkeerkaart" .
+      
+      <http://lblod.data.gift/concepts/b2563b01-cec3-42e0-8217-b2937afb91a3> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "b2563b01-cec3-42e0-8217-b2937afb91a3" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/e9067f40-e1b0-4aac-a33f-43a3ffb9c301> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "bewonerskaart" .
+      
+      <http://lblod.data.gift/concepts/64ac65e9-ebea-4774-9c60-cf90da86d401> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "64ac65e9-ebea-4774-9c60-cf90da86d401" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/e9067f40-e1b0-4aac-a33f-43a3ffb9c301> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "parkeerkaart voor autodelen" .
+      
+      <http://lblod.data.gift/concept-schemes/d2d2be16-9591-409c-84dc-0514fb7c7659> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "d2d2be16-9591-409c-84dc-0514fb7c7659" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "typeParkeerkaart" .
+    
+      <http://lblod.data.gift/concepts/f28c2cca-e822-4c26-b5b8-77e17fa3ef76> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "f28c2cca-e822-4c26-b5b8-77e17fa3ef76" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/d2d2be16-9591-409c-84dc-0514fb7c7659> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "parkeerkaart" .
+      
+      <http://lblod.data.gift/concepts/8b71bd86-0714-4968-82f3-e3cf803bb504> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "8b71bd86-0714-4968-82f3-e3cf803bb504" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/d2d2be16-9591-409c-84dc-0514fb7c7659> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "bewonerskaart" .
+      
+      <http://lblod.data.gift/concepts/1ec9a60c-3619-4b95-8f99-5b7352034dfd> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "1ec9a60c-3619-4b95-8f99-5b7352034dfd" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/d2d2be16-9591-409c-84dc-0514fb7c7659> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "parkeerkaart voor autodelen" .
+      
+      <http://lblod.data.gift/concept-schemes/136964cc-12e5-4c6a-932b-538a8505d05a> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "136964cc-12e5-4c6a-932b-538a8505d05a" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "typeParkeerkaart" .
+    
+      <http://lblod.data.gift/concepts/b6de7f18-cd0a-4a95-b1f3-375bea6b7f84> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "b6de7f18-cd0a-4a95-b1f3-375bea6b7f84" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/136964cc-12e5-4c6a-932b-538a8505d05a> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "parkeerkaart" .
+      
+      <http://lblod.data.gift/concepts/585c845e-98b2-4773-b843-b942ff65edbd> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "585c845e-98b2-4773-b843-b942ff65edbd" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/136964cc-12e5-4c6a-932b-538a8505d05a> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "bewonerskaart" .
+      
+      <http://lblod.data.gift/concepts/b4754d01-a581-4e4d-a82a-96aafc7a17e4> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "b4754d01-a581-4e4d-a82a-96aafc7a17e4" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/136964cc-12e5-4c6a-932b-538a8505d05a> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "parkeerkaart voor autodelen" .
+      
+      <http://lblod.data.gift/concept-schemes/cfde5b00-332a-4e0f-8791-413a40cec703> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "cfde5b00-332a-4e0f-8791-413a40cec703" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "typeParkeerkaart" .
+    
+      <http://lblod.data.gift/concepts/ff51801b-d4d9-40cd-8d70-cc9268fc9ef3> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "ff51801b-d4d9-40cd-8d70-cc9268fc9ef3" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/cfde5b00-332a-4e0f-8791-413a40cec703> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "parkeerkaart" .
+      
+      <http://lblod.data.gift/concepts/645476a5-35c5-4c1d-98c6-70d4294af321> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "645476a5-35c5-4c1d-98c6-70d4294af321" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/cfde5b00-332a-4e0f-8791-413a40cec703> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "bewonerskaart" .
+      
+      <http://lblod.data.gift/concepts/4c8aab4f-d592-4714-96bc-a6d28a359d46> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "4c8aab4f-d592-4714-96bc-a6d28a359d46" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/cfde5b00-332a-4e0f-8791-413a40cec703> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "parkeerkaart voor autodelen" .
+      
+      <http://lblod.data.gift/concept-schemes/98ce0acb-a92d-4641-860e-d7f581810686> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "98ce0acb-a92d-4641-860e-d7f581810686" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "beperkingTijd" .
+    
+      <http://lblod.data.gift/concepts/5f10dc93-c749-4760-9966-7064f6294b53> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "5f10dc93-c749-4760-9966-7064f6294b53" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/98ce0acb-a92d-4641-860e-d7f581810686> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "van maandag tot en met vrijdag" .
+      
+      <http://lblod.data.gift/concepts/0864e4d7-e030-4f8b-bccd-60d0b0780094> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "0864e4d7-e030-4f8b-bccd-60d0b0780094" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/98ce0acb-a92d-4641-860e-d7f581810686> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "30 minuten" .
+      
+      <http://lblod.data.gift/concepts/0a71b356-cd66-49b3-917b-cd97f2929e7f> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "0a71b356-cd66-49b3-917b-cd97f2929e7f" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/98ce0acb-a92d-4641-860e-d7f581810686> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "30 minuten van maandag tot en met vrijdag" .
+      
+      <http://lblod.data.gift/concept-schemes/6621be2e-98c6-4b7c-bc99-bb8b4cca879f> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "6621be2e-98c6-4b7c-bc99-bb8b4cca879f" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "snelheidsbeperking" .
+    
+      <http://lblod.data.gift/concepts/b0886e44-64fd-45d4-82c6-00b1008892c4> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "b0886e44-64fd-45d4-82c6-00b1008892c4" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/6621be2e-98c6-4b7c-bc99-bb8b4cca879f> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "30" .
+      
+      <http://lblod.data.gift/concepts/74c8c4e7-3785-4bd8-8e03-47b6a356d721> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "74c8c4e7-3785-4bd8-8e03-47b6a356d721" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/6621be2e-98c6-4b7c-bc99-bb8b4cca879f> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "50" .
+      
+      <http://lblod.data.gift/concepts/756faea7-2389-49f9-825d-916dea21c265> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "756faea7-2389-49f9-825d-916dea21c265" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/6621be2e-98c6-4b7c-bc99-bb8b4cca879f> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "70" .
+      
+      <http://lblod.data.gift/concepts/426c276b-294f-4bc5-b7f5-77a62f4f9a4b> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "426c276b-294f-4bc5-b7f5-77a62f4f9a4b" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/6621be2e-98c6-4b7c-bc99-bb8b4cca879f> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "90" .
+      
+      <http://lblod.data.gift/concepts/7c7ecd5b-0a8e-49ed-bde5-c2d430b2f184> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "7c7ecd5b-0a8e-49ed-bde5-c2d430b2f184" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/6621be2e-98c6-4b7c-bc99-bb8b4cca879f> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "120" .
+      
+      <http://lblod.data.gift/concept-schemes/f281a7b8-e38d-40cf-bd54-17447e01c1ac> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "f281a7b8-e38d-40cf-bd54-17447e01c1ac" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "rijrichting" .
+    
+      <http://lblod.data.gift/concepts/f49fb327-0557-475a-ad73-6a34eee560e0> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "f49fb327-0557-475a-ad73-6a34eee560e0" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/f281a7b8-e38d-40cf-bd54-17447e01c1ac> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "enkelrichtings-" .
+      
+      <http://lblod.data.gift/concepts/6630990b-995e-468a-befc-e3e9b50cc575> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "6630990b-995e-468a-befc-e3e9b50cc575" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/f281a7b8-e38d-40cf-bd54-17447e01c1ac> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "dubbelrichtings-" .
+      
+      <http://lblod.data.gift/concept-schemes/82fb6464-525d-47ec-82bf-2e9b9892b1d9> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "82fb6464-525d-47ec-82bf-2e9b9892b1d9" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "naamBebouwdeKom" .
+    
+      <http://lblod.data.gift/concepts/5d7780bd-c7f8-4df8-9284-cc88c219be19> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "5d7780bd-c7f8-4df8-9284-cc88c219be19" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/82fb6464-525d-47ec-82bf-2e9b9892b1d9> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "NAAM BEBOUWDE KOM" .
+      
+      <http://lblod.data.gift/concepts/81a54e6e-d09c-452e-b122-eddd00ed2a15> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "81a54e6e-d09c-452e-b122-eddd00ed2a15" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/82fb6464-525d-47ec-82bf-2e9b9892b1d9> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "NAAM BEBOUWDE KOM - plaats" .
+      
+      <http://lblod.data.gift/concept-schemes/bc3b05d0-9688-4074-8eae-f142c5d2ddda> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "bc3b05d0-9688-4074-8eae-f142c5d2ddda" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "toegelatenVoertuigenOpDeBusstrook" .
+    
+      <http://lblod.data.gift/concepts/caf1d336-0288-4a66-a156-3d73a3d965ce> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "caf1d336-0288-4a66-a156-3d73a3d965ce" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/bc3b05d0-9688-4074-8eae-f142c5d2ddda> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "fietsen" .
+      
+      <http://lblod.data.gift/concepts/17748cb8-acb8-4452-8bfa-fab778cade1c> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "17748cb8-acb8-4452-8bfa-fab778cade1c" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/bc3b05d0-9688-4074-8eae-f142c5d2ddda> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "bromfietsen" .
+      
+      <http://lblod.data.gift/concepts/71562d2c-c3b8-4a4c-8eed-7317ef21d7db> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "71562d2c-c3b8-4a4c-8eed-7317ef21d7db" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/bc3b05d0-9688-4074-8eae-f142c5d2ddda> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "motorfietsen" .
+      
+      <http://lblod.data.gift/concepts/ed8928c7-31aa-452d-be99-09e435d81488> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "ed8928c7-31aa-452d-be99-09e435d81488" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/bc3b05d0-9688-4074-8eae-f142c5d2ddda> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "voor het vervoer van passagiers ontworpen en gebouwde voertuigen met meer dan acht zitplaatsen, die van de bestuurder niet meegerekend" .
+      
+      <http://lblod.data.gift/concepts/5a2c6593-269b-4831-94f6-1b9907f12610> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "5a2c6593-269b-4831-94f6-1b9907f12610" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/bc3b05d0-9688-4074-8eae-f142c5d2ddda> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "de voertuigen bestemd voor het woon-werkverkeer" .
+      
+      <http://lblod.data.gift/concept-schemes/cfc95f6e-9ed6-49ce-afd2-d9aaba9a9282> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "cfc95f6e-9ed6-49ce-afd2-d9aaba9a9282" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "toegelatenVoertuigenOpDeBob" .
+    
+      <http://lblod.data.gift/concepts/4894e4ea-e6a0-4179-aa0f-7b25f172f2cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "4894e4ea-e6a0-4179-aa0f-7b25f172f2cc" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/cfc95f6e-9ed6-49ce-afd2-d9aaba9a9282> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "fietsen" .
+      
+      <http://lblod.data.gift/concepts/3362f62c-fc0c-4e74-80c1-1dcb9b40ebfe> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "3362f62c-fc0c-4e74-80c1-1dcb9b40ebfe" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/cfc95f6e-9ed6-49ce-afd2-d9aaba9a9282> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "bromfietsen" .
+      
+      <http://lblod.data.gift/concepts/57d50d19-35f8-4c78-ad82-e5744b5b8fc4> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "57d50d19-35f8-4c78-ad82-e5744b5b8fc4" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/cfc95f6e-9ed6-49ce-afd2-d9aaba9a9282> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "motorfietsen" .
+      
+      <http://lblod.data.gift/concepts/c0f9a500-aef3-4d8c-afc4-42b94f3de4ff> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "c0f9a500-aef3-4d8c-afc4-42b94f3de4ff" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/cfc95f6e-9ed6-49ce-afd2-d9aaba9a9282> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "voor het vervoer van passagiers ontworpen en gebouwde voertuigen met meer dan acht zitplaatsen, die van de bestuurder niet meegerekend" .
+      
+      <http://lblod.data.gift/concepts/b9090be2-d7ef-4c9f-bdaa-99b8ac8ed2b8> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "b9090be2-d7ef-4c9f-bdaa-99b8ac8ed2b8" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/cfc95f6e-9ed6-49ce-afd2-d9aaba9a9282> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "voertuigen bestemd voor het woon-werkverkeer" .
+      
+      <http://lblod.data.gift/concepts/789eb7f7-4897-4573-ad29-85ecc72122ac> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "789eb7f7-4897-4573-ad29-85ecc72122ac" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/cfc95f6e-9ed6-49ce-afd2-d9aaba9a9282> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "taxi's" .
+      
+      <http://lblod.data.gift/concept-schemes/02ce247f-566c-4b8c-afd7-67a06c94b9db> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+          <http://data.lblod.info/vocabularies/mobiliteit/Codelist> ;
+        <http://mu.semte.ch/vocabularies/core/uuid> "02ce247f-566c-4b8c-afd7-67a06c94b9db" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "stopVerkeersteken" .
+    
+      <http://lblod.data.gift/concepts/319aba21-e9a4-4199-949b-e080fe8ef5ad> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "319aba21-e9a4-4199-949b-e080fe8ef5ad" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/02ce247f-566c-4b8c-afd7-67a06c94b9db> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "het verkeersbord B5" .
+      
+      <http://lblod.data.gift/concepts/90ca446d-5354-45ac-bf3a-a94805ed6e24> a <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://mu.semte.ch/vocabularies/core/uuid> "90ca446d-5354-45ac-bf3a-a94805ed6e24" ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/02ce247f-566c-4b8c-afd7-67a06c94b9db> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "het verkeerslicht" .
+      

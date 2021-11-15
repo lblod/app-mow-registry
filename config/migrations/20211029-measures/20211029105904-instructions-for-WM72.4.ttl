@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/1b97495ca8acf94c3927ec1abf0153b6> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/264c03b7-3028-4500-ad54-0dd0c1263e2d> .
-
-<http://data.lblod.info/templates/264c03b7-3028-4500-ad54-0dd0c1263e2d> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "264c03b7-3028-4500-ad54-0dd0c1263e2d";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders om de naast elkaar getrokken doorlopende en onderbroken streep te overschrijden afhankelijk van de streep  die zich aan hun kant bevindt</p>" .
