@@ -34,6 +34,8 @@ defmodule Acl.UserGroups.Config do
                     constraint: %ResourceConstraint{
                       resource_types: [
                         "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                        "http://www.w3.org/2004/02/skos/core#Concept",
+                        "http://data.lblod.info/vocabularies/mobiliteit/Codelist",
                         "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept",
                         "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordcategorie",
                         "https://data.vlaanderen.be/ns/mobiliteit#VerkeersbordconceptStatus",
@@ -65,6 +67,8 @@ defmodule Acl.UserGroups.Config do
                     constraint: %ResourceConstraint{
                       resource_types: [
                         "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                        "http://www.w3.org/2004/02/skos/core#Concept",
+                        "http://data.lblod.info/vocabularies/mobiliteit/Codelist",
                         "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept",
                         "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordcategorie",
                         "https://data.vlaanderen.be/ns/mobiliteit#VerkeersbordconceptStatus",
