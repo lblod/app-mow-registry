@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4666c7f416e910d3b442c51c1c32bbe3ce9ad324c2f07badfad9610431bf1484> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/47ac4859-eba5-4418-a709-703bf9074897> .
-
-<http://data.lblod.info/templates/47ac4859-eba5-4418-a709-703bf9074897> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "47ac4859-eba5-4418-a709-703bf9074897";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verplicht te parkeren op de rijbaan</p>" .

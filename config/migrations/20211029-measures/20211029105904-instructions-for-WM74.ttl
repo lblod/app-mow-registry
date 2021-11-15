@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/10b4bd00273285dfb7c8875d0793ab4f> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a76b9bd6-2023-4307-a320-4925389c37fa> .
-
-<http://data.lblod.info/templates/a76b9bd6-2023-4307-a320-4925389c37fa> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "a76b9bd6-2023-4307-a320-4925389c37fa";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen klasse A moeten het fietspad volgen voor zover het rechts in hun rijrichting ligt</p>" .

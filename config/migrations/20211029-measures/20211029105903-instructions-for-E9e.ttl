@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bd68717b59b32f5cfc66e459f72f7fef6ff8bc33d9276dcc2ca7c8ca7e860371> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/1d744b88-cf71-4283-981d-e6dfa9302210> .
-
-<http://data.lblod.info/templates/1d744b88-cf71-4283-981d-e6dfa9302210> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "1d744b88-cf71-4283-981d-e6dfa9302210";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verplicht te parkeren op de berm of op het trottoir</p>" .

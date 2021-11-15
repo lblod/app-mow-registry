@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/954557c970fea1888c7cd5fd11d1a1fd582517da4a05a02fc34599eb36853a76> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/54bf1d8a-9b51-4685-930d-bc346967a939> .
-
-<http://data.lblod.info/templates/54bf1d8a-9b51-4685-930d-bc346967a939> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "54bf1d8a-9b51-4685-930d-bc346967a939";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de autosnelweg wordt aangeduid</p>" .

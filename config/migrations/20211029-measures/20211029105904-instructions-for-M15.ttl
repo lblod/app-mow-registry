@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/332f5e44542833f7c5723fc1c55d20b56a7bc79da379613d8f3c48c65276184d> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e5361268-0bec-45ae-b492-d58d7802a28c> .
-
-<http://data.lblod.info/templates/e5361268-0bec-45ae-b492-d58d7802a28c> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "e5361268-0bec-45ae-b492-d58d7802a28c";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het fietspad mag niet gevolgd worden door de bestuurders van speed pedelecs</p>" .

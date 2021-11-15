@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/79b74b6bfaa129c36bdd8fc39a0e071a15e6be38a4ec37bc0c34206fcc6a8d55> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/b3c2c370-35cf-412a-8dd4-1d2c94a81250> .
-
-<http://data.lblod.info/templates/b3c2c370-35cf-412a-8dd4-1d2c94a81250> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "b3c2c370-35cf-412a-8dd4-1d2c94a81250";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van het (woon)erf wordt aangeduid</p>" .

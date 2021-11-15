@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b60a7295d946865b349e22b018784376f5b299ac1410eae384388c652baeb289> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/bc60199d-36ec-4f7c-b631-587b5d2dd2ed> .
-
-<http://data.lblod.info/templates/bc60199d-36ec-4f7c-b631-587b5d2dd2ed> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "bc60199d-36ec-4f7c-b631-587b5d2dd2ed";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het verkeersbord B5 wordt aangekondigd. De bestuurders zullen over ${aanduiding_afstand} meter moeten stoppen en voorrang verlenen</p>" .

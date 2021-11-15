@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/9375ac24955c89adb412e5bb7e3c4f56d0ebde1022963bf84e52affd987715e3> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/bcdd92e9-281a-4e3f-98ed-67c32d629f63> .
-
-<http://data.lblod.info/templates/bcdd92e9-281a-4e3f-98ed-67c32d629f63> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "bcdd92e9-281a-4e3f-98ed-67c32d629f63";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het fietspad moet worden gevolgd door bestuurders van speed pedelecs</p>" .

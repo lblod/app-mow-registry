@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/2721df3072ab4e96f50b345524806082f37252e7a1a802b14d640c3cfd7a1d49> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/edbb9b63-22cf-400d-a8cc-a641243a819f> .
-
-<http://data.lblod.info/templates/edbb9b63-22cf-400d-a8cc-a641243a819f> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "edbb9b63-22cf-400d-a8cc-a641243a819f";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>de zone 30 wordt afgebakend. Het begin van de zone 30 wordt aangeduid</p>" .

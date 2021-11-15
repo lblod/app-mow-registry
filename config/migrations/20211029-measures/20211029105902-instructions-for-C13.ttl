@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bc67b2aed58af8cba5f38d177bfc2525b97410a84dec019d0a54a072bae6c776> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/777455c4-6574-4eb6-ad8c-15bc02c2f7a4> .
-
-<http://data.lblod.info/templates/777455c4-6574-4eb6-ad8c-15bc02c2f7a4> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "777455c4-6574-4eb6-ad8c-15bc02c2f7a4";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van gespannen</p>" .

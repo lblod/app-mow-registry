@@ -24,10 +24,18 @@ defmodule Dispatcher do
   match "/sparql", %{ layer: :api, accept: %{ sparql: true } } do
     forward conn, [], "http://db:8890/sparql"
   end
-  
+
   ###############################################################
   # domain.json
   ###############################################################
+  match "/code-lists/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://resource/code-lists/"
+  end
+
+  match "/code-list-options/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://resource/code-list-options/"
+  end
+
   match "/road-sign-concepts/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://resource/road-sign-concepts/"
   end
@@ -43,7 +51,7 @@ defmodule Dispatcher do
   match "/road-sign-categories/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://resource/road-sign-categories/"
   end
-  
+
   match "/traffic-light-concepts/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://resource/traffic-light-concepts/"
   end
@@ -59,7 +67,7 @@ defmodule Dispatcher do
   match "/traffic-light-categories/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://resource/traffic-light-categories/"
   end
-  
+
   match "/road-marking-concepts/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://resource/road-marking-concepts/"
   end
@@ -123,7 +131,7 @@ defmodule Dispatcher do
   match "/accounts/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://resource/accounts/"
   end
-  
+
   match "/groups/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://resource/groups/"
   end
@@ -158,7 +166,7 @@ defmodule Dispatcher do
   delete "/files/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://file/files/"
   end
-  
+
   ###############################################################
   # static files
   ###############################################################

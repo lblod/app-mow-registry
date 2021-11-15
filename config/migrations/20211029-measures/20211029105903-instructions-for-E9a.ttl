@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0b8edba107bc181f01ea9fcf241c76f6befff04e15a697acf1c6cdeb49e71868> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/17fd92ec-ce64-4646-a87a-dc79022ae19e> .
-
-<http://data.lblod.info/templates/17fd92ec-ce64-4646-a87a-dc79022ae19e> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "17fd92ec-ce64-4646-a87a-dc79022ae19e";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is toegelaten</p>" .

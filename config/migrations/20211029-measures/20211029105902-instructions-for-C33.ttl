@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/dfa07fdaeb6870f1e2922ba694f0fbf5b929f2f9249b785d7c0591b0201ba4c8> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c527ada6-1e7a-4279-8660-540264be4e20> .
-
-<http://data.lblod.info/templates/c527ada6-1e7a-4279-8660-540264be4e20> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "c527ada6-1e7a-4279-8660-540264be4e20";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders te keren</p>" .

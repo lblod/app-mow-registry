@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0c4c0e3561334e2bc50bca4979294fa85607520fa2a22bf25e4b32d350d924ae> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/94d3f4c4-0ab2-4a7b-9a50-29a69957f8b1> .
-
-<http://data.lblod.info/templates/94d3f4c4-0ab2-4a7b-9a50-29a69957f8b1> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "94d3f4c4-0ab2-4a7b-9a50-29a69957f8b1";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor ruiters</p>" .

@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/13e1ea2149022c8b94bf4668ba2161fe61e8ea0154025218c48fd066a4031961> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2d025bbe-9f45-4c2c-9eaf-4c494bc5f27d> .
-
-<http://data.lblod.info/templates/2d025bbe-9f45-4c2c-9eaf-4c494bc5f27d> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "2d025bbe-9f45-4c2c-9eaf-4c494bc5f27d";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de bebouwde kom wordt aangeduid</p>" .

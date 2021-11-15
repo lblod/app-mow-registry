@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a5124762c35c1d71e97bc164c78ed9e82ce7b2fd1967ebb7f6882633fc9faba9> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c4ec784d-a1cc-42a2-8490-2c464d7434a3> .
-
-<http://data.lblod.info/templates/c4ec784d-a1cc-42a2-8490-2c464d7434a3> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "c4ec784d-a1cc-42a2-8490-2c464d7434a3";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers, bestuurders van tweewielige bromfietsen klasse A en speed pedelecs mogen in de twee richtingen rijden</p>" .

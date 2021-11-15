@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/11a00892550b4d76a4021b11c9769d4d8812e80a42808da341d72e49f81c5a0c> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/85115069-8739-4551-93fc-2907609240b9> .
-
-<http://data.lblod.info/templates/85115069-8739-4551-93fc-2907609240b9> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "85115069-8739-4551-93fc-2907609240b9";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders een gespan of een voertuig met meer dan twee wielen links in te halen</p>" .
