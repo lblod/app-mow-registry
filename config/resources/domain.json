@@ -82,6 +82,12 @@
           "target": "codeListOption",
           "cardinality": "many",
           "inverse": true
+        },
+        "mappings": {
+          "predicate": "ext:codeList",
+          "target": "mapping",
+          "cardinality": "many",
+          "inverse": true
         }
       },
       "new-resource-base": "http://lblod.data.gift/concept-schemes/"
@@ -160,6 +166,11 @@
         }
       },
       "relationships": {
+        "codeList": {
+          "predicate": "ext:codeList",
+          "target": "codeList",
+          "cardinality": "one"
+        },
         "expects": {
           "predicate": "ext:expects",
           "target": "shape",
