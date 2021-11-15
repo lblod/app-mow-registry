@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ce89d1a5cdd2078c5ae18dfacba050fe2e2db116c57f2e9934a5ce6eddf2e893> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/9f937939-1e4a-43ee-8131-a02588e445fa> .
-
-<http://data.lblod.info/templates/9f937939-1e4a-43ee-8131-a02588e445fa> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "9f937939-1e4a-43ee-8131-a02588e445fa";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor voetgangers</p>" .

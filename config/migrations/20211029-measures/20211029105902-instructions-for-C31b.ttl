@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/361c936975bc1f56b7b6b3689c20ad9357ba6d0e0e97dad0bd718c395f4ba9e1> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a339ff9a-661c-49d0-8588-2fc3169f499a> .
-
-<http://data.lblod.info/templates/a339ff9a-661c-49d0-8588-2fc3169f499a> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "a339ff9a-661c-49d0-8588-2fc3169f499a";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden rechts af te slaan</p>" .

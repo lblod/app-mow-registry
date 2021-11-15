@@ -1,0 +1,7 @@
+DELETE WHERE {
+GRAPH ?g {
+?s a <http://data.lblod.info/vocabularies/mobiliteit/Codelist>; ?p ?o.
+?concept <http://www.w3.org/2004/02/skos/core#inScheme> ?s.
+?concept ?foo ?bar
+}
+}

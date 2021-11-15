@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b667a243b8ec32abc8cae6ff5cdff6dafb667cf1ddec6ff015824b451895d4d2> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/dace3e1b-70fe-417b-b353-f0bdac2b0cd4> .
-
-<http://data.lblod.info/templates/dace3e1b-70fe-417b-b353-f0bdac2b0cd4> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "dace3e1b-70fe-417b-b353-f0bdac2b0cd4";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is verboden</p>" .

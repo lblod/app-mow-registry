@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/55162fd0c4ace95126afa15608016924b948ff4f6a955a6cb908d0c46262737c> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/71cabd30-1767-4763-a4de-69faa59ac661> .
-
-<http://data.lblod.info/templates/71cabd30-1767-4763-a4de-69faa59ac661> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "71cabd30-1767-4763-a4de-69faa59ac661";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin en het einde van het inhaalverbod worden aangeduid</p>" .

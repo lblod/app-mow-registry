@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/69789f034ab0b39016cd2d17ac594edf1aaf3f5b7e167fb85025483c2bd63bf2> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c9ead7f4-874f-4a80-9d66-bfb6aa8dea39> .
-
-<http://data.lblod.info/templates/c9ead7f4-874f-4a80-9d66-bfb6aa8dea39> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "c9ead7f4-874f-4a80-9d66-bfb6aa8dea39";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen waarvan de breedte, lading inbegrepen, groter is dan ${breedte_voertuig} meter</p>" .

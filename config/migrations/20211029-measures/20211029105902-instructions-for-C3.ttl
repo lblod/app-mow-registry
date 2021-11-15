@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e8cdf86215d2202a9001f93e1ed3b7577885fe972a799a30f29998bf0fb34e02> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/15474ee7-b23a-4bc9-8f62-7ec7b9c95599> .
-
-<http://data.lblod.info/templates/15474ee7-b23a-4bc9-8f62-7ec7b9c95599> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "15474ee7-b23a-4bc9-8f62-7ec7b9c95599";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden in beide richtingen, voor iedere bestuurder</p>" .

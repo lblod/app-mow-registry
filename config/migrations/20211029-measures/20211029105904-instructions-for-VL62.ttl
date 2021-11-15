@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeerslichtconcept/f6202432ede2ff8b5d6038455776eb0d> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/309492df-e10d-4dca-ae1b-da79b56aab10> .
-
-<http://data.lblod.info/templates/309492df-e10d-4dca-ae1b-da79b56aab10> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "309492df-e10d-4dca-ae1b-da79b56aab10";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders dienen het kruispunt te ontruimen. Het tegenliggend verkeer op de rijbaan die de bestuurders bij het links afslaan gaan verlaten, wordt tegengehouden door een rood licht</p>" .

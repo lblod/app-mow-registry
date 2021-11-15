@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/c013a71f9cd0f6084cd5beac514f11edb27aeb99cb9ed375150567c71db3b061> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/482e2d0e-d98a-499e-8e0a-f605a3510d94> .
-
-<http://data.lblod.info/templates/482e2d0e-d98a-499e-8e0a-f605a3510d94> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "482e2d0e-d98a-499e-8e0a-f605a3510d94";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor motorfietsen</p>" .

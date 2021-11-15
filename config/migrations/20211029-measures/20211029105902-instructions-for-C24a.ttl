@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/25edd560e9c1080dcc8275422f857a2b08c7f4efcfb9bb93eb4bf53b9719ead5> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/d649c47d-1e64-477b-bf72-25f4d29a09ab> .
-
-<http://data.lblod.info/templates/d649c47d-1e64-477b-bf72-25f4d29a09ab> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "d649c47d-1e64-477b-bf72-25f4d29a09ab";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen die de gevaarlijke goederen, bepaald door de voor vervoer van gevaarlijke goederen bevoegde Ministers, vervoeren</p>" .

@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/2b08f73a820e4998ba2df0155922f480f1f13a286f34949dad8af8914d4f77cd> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c238c00e-c32e-41e8-a945-fc16eb2590d6> .
-
-<http://data.lblod.info/templates/c238c00e-c32e-41e8-a945-fc16eb2590d6> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "c238c00e-c32e-41e8-a945-fc16eb2590d6";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen gebruikt voor het vervoer van zaken</p>" .

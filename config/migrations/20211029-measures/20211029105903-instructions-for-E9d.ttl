@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4a2ec210cf9459059de87c11a70b40d957edeb78f302963e1a526a47406d11ec> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/cf5e8969-b2be-4fc8-934d-456fd6f3ccb3> .
-
-<http://data.lblod.info/templates/cf5e8969-b2be-4fc8-934d-456fd6f3ccb3> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "cf5e8969-b2be-4fc8-934d-456fd6f3ccb3";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor autocars</p>" .

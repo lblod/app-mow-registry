@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4a03dff5c229e10fbe2544c11236dfce5ab592d70626a0a0671ee23c16585fa6> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/1a80a79c-ab42-453c-9105-336ff0ef4874> .
-
-<http://data.lblod.info/templates/1a80a79c-ab42-453c-9105-336ff0ef4874> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "1a80a79c-ab42-453c-9105-336ff0ef4874";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>alle plaatselijke verbodsbepalingen opgelegd aan de voertuigen in beweging zijn ten einde</p>" .

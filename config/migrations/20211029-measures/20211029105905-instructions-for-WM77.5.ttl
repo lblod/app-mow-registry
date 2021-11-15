@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/a478a6e52ee388590b5c46fcf84bb4d0> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f70c98f5-6010-45c1-adc5-6acc0767a8bf> .
-
-<http://data.lblod.info/templates/f70c98f5-6010-45c1-adc5-6acc0767a8bf> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "f70c98f5-6010-45c1-adc5-6acc0767a8bf";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>voertuigen moeten parkeren binnen de afgebakende plaatsen</p>" .

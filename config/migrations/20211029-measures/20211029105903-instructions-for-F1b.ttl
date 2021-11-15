@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e8464868874fc0b87cad2fd84ecd58b1983561668765591ea58187afb5d39cd4> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/5d3f7959-37e7-4213-b9f4-3bbda0e5fd6c> .
-
-<http://data.lblod.info/templates/5d3f7959-37e7-4213-b9f4-3bbda0e5fd6c> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "5d3f7959-37e7-4213-b9f4-3bbda0e5fd6c";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bebouwde kom wordt afgebakend. Het begin van de bebouwde kom wordt aangeduid</p>" .

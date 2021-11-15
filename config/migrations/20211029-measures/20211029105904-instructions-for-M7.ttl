@@ -1,6 +1,0 @@
-
-<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b177403ff3ec65e0de763fd5d54110e4b57d0665b84eeb89ab2d6e7268bc37c1> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/def5cc48-72bb-4754-957f-1a5e54fd7e50> .
-
-<http://data.lblod.info/templates/def5cc48-72bb-4754-957f-1a5e54fd7e50> a <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://mu.semte.ch/vocabularies/core/uuid> "def5cc48-72bb-4754-957f-1a5e54fd7e50";
-   <http://mu.semte.ch/vocabularies/ext/value> "<p>het fietspad mag niet worden gevolgd door bestuurders van tweewielige bromfietsen klasse B</p>" .
