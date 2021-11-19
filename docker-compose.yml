@@ -14,7 +14,6 @@ services:
       - dispatcher:dispatcher
     environment:
       DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER: "*"
-      DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"public\"}, {\"variables\":[],\"name\":\"clean\"}]"
     labels:
       - "logging=true"
     restart: always
@@ -45,9 +44,6 @@ services:
     image: semtech/mu-authorization:0.6.0-beta.7
     environment:
       MU_SPARQL_ENDPOINT: "http://triplestore:8890/sparql"
-      LOG_OUTGOING_SPARQL_QUERIES: "true"
-      LOG_INCOMING_SPARQL_QUERIES: "true"
-      LOG_ACCESS_RIGHTS: "true"
     volumes:
       - ./config/authorization:/config
   migrations:

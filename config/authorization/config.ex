@@ -7,18 +7,14 @@ alias Acl.GroupSpec, as: GroupSpec
 alias Acl.GroupSpec.GraphCleanup, as: GraphCleanup
 
 defmodule Acl.UserGroups.Config do
-  defp access_by_role_for_single_graph( group_string ) do
+  defp logged_in_user() do
     %AccessByQuery{
       vars: [],
-      query: sparql_query_for_access_account( ) }
-  end
-
-  defp sparql_query_for_access_account( ) do
-    "PREFIX session: <http://mu.semte.ch/vocabularies/session/>
-    PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
-    SELECT ?account WHERE {
-      <SESSION_ID> session:account ?account
-    }"
+      query: "PREFIX session: <http://mu.semte.ch/vocabularies/session/>
+      SELECT DISTINCT ?account WHERE {
+      <SESSION_ID> session:account ?account.
+      }"
+    }
   end
 
   def user_groups do
@@ -26,7 +22,7 @@ defmodule Acl.UserGroups.Config do
       %GroupSpec{
         name: "mow-admin",
         useage: [:read, :write, :read_for_write],
-        access: access_by_role_for_single_graph( "MowAdmin" ),
+        access: logged_in_user(),
         graphs: [ %GraphSpec{
                     graph: "http://mu.semte.ch/graphs/mow/registry",
                     constraint: %ResourceConstraint{
@@ -58,7 +54,7 @@ defmodule Acl.UserGroups.Config do
       %GroupSpec{
         name: "public",
         useage: [:read],
-        access: %AlwaysAccessible{}, 
+        access: %AlwaysAccessible{},
         graphs: [
           %GraphSpec{
                     graph: "http://mu.semte.ch/graphs/mow/registry",
@@ -95,26 +91,7 @@ defmodule Acl.UserGroups.Config do
                         "http://data.vlaanderen.be/ns/besluit#Bestuurseenheid"
                       ]
                     } } ] },
-  
-      # ORGANIZATION HAS POSSIBLY DUPLICATE USER DATA
-      %GroupSpec{
-        name: "org",
-        useage: [:read],
-        access: %AccessByQuery{
-          vars: ["session_group"],
-          query: "PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
-                  PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
-                  SELECT ?session_group ?session_role WHERE {
-                    <SESSION_ID> ext:sessionGroup/mu:uuid ?session_group.
-                    }" },
-        graphs: [ %GraphSpec{
-                    graph: "http://mu.semte.ch/graphs/organizations/",
-                    constraint: %ResourceConstraint{
-                      resource_types: [
-                        "http://xmlns.com/foaf/0.1/Person",
-                        "http://xmlns.com/foaf/0.1/OnlineAccount",
-                        "http://www.w3.org/ns/adms#Identifier",
-                      ] } } ] },
+
       # CLEANUP
       %GraphCleanup{
         originating_graph: "http://mu.semte.ch/application",
