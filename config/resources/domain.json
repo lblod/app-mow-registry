@@ -144,6 +144,11 @@
         }
       },
       "relationships": {
+        "instructions":{
+          "predicate": "ext:instructions",
+          "target": "template",
+          "cardinality": "many"
+        },
         "mappings": {
           "predicate": "ext:mapping",
           "target": "mapping",
