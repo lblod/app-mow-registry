@@ -10,16 +10,14 @@ defmodule Acl.UserGroups.Config do
   defp access_by_role_for_single_graph( group_string ) do
     %AccessByQuery{
       vars: [],
-      query: sparql_query_for_access_role( group_string ) }
+      query: sparql_query_for_access_account( ) }
   end
 
-  defp sparql_query_for_access_role( group_string ) do
-    "PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+  defp sparql_query_for_access_account( ) do
+    "PREFIX session: <http://mu.semte.ch/vocabularies/session/>
     PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
-    SELECT ?session_group ?session_role WHERE {
-      <SESSION_ID> ext:sessionGroup/mu:uuid ?session_group;
-                   ext:sessionRole ?session_role.
-      FILTER( ?session_role = \"#{group_string}\" )
+    SELECT ?account WHERE {
+      <SESSION_ID> session:account ?account
     }"
   end
 
