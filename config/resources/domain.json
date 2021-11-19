@@ -166,6 +166,11 @@
         }
       },
       "relationships": {
+        "instruction": {
+          "predicate": "ext:instructionVariable",
+          "target": "template",
+          "cardinality": "one"
+        },
         "codeList": {
           "predicate": "ext:codeList",
           "target": "codeList",
