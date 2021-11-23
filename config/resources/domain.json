@@ -67,9 +67,33 @@
       "super": ["shape"],
       "new-resource-base": "http://data.lblod.info/node-shapes/"
     },
+    "concept-schemes":{
+      "name": "conceptScheme",
+      "class": "skos:ConceptScheme",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships": {
+        "concepts": {
+          "predicate": "skos:inScheme",
+          "target": "concept",
+          "cardinality": "many"
+        },
+        "top-concepts": {
+          "predicate": "skos:topConceptOf",
+          "target": "concept",
+          "cardinality": "many"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/concept-schemes/"
+    },
     "code-lists": {
       "name": "codeList",
       "class": "lblodmow:Codelist",
+      "super": ["conceptScheme"],
       "attributes": {
         "label":{
           "type": "string",
