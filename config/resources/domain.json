@@ -141,6 +141,10 @@
         "value": {
           "type": "string",
           "predicate": "ext:value"
+        },
+        "annotated": {
+          "type": "string",
+          "predicate": "ext:annotated"
         }
       },
       "relationships": {
