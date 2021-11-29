@@ -95,7 +95,7 @@ services:
     volumes:
       - ./data/static-files:/data
   login:
-    image: semtech/mu-login-service:2.9.0
+    image: semtech/mu-login-service:2.9.1
     links:
       - db:database
     environment:
