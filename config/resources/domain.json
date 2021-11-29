@@ -90,6 +90,7 @@
           "inverse": true
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/concept-schemes/"
     },
     "code-list-options": {
@@ -186,6 +187,7 @@
           "cardinality": "one"
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/mappings/"
     },
     "relations": {
