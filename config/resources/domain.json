@@ -172,6 +172,12 @@
           "predicate": "ext:mapping",
           "target": "mapping",
           "cardinality": "many"
+        },
+        "parentConcept":{
+          "predicate": "ext:template",
+          "target": "concept",
+          "cardinality": "one",
+          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/templates/"
@@ -190,6 +196,11 @@
         }
       },
       "relationships": {
+        "instruction": {
+          "predicate": "ext:instructionVariable",
+          "target": "template",
+          "cardinality": "one"
+        },
         "codeList": {
           "predicate": "ext:codeList",
           "target": "codeList",
