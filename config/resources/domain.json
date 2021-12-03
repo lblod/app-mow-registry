@@ -114,6 +114,7 @@
           "inverse": true
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/concept-schemes/"
     },
     "code-list-options": {
@@ -165,6 +166,10 @@
         "value": {
           "type": "string",
           "predicate": "ext:value"
+        },
+        "annotated": {
+          "type": "string",
+          "predicate": "ext:annotated"
         }
       },
       "relationships": {
@@ -212,6 +217,7 @@
           "cardinality": "one"
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/mappings/"
     },
     "relations": {
