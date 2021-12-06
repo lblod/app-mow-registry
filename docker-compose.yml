@@ -108,6 +108,8 @@ services:
       - ./scripts/:/app/scripts/
     restart: "no"
   annotater:
-    image: lblod/fix-annotation-service:0.0.1
+    image: lblod/fix-annotation-service:0.0.4
     restart: "no"
     logging: *default-logging
+    links:
+      - db:database
