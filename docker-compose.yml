@@ -101,8 +101,13 @@ services:
     environment:
       USERS_GRAPH: "http://mu.semte.ch/graphs/users"
       SESSIONS_GRAPH: "http://mu.semte.ch/graphs/sessions"
+    logging: *default-logging
   project-scripts:
     image: semtech/mu-scripts:1.0.0
     volumes:
       - ./scripts/:/app/scripts/
     restart: "no"
+  annotater:
+    image: lblod/fix-annotation-service:0.0.1
+    restart: "no"
+    logging: *default-logging
