@@ -275,6 +275,10 @@
       "class": "mobiliteit:Verkeersbordconcept",
       "super": ["concept"],
       "attributes": {
+        "zonal": {
+          "type": "boolean",
+          "predicate": "ext:isZonal"
+        },
         "image": {
           "type": "string",
           "predicate": "mobiliteit:grafischeWeergave"
