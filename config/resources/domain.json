@@ -95,7 +95,48 @@
       },
       "new-resource-base": "http://data.lblod.info/concept-schemes/"
     },
-    
+
+    "zonalities": {
+      "name": "zonality",
+      "class": "lblodmow:Zonality",
+      "super": ["conceptScheme"],
+      "attributes": {
+        "label":{
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships":{
+        "zonalityOptions":{
+          "predicate": "skos:inScheme",
+          "target": "codeListOption",
+          "cardinality": "many",
+          "inverse": true
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://lblod.data.gift/concept-schemes/"
+    },
+
+    "zonality-options": {
+      "name": "zonalityOption",
+      "class": "skos:Concept",
+      "attributes": {
+        "label":{
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships":{
+        "zonality":{
+          "predicate": "skos:inScheme",
+          "target": "zonality",
+          "cardinality": "one"
+        }
+      },
+      "new-resource-base": "http://lblod.data.gift/concepts/"
+    },
+
     "code-lists": {
       "name": "codeList",
       "class": "lblodmow:Codelist",
@@ -285,7 +326,7 @@
       "relationships": {
         "zonality": {
           "predicate": "ext:zonality",
-          "target": "concept",
+          "target": "zonalityOption",
           "cardinality": "one"
         }
       },
@@ -313,7 +354,7 @@
       "relationships": {
         "zonality": {
           "predicate": "ext:zonality",
-          "target": "concept",
+          "target": "zonalityOption",
           "cardinality": "one"
         },
         "status": {
