@@ -128,8 +128,8 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/concept-schemes/"
   end
 
-  match "/skos-concept/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/skos-concept/"
+  match "/skos-concepts/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://resource/skos-concepts/"
   end
 
   match "/concepts/*path", %{ accept: %{json: true}, layer: :api} do
