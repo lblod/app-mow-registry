@@ -90,6 +90,7 @@
       },
       "new-resource-base": "http://data.lblod.info/concept-schemes/"
     },
+
     "code-lists": {
       "name": "codeList",
       "class": "lblodmow:Codelist",
@@ -101,6 +102,11 @@
         }
       },
       "relationships":{
+        "type":{
+          "predicate": "dct:type",
+          "target": "concept",
+          "cardinality": "one"
+        },
         "codeListOptions":{
           "predicate": "skos:inScheme",
           "target": "codeListOption",
