@@ -79,8 +79,9 @@
       "relationships": {
         "concepts": {
           "predicate": "skos:inScheme",
-          "target": "concept",
-          "cardinality": "many"
+          "target": "skosConcept",
+          "cardinality": "many",
+          "inverse": true
         },
         "top-concepts": {
           "predicate": "skos:topConceptOf",
@@ -139,6 +140,25 @@
           "cardinality": "one"
         }
       },
+      "new-resource-base": "http://lblod.data.gift/concepts/"
+    },
+    "skos-concept": {
+      "name": "skosConcept",
+      "class": "skos:Concept",
+      "attributes": {
+        "label":{
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships":{
+        "inScheme":{
+          "predicate": "skos:inScheme",
+          "target": "conceptScheme",
+          "cardinality": "one"
+        }
+      },
+      "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/concepts/"
     },
     "concepts":{
