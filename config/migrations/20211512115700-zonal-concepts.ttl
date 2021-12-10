@@ -1,4 +1,4 @@
-  <http://lblod.data.gift/concept-schemes/37246d14-d8ad-478c-95b1-2fd57e688b22> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+  <http://lblod.data.gift/concept-schemes/37246d14-d8ad-478c-95b1-2fd57e688b22> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
     <http://mu.semte.ch/vocabularies/core/uuid> "37246d14-d8ad-478c-95b1-2fd57e688b22" ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Zonality" .
 
