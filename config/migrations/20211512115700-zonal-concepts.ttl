@@ -1,18 +1,19 @@
-  <http://lblod.data.gift/concept-schemes/37246d14-d8ad-478c-95b1-2fd57e688b22> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+  <http://lblod.data.gift/concept-schemes/37246d14-d8ad-478c-95b1-2fd57e688b22> a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+      <ext:Zonality>
     <http://mu.semte.ch/vocabularies/core/uuid> "37246d14-d8ad-478c-95b1-2fd57e688b22" ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Zonality" .
 
-  <http://lblod.data.gift/concepts/c81c6b96-736a-48cf-b003-6f5cc3dbc55d> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://lblod.data.gift/concepts/c81c6b96-736a-48cf-b003-6f5cc3dbc55d> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     <http://mu.semte.ch/vocabularies/core/uuid> "c81c6b96-736a-48cf-b003-6f5cc3dbc55d" ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/37246d14-d8ad-478c-95b1-2fd57e688b22> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Zonal" .
   
-  <http://lblod.data.gift/concepts/b651931b-923c-477c-8da9-fc7dd841fdcc> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://lblod.data.gift/concepts/b651931b-923c-477c-8da9-fc7dd841fdcc> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     <http://mu.semte.ch/vocabularies/core/uuid> "b651931b-923c-477c-8da9-fc7dd841fdcc" ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/37246d14-d8ad-478c-95b1-2fd57e688b22> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Non-Zonal" .
     
-  <http://lblod.data.gift/concepts/8f9367b2-c717-4be7-8833-4c75bbb4ae1f> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://lblod.data.gift/concepts/8f9367b2-c717-4be7-8833-4c75bbb4ae1f> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     <http://mu.semte.ch/vocabularies/core/uuid> "8f9367b2-c717-4be7-8833-4c75bbb4ae1f" ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/37246d14-d8ad-478c-95b1-2fd57e688b22> ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Potentially Zonal" .

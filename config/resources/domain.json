@@ -14,6 +14,7 @@
     "qb": "http://purl.org/linked-data/cube#"
   },
   "resources": {
+    
     "resources": {
       "name": "resource",
       "class": "rdfs:Resource",
@@ -26,6 +27,7 @@
         }
       }
     },
+    
     "shapes": {
       "name": "shape",
       "class": "sh:Shape",
@@ -48,6 +50,7 @@
       },
       "new-resource-base": "http://data.lblod.info/shapes/"
     },
+    
     "property-shapes": {
       "name": "propertyShape",
       "class": "sh:PropertyShape",
@@ -61,12 +64,14 @@
       },
       "new-resource-base": "http://data.lblod.info/property-shapes/"
     },
+    
     "node-shapes": {
       "name": "nodeShape",
       "class": "sh:NodeShape",
       "super": ["shape"],
       "new-resource-base": "http://data.lblod.info/node-shapes/"
     },
+    
     "concept-schemes":{
       "name": "conceptScheme",
       "class": "skos:ConceptScheme",
@@ -90,6 +95,7 @@
       },
       "new-resource-base": "http://data.lblod.info/concept-schemes/"
     },
+    
     "code-lists": {
       "name": "codeList",
       "class": "lblodmow:Codelist",
@@ -117,6 +123,7 @@
       "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/concept-schemes/"
     },
+    
     "code-list-options": {
       "name": "codeListOption",
       "class": "skos:Concept",
@@ -135,6 +142,7 @@
       },
       "new-resource-base": "http://lblod.data.gift/concepts/"
     },
+    
     "concepts":{
       "name": "concept",
       "class": "ext:Concept",
@@ -159,6 +167,7 @@
       },
       "new-resource-base": "http://data.lblod.info/concepts/"
     },
+    
     "templates": {
       "name": "template",
       "class": "ext:Template",
@@ -187,6 +196,7 @@
       },
       "new-resource-base": "http://data.lblod.info/templates/"
     },
+    
     "mappings": {
       "name": "mapping",
       "class": "ext:Mapping",
@@ -220,6 +230,7 @@
       "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/mappings/"
     },
+    
     "relations": {
       "name": "relation",
       "class": "ext:Relation",
@@ -246,18 +257,21 @@
       },
       "new-resource-base": "http://data.lblod.info/relations/"
     },
+    
     "can-be-combined-with-relations": {
       "name": "canBeCombinedWithRelation",
       "class": "ext:CanBeCombinedWithRelation",
       "super": ["relation"],
       "new-resource-base": "http://data.lblod.info/can-be-combined-with-relations/"
     },
+    
     "must-use-relations": {
       "name": "mustUseRelation",
       "class": "ext:MustUseRelation",
       "super": ["relation"],
       "new-resource-base": "http://data.lblod.info/must-use-relations/"
     },
+    
     "traffic-measure-concepts": {
       "name": "trafficMeasureConcept",
       "class": "lblodmow:TrafficMeasureConcept",
@@ -277,6 +291,7 @@
       },
       "new-resource-base": "http://data.lblod.info/traffic-measure-concepts/"
     },
+    
     "road-sign-concepts": {
       "name": "roadSignConcept",
       "class": "mobiliteit:Verkeersbordconcept",
@@ -335,6 +350,7 @@
       },
       "new-resource-base": "http://data.lblod.info/traffic-sign-concepts/"
     },
+    
     "road-marking-concepts": {
       "name": "roadMarkingConcept",
       "class": "mobiliteit:Wegmarkeringconcept",
@@ -376,6 +392,7 @@
       },
       "new-resource-base": "http://data.lblod.info/road-marking-concepts/"
     },
+    
     "traffic-light-concepts": {
       "name": "trafficLightConcept",
       "class": "mobiliteit:Verkeerslichtconcept",
@@ -417,6 +434,7 @@
       },
       "new-resource-base": "http://data.lblod.info/traffic-light-concepts/"
     },
+    
     "road-sign-categories": {
       "name": "roadSignCategory",
       "class": "mobiliteit:Verkeersbordcategorie",
@@ -436,6 +454,7 @@
       },
       "new-resource-base": "http://data.lblod.info/road-sign-categories/"
     },
+    
     "road-sign-concept-status": {
       "name": "roadSignConceptStatus",
       "class": "mobiliteit:VerkeersbordconceptStatus",
@@ -454,6 +473,7 @@
       },
       "new-resource-base": "http://data.lblod.info/road-sign-concept-status/"
     },
+    
     "road-sign-concept-status-codes": {
       "name": "roadSignConceptStatusCode",
       "class": "lblodmow:VerkeersbordconceptStatusCode",
