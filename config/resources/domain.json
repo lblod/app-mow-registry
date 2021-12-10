@@ -268,6 +268,13 @@
           "predicate": "skos:prefLabel"
         }
       },
+      "relationships": {
+        "zonality": {
+          "predicate": "ext:zonality",
+          "target": "concept",
+          "cardinality": "one"
+        }
+      },
       "new-resource-base": "http://data.lblod.info/traffic-measure-concepts/"
     },
     "road-sign-concepts": {
@@ -275,10 +282,6 @@
       "class": "mobiliteit:Verkeersbordconcept",
       "super": ["concept"],
       "attributes": {
-        "zonal": {
-          "type": "boolean",
-          "predicate": "ext:isZonal"
-        },
         "image": {
           "type": "string",
           "predicate": "mobiliteit:grafischeWeergave"
@@ -293,6 +296,11 @@
         }
       },
       "relationships": {
+        "zonality": {
+          "predicate": "ext:zonality",
+          "target": "concept",
+          "cardinality": "one"
+        },
         "status": {
           "predicate": "vs:term_status",
           "target": "roadSignConceptStatus",
