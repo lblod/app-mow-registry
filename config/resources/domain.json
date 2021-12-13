@@ -91,7 +91,6 @@
       },
       "new-resource-base": "http://data.lblod.info/concept-schemes/"
     },
-
     "code-lists": {
       "name": "codeList",
       "class": "lblodmow:Codelist",
@@ -294,6 +293,13 @@
           "predicate": "skos:prefLabel"
         }
       },
+      "relationships":{
+        "zonality":{
+          "predicate": "ext:zonaity",
+          "target": "skosConcept",
+          "cardinality": "one"
+        }
+      },
       "new-resource-base": "http://data.lblod.info/traffic-measure-concepts/"
     },
     "road-sign-concepts": {
@@ -318,6 +324,11 @@
         "status": {
           "predicate": "vs:term_status",
           "target": "roadSignConceptStatus",
+          "cardinality": "one"
+        },
+        "zonality":{
+          "predicate": "ext:zonaity",
+          "target": "skosConcept",
           "cardinality": "one"
         },
         "categories": {
