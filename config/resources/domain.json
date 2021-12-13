@@ -295,7 +295,7 @@
       },
       "relationships":{
         "zonality":{
-          "predicate": "ext:zonaity",
+          "predicate": "ext:zonality",
           "target": "skosConcept",
           "cardinality": "one"
         }
@@ -327,7 +327,7 @@
           "cardinality": "one"
         },
         "zonality":{
-          "predicate": "ext:zonaity",
+          "predicate": "ext:zonality",
           "target": "skosConcept",
           "cardinality": "one"
         },
