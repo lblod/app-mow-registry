@@ -1,0 +1,17 @@
+INSERT DATA {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+<http://data.lblod.info/id/bestuurseenheden/047e7422-103f-4ce9-83e8-ae006d30a5f7>	<http://mu.semte.ch/vocabularies/core/uuid>	"047e7422-103f-4ce9-83e8-ae006d30a5f7" .
+<http://data.lblod.info/id/bestuurseenheden/047e7422-103f-4ce9-83e8-ae006d30a5f7>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Departement Mobiliteit en Openbare Werken" .
+<http://data.lblod.info/id/bestuurseenheden/047e7422-103f-4ce9-83e8-ae006d30a5f7>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://data.vlaanderen.be/ns/besluit#Bestuurseenheid> .
+<http://data.lblod.info/id/bestuurseenheden/047e7422-103f-4ce9-83e8-ae006d30a5f7>	<http://purl.org/dc/terms/identifier>	"OVO000096" .
+  }
+};
+
+INSERT DATA {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+<http://data.lblod.info/id/bestuurseenheden/be07181d-1cc9-4537-9157-726547ce3c10>	<http://mu.semte.ch/vocabularies/core/uuid>	"be07181d-1cc9-4537-9157-726547ce3c10" .
+<http://data.lblod.info/id/bestuurseenheden/be07181d-1cc9-4537-9157-726547ce3c10>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Agentschap Wegen en Verkeer" .
+<http://data.lblod.info/id/bestuurseenheden/be07181d-1cc9-4537-9157-726547ce3c10>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://data.vlaanderen.be/ns/besluit#Bestuurseenheid> .
+<http://data.lblod.info/id/bestuurseenheden/be07181d-1cc9-4537-9157-726547ce3c10>	<http://purl.org/dc/terms/identifier> "OVO000098" .
+  }
+}
