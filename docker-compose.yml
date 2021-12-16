@@ -95,12 +95,18 @@ services:
     volumes:
       - ./data/static-files:/data
   login:
-    image: semtech/login-service:2.9.1
+    image: lblod/acmidm-login-service:feature-configurable
     links:
       - db:database
     environment:
-      USERS_GRAPH: "http://mu.semte.ch/graphs/users"
-      SESSIONS_GRAPH: "http://mu.semte.ch/graphs/sessions"
+      MU_APPLICATION_AUTH_DISCOVERY_URL: https://authenticatie-ti.vlaanderen.be/op/.well-known/openid-configuration 
+      MU_APPLICATION_AUTH_CLIENT_ID: ae3be0bb-5c5d-447f-9916-1ea819267e53
+      MU_APPLICATION_AUTH_CLIENT_SECRET: configure-in-override
+      MU_APPLICATION_AUTH_REDIRECT_URI: https://roadsigns.lblod.info/authorization/callback
+      MU_APPLICATION_AUTH_USERID_CLAIM: sub
+      USER_GRAPH_TEMPLATE: http://mu.semte.ch/graphs/users
+      ACCOUNT_GRAPH_TEMPLATE: http://mu.semte.ch/graphs/users
+      ROLE_CLAIM: abb_registiermobiliteit_rol_3d
     logging: *default-logging
   project-scripts:
     image: semtech/mu-scripts:1.0.0
