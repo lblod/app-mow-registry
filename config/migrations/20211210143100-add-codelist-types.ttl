@@ -1,0 +1,13 @@
+<http://lblod.data.gift/concept-schemes/F452BCB4-4CE7-4318-8E00-5A96E7FED207> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "F452BCB4-4CE7-4318-8E00-5A96E7FED207" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "codelistTypes" .
+
+<http://lblod.data.gift/concepts/13901FE2-BD0E-4843-B709-FF515EE81743> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "13901FE2-BD0E-4843-B709-FF515EE81743" ;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/F452BCB4-4CE7-4318-8E00-5A96E7FED207> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "singleSelect" .
+
+<http://lblod.data.gift/concepts/57C93E12-A02C-4D4B-8B95-666B6701286C> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "57C93E12-A02C-4D4B-8B95-666B6701286C" ;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/F452BCB4-4CE7-4318-8E00-5A96E7FED207> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "multiSelect" .

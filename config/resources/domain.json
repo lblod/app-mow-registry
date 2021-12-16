@@ -79,8 +79,9 @@
       "relationships": {
         "concepts": {
           "predicate": "skos:inScheme",
-          "target": "concept",
-          "cardinality": "many"
+          "target": "skosConcept",
+          "cardinality": "many",
+          "inverse": true
         },
         "top-concepts": {
           "predicate": "skos:topConceptOf",
@@ -94,18 +95,11 @@
       "name": "codeList",
       "class": "lblodmow:Codelist",
       "super": ["conceptScheme"],
-      "attributes": {
-        "label":{
-          "type": "string",
-          "predicate": "skos:prefLabel"
-        }
-      },
       "relationships":{
-        "codeListOptions":{
-          "predicate": "skos:inScheme",
-          "target": "codeListOption",
-          "cardinality": "many",
-          "inverse": true
+        "type":{
+          "predicate": "dct:type",
+          "target": "skosConcept",
+          "cardinality": "one"
         },
         "mappings": {
           "predicate": "ext:codeList",
@@ -117,8 +111,8 @@
       "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/concept-schemes/"
     },
-    "code-list-options": {
-      "name": "codeListOption",
+    "skos-concepts": {
+      "name": "skosConcept",
       "class": "skos:Concept",
       "attributes": {
         "label":{
@@ -127,12 +121,13 @@
         }
       },
       "relationships":{
-        "codeList":{
+        "inScheme":{
           "predicate": "skos:inScheme",
-          "target": "codeList",
+          "target": "conceptScheme",
           "cardinality": "one"
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/concepts/"
     },
     "concepts":{
@@ -268,6 +263,13 @@
           "predicate": "skos:prefLabel"
         }
       },
+      "relationships":{
+        "zonality":{
+          "predicate": "ext:zonality",
+          "target": "skosConcept",
+          "cardinality": "one"
+        }
+      },
       "new-resource-base": "http://data.lblod.info/traffic-measure-concepts/"
     },
     "road-sign-concepts": {
@@ -292,6 +294,11 @@
         "status": {
           "predicate": "vs:term_status",
           "target": "roadSignConceptStatus",
+          "cardinality": "one"
+        },
+        "zonality":{
+          "predicate": "ext:zonality",
+          "target": "skosConcept",
           "cardinality": "one"
         },
         "categories": {
