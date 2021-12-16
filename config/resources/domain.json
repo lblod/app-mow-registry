@@ -95,23 +95,11 @@
       "name": "codeList",
       "class": "lblodmow:Codelist",
       "super": ["conceptScheme"],
-      "attributes": {
-        "label":{
-          "type": "string",
-          "predicate": "skos:prefLabel"
-        }
-      },
       "relationships":{
         "type":{
           "predicate": "dct:type",
           "target": "skosConcept",
           "cardinality": "one"
-        },
-        "codeListOptions":{
-          "predicate": "skos:inScheme",
-          "target": "codeListOption",
-          "cardinality": "many",
-          "inverse": true
         },
         "mappings": {
           "predicate": "ext:codeList",
@@ -122,24 +110,6 @@
       },
       "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/concept-schemes/"
-    },
-    "code-list-options": {
-      "name": "codeListOption",
-      "class": "skos:Concept",
-      "attributes": {
-        "label":{
-          "type": "string",
-          "predicate": "skos:prefLabel"
-        }
-      },
-      "relationships":{
-        "codeList":{
-          "predicate": "skos:inScheme",
-          "target": "codeList",
-          "cardinality": "one"
-        }
-      },
-      "new-resource-base": "http://lblod.data.gift/concepts/"
     },
     "skos-concepts": {
       "name": "skosConcept",
