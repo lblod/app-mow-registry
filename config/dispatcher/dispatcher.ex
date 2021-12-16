@@ -32,10 +32,6 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/code-lists/"
   end
 
-  match "/code-list-options/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/code-list-options/"
-  end
-
   match "/road-sign-concepts/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://resource/road-sign-concepts/"
   end
