@@ -106,7 +106,7 @@ services:
       MU_APPLICATION_AUTH_USERID_CLAIM: sub
       USER_GRAPH_TEMPLATE: http://mu.semte.ch/graphs/users
       ACCOUNT_GRAPH_TEMPLATE: http://mu.semte.ch/graphs/users
-      ROLE_CLAIM: abb_registiermobiliteit_rol_3d
+      MU_APPLICATION_AUTH_ROLE_CLAIM: abb_registiermobiliteit_rol_3d
     logging: *default-logging
   project-scripts:
     image: semtech/mu-scripts:1.0.0
