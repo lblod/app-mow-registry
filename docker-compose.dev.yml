@@ -20,3 +20,11 @@ services:
     environment:
       ENABLE_ENDPOINT_SELECTOR: "true"
       DEFAULT_SPARQL_ENDPOINT: "http://localhost:8890/sparql"
+  tlsproxy:
+    image: caddy:2
+    ports:
+      - "443:443"
+    environment:
+      SITE_ADDRESS: "roadsigns.lblod.info"
+    volumes:
+      - ./config/dev/tlsproxy/Caddyfile:/etc/caddy/Caddyfile
