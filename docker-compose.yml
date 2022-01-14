@@ -9,18 +9,17 @@ x-logging:
 
 services:
   identifier:
-    image: semtech/mu-identifier:1.8.1
+    image: semtech/mu-identifier:1.9.0
     links:
       - dispatcher:dispatcher
     environment:
       DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER: "*"
-      DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"public\"}]"
     labels:
       - "logging=true"
     restart: always
     logging: *default-logging
   dispatcher:
-    image: semtech/mu-dispatcher:latest
+    image: semtech/mu-dispatcher:2.1.0-beta.1
     links:
       - resource:resource
     volumes:
@@ -42,12 +41,9 @@ services:
     restart: always
     logging: *default-logging
   db:
-    image: semtech/mu-authorization:0.6.0-beta.5
+    image: semtech/mu-authorization:0.6.0-beta.7
     environment:
       MU_SPARQL_ENDPOINT: "http://triplestore:8890/sparql"
-      LOG_OUTGOING_SPARQL_QUERIES: "true"
-      LOG_INCOMING_SPARQL_QUERIES: "true"
-      LOG_ACCESS_RIGHTS: "true"
     volumes:
       - ./config/authorization:/config
   migrations:
@@ -89,7 +85,7 @@ services:
     restart: always
     logging: *default-logging
   frontend:
-    image: lblod/frontend-mow-registry:feature-docker-build
+    image: lblod/frontend-mow-registry:0.8.0
     labels:
       - "logging=true"
     restart: always
@@ -98,3 +94,28 @@ services:
     image: semtech/static-file-service:0.2.0
     volumes:
       - ./data/static-files:/data
+  login:
+    image: lblod/acmidm-login-service:feature-configurable
+    links:
+      - db:database
+    environment:
+      MU_APPLICATION_AUTH_DISCOVERY_URL: https://authenticatie-ti.vlaanderen.be/op/.well-known/openid-configuration 
+      MU_APPLICATION_AUTH_CLIENT_ID: ae3be0bb-5c5d-447f-9916-1ea819267e53
+      MU_APPLICATION_AUTH_CLIENT_SECRET: configure-in-override
+      MU_APPLICATION_AUTH_REDIRECT_URI: https://roadsigns.lblod.info/authorization/callback
+      MU_APPLICATION_AUTH_USERID_CLAIM: sub
+      USER_GRAPH_TEMPLATE: http://mu.semte.ch/graphs/users
+      ACCOUNT_GRAPH_TEMPLATE: http://mu.semte.ch/graphs/users
+      MU_APPLICATION_AUTH_ROLE_CLAIM: abb_registiermobiliteit_rol_3d
+    logging: *default-logging
+  project-scripts:
+    image: semtech/mu-scripts:1.0.0
+    volumes:
+      - ./scripts/:/app/scripts/
+    restart: "no"
+  annotater:
+    image: lblod/fix-annotation-service:0.0.7
+    restart: "no"
+    logging: *default-logging
+    links:
+      - db:database

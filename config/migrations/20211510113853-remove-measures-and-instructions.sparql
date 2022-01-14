@@ -1,0 +1,31 @@
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+DELETE WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+ ?nodeShape a <http://www.w3.org/ns/shacl#NodeShape>; ?p ?o
+ }}
+;
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+  ?mapping ?p ?o
+}
+}
+WHERE {
+?s ext:template ?template.
+?template <http://mu.semte.ch/vocabularies/ext/mapping> ?mapping.
+?mapping ?p ?o.
+};
+
+DELETE WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+  ?s ext:template ?template.
+?template ?p ?o.
+}
+}
+;
+DELETE WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+?s a <http://data.lblod.info/vocabularies/mobiliteit/TrafficMeasureConcept>.
+?s ?p ?o
+}
+}

@@ -1,0 +1,1773 @@
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e076d4553d8995d0739ad74dc30dbb5cf4095b6c0a9e9a68503e7a7da03f3b9e> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ecc6afd4-1336-44e9-abd5-03a5d6bf2141> .
+
+<http://data.lblod.info/templates/ecc6afd4-1336-44e9-abd5-03a5d6bf2141> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ecc6afd4-1336-44e9-abd5-03a5d6bf2141";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten voorrang verlenen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e84d5732cf1299f012da33d3f8d76b0dfb7213ae86f0ed0fe76044f7f900424f> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e45dd78a-d6eb-40c2-8345-4b1129063ffe> .
+
+<http://data.lblod.info/templates/e45dd78a-d6eb-40c2-8345-4b1129063ffe> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e45dd78a-d6eb-40c2-8345-4b1129063ffe";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de voorrangsweg wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/f46c41dce095d2e07a36a8e764c22834eebcc9283c48c36171e3a4ee483ca5ba> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/896cd5aa-8f7a-4da9-87f6-b6782068ea72> .
+
+<http://data.lblod.info/templates/896cd5aa-8f7a-4da9-87f6-b6782068ea72> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "896cd5aa-8f7a-4da9-87f6-b6782068ea72";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders hebben voorrang</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/64d0148e08734e74f31a183130ab616a3fdb25ab8bd1c60a9cbb6b918908b244> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/d6999e62-1a0a-4f07-97d5-04fd3086142a> .
+
+<http://data.lblod.info/templates/d6999e62-1a0a-4f07-97d5-04fd3086142a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d6999e62-1a0a-4f07-97d5-04fd3086142a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten voorrang verlenen aan de bestuurders die uit de tegenovergestelde richting komen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/00939dd22288b0ef321908552d49f97c6e77e53de6e14b303f32c9a499839557> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/9b8e5025-7ea5-44e6-a8fc-403783adb0a3> .
+
+<http://data.lblod.info/templates/9b8e5025-7ea5-44e6-a8fc-403783adb0a3> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9b8e5025-7ea5-44e6-a8fc-403783adb0a3";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders hebben voorrang ten opzichte van de bestuurders die uit de tegenovergestelde richting komen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/54047e29ccc04a916773bfca49532da57a6cbb2d13cca7c0dd6b676b84e75576> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a7e0b65b-c1bb-402a-b3ea-f233935ef85a> .
+
+<http://data.lblod.info/templates/a7e0b65b-c1bb-402a-b3ea-f233935ef85a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a7e0b65b-c1bb-402a-b3ea-f233935ef85a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers mogen de driekleurige verkeerslichten voorbijrijden om rechts af te slaan, wanneer het verkeerslicht op rood of oranjegeel staat, op voorwaarde dat zij hierbij voorrang verlenen aan de andere weggebruikers die zich verplaatsen op de openbare weg of op de rijbaan</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/3ab5a7784511d3c2b96b8d4a51d2b69bc0221e625d1f954f0ad7b0036e980cb9> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c76d4274-b6a6-4b80-9997-155a9988078a> .
+
+<http://data.lblod.info/templates/c76d4274-b6a6-4b80-9997-155a9988078a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c76d4274-b6a6-4b80-9997-155a9988078a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers mogen de driekleurige verkeerslichten voorbijrijden om rechtdoor te rijden, wanneer het verkeerslicht op rood of oranjegeel staat, op voorwaarde dat zij hierbij voorrang verlenen aan de andere weggebruikers die zich verplaatsen op de openbare weg of op de rijbaan vanaf het rode of oranjegele licht</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/db7f076463027c70137d3b899b76586aa8ea0cc38001ed8d880d37d4810410a0> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/319d787e-bea6-4ed6-99da-d609919d1acb> .
+
+<http://data.lblod.info/templates/319d787e-bea6-4ed6-99da-d609919d1acb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "319d787e-bea6-4ed6-99da-d609919d1acb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het verkeersbord B1 wordt aangekondigd. De bestuurders zullen over ${aanduiding_afstand} meter voorrang moeten verlenen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/1b0064d6a66dc26109c3173acb5254c81e508aa875ff16764b6d45cb34ef651a> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/aa9e7b28-40d8-4540-b4f3-e4fa5c9cf2ad> .
+
+<http://data.lblod.info/templates/aa9e7b28-40d8-4540-b4f3-e4fa5c9cf2ad> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "aa9e7b28-40d8-4540-b4f3-e4fa5c9cf2ad";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten stoppen en voorrang verlenen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b60a7295d946865b349e22b018784376f5b299ac1410eae384388c652baeb289> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/d1b82c3a-a2c5-4ebc-be71-e11e81583041> .
+
+<http://data.lblod.info/templates/d1b82c3a-a2c5-4ebc-be71-e11e81583041> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d1b82c3a-a2c5-4ebc-be71-e11e81583041";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het verkeersbord B5 wordt aangekondigd. De bestuurders zullen over ${aanduiding_afstand} meter moeten stoppen en voorrang verlenen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/439b3909b6eae9c6a87120b407e1bdcc0245cda415266347b1f4b930f3573535> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ce72a14a-1ec9-4446-9cc7-3758904d69c6> .
+
+<http://data.lblod.info/templates/ce72a14a-1ec9-4446-9cc7-3758904d69c6> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ce72a14a-1ec9-4446-9cc7-3758904d69c6";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de voorrangsweg wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7d6a7b43528f9c71a42780a01dd1e43e1db1e2675c4f3e18effe6939bbc663ee> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/8ec7d675-dc58-4d0b-90c9-2bea18b8d7ff>,
+     <http://data.lblod.info/templates/01e78b93-cbc7-487a-a810-ec76b972d2a1> .
+
+<http://data.lblod.info/templates/01e78b93-cbc7-487a-a810-ec76b972d2a1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "01e78b93-cbc7-487a-a810-ec76b972d2a1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>verboden rijrichting voor iedere bestuurder</p>" .
+
+<http://data.lblod.info/templates/8ec7d675-dc58-4d0b-90c9-2bea18b8d7ff> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8ec7d675-dc58-4d0b-90c9-2bea18b8d7ff";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>verboden rijrichting voor iedere bestuurder. Het verbod is niet van toepassing op het geheel van de openbare weg</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/fcc9d98e971d74253c641355dc88c94ea70f8a8a1a789ea4aef44a0f23a52728> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/986b9279-ee40-4b03-b53a-1a5eb042ed4b> .
+
+<http://data.lblod.info/templates/986b9279-ee40-4b03-b53a-1a5eb042ed4b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "986b9279-ee40-4b03-b53a-1a5eb042ed4b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van rijwielen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bc67b2aed58af8cba5f38d177bfc2525b97410a84dec019d0a54a072bae6c776> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/9d6eaaa8-d496-4238-a5ae-731626c53f3f> .
+
+<http://data.lblod.info/templates/9d6eaaa8-d496-4238-a5ae-731626c53f3f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9d6eaaa8-d496-4238-a5ae-731626c53f3f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van gespannen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0c4c0e3561334e2bc50bca4979294fa85607520fa2a22bf25e4b32d350d924ae> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/eed7d2e3-dac6-46f6-91b1-ffacdae6c17e> .
+
+<http://data.lblod.info/templates/eed7d2e3-dac6-46f6-91b1-ffacdae6c17e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "eed7d2e3-dac6-46f6-91b1-ffacdae6c17e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor ruiters</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/73038f34804b2c4b5552eadd2cb7c8c677f7e7386e48286ac75873cb030fd617> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/1925a7b5-846c-49c8-88a9-8803af58c2c3> .
+
+<http://data.lblod.info/templates/1925a7b5-846c-49c8-88a9-8803af58c2c3> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1925a7b5-846c-49c8-88a9-8803af58c2c3";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van handkarren</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ce89d1a5cdd2078c5ae18dfacba050fe2e2db116c57f2e9934a5ce6eddf2e893> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/08d16056-f8ae-429b-9b29-1ba55409e107> .
+
+<http://data.lblod.info/templates/08d16056-f8ae-429b-9b29-1ba55409e107> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "08d16056-f8ae-429b-9b29-1ba55409e107";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor voetgangers</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bedd100cbf5d1795b9f4a9cf5d63846a65e0d5deb7f1122848e826f5b9e221af> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e0681078-6ded-43b2-bc20-448941116f5e> .
+
+<http://data.lblod.info/templates/e0681078-6ded-43b2-bc20-448941116f5e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e0681078-6ded-43b2-bc20-448941116f5e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan ${massa} ton</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/25a693b6497cc1c6bd53f85f018fceb52641719bb1f06cbb6a67517f9fe11b1d> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/df6ba8db-70ef-4f31-b804-8df7cbd58064> .
+
+<http://data.lblod.info/templates/df6ba8db-70ef-4f31-b804-8df7cbd58064> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "df6ba8db-70ef-4f31-b804-8df7cbd58064";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van autocars</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/2b08f73a820e4998ba2df0155922f480f1f13a286f34949dad8af8914d4f77cd> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/03e01118-5743-4b93-9121-53f3066981bd> .
+
+<http://data.lblod.info/templates/03e01118-5743-4b93-9121-53f3066981bd> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "03e01118-5743-4b93-9121-53f3066981bd";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen gebruikt voor het vervoer van zaken</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/25edd560e9c1080dcc8275422f857a2b08c7f4efcfb9bb93eb4bf53b9719ead5> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/7aadd956-c88d-4c50-9060-cc0ca4e4b02f> .
+
+<http://data.lblod.info/templates/7aadd956-c88d-4c50-9060-cc0ca4e4b02f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7aadd956-c88d-4c50-9060-cc0ca4e4b02f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen die de gevaarlijke goederen, bepaald door de voor vervoer van gevaarlijke goederen bevoegde Ministers, vervoeren</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b66e9e8ac16b07d9311e94a44dd7146b8e6ada618f414e8502eac53422c8b842> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c8fa5fdf-4e92-40b2-bb75-882ab1815e74> .
+
+<http://data.lblod.info/templates/c8fa5fdf-4e92-40b2-bb75-882ab1815e74> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c8fa5fdf-4e92-40b2-bb75-882ab1815e74";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen die de gevaarlijke ontvlambare of ontplofbare stoffen, bepaald door de voor vervoer van gevaarlijke goederen bevoegde Ministers, vervoeren</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6863e3797bc06c1ef11a793e4462a32ccfc45d31642213209c15f87339a279f5> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c4d2eb9c-fa81-4f6f-a0e9-62f82498e52b> .
+
+<http://data.lblod.info/templates/c4d2eb9c-fa81-4f6f-a0e9-62f82498e52b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c4d2eb9c-fa81-4f6f-a0e9-62f82498e52b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen die de gevaarlijke verontreinigende stoffen, bepaald door de voor vervoer van gevaarlijke goederen bevoegde Ministers, vervoeren</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/11a07b567d603a2f01a987ce4feea54c709a57449554debc5f5ae63c602c722b> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/12d45dce-4455-4a8e-ae47-756071a639d5> .
+
+<http://data.lblod.info/templates/12d45dce-4455-4a8e-ae47-756071a639d5> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "12d45dce-4455-4a8e-ae47-756071a639d5";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen of slepen waarvan de lengte, lading inbegrepen, groter is dan ${lengte_voertuig} meter</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/69789f034ab0b39016cd2d17ac594edf1aaf3f5b7e167fb85025483c2bd63bf2> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/03a13796-12ab-4678-bbf0-7e32e16a4076> .
+
+<http://data.lblod.info/templates/03a13796-12ab-4678-bbf0-7e32e16a4076> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "03a13796-12ab-4678-bbf0-7e32e16a4076";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen waarvan de breedte, lading inbegrepen, groter is dan ${breedte_voertuig} meter</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/451d20f38b98efda6f0fa73fb26cccda41070b772e3c4fcc46caee62e004ea08> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/0a3fea13-3445-4d28-b4ea-d5bde5c2462f> .
+
+<http://data.lblod.info/templates/0a3fea13-3445-4d28-b4ea-d5bde5c2462f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0a3fea13-3445-4d28-b4ea-d5bde5c2462f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van voertuigen waarvan de hoogte, lading inbegrepen, groter is dan ${hoogte_voertuig} meter</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e8cdf86215d2202a9001f93e1ed3b7577885fe972a799a30f29998bf0fb34e02> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/45e1c1ec-2c08-4487-9e1e-b7e7216365b0> .
+
+<http://data.lblod.info/templates/45e1c1ec-2c08-4487-9e1e-b7e7216365b0> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "45e1c1ec-2c08-4487-9e1e-b7e7216365b0";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden in beide richtingen, voor iedere bestuurder</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/22e5942e1f2f0e0e4162ec69933e317ede9c3c10200980665a682d30f19034e4> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/827854d4-5a76-4f41-9ce8-9c1a606231cf> .
+
+<http://data.lblod.info/templates/827854d4-5a76-4f41-9ce8-9c1a606231cf> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "827854d4-5a76-4f41-9ce8-9c1a606231cf";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden links af te slaan</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/361c936975bc1f56b7b6b3689c20ad9357ba6d0e0e97dad0bd718c395f4ba9e1> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/216d9d84-5f21-4b2b-b373-a9a87222b722> .
+
+<http://data.lblod.info/templates/216d9d84-5f21-4b2b-b373-a9a87222b722> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "216d9d84-5f21-4b2b-b373-a9a87222b722";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden rechts af te slaan</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/dfa07fdaeb6870f1e2922ba694f0fbf5b929f2f9249b785d7c0591b0201ba4c8> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/aeb9c7a7-6ad5-4bb7-a735-3f77e5a288d3> .
+
+<http://data.lblod.info/templates/aeb9c7a7-6ad5-4bb7-a735-3f77e5a288d3> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "aeb9c7a7-6ad5-4bb7-a735-3f77e5a288d3";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders te keren</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/1a87027d46dd7d4a3cd3084db904dfe5d22e0cb0ae7dcc47ebed18eec7e52f81> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/95e7b725-7f41-4c3f-8a29-1dbb56cb871c> .
+
+<http://data.lblod.info/templates/95e7b725-7f41-4c3f-8a29-1dbb56cb871c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "95e7b725-7f41-4c3f-8a29-1dbb56cb871c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders een gespan of een voertuig met meer dan twee wielen links in te halen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/11a00892550b4d76a4021b11c9769d4d8812e80a42808da341d72e49f81c5a0c> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/37e7debe-0be4-4810-a11f-34c50eb08ddb> .
+
+<http://data.lblod.info/templates/37e7debe-0be4-4810-a11f-34c50eb08ddb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "37e7debe-0be4-4810-a11f-34c50eb08ddb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin en het einde van het inhaalverbod worden aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6cebe8cd9a145b9791d607b6b66fee19a080ab8efecdca98bef9dde1d7a3c228> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/bb849d6c-212c-4401-bacf-898d0f45196b> .
+
+<http://data.lblod.info/templates/bb849d6c-212c-4401-bacf-898d0f45196b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bb849d6c-212c-4401-bacf-898d0f45196b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders van voertuigen of slepen gebruikt voor het vervoer van zaken, waarvan de maximale toegelaten massa meer dan 3.500 kg bedraagt een gespan of een voertuig met meer dan twee wielen links in te halen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/55162fd0c4ace95126afa15608016924b948ff4f6a955a6cb908d0c46262737c> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c0fa3a7a-0fca-4078-8cd4-b162801259ee> .
+
+<http://data.lblod.info/templates/c0fa3a7a-0fca-4078-8cd4-b162801259ee> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c0fa3a7a-0fca-4078-8cd4-b162801259ee";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin en het einde van het inhaalverbod worden aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/1c6110b80aad28134ee6cc79cf506a65a0488d1c649841e152ffbdb5031bb5ee> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/d0329e73-cecb-4b9a-a4af-0bb6563bd311> .
+
+<http://data.lblod.info/templates/d0329e73-cecb-4b9a-a4af-0bb6563bd311> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d0329e73-cecb-4b9a-a4af-0bb6563bd311";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders sneller te rijden dan ${snelheidsbeperking} km per uur</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/950eeeaa70a8d7b9c29056a248fa0e673881f37a10fdce925e969828af827272> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/b21ff80f-ca2a-4e22-84c4-7e340bdc599f> .
+
+<http://data.lblod.info/templates/b21ff80f-ca2a-4e22-84c4-7e340bdc599f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b21ff80f-ca2a-4e22-84c4-7e340bdc599f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin en het einde van de opgelegde snelheidsbeperking worden aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4a03dff5c229e10fbe2544c11236dfce5ab592d70626a0a0671ee23c16585fa6> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/dd506d95-f05a-4b65-ab9a-9679a84d63bc> .
+
+<http://data.lblod.info/templates/dd506d95-f05a-4b65-ab9a-9679a84d63bc> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "dd506d95-f05a-4b65-ab9a-9679a84d63bc";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>alle plaatselijke verbodsbepalingen opgelegd aan de voertuigen in beweging zijn ten einde</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/36e7f05884aeb3cfe0ed5064713ca63ce7d9817dd14921eae9bd221766153216> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/31de1a92-a8b1-4930-b3b9-48054e448948> .
+
+<http://data.lblod.info/templates/31de1a92-a8b1-4930-b3b9-48054e448948> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "31de1a92-a8b1-4930-b3b9-48054e448948";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders de tolpost voorbij te rijden zonder te stoppen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/55f0a4e186dc201149bd8509e0ea6fe363b86ef16f6f0766557a946572deb168> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/cc10e877-c34f-41c4-b150-9b31d4dc7a92> .
+
+<http://data.lblod.info/templates/cc10e877-c34f-41c4-b150-9b31d4dc7a92> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cc10e877-c34f-41c4-b150-9b31d4dc7a92";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders de cruise control of kruissnelheidsregelaar te gebruiken</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6d546c2d3ee4a4fb232dbc72a0f4d6e6b27344ceb4ec3d03f8f98cc669f5f280> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f2487528-af9f-483f-bb27-cf143d740525> .
+
+<http://data.lblod.info/templates/f2487528-af9f-483f-bb27-cf143d740525> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f2487528-af9f-483f-bb27-cf143d740525";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin en het einde van het verbod de cruise control of kruissnelheidsregelaar te gebruiken worden aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/527b2109b1aacf1a69f31cdae3721302a51a118469ac337c85aba921fa0dca13> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e057dee0-283d-4914-b1e4-e04f46b9bb3e> .
+
+<http://data.lblod.info/templates/e057dee0-283d-4914-b1e4-e04f46b9bb3e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e057dee0-283d-4914-b1e4-e04f46b9bb3e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van motorvoertuigen met meer dan twee wielen en van motorfietsen met zijspan</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/81dacb65d15dc41b3f92ffeb9b6d8a776180c1261b69d74db5783bcdb3d3e79f> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/56aa7985-4258-468c-999f-ca77cf2c0bc6> .
+
+<http://data.lblod.info/templates/56aa7985-4258-468c-999f-ca77cf2c0bc6> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "56aa7985-4258-468c-999f-ca77cf2c0bc6";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van motorvoertuigen met vier wielen, geconstrueerd voor onverhard terrein, met een open carrosserie, een stuur als op een motorfiets en een zadel</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/47b523a23f2f2f578d171d5d78d343d01f9b215858733370177c5aab37baa29c> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2d02d110-2e1b-43d9-9381-dfd8f6e01e62> .
+
+<http://data.lblod.info/templates/2d02d110-2e1b-43d9-9381-dfd8f6e01e62> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2d02d110-2e1b-43d9-9381-dfd8f6e01e62";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van motorfietsen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/2ef0f718f6780fa8f69d02d8c3e8ad3cc9879e1a125b361b627a883198b41400> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/1a209be5-33d4-4f36-8e43-1a9e90aef23e> .
+
+<http://data.lblod.info/templates/1a209be5-33d4-4f36-8e43-1a9e90aef23e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1a209be5-33d4-4f36-8e43-1a9e90aef23e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toegang is verboden voor bestuurders van bromfietsen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ef95e7f29f423cb55cfb085749607778bfaf770137e9b0cfc3362f374094985f> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/909d0b1f-d3d1-4cee-bc4b-cfd87e806670>,
+     <http://data.lblod.info/templates/ef6d80fb-ce30-4e55-8258-b30a24f84263>,
+     <http://data.lblod.info/templates/ca285fc8-7a5a-4307-b6bb-b6d936c3a231>,
+     <http://data.lblod.info/templates/17afa8a6-8d9d-4c37-ba30-6f3afcab70cb>,
+     <http://data.lblod.info/templates/37780c90-0bc7-4f7e-9907-2c67a503b7be> .
+
+<http://data.lblod.info/templates/17afa8a6-8d9d-4c37-ba30-6f3afcab70cb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "17afa8a6-8d9d-4c37-ba30-6f3afcab70cb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht de hindernis langs rechts voorbij te rijden</p>" .
+
+<http://data.lblod.info/templates/37780c90-0bc7-4f7e-9907-2c67a503b7be> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "37780c90-0bc7-4f7e-9907-2c67a503b7be";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht links af te slaan</p>" .
+
+<http://data.lblod.info/templates/909d0b1f-d3d1-4cee-bc4b-cfd87e806670> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "909d0b1f-d3d1-4cee-bc4b-cfd87e806670";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht de hindernis langs links voorbij te rijden</p>" .
+
+<http://data.lblod.info/templates/ca285fc8-7a5a-4307-b6bb-b6d936c3a231> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ca285fc8-7a5a-4307-b6bb-b6d936c3a231";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht rechtdoor te rijden</p>" .
+
+<http://data.lblod.info/templates/ef6d80fb-ce30-4e55-8258-b30a24f84263> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ef6d80fb-ce30-4e55-8258-b30a24f84263";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht rechts af te slaan</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/32a6431ad5ad20c5bc5eca29bcbbe0ce6bca180ac0a7fceed6e05127e60c16f0> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e60c8e6e-5b75-4585-a906-43bfbf56e3ee> .
+
+<http://data.lblod.info/templates/e60c8e6e-5b75-4585-a906-43bfbf56e3ee> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e60c8e6e-5b75-4585-a906-43bfbf56e3ee";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voetgangers en fietsers moeten het deel van de openbare weg voor hen voorbehouden volgen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b0b50921fd34b0b2d4b4a8c72dbb7872071dc3b15a492ac77683707d308feae1> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/addf7a61-bdf9-4f52-bbb8-65c25a51cd00> .
+
+<http://data.lblod.info/templates/addf7a61-bdf9-4f52-bbb8-65c25a51cd00> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "addf7a61-bdf9-4f52-bbb8-65c25a51cd00";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voetgangers zijn verplicht de voorbehouden weg te volgen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4cdd5c7ae7f47341ae64e5a6f0d87ef4af6a73fc3cd2ba5b1a46cd0fa9c83465> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/1b4ea15a-26c7-4d2c-94c3-d47a3fe30fe5> .
+
+<http://data.lblod.info/templates/1b4ea15a-26c7-4d2c-94c3-d47a3fe30fe5> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1b4ea15a-26c7-4d2c-94c3-d47a3fe30fe5";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ruiters zijn verplicht de voorbehouden weg te volgen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/00ec95d849486cfd9c41ba02e2125ac2f719f6bb85d26ae78f6cbd006ffd1f42> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a5719bdb-6b65-4200-ac17-9b72e171a22a>,
+     <http://data.lblod.info/templates/bfa371b1-d9c7-4ae7-8b3a-1065795fc48c> .
+
+<http://data.lblod.info/templates/a5719bdb-6b65-4200-ac17-9b72e171a22a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a5719bdb-6b65-4200-ac17-9b72e171a22a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht rechtdoor te rijden of links af te slaan</p>" .
+
+<http://data.lblod.info/templates/bfa371b1-d9c7-4ae7-8b3a-1065795fc48c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bfa371b1-d9c7-4ae7-8b3a-1065795fc48c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders zijn verplicht rechtdoor te rijden of rechts af te slaan</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b220de78deaf7595b84fe86a8dc2b881009b6ea15428a0e2e7c4b679c61c29e5> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/95eeec01-b221-4084-a156-8dfd1e663174>,
+     <http://data.lblod.info/templates/4a3aa860-7a05-4013-86d5-6b3181e7f19b>,
+     <http://data.lblod.info/templates/f746de19-3031-4fa5-92bd-9e3773c96876> .
+
+<http://data.lblod.info/templates/4a3aa860-7a05-4013-86d5-6b3181e7f19b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4a3aa860-7a05-4013-86d5-6b3181e7f19b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders van de voertuigen die gevaarlijke goederen vervoeren zijn verplicht links af te slaan</p>" .
+
+<http://data.lblod.info/templates/95eeec01-b221-4084-a156-8dfd1e663174> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "95eeec01-b221-4084-a156-8dfd1e663174";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders van de voertuigen die gevaarlijke goederen vervoeren zijn verplicht rechts af te slaan</p>" .
+
+<http://data.lblod.info/templates/f746de19-3031-4fa5-92bd-9e3773c96876> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f746de19-3031-4fa5-92bd-9e3773c96876";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders van de voertuigen die gevaarlijke goederen vervoeren zijn verplicht rechtdoor te rijden</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bc05e44f54e530335872114a61a3959f423b0f369f464e3717495b14d8ffd1ca> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f0cbc77c-70d2-4ebe-a394-84108b155be9> .
+
+<http://data.lblod.info/templates/f0cbc77c-70d2-4ebe-a394-84108b155be9> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f0cbc77c-70d2-4ebe-a394-84108b155be9";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>verplicht rondgaand verkeer. De bestuurders zijn verplicht de inrichting bestemd om het verkeer te leiden aan hun linkerhand te laten</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7b796f77edc7d487881bd4fbc5faebda6d803ff899740de440211257d706c136> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/fffe754c-5a90-42d5-8f26-6bc98e8e348a> .
+
+<http://data.lblod.info/templates/fffe754c-5a90-42d5-8f26-6bc98e8e348a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fffe754c-5a90-42d5-8f26-6bc98e8e348a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen klasse A moeten het ${rijrichting}fietspad volgen, voor zover het in de door hen gevolgde rijrichting is gesignaleerd</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/eadf7c2db13f747a7241c4689a212e02f4c93f6957844fa4ff26fdf2ce6165bc> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/bbe58eaf-2356-4b23-add6-ad9c911a5a54>,
+     <http://data.lblod.info/templates/bf463b0c-b6aa-43d9-9866-1fa1eb2e1a41> .
+
+<http://data.lblod.info/templates/bbe58eaf-2356-4b23-add6-ad9c911a5a54> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bbe58eaf-2356-4b23-add6-ad9c911a5a54";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voetgangers, fietsers en bestuurders van tweewielige bromfietsen klasse A moeten het deel van de openbare weg voor hen voorbehouden volgen. Voetgangers moeten daarbij het rechtse gedeelte volgen, fietsers en bestuurders van tweewielige bromfietsen klasse A het linkse gedeelte</p>" .
+
+<http://data.lblod.info/templates/bf463b0c-b6aa-43d9-9866-1fa1eb2e1a41> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bf463b0c-b6aa-43d9-9866-1fa1eb2e1a41";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voetgangers, fietsers en bestuurders van tweewielige bromfietsen klasse A moeten het deel van de openbare weg voor hen voorbehouden volgen. Voetgangers moeten daarbij het linkse gedeelte volgen, fietsers en bestuurders van tweewielige bromfietsen klasse A het rechtse gedeelte</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b667a243b8ec32abc8cae6ff5cdff6dafb667cf1ddec6ff015824b451895d4d2> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/1a8a37c2-f51a-4fb4-9e8c-a8817adfef52> .
+
+<http://data.lblod.info/templates/1a8a37c2-f51a-4fb4-9e8c-a8817adfef52> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1a8a37c2-f51a-4fb4-9e8c-a8817adfef52";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is verboden</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/c325e2c889471d83f36a825b68a0801de16c2a4ba7e36a4c897f6c3493125dcf> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/81100d27-ecc5-4980-bf53-866680a3f57b> .
+
+<http://data.lblod.info/templates/81100d27-ecc5-4980-bf53-866680a3f57b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "81100d27-ecc5-4980-bf53-866680a3f57b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het halfmaandelijks parkeren is van toepassing</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/137112aad6b994f965bfd6ceb7e88bf0162db8ac885e57439ef8cbee363fe579> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/7196fd73-ec6a-4f33-83dc-75dccfbf0014> .
+
+<http://data.lblod.info/templates/7196fd73-ec6a-4f33-83dc-75dccfbf0014> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7196fd73-ec6a-4f33-83dc-75dccfbf0014";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het stilstaan en parkeren is verboden</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4f857c0f9709924a47488596aee4387e2729c35b5dd512c5492a9b78715bd326> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/7b61a6f6-43cc-4ee2-aa21-39374ac40c41> .
+
+<http://data.lblod.info/templates/7b61a6f6-43cc-4ee2-aa21-39374ac40c41> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7b61a6f6-43cc-4ee2-aa21-39374ac40c41";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is verboden van de 1e tot de 15e van de maand</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b5e9f13d81ac78f0002aac342f4eb866394598088cfe0276013b928afd1560f8> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ada91a8e-2e81-4359-85b8-811ea7bc1974> .
+
+<http://data.lblod.info/templates/ada91a8e-2e81-4359-85b8-811ea7bc1974> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ada91a8e-2e81-4359-85b8-811ea7bc1974";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is verboden van de 16e tot het einde van de maand</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0b8edba107bc181f01ea9fcf241c76f6befff04e15a697acf1c6cdeb49e71868> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/40fc2e46-3f1d-4b77-841f-762245da8685> .
+
+<http://data.lblod.info/templates/40fc2e46-3f1d-4b77-841f-762245da8685> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "40fc2e46-3f1d-4b77-841f-762245da8685";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is toegelaten</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/f74b9e8e4ddd1760f32d54063f96a3964846464bed031a942863f59f5187a268> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a8b317be-3a5f-4ed2-a702-1475f283d7e0> .
+
+<http://data.lblod.info/templates/a8b317be-3a5f-4ed2-a702-1475f283d7e0> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a8b317be-3a5f-4ed2-a702-1475f283d7e0";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor motorfietsen, personenauto's, auto's voor dubbel gebruik en minibussen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/9a99ae7486d2f485d6540fb82b5c12d732788b46dcc66a2a5fcd0966929c6a43> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/0be621c0-2f9a-4331-a994-da6dd1bc6596> .
+
+<http://data.lblod.info/templates/0be621c0-2f9a-4331-a994-da6dd1bc6596> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0be621c0-2f9a-4331-a994-da6dd1bc6596";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor lichte vrachtauto's en vrachtauto's</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4a2ec210cf9459059de87c11a70b40d957edeb78f302963e1a526a47406d11ec> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2e9d579c-e879-475b-841d-c13de75bae19> .
+
+<http://data.lblod.info/templates/2e9d579c-e879-475b-841d-c13de75bae19> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2e9d579c-e879-475b-841d-c13de75bae19";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor autocars</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bd68717b59b32f5cfc66e459f72f7fef6ff8bc33d9276dcc2ca7c8ca7e860371> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/618a56ce-41c7-4544-bc0e-49a5882eb599> .
+
+<http://data.lblod.info/templates/618a56ce-41c7-4544-bc0e-49a5882eb599> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "618a56ce-41c7-4544-bc0e-49a5882eb599";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verplicht te parkeren op de berm of op het trottoir</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/47c9ffa15a0316eb8144e48eed44bef295c2ea742b37ab6675268611cbbb5b64> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/87db2c17-6b76-449e-815a-591dc61adb68> .
+
+<http://data.lblod.info/templates/87db2c17-6b76-449e-815a-591dc61adb68> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "87db2c17-6b76-449e-815a-591dc61adb68";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verplicht te parkeren deels op de berm of op het trottoir</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4666c7f416e910d3b442c51c1c32bbe3ce9ad324c2f07badfad9610431bf1484> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/6855332c-0cbe-457f-86dd-8f3fc05f1aea> .
+
+<http://data.lblod.info/templates/6855332c-0cbe-457f-86dd-8f3fc05f1aea> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6855332c-0cbe-457f-86dd-8f3fc05f1aea";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verplicht te parkeren op de rijbaan</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5446d50a99626e166d9c93fa1a1be0a5be5cb038388d837a5efdc316a441c5c0> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/6d8a3d23-c496-4cf3-a072-7926373e4d7d> .
+
+<http://data.lblod.info/templates/6d8a3d23-c496-4cf3-a072-7926373e4d7d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6d8a3d23-c496-4cf3-a072-7926373e4d7d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor kampeerauto's</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/c013a71f9cd0f6084cd5beac514f11edb27aeb99cb9ed375150567c71db3b061> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/14cca556-1fb8-457e-ab9a-4b67f518ce33> .
+
+<http://data.lblod.info/templates/14cca556-1fb8-457e-ab9a-4b67f518ce33> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "14cca556-1fb8-457e-ab9a-4b67f518ce33";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor motorfietsen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/02ee9abc37a79c9b74cab7eb93cc00c69aeeacac3fb2f6c34733a34c5ab94e9a> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/0043c9d6-f8b8-4c6c-b689-657b230f0def>,
+     <http://data.lblod.info/templates/611ee517-dfe1-41da-a905-b4c129be8b20>,
+     <http://data.lblod.info/templates/1602d2f5-5255-4bab-a0ce-76e467411f7f>,
+     <http://data.lblod.info/templates/7cf51c13-4454-4bbe-8933-0139d01f4705>,
+     <http://data.lblod.info/templates/9a095210-662a-4b96-994b-05765df850f3>,
+     <http://data.lblod.info/templates/93528101-d8e3-497e-8deb-2dc106534815>,
+     <http://data.lblod.info/templates/e8b1bf8c-b6b6-4c64-af62-aa7afda6c397>,
+     <http://data.lblod.info/templates/f69406b7-04eb-4698-83cb-be7fe6f5308f>,
+     <http://data.lblod.info/templates/06c54ad0-cc7c-4a01-b69c-cf230829416e> .
+
+<http://data.lblod.info/templates/0043c9d6-f8b8-4c6c-b689-657b230f0def> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0043c9d6-f8b8-4c6c-b689-657b230f0def";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/06c54ad0-cc7c-4a01-b69c-cf230829416e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "06c54ad0-cc7c-4a01-b69c-cf230829416e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van fietsers en bestuurders van speed pedelecs wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/1602d2f5-5255-4bab-a0ce-76e467411f7f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1602d2f5-5255-4bab-a0ce-76e467411f7f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van ruiters wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/611ee517-dfe1-41da-a905-b4c129be8b20> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "611ee517-dfe1-41da-a905-b4c129be8b20";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers en fietsers wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/7cf51c13-4454-4bbe-8933-0139d01f4705> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7cf51c13-4454-4bbe-8933-0139d01f4705";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers, fietsers en ruiters wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/93528101-d8e3-497e-8deb-2dc106534815> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "93528101-d8e3-497e-8deb-2dc106534815";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van fietsers wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/9a095210-662a-4b96-994b-05765df850f3> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9a095210-662a-4b96-994b-05765df850f3";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers en ruiters wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/e8b1bf8c-b6b6-4c64-af62-aa7afda6c397> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e8b1bf8c-b6b6-4c64-af62-aa7afda6c397";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers, fietsers, ruiters en bestuurders van speed pedelecs wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/f69406b7-04eb-4698-83cb-be7fe6f5308f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f69406b7-04eb-4698-83cb-be7fe6f5308f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van fietsers en ruiters wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a12dc2565be0dd45f62af20493a2dbc17d83b544db425a804bdbe56f6d99b8cd> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c3d12fae-bdb9-45ca-a2e4-42eea531bd32>,
+     <http://data.lblod.info/templates/94935c37-8640-41ff-a1cc-e0c1f4e4f97f>,
+     <http://data.lblod.info/templates/a0ce811f-af38-4563-a214-8f681952b982>,
+     <http://data.lblod.info/templates/c45513ff-8a45-4dae-acd8-bd2528e42920> .
+
+<http://data.lblod.info/templates/94935c37-8640-41ff-a1cc-e0c1f4e4f97f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "94935c37-8640-41ff-a1cc-e0c1f4e4f97f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers en ruiters wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/a0ce811f-af38-4563-a214-8f681952b982> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a0ce811f-af38-4563-a214-8f681952b982";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers, fietsers en bestuurders van speed pedelecs wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/c3d12fae-bdb9-45ca-a2e4-42eea531bd32> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c3d12fae-bdb9-45ca-a2e4-42eea531bd32";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van voetgangers en fietsers wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/c45513ff-8a45-4dae-acd8-bd2528e42920> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c45513ff-8a45-4dae-acd8-bd2528e42920";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van ruiters en fietsers wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a044fe2e77e31276281d1e915f9cfbd97cc4bfc7505087987a13d9b27f2a1ca4> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/17c07204-4cd9-4568-820c-6c35582e6ed0>,
+     <http://data.lblod.info/templates/1341c05e-aac7-4fde-8a70-0c1ac582e371>,
+     <http://data.lblod.info/templates/1e4ff4d0-dcaf-4e8e-9506-0bbc68482964>,
+     <http://data.lblod.info/templates/5f4e4949-a85d-4858-b661-b9fb1779434b>,
+     <http://data.lblod.info/templates/08b6c9fa-c768-41d4-8185-7751cf47936d>,
+     <http://data.lblod.info/templates/ea5eb0e7-930e-4d8c-92f5-ce5ea8b3fc5f>,
+     <http://data.lblod.info/templates/0371e576-0252-47a3-abef-96f114a0e695>,
+     <http://data.lblod.info/templates/77a6746a-93eb-420f-b3cf-0fef4653dcd8>,
+     <http://data.lblod.info/templates/009130c5-de8f-495f-a0d5-84d21b1113d8> .
+
+<http://data.lblod.info/templates/009130c5-de8f-495f-a0d5-84d21b1113d8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "009130c5-de8f-495f-a0d5-84d21b1113d8";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers en fietsers wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/0371e576-0252-47a3-abef-96f114a0e695> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0371e576-0252-47a3-abef-96f114a0e695";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van landbouwvoertuigen en ruiters wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/08b6c9fa-c768-41d4-8185-7751cf47936d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "08b6c9fa-c768-41d4-8185-7751cf47936d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers, fietsers en ruiters wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/1341c05e-aac7-4fde-8a70-0c1ac582e371> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1341c05e-aac7-4fde-8a70-0c1ac582e371";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van landbouwvoertuigen en voetgangers wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/17c07204-4cd9-4568-820c-6c35582e6ed0> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "17c07204-4cd9-4568-820c-6c35582e6ed0";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers en ruiters wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/1e4ff4d0-dcaf-4e8e-9506-0bbc68482964> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1e4ff4d0-dcaf-4e8e-9506-0bbc68482964";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van fietsers en bestuurders van speed pedelecs wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/5f4e4949-a85d-4858-b661-b9fb1779434b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5f4e4949-a85d-4858-b661-b9fb1779434b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van landbouwvoertuigen en fietsers wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/77a6746a-93eb-420f-b3cf-0fef4653dcd8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "77a6746a-93eb-420f-b3cf-0fef4653dcd8";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers, fietsers, ruiters en bestuurders van speed pedelecs wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/ea5eb0e7-930e-4d8c-92f5-ce5ea8b3fc5f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ea5eb0e7-930e-4d8c-92f5-ce5ea8b3fc5f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de weg voorbehouden voor het verkeer van landbouwvoertuigen, fietsers en ruiters wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5a99bb07ee0886bcbc996b67327b2977bc70e67ad9ee9649d7e24f44f68b4684> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/cf98271f-bad6-4636-afe5-8e9de21eea02>,
+     <http://data.lblod.info/templates/686cfc8b-6275-483d-ae83-baf73ef9532b>,
+     <http://data.lblod.info/templates/de8cfa65-2502-47b9-9dd7-75936bd972ee>,
+     <http://data.lblod.info/templates/c511bc52-eec9-4363-99d7-6996de80711a>,
+     <http://data.lblod.info/templates/5358040f-743f-46ee-af9f-3ed14b73bff3>,
+     <http://data.lblod.info/templates/096cd8e4-eac0-4e5b-9e3a-3b046ade0d89>,
+     <http://data.lblod.info/templates/3e84733b-10d9-4b60-a701-118c5f6a31da>,
+     <http://data.lblod.info/templates/f4c3e0b1-cf00-477a-a079-0a93745032d3>,
+     <http://data.lblod.info/templates/76a7837b-42ce-4ee1-8668-2b2dab9d3bf8>,
+     <http://data.lblod.info/templates/8124ced0-bdd7-47af-9d9d-87cd0f899091>,
+     <http://data.lblod.info/templates/3eceae99-8968-4a82-a212-97c839f6295a>,
+     <http://data.lblod.info/templates/175d70c6-e999-49f9-ac76-2126a23b0eac> .
+
+<http://data.lblod.info/templates/096cd8e4-eac0-4e5b-9e3a-3b046ade0d89> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "096cd8e4-eac0-4e5b-9e3a-3b046ade0d89";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+fietsers hebben eveneens toegang</p>""" .
+
+<http://data.lblod.info/templates/175d70c6-e999-49f9-ac76-2126a23b0eac> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "175d70c6-e999-49f9-ac76-2126a23b0eac";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+voertuigen die in de zone moeten laden of lossen hebben eveneens toegang. De toegang is beperkt ${beperking tijd_laden en lossen}
+</p>""" .
+
+<http://data.lblod.info/templates/3e84733b-10d9-4b60-a701-118c5f6a31da> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3e84733b-10d9-4b60-a701-118c5f6a31da";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+taxi's die in de zone een welbepaalde bestemming hebben om personen te laten in- en uitstappen, hebben eveneens toegang. De toegang is beperkt ${beperking tijd_taxi};
+fietsers hebben eveneens toegang</p>""" .
+
+<http://data.lblod.info/templates/3eceae99-8968-4a82-a212-97c839f6295a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3eceae99-8968-4a82-a212-97c839f6295a";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+taxi's die in de zone een welbepaalde bestemming hebben om personen te laten in- en uitstappen, hebben eveneens toegang. De toegang is beperkt ${beperking tijd_taxi}
+</p>""" .
+
+<http://data.lblod.info/templates/5358040f-743f-46ee-af9f-3ed14b73bff3> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5358040f-743f-46ee-af9f-3ed14b73bff3";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+taxi's die in de zone een welbepaalde bestemming hebben om personen te laten in- en uitstappen, hebben eveneens toegang. De toegang is beperkt ${beperking tijd_taxi};
+fietsers hebben eveneens toegang. De toegang is beperkt ${beperking tijd_fiets}</p>""" .
+
+<http://data.lblod.info/templates/686cfc8b-6275-483d-ae83-baf73ef9532b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "686cfc8b-6275-483d-ae83-baf73ef9532b";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+voertuigen die in de zone moeten laden of lossen hebben eveneens toegang. De toegang is beperkt ${beperking tijd_laden en lossen};
+taxi's die in de zone een welbepaalde bestemming hebben om personen te laten in- en uitstappen, hebben eveneens toegang. De toegang is beperkt ${beperking tijd_taxi};
+fietsers hebben eveneens toegang. De toegang is beperkt ${beperking tijd_fiets}</p>""" .
+
+<http://data.lblod.info/templates/76a7837b-42ce-4ee1-8668-2b2dab9d3bf8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "76a7837b-42ce-4ee1-8668-2b2dab9d3bf8";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+voertuigen die in de zone moeten laden of lossen hebben eveneens toegang. De toegang is beperkt ${beperking tijd_laden en lossen};
+fietsers hebben eveneens toegang</p>""" .
+
+<http://data.lblod.info/templates/8124ced0-bdd7-47af-9d9d-87cd0f899091> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8124ced0-bdd7-47af-9d9d-87cd0f899091";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+voertuigen die in de zone moeten laden of lossen hebben eveneens toegang. De toegang is beperkt ${beperking tijd_laden en lossen};
+taxi's die in de zone een welbepaalde bestemming hebben om personen te laten in- en uitstappen, hebben eveneens toegang. De toegang is beperkt ${beperking tijd_taxi}
+</p>""" .
+
+<http://data.lblod.info/templates/c511bc52-eec9-4363-99d7-6996de80711a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c511bc52-eec9-4363-99d7-6996de80711a";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+fietsers hebben eveneens toegang. De toegang is beperkt ${beperking tijd_fiets}</p>""" .
+
+<http://data.lblod.info/templates/cf98271f-bad6-4636-afe5-8e9de21eea02> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cf98271f-bad6-4636-afe5-8e9de21eea02";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+voertuigen die in de zone moeten laden of lossen hebben eveneens toegang. De toegang is beperkt ${beperking tijd_laden en lossen};
+taxi's die in de zone een welbepaalde bestemming hebben om personen te laten in- en uitstappen, hebben eveneens toegang. De toegang is beperkt ${beperking tijd_taxi};
+fietsers hebben eveneens toegang</p>""" .
+
+<http://data.lblod.info/templates/de8cfa65-2502-47b9-9dd7-75936bd972ee> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "de8cfa65-2502-47b9-9dd7-75936bd972ee";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid;
+voertuigen die in de zone moeten laden of lossen hebben eveneens toegang. De toegang is beperkt ${beperking tijd_laden en lossen};
+fietsers hebben eveneens toegang. De toegang is beperkt ${beperking tijd_fiets}</p>""" .
+
+<http://data.lblod.info/templates/f4c3e0b1-cf00-477a-a079-0a93745032d3> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f4c3e0b1-cf00-477a-a079-0a93745032d3";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de voetgangerszone wordt afgebakend. Het begin van de voetgangerszone wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e6f178e53fc9ae0d1d17616ef08d3873f6892bfc46acf1f8850a77d34d4f85d2> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/b0c03115-73b8-4b68-8718-665532dfcc2b> .
+
+<http://data.lblod.info/templates/b0c03115-73b8-4b68-8718-665532dfcc2b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b0c03115-73b8-4b68-8718-665532dfcc2b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de voetgangerszone wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/714232fc0cf75050ea8b89489ecc0f172cec1f6d737fdf4e26d7e517c4e9ea9b> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/04463346-ee41-4219-85f7-df4c4683874b> .
+
+<http://data.lblod.info/templates/04463346-ee41-4219-85f7-df4c4683874b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "04463346-ee41-4219-85f7-df4c4683874b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is voor de bestuurders van voertuigen en slepen gebruikt voor het vervoer van zaken met een maximale toegelaten massa van meer dan 3,5 ton toegelaten om een gespan, een tweewielig motorvoertuig of een voertuig met meer dan twee wielen links in te halen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/f942d05b3b11a3f66af963ab6f2c1b85fdf2c56d1db56dd91dec219844e94160> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/1d821cab-e365-4a44-9ef8-147c388f6648> .
+
+<http://data.lblod.info/templates/1d821cab-e365-4a44-9ef8-147c388f6648> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1d821cab-e365-4a44-9ef8-147c388f6648";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de inhaaltoelating is ten einde</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b4ce49f90460d0ed702ae714771dda6504e1e85b17eb7e89ec6fe00dfa444fbc> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/0def8d8a-b918-416d-a328-d32f2a34685e> .
+
+<http://data.lblod.info/templates/0def8d8a-b918-416d-a328-d32f2a34685e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0def8d8a-b918-416d-a328-d32f2a34685e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de autoweg wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ec0dd82c6870eef371bcd7e3bb57707aab6f3533f94cdefbe1dc079edbc4c8a9> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/4ac239f7-2294-4013-9141-72b2cc98037d> .
+
+<http://data.lblod.info/templates/4ac239f7-2294-4013-9141-72b2cc98037d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4ac239f7-2294-4013-9141-72b2cc98037d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de fietsstraat wordt afgebakend. Het begin van de fietsstraat wordt aangeduid </p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/3037b526b0e73c6764ef1071f2658b5ba74287d2fdb30a4657355dfb621b85fe> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/fd1e599c-a348-46b1-a65d-e58ff32a870e> .
+
+<http://data.lblod.info/templates/fd1e599c-a348-46b1-a65d-e58ff32a870e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fd1e599c-a348-46b1-a65d-e58ff32a870e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de fietsstraat wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a03dc4c14ea95352be3a61e999b541bf18b13f979a0a8fe127feee53b4fae490> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f3f48fbd-88f1-474b-be1e-ec7a7a442baf> .
+
+<http://data.lblod.info/templates/f3f48fbd-88f1-474b-be1e-ec7a7a442baf> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f3f48fbd-88f1-474b-be1e-ec7a7a442baf";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het (woon)erf wordt afgebakend. Het begin van het (woon)erf wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/79b74b6bfaa129c36bdd8fc39a0e071a15e6be38a4ec37bc0c34206fcc6a8d55> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ef8baee9-e665-44be-a6aa-7dabfd6719c3> .
+
+<http://data.lblod.info/templates/ef8baee9-e665-44be-a6aa-7dabfd6719c3> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ef8baee9-e665-44be-a6aa-7dabfd6719c3";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van het (woon)erf wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/62322bcd7dbc57bff8219bd973ea664671c3788c7444be7bd6e2b8a773f4308b> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/21e319d4-5570-47ac-a620-c8908da36761> .
+
+<http://data.lblod.info/templates/21e319d4-5570-47ac-a620-c8908da36761> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "21e319d4-5570-47ac-a620-c8908da36761";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voorsorteringspijlen op de rijbaan worden aangekondigd. Bestuurders moeten een welbepaalde rijstrook kiezen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/538c99f7923838b697983a850a957fce6013d760e3a55b55b54bd5e212d40a61> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/035467cc-7d69-4031-9012-f1655d957b46> .
+
+<http://data.lblod.info/templates/035467cc-7d69-4031-9012-f1655d957b46> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "035467cc-7d69-4031-9012-f1655d957b46";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>bestuurders moeten een welbepaalde richting kiezen. Volgende richtingen worden aangeduid: ${richting}</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/3674525b2c0a5d3fa43dcfe11525588b1391b809668234599144a9bfb2e45ea2> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/afdd60e1-7252-4d6e-80ac-984715a5ef53>,
+     <http://data.lblod.info/templates/3c6ed6f3-c9f1-43bd-93e7-7914e66e2140>,
+     <http://data.lblod.info/templates/6ab584ca-4aef-4f5b-93b2-4ebdc88b65d4>,
+     <http://data.lblod.info/templates/9fea4cb3-af45-474d-accb-6ef2ee6b332e> .
+
+<http://data.lblod.info/templates/3c6ed6f3-c9f1-43bd-93e7-7914e66e2140> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3c6ed6f3-c9f1-43bd-93e7-7914e66e2140";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de rijstroken van de rijbaan met een strook voorbehouden voor autobussen worden aangeduid. Ook ${toegelaten voertuigen op de busstrook} worden op de voorbehouden strook toegelaten</p>" .
+
+<http://data.lblod.info/templates/6ab584ca-4aef-4f5b-93b2-4ebdc88b65d4> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6ab584ca-4aef-4f5b-93b2-4ebdc88b65d4";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de rijstroken van de rijbaan met een strook voorbehouden voor autobussen worden aangeduid. Voor elk van de rijstroken wordt de rijrichting aangeduid</p>" .
+
+<http://data.lblod.info/templates/9fea4cb3-af45-474d-accb-6ef2ee6b332e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9fea4cb3-af45-474d-accb-6ef2ee6b332e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de rijstroken van de rijbaan met een strook voorbehouden voor autobussen worden aangeduid</p>" .
+
+<http://data.lblod.info/templates/afdd60e1-7252-4d6e-80ac-984715a5ef53> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "afdd60e1-7252-4d6e-80ac-984715a5ef53";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de rijstroken van de rijbaan met een strook voorbehouden voor autobussen worden aangeduid. Ook fietsers worden op de strook toegelaten. Voor elk van de rijstroken wordt de rijrichting aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4bab5d3b6d4cdfa0d66dcc14ee7107275e2e71e14aa7940e51bc3e94d804c993> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/bde22168-d0b5-453e-b524-2ad864d68c56>,
+     <http://data.lblod.info/templates/73f6ddc1-c32b-4b60-b738-dbe6f3c91095>,
+     <http://data.lblod.info/templates/7db5282a-0dd1-4234-a3de-df893ffef11d> .
+
+<http://data.lblod.info/templates/73f6ddc1-c32b-4b60-b738-dbe6f3c91095> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "73f6ddc1-c32b-4b60-b738-dbe6f3c91095";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bijzondere overrijdbare bedding wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/7db5282a-0dd1-4234-a3de-df893ffef11d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7db5282a-0dd1-4234-a3de-df893ffef11d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>er wordt een bijzondere overrijdbare bedding aangeduid voorbehouden voor voertuigen van geregelde openbare diensten voor gemeenschappelijk vervoer. Ook fietsers worden op de bijzondere overrijdbare bedding toegelaten</p>" .
+
+<http://data.lblod.info/templates/bde22168-d0b5-453e-b524-2ad864d68c56> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bde22168-d0b5-453e-b524-2ad864d68c56";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bijzondere overrijdbare bedding wordt aangeduid. Ook ${toegelaten voertuigen op de BOB} worden op deze voorbehouden bedding toegelaten</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a14b8cd76fbf8e965f47adc3644eec7c9aaeb64927c755a6fb67de6d63a236ef> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/da4a6361-943b-4491-8a8e-0e2f09695771> .
+
+<http://data.lblod.info/templates/da4a6361-943b-4491-8a8e-0e2f09695771> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "da4a6361-943b-4491-8a8e-0e2f09695771";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>toegelaten rijrichting op de openbare weg met eenrichtingsverkeer</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6bf808b4f6ff1a24e5646ab44302ae87252ec04dc0ffc5f49d14253b2e4c4c6c> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/bcc3c037-c869-412c-a853-29649ccf4084> .
+
+<http://data.lblod.info/templates/bcc3c037-c869-412c-a853-29649ccf4084> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bcc3c037-c869-412c-a853-29649ccf4084";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bebouwde kom ${naam bebouwde kom} wordt afgebakend. Het begin van de bebouwde kom wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/e8464868874fc0b87cad2fd84ecd58b1983561668765591ea58187afb5d39cd4> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/c9a2b9b5-25e6-4e1b-a93d-55e8a8bc6def> .
+
+<http://data.lblod.info/templates/c9a2b9b5-25e6-4e1b-a93d-55e8a8bc6def> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c9a2b9b5-25e6-4e1b-a93d-55e8a8bc6def";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bebouwde kom wordt afgebakend. Het begin van de bebouwde kom wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6ff25f28ed1b550860a007d3fbd8590b1839dd86adbc87b578dd57aa572e427d> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e1db99b2-b7d9-4e59-8994-11e94d656a24> .
+
+<http://data.lblod.info/templates/e1db99b2-b7d9-4e59-8994-11e94d656a24> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e1db99b2-b7d9-4e59-8994-11e94d656a24";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de bebouwde kom wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/13e1ea2149022c8b94bf4668ba2161fe61e8ea0154025218c48fd066a4031961> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e5eb0152-a973-4e64-ad80-9f3277873356> .
+
+<http://data.lblod.info/templates/e5eb0152-a973-4e64-ad80-9f3277873356> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e5eb0152-a973-4e64-ad80-9f3277873356";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de bebouwde kom wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ecedfa0ac528d4ba21050a5ff32e8f320fb7f1da82c799c29b1fa85fcf0a9024> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/269dce7f-de3b-4234-8422-a2010c03d354> .
+
+<http://data.lblod.info/templates/269dce7f-de3b-4234-8422-a2010c03d354> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "269dce7f-de3b-4234-8422-a2010c03d354";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de zone 30 wordt afgebakend. Het begin van de zone 30 wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/2721df3072ab4e96f50b345524806082f37252e7a1a802b14d640c3cfd7a1d49> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/33a64838-7ca4-4f32-a749-f2961e733694> .
+
+<http://data.lblod.info/templates/33a64838-7ca4-4f32-a749-f2961e733694> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "33a64838-7ca4-4f32-a749-f2961e733694";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>ook het einde van de zone 30 wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/954557c970fea1888c7cd5fd11d1a1fd582517da4a05a02fc34599eb36853a76> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/900a60e0-e8a3-41f8-aadb-fedcbeec40d9> .
+
+<http://data.lblod.info/templates/900a60e0-e8a3-41f8-aadb-fedcbeec40d9> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "900a60e0-e8a3-41f8-aadb-fedcbeec40d9";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin van de autosnelweg wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/11d86f16056832a3cf2765f8de597aadf50d6699c4422afa408f34642c44b42c> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ef0193c5-2632-42ed-94a6-650ab03f08ee> .
+
+<http://data.lblod.info/templates/ef0193c5-2632-42ed-94a6-650ab03f08ee> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ef0193c5-2632-42ed-94a6-650ab03f08ee";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de autosnelweg wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/5d898e118d9f413d489cefe38a675ecab0c3a1a554475275b32fdb1e7f3a25da> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/7737501f-4c1b-4369-9ae8-339f02f61e78> .
+
+<http://data.lblod.info/templates/7737501f-4c1b-4369-9ae8-339f02f61e78> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7737501f-4c1b-4369-9ae8-339f02f61e78";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin van de autoweg wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/d2eaca5fcc21522d4f1732550bc78e8b6a935e974c6350896ee59ed2c92fbf42> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/80b09b8a-9f53-45f9-95e1-2e477b83687e> .
+
+<http://data.lblod.info/templates/80b09b8a-9f53-45f9-95e1-2e477b83687e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "80b09b8a-9f53-45f9-95e1-2e477b83687e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>${verkeersregel}. Deze verkeersregel is slechts van toepassing op ${beschrijving_rijstroken}</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b01d15be48cc1bd95ada28cae1c18e37e64fbb723a83950eb6f9b1126b63c692> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/85539576-6d39-49b7-8671-5f541a08b062>,
+     <http://data.lblod.info/templates/e6e0ab75-8c39-4c3c-b616-6705ae524b00>,
+     <http://data.lblod.info/templates/f6a29178-6c03-45d6-8112-97eb7a3eb1a5>,
+     <http://data.lblod.info/templates/d19ff446-d31b-41df-9271-aac83fce9962>,
+     <http://data.lblod.info/templates/b202ded6-fc1d-419b-83e3-846f5b4a17df>,
+     <http://data.lblod.info/templates/6ca23130-7084-4df0-9773-3644456ae62b>,
+     <http://data.lblod.info/templates/3b1b4dde-5e5b-4db1-b15d-571941435274>,
+     <http://data.lblod.info/templates/e884ff84-63a1-4a52-9a9f-9f4049008a2b>,
+     <http://data.lblod.info/templates/e4e76bd5-4e7b-4ad2-b53a-852c9ceb0ea9> .
+
+<http://data.lblod.info/templates/3b1b4dde-5e5b-4db1-b15d-571941435274> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3b1b4dde-5e5b-4db1-b15d-571941435274";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van fietsers. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/6ca23130-7084-4df0-9773-3644456ae62b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6ca23130-7084-4df0-9773-3644456ae62b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van voetgangers, fietsers en ruiters. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/85539576-6d39-49b7-8671-5f541a08b062> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "85539576-6d39-49b7-8671-5f541a08b062";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van voetgangers en fietsers. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/b202ded6-fc1d-419b-83e3-846f5b4a17df> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b202ded6-fc1d-419b-83e3-846f5b4a17df";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van voetgangers en ruiters. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/d19ff446-d31b-41df-9271-aac83fce9962> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d19ff446-d31b-41df-9271-aac83fce9962";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van fietsers en ruiters. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/e4e76bd5-4e7b-4ad2-b53a-852c9ceb0ea9> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e4e76bd5-4e7b-4ad2-b53a-852c9ceb0ea9";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van ruiters. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/e6e0ab75-8c39-4c3c-b616-6705ae524b00> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e6e0ab75-8c39-4c3c-b616-6705ae524b00";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van fietsers en bestuurders van speed pedelecs. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/e884ff84-63a1-4a52-9a9f-9f4049008a2b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e884ff84-63a1-4a52-9a9f-9f4049008a2b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van voetgangers. Het begin van de voorbehouden weg wordt aangeduid.</p>" .
+
+<http://data.lblod.info/templates/f6a29178-6c03-45d6-8112-97eb7a3eb1a5> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f6a29178-6c03-45d6-8112-97eb7a3eb1a5";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van voetgangers, fietsers, ruiters en bestuurders van speed pedelecs. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/31bdd8a00cbe10bbe2908760820ca07226cb9bfd829e84e87b859d21d4bf6da5> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/939905c8-f8e4-4c0b-b135-8eb7a90a35e1>,
+     <http://data.lblod.info/templates/e6dafe2e-e467-4eff-8a85-bc7d7b244ee8>,
+     <http://data.lblod.info/templates/caaa186a-1ff4-48ac-8326-c4944cbb7334>,
+     <http://data.lblod.info/templates/1f1ae71b-17cd-4759-b91e-ec50000da23c> .
+
+<http://data.lblod.info/templates/1f1ae71b-17cd-4759-b91e-ec50000da23c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1f1ae71b-17cd-4759-b91e-ec50000da23c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van voetgangers, fietsers en bestuurders van speed pedelecs. Het begin van de voorbehouden weg wordt aangeduid, alsook het deel van de weg dat bestemd is voor de verschillende categorie&euml;n van weggebruikers</p>" .
+
+<http://data.lblod.info/templates/939905c8-f8e4-4c0b-b135-8eb7a90a35e1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "939905c8-f8e4-4c0b-b135-8eb7a90a35e1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van voetgangers en ruiters. Het begin van de voorbehouden weg wordt aangeduid, alsook het deel van de weg dat bestemd is voor de verschillende categorieën van weggebruikers</p>" .
+
+<http://data.lblod.info/templates/caaa186a-1ff4-48ac-8326-c4944cbb7334> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "caaa186a-1ff4-48ac-8326-c4944cbb7334";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van voetgangers en fietsers. Het begin van de voorbehouden weg wordt aangeduid, alsook het deel van de weg dat bestemd is voor de verschillende categorieën van weggebruikers</p>" .
+
+<http://data.lblod.info/templates/e6dafe2e-e467-4eff-8a85-bc7d7b244ee8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e6dafe2e-e467-4eff-8a85-bc7d7b244ee8";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van ruiters en fietsers. Het begin van de voorbehouden weg wordt aangeduid, alsook het deel van de weg dat bestemd is voor de verschillende categorieën van weggebruikers</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/00c62afceb8661521659394983ff910b2b9cecd92b11ae0376bdb94b9d8c594c> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/8ce8e024-9ae1-42af-95a7-d7a52fe814e0>,
+     <http://data.lblod.info/templates/95ae14a3-7df9-4182-9c4e-c636b472b1c1>,
+     <http://data.lblod.info/templates/b8d90150-39bf-4d17-91ec-fc862af95fed>,
+     <http://data.lblod.info/templates/26446d05-d016-49d0-bdea-32bffb0eb9cb>,
+     <http://data.lblod.info/templates/43116f59-d996-4334-a555-7bde43f1063d>,
+     <http://data.lblod.info/templates/f4142494-2ba7-4c0e-85e8-d8248a9b13c7>,
+     <http://data.lblod.info/templates/a0c29b6f-9f81-4f04-8df2-ef250688fdac>,
+     <http://data.lblod.info/templates/8d3ffb18-fd13-4dad-a17a-84d5c4cb7572>,
+     <http://data.lblod.info/templates/a39af0c0-7d99-4192-931a-aa5b18ccb926> .
+
+<http://data.lblod.info/templates/26446d05-d016-49d0-bdea-32bffb0eb9cb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "26446d05-d016-49d0-bdea-32bffb0eb9cb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van fietsers en bestuurders van speed pedelecs. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/43116f59-d996-4334-a555-7bde43f1063d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "43116f59-d996-4334-a555-7bde43f1063d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers en ruiters. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/8ce8e024-9ae1-42af-95a7-d7a52fe814e0> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8ce8e024-9ae1-42af-95a7-d7a52fe814e0";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers en fietsers. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/8d3ffb18-fd13-4dad-a17a-84d5c4cb7572> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8d3ffb18-fd13-4dad-a17a-84d5c4cb7572";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers, fietsers, ruiters en bestuurders van speed pedelecs. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/95ae14a3-7df9-4182-9c4e-c636b472b1c1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "95ae14a3-7df9-4182-9c4e-c636b472b1c1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van landbouwvoertuigen en ruiters. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/a0c29b6f-9f81-4f04-8df2-ef250688fdac> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a0c29b6f-9f81-4f04-8df2-ef250688fdac";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van landbouwvoertuigen en voetgangers. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/a39af0c0-7d99-4192-931a-aa5b18ccb926> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a39af0c0-7d99-4192-931a-aa5b18ccb926";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van landbouwvoertuigen, fietsers en ruiters. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/b8d90150-39bf-4d17-91ec-fc862af95fed> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b8d90150-39bf-4d17-91ec-fc862af95fed";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van landbouwvoertuigen, voetgangers, fietsers en ruiters. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/f4142494-2ba7-4c0e-85e8-d8248a9b13c7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f4142494-2ba7-4c0e-85e8-d8248a9b13c7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de weg wordt voorbehouden voor het verkeer van landbouwvoertuigen en fietsers. Het begin van de voorbehouden weg wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/4aab258f2269849dfae22e9bd2eed707d5000596a243e4b0c2d2aff3eb87c300> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/6a1e30cc-095c-4433-9b20-b96ce668f6b6>,
+     <http://data.lblod.info/templates/f85b627c-b1f1-4f93-9ed0-772c968f49ce>,
+     <http://data.lblod.info/templates/6485ac9f-a589-4ac9-8ea2-f65a5136a6c9>,
+     <http://data.lblod.info/templates/a8878985-4d37-4a62-ba22-3ac0e92c4ab1>,
+     <http://data.lblod.info/templates/447793f4-11a6-4ff9-a798-67934556fe66>,
+     <http://data.lblod.info/templates/13caf0fd-14d5-478b-8b7a-85d77fab22f0>,
+     <http://data.lblod.info/templates/62f5fb97-7444-44d5-9521-90b14a73527f>,
+     <http://data.lblod.info/templates/89e821b6-cbd3-4247-8a9f-70a92cab8056>,
+     <http://data.lblod.info/templates/2b4a92b7-08cf-4953-8137-8d6c68776d38>,
+     <http://data.lblod.info/templates/3072ed59-da89-449e-8297-fe4a0518f139>,
+     <http://data.lblod.info/templates/a5786e5c-fbe8-47cf-b541-02f38dace993>,
+     <http://data.lblod.info/templates/47cc4f98-3cd9-465a-ba90-c3d2dbbcf2c2>,
+     <http://data.lblod.info/templates/31da44e6-deca-4a4e-823f-f8a247b1b7f9> .
+
+<http://data.lblod.info/templates/13caf0fd-14d5-478b-8b7a-85d77fab22f0> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "13caf0fd-14d5-478b-8b7a-85d77fab22f0";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor plaatselijk verkeer</p>" .
+
+<http://data.lblod.info/templates/2b4a92b7-08cf-4953-8137-8d6c68776d38> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2b4a92b7-08cf-4953-8137-8d6c68776d38";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor bussen</p>" .
+
+<http://data.lblod.info/templates/3072ed59-da89-449e-8297-fe4a0518f139> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "3072ed59-da89-449e-8297-fe4a0518f139";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A</p>" .
+
+<http://data.lblod.info/templates/31da44e6-deca-4a4e-823f-f8a247b1b7f9> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "31da44e6-deca-4a4e-823f-f8a247b1b7f9";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen</p>" .
+
+<http://data.lblod.info/templates/447793f4-11a6-4ff9-a798-67934556fe66> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "447793f4-11a6-4ff9-a798-67934556fe66";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A en speed pedelecs
+</p>""" .
+
+<http://data.lblod.info/templates/47cc4f98-3cd9-465a-ba90-c3d2dbbcf2c2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "47cc4f98-3cd9-465a-ba90-c3d2dbbcf2c2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor fietsers en bestuurders van speed pedelecs</p>" .
+
+<http://data.lblod.info/templates/62f5fb97-7444-44d5-9521-90b14a73527f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "62f5fb97-7444-44d5-9521-90b14a73527f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor voertuigen met ten minste ${aantal} inzittenden, evenmin voor de voertuigen van de geregelde openbare diensten voor gemeenschappelijk vervoer</p>" .
+
+<http://data.lblod.info/templates/6485ac9f-a589-4ac9-8ea2-f65a5136a6c9> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6485ac9f-a589-4ac9-8ea2-f65a5136a6c9";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt alleen voor de bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan ${massa} ton</p>" .
+
+<http://data.lblod.info/templates/6a1e30cc-095c-4433-9b20-b96ce668f6b6> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6a1e30cc-095c-4433-9b20-b96ce668f6b6";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor fietsers</p>" .
+
+<http://data.lblod.info/templates/89e821b6-cbd3-4247-8a9f-70a92cab8056> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "89e821b6-cbd3-4247-8a9f-70a92cab8056";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor de voertuigen die zijn toegelaten tot de bijzondere overrijdbare bedding, namelijk ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/a5786e5c-fbe8-47cf-b541-02f38dace993> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a5786e5c-fbe8-47cf-b541-02f38dace993";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor ${categorie_voertuig} ${tijdens volgend tijdsvenster}</p>" .
+
+<http://data.lblod.info/templates/a8878985-4d37-4a62-ba22-3ac0e92c4ab1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a8878985-4d37-4a62-ba22-3ac0e92c4ab1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/f85b627c-b1f1-4f93-9ed0-772c968f49ce> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f85b627c-b1f1-4f93-9ed0-772c968f49ce";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor de voertuigen die zijn toegelaten tot de busstrook, namelijk ${categorie_voertuig}</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/57fdbb852e7bdcb6450e61b8d6b837930a26881c6709e2e456c3544d5cb465c9> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/df682e9d-e9b5-46fd-ac1e-2613c904cbcb>,
+     <http://data.lblod.info/templates/fdf318a7-f602-4b64-9276-8b475a04e5c8>,
+     <http://data.lblod.info/templates/733be053-ed5a-43f8-b3f6-48abf9ae226a> .
+
+<http://data.lblod.info/templates/733be053-ed5a-43f8-b3f6-48abf9ae226a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "733be053-ed5a-43f8-b3f6-48abf9ae226a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers rijden in de twee rijrichtingen op de dwarslopende openbare weg die men gaat oprijden</p>" .
+
+<http://data.lblod.info/templates/df682e9d-e9b5-46fd-ac1e-2613c904cbcb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "df682e9d-e9b5-46fd-ac1e-2613c904cbcb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het tracé van de weg waarop de bestuurders aan het volgend kruispunt voorrang hebben, wordt aangegeven</p>" .
+
+<http://data.lblod.info/templates/fdf318a7-f602-4b64-9276-8b475a04e5c8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fdf318a7-f602-4b64-9276-8b475a04e5c8";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen rijden in de twee rijrichtingen op de dwarslopende openbare weg die men gaat oprijden</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/6b9d9a56cad922f1f99e67ff6b775a49acd896a04c8cdb1d69faab0255ef3260> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/d8f70581-e5eb-4c17-b6d9-9a4b9f222a95>,
+     <http://data.lblod.info/templates/5850099f-ffe5-491e-a2bd-aaba1881c012>,
+     <http://data.lblod.info/templates/af5053fa-9241-4ced-b66b-2b9dc76b9ad4>,
+     <http://data.lblod.info/templates/25718363-6bc8-42bf-bdd7-265b1246f72b>,
+     <http://data.lblod.info/templates/294340ca-c9ce-4ab6-82ea-d4594cc1b3b0>,
+     <http://data.lblod.info/templates/944d7c23-6a7c-4032-82dd-30ceac6ca055>,
+     <http://data.lblod.info/templates/a5e7e431-a204-4245-873f-18b42d2c05c8>,
+     <http://data.lblod.info/templates/9d83b8ac-30b8-4dd4-814c-76f52ed3e45f>,
+     <http://data.lblod.info/templates/073e235c-5f0b-4533-943a-4197da892e8e>,
+     <http://data.lblod.info/templates/49a32358-3c89-43ea-ad2d-b60d6b3573e6>,
+     <http://data.lblod.info/templates/a7cbb2bf-73e1-477b-b037-2f0ae4778efb>,
+     <http://data.lblod.info/templates/950eea34-58be-4170-91d5-418d1a0e9e7e>,
+     <http://data.lblod.info/templates/2c1412b2-d8d4-4151-830c-e82dd4e641e5>,
+     <http://data.lblod.info/templates/e55fadd9-59a5-4703-b6dd-a7c5b401896d>,
+     <http://data.lblod.info/templates/e133c156-8323-4142-ab14-4168160442fb>,
+     <http://data.lblod.info/templates/8ef89fcf-6c98-4805-b50d-7febb603627a>,
+     <http://data.lblod.info/templates/ecce70ae-ae7d-4e7c-8d38-d4425bf19348>,
+     <http://data.lblod.info/templates/fc1a2cb2-3f03-4851-b498-57c8cb007e9d> .
+
+<http://data.lblod.info/templates/073e235c-5f0b-4533-943a-4197da892e8e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "073e235c-5f0b-4533-943a-4197da892e8e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt alleen voor de bestuurders van voertuigen waarvan de massa in beladen toestand hoger is dan ${massa} ton</p>" .
+
+<http://data.lblod.info/templates/25718363-6bc8-42bf-bdd7-265b1246f72b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "25718363-6bc8-42bf-bdd7-265b1246f72b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van meer dan 300 meter</p>" .
+
+<http://data.lblod.info/templates/294340ca-c9ce-4ab6-82ea-d4594cc1b3b0> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "294340ca-c9ce-4ab6-82ea-d4594cc1b3b0";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor voertuigen waarop de bewonerskaart is aangebracht</p>" .
+
+<http://data.lblod.info/templates/2c1412b2-d8d4-4151-830c-e82dd4e641e5> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2c1412b2-d8d4-4151-830c-e82dd4e641e5";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is voorbehouden voor voertuigen waarop de bewonerskaart is aangebracht; 
+het parkeren is voorbehouden tijdens volgende periode: ${beperking_tijd}</p>""" .
+
+<http://data.lblod.info/templates/49a32358-3c89-43ea-ad2d-b60d6b3573e6> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "49a32358-3c89-43ea-ad2d-b60d6b3573e6";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/5850099f-ffe5-491e-a2bd-aaba1881c012> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5850099f-ffe5-491e-a2bd-aaba1881c012";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/8ef89fcf-6c98-4805-b50d-7febb603627a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8ef89fcf-6c98-4805-b50d-7febb603627a";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is voorbehouden voor voertuigen waarop de parkeerkaart voor autodelen is aangebracht; 
+het parkeren is voorbehouden tijdens volgende periode: ${beperking_tijd}</p>""" .
+
+<http://data.lblod.info/templates/944d7c23-6a7c-4032-82dd-30ceac6ca055> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "944d7c23-6a7c-4032-82dd-30ceac6ca055";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor plaatselijk verkeer</p>" .
+
+<http://data.lblod.info/templates/950eea34-58be-4170-91d5-418d1a0e9e7e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "950eea34-58be-4170-91d5-418d1a0e9e7e";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is voorbehouden voor voertuigen waarop de gemeentelijke parkeerkaart is aangebracht; 
+het parkeren is voorbehouden tijdens volgende periode: ${beperking_tijd}</p>""" .
+
+<http://data.lblod.info/templates/9d83b8ac-30b8-4dd4-814c-76f52ed3e45f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9d83b8ac-30b8-4dd4-814c-76f52ed3e45f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt alleen voor de bestuurders van voertuigen waarvan de maximale toegelaten massa hoger is dan ${massa} ton</p>" .
+
+<http://data.lblod.info/templates/a5e7e431-a204-4245-873f-18b42d2c05c8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a5e7e431-a204-4245-873f-18b42d2c05c8";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is betalend 
+het betalend parkeren geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .
+
+<http://data.lblod.info/templates/a7cbb2bf-73e1-477b-b037-2f0ae4778efb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a7cbb2bf-73e1-477b-b037-2f0ae4778efb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor voertuigen waarop de gemeentelijke parkeerkaart is aangebracht</p>" .
+
+<http://data.lblod.info/templates/af5053fa-9241-4ced-b66b-2b9dc76b9ad4> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "af5053fa-9241-4ced-b66b-2b9dc76b9ad4";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>" .
+
+<http://data.lblod.info/templates/d8f70581-e5eb-4c17-b6d9-9a4b9f222a95> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d8f70581-e5eb-4c17-b6d9-9a4b9f222a95";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/e133c156-8323-4142-ab14-4168160442fb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e133c156-8323-4142-ab14-4168160442fb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor voertuigen waarop de  parkeerkaart voor autodelen is aangebracht</p>" .
+
+<http://data.lblod.info/templates/e55fadd9-59a5-4703-b6dd-a7c5b401896d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e55fadd9-59a5-4703-b6dd-a7c5b401896d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is betalend; de parkeerreglementering is beperkt ${maximumduur betalend parkeren}</p>" .
+
+<http://data.lblod.info/templates/ecce70ae-ae7d-4e7c-8d38-d4425bf19348> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ecce70ae-ae7d-4e7c-8d38-d4425bf19348";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor volgende categorie van voertuigen: ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/fc1a2cb2-3f03-4851-b498-57c8cb007e9d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fc1a2cb2-3f03-4851-b498-57c8cb007e9d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is betalend</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/be92d225a5de7d82b9021b75dd48c7bdaf91a7b6243215ba7c03160817ee9476> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/910b417e-0adc-49fc-87ba-8eaf670769ce>,
+     <http://data.lblod.info/templates/5e8629ce-4f68-4b5f-bac8-bdccf617989e>,
+     <http://data.lblod.info/templates/7b8c9995-6dae-422f-be14-4e2f9822d4ae>,
+     <http://data.lblod.info/templates/d7c0f77e-38a5-4e97-8653-b82caa8bd3f6>,
+     <http://data.lblod.info/templates/192639bc-6187-480e-8aca-12d8aa2466d5>,
+     <http://data.lblod.info/templates/e6577b4e-b313-44be-8052-03f448c4b59e>,
+     <http://data.lblod.info/templates/f4656d52-050e-49b8-9248-3fb678a27ebf>,
+     <http://data.lblod.info/templates/846e3ec7-048b-4635-b3f0-74f898a6f0d8>,
+     <http://data.lblod.info/templates/338730dc-68d5-4130-85bd-a6dddebc1d60>,
+     <http://data.lblod.info/templates/76b46e1a-a121-46e3-9411-319d9926e144>,
+     <http://data.lblod.info/templates/88a6c81c-79b6-4562-90f8-54831d89ee24>,
+     <http://data.lblod.info/templates/e65a9157-5311-4a25-9666-3cc32c0db53e> .
+
+<http://data.lblod.info/templates/192639bc-6187-480e-8aca-12d8aa2466d5> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "192639bc-6187-480e-8aca-12d8aa2466d5";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/338730dc-68d5-4130-85bd-a6dddebc1d60> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "338730dc-68d5-4130-85bd-a6dddebc1d60";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden</p>" .
+
+<http://data.lblod.info/templates/5e8629ce-4f68-4b5f-bac8-bdccf617989e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5e8629ce-4f68-4b5f-bac8-bdccf617989e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>" .
+
+<http://data.lblod.info/templates/76b46e1a-a121-46e3-9411-319d9926e144> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "76b46e1a-a121-46e3-9411-319d9926e144";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het gebruik van de schijf is voorgeschreven ${beperking_tijd}</p>" .
+
+<http://data.lblod.info/templates/7b8c9995-6dae-422f-be14-4e2f9822d4ae> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7b8c9995-6dae-422f-be14-4e2f9822d4ae";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van meer dan 300 meter</p>" .
+
+<http://data.lblod.info/templates/846e3ec7-048b-4635-b3f0-74f898a6f0d8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "846e3ec7-048b-4635-b3f0-74f898a6f0d8";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>" .
+
+<http://data.lblod.info/templates/88a6c81c-79b6-4562-90f8-54831d89ee24> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "88a6c81c-79b6-4562-90f8-54831d89ee24";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor volgende categorie van voertuigen: ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/910b417e-0adc-49fc-87ba-8eaf670769ce> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "910b417e-0adc-49fc-87ba-8eaf670769ce";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd};
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .
+
+<http://data.lblod.info/templates/d7c0f77e-38a5-4e97-8653-b82caa8bd3f6> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d7c0f77e-38a5-4e97-8653-b82caa8bd3f6";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd}</p>""" .
+
+<http://data.lblod.info/templates/e6577b4e-b313-44be-8052-03f448c4b59e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e6577b4e-b313-44be-8052-03f448c4b59e";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .
+
+<http://data.lblod.info/templates/e65a9157-5311-4a25-9666-3cc32c0db53e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e65a9157-5311-4a25-9666-3cc32c0db53e";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het gebruik van de schijf is voorgeschreven ${beperking_tijd};
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .
+
+<http://data.lblod.info/templates/f4656d52-050e-49b8-9248-3fb678a27ebf> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f4656d52-050e-49b8-9248-3fb678a27ebf";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/f304fa07025853d008cb86709fea2a4c19894ce5031f41b04076e3039bce466a> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/bf32bb85-6548-43d6-ad10-41de4098f29b>,
+     <http://data.lblod.info/templates/b3a9fcde-301e-42c1-887d-070044dda470>,
+     <http://data.lblod.info/templates/f63df9b7-1c1f-4226-87dd-b2c3a0a6bccc>,
+     <http://data.lblod.info/templates/c0de9e18-c899-4d8f-9661-aad0c600ad96>,
+     <http://data.lblod.info/templates/212e95de-a3ae-406a-a1b4-d9e1431fd678>,
+     <http://data.lblod.info/templates/4c28dd74-652d-4747-875c-52f69401faf4>,
+     <http://data.lblod.info/templates/f906c81a-ab0f-4eca-b1fe-715d56500b02> .
+
+<http://data.lblod.info/templates/212e95de-a3ae-406a-a1b4-d9e1431fd678> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "212e95de-a3ae-406a-a1b4-d9e1431fd678";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering is beperkt en geldt ${beperking tijd}</p>" .
+
+<http://data.lblod.info/templates/4c28dd74-652d-4747-875c-52f69401faf4> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4c28dd74-652d-4747-875c-52f69401faf4";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/b3a9fcde-301e-42c1-887d-070044dda470> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b3a9fcde-301e-42c1-887d-070044dda470";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/bf32bb85-6548-43d6-ad10-41de4098f29b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bf32bb85-6548-43d6-ad10-41de4098f29b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>" .
+
+<http://data.lblod.info/templates/c0de9e18-c899-4d8f-9661-aad0c600ad96> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c0de9e18-c899-4d8f-9661-aad0c600ad96";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van meer dan 300 meter</p>" .
+
+<http://data.lblod.info/templates/f63df9b7-1c1f-4226-87dd-b2c3a0a6bccc> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f63df9b7-1c1f-4226-87dd-b2c3a0a6bccc";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering is beperkt tot een maximduur van ${beperking_tijd} minuten</p>" .
+
+<http://data.lblod.info/templates/f906c81a-ab0f-4eca-b1fe-715d56500b02> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f906c81a-ab0f-4eca-b1fe-715d56500b02";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor volgende categorie van voertuigen: ${categorie_voertuig}</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/84567323c818fdb559cc3df4dbc141d3e24efcf6f528473c5c0ec20e180e56e2> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/5fc8e330-f95d-48d3-9c36-2a7b3d723f0e>,
+     <http://data.lblod.info/templates/638ba986-cbc2-4a5f-b5e9-956f543000b6>,
+     <http://data.lblod.info/templates/33e1e51c-dc96-4026-b8cb-5d54646061d2>,
+     <http://data.lblod.info/templates/90d8a61b-b0e9-4049-85f7-3d10ad7921f7>,
+     <http://data.lblod.info/templates/9f10ff61-756e-4e80-9ca8-c047eb9face3>,
+     <http://data.lblod.info/templates/069be45d-b3a5-4ea5-b841-689b00775f97>,
+     <http://data.lblod.info/templates/ac58f319-095b-45ef-85f2-a5f9d6d3a5d7>,
+     <http://data.lblod.info/templates/90a7798d-8886-49d0-ba5a-a6825a59cf0b>,
+     <http://data.lblod.info/templates/43e41f64-1a18-46aa-bd88-42ed7b6b5070>,
+     <http://data.lblod.info/templates/575e3786-4263-4ffa-9155-18a1c2322211>,
+     <http://data.lblod.info/templates/1f4a66d1-e501-4792-8999-8465cd0fdd39>,
+     <http://data.lblod.info/templates/b0ba50bb-2ba6-4fd9-b2a8-5799c306ad77>,
+     <http://data.lblod.info/templates/8af612ee-cac2-480a-8054-f586e0690ab6>,
+     <http://data.lblod.info/templates/5752d42d-0b6a-4185-9a97-c9c3976f0188>,
+     <http://data.lblod.info/templates/516dddfe-47f6-4b29-b6cc-d27c1f03b88d>,
+     <http://data.lblod.info/templates/f93a4a0d-60f4-46e5-b6f7-df03373d8099>,
+     <http://data.lblod.info/templates/a4db4e36-12c1-4bb1-9cb3-6995912ed483>,
+     <http://data.lblod.info/templates/471a4d10-28ea-4c6a-91f8-91dc6c875963>,
+     <http://data.lblod.info/templates/f6851128-0522-4f8d-abc1-4f90848ce9a7>,
+     <http://data.lblod.info/templates/fe158dfe-35a1-4b6a-8074-468827be40a9> .
+
+<http://data.lblod.info/templates/069be45d-b3a5-4ea5-b841-689b00775f97> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "069be45d-b3a5-4ea5-b841-689b00775f97";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>" .
+
+<http://data.lblod.info/templates/1f4a66d1-e501-4792-8999-8465cd0fdd39> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1f4a66d1-e501-4792-8999-8465cd0fdd39";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd}</p>""" .
+
+<http://data.lblod.info/templates/33e1e51c-dc96-4026-b8cb-5d54646061d2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "33e1e51c-dc96-4026-b8cb-5d54646061d2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is betalend</p>" .
+
+<http://data.lblod.info/templates/43e41f64-1a18-46aa-bd88-42ed7b6b5070> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "43e41f64-1a18-46aa-bd88-42ed7b6b5070";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het verbod geldt voor volgende categorie van voertuigen: ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/471a4d10-28ea-4c6a-91f8-91dc6c875963> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "471a4d10-28ea-4c6a-91f8-91dc6c875963";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor volgende categorie van voertuigen: ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/516dddfe-47f6-4b29-b6cc-d27c1f03b88d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "516dddfe-47f6-4b29-b6cc-d27c1f03b88d";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .
+
+<http://data.lblod.info/templates/5752d42d-0b6a-4185-9a97-c9c3976f0188> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5752d42d-0b6a-4185-9a97-c9c3976f0188";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/575e3786-4263-4ffa-9155-18a1c2322211> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "575e3786-4263-4ffa-9155-18a1c2322211";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is betalend; de parkeerreglementering is beperkt ${maximumduur betalend parkeren}</p>" .
+
+<http://data.lblod.info/templates/5fc8e330-f95d-48d3-9c36-2a7b3d723f0e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5fc8e330-f95d-48d3-9c36-2a7b3d723f0e";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het gebruik van de schijf is voorgeschreven ${beperking_tijd};
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .
+
+<http://data.lblod.info/templates/638ba986-cbc2-4a5f-b5e9-956f543000b6> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "638ba986-cbc2-4a5f-b5e9-956f543000b6";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden tijdens volgende periode ${beperking_tijd}</p>" .
+
+<http://data.lblod.info/templates/8af612ee-cac2-480a-8054-f586e0690ab6> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8af612ee-cac2-480a-8054-f586e0690ab6";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/90a7798d-8886-49d0-ba5a-a6825a59cf0b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "90a7798d-8886-49d0-ba5a-a6825a59cf0b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>" .
+
+<http://data.lblod.info/templates/90d8a61b-b0e9-4049-85f7-3d10ad7921f7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "90d8a61b-b0e9-4049-85f7-3d10ad7921f7";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>het parkeren is voorbehouden voor volgende categorie van voertuigen: ${categorie_voertuig}; 
+het parkeren is voorbehouden tijdens volgende periode: ${beperking_tijd} </p>""" .
+
+<http://data.lblod.info/templates/9f10ff61-756e-4e80-9ca8-c047eb9face3> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9f10ff61-756e-4e80-9ca8-c047eb9face3";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van meer dan 300 meter</p>" .
+
+<http://data.lblod.info/templates/a4db4e36-12c1-4bb1-9cb3-6995912ed483> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a4db4e36-12c1-4bb1-9cb3-6995912ed483";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden;
+het gebruik van de schijf is voorgeschreven ${beperking_tijd};
+de beperkte parkeertijd geldt niet voor personen in het bezit van een ${type_parkeerkaart}</p>""" .
+
+<http://data.lblod.info/templates/ac58f319-095b-45ef-85f2-a5f9d6d3a5d7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ac58f319-095b-45ef-85f2-a5f9d6d3a5d7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor voertuigen waarop de bewonerskaart is aangebracht</p>" .
+
+<http://data.lblod.info/templates/b0ba50bb-2ba6-4fd9-b2a8-5799c306ad77> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b0ba50bb-2ba6-4fd9-b2a8-5799c306ad77";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het gebruik van de schijf is voorgeschreven ${beperking_tijd}</p>" .
+
+<http://data.lblod.info/templates/f6851128-0522-4f8d-abc1-4f90848ce9a7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f6851128-0522-4f8d-abc1-4f90848ce9a7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering is beperkt tot een maximduur van ${beperking_tijd} minuten</p>" .
+
+<http://data.lblod.info/templates/f93a4a0d-60f4-46e5-b6f7-df03373d8099> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f93a4a0d-60f4-46e5-b6f7-df03373d8099";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeertijd is beperkt en de parkeerschijf moet gebruikt worden</p>" .
+
+<http://data.lblod.info/templates/fe158dfe-35a1-4b6a-8074-468827be40a9> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "fe158dfe-35a1-4b6a-8074-468827be40a9";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor de voertuigen die gebruikt worden door personen met een handicap</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/7caaef3cd26c046e13d8b8e83e779b6c77cb9e7330dd714ed902322f68be52e8> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/03ddb44c-96bc-44d0-84df-2ab7504b62e8>,
+     <http://data.lblod.info/templates/90a3f97f-1941-4656-95ce-995213668b25>,
+     <http://data.lblod.info/templates/f73ce1f2-6ac8-4d48-b23a-4148cffdef0f>,
+     <http://data.lblod.info/templates/0341af72-708a-407f-8bba-aa1b63ff6ad2>,
+     <http://data.lblod.info/templates/7c84fc61-556c-4787-b00e-748df866c55f>,
+     <http://data.lblod.info/templates/35a17b42-60e7-48ec-b3c6-63b6da6a5af1>,
+     <http://data.lblod.info/templates/edc0576b-8cb0-45f5-9c6a-3258a063d67e>,
+     <http://data.lblod.info/templates/1be09955-874b-4d73-964c-cba00ea60e55>,
+     <http://data.lblod.info/templates/efc60895-c3a2-4ed8-9dc3-f8f8da84c5fd>,
+     <http://data.lblod.info/templates/94593eac-d77f-40bc-af67-3241372ee9ca>,
+     <http://data.lblod.info/templates/1ec5f130-414d-493e-a0af-699bfa65c006>,
+     <http://data.lblod.info/templates/5c766997-17fd-4e03-972d-dc653823aad4>,
+     <http://data.lblod.info/templates/cbb8e91b-989a-4d40-a3b5-d4b44bebdeb1>,
+     <http://data.lblod.info/templates/59b68149-641b-4991-98f8-9b91baceb651> .
+
+<http://data.lblod.info/templates/0341af72-708a-407f-8bba-aa1b63ff6ad2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0341af72-708a-407f-8bba-aa1b63ff6ad2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt alleen voor de fietsers en bestuurders van tweewielige bromfietsen</p>" .
+
+<http://data.lblod.info/templates/03ddb44c-96bc-44d0-84df-2ab7504b62e8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "03ddb44c-96bc-44d0-84df-2ab7504b62e8";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is niet toegelaten gedurende volgende dagen en uren: ${beperking_tijd}</p>" .
+
+<http://data.lblod.info/templates/1be09955-874b-4d73-964c-cba00ea60e55> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1be09955-874b-4d73-964c-cba00ea60e55";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden tijdens volgende periode ${beperking_tijd}</p>" .
+
+<http://data.lblod.info/templates/1ec5f130-414d-493e-a0af-699bfa65c006> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1ec5f130-414d-493e-a0af-699bfa65c006";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt alleen voor de fietsers</p>" .
+
+<http://data.lblod.info/templates/35a17b42-60e7-48ec-b3c6-63b6da6a5af1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "35a17b42-60e7-48ec-b3c6-63b6da6a5af1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/59b68149-641b-4991-98f8-9b91baceb651> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "59b68149-641b-4991-98f8-9b91baceb651";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de toelating is beperkt ${beperking_tijd}</p>" .
+
+<http://data.lblod.info/templates/5c766997-17fd-4e03-972d-dc653823aad4> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5c766997-17fd-4e03-972d-dc653823aad4";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het verbod geldt van ${begintijd} tot ${eindtijd}</p>" .
+
+<http://data.lblod.info/templates/7c84fc61-556c-4787-b00e-748df866c55f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7c84fc61-556c-4787-b00e-748df866c55f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden voor de voertuigen die gebruikt worden door personen met een handicap</p>" .
+
+<http://data.lblod.info/templates/90a3f97f-1941-4656-95ce-995213668b25> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "90a3f97f-1941-4656-95ce-995213668b25";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren toegelaten is beperkt tot de volgende uren: van ${begintijd} tot ${eindtijd}u.</p>" .
+
+<http://data.lblod.info/templates/94593eac-d77f-40bc-af67-3241372ee9ca> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "94593eac-d77f-40bc-af67-3241372ee9ca";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/cbb8e91b-989a-4d40-a3b5-d4b44bebdeb1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cbb8e91b-989a-4d40-a3b5-d4b44bebdeb1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van meer dan 300 meter</p>" .
+
+<http://data.lblod.info/templates/edc0576b-8cb0-45f5-9c6a-3258a063d67e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "edc0576b-8cb0-45f5-9c6a-3258a063d67e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>" .
+
+<http://data.lblod.info/templates/efc60895-c3a2-4ed8-9dc3-f8f8da84c5fd> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "efc60895-c3a2-4ed8-9dc3-f8f8da84c5fd";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeerverbod geldt ${beperking_tijd}</p>" .
+
+<http://data.lblod.info/templates/f73ce1f2-6ac8-4d48-b23a-4148cffdef0f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f73ce1f2-6ac8-4d48-b23a-4148cffdef0f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is altijd verboden, het stilstaan is verboden ${specificatie periode van stilstaanverbod}</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/fa4db4e1284d3c686c2c7eb94bfbffb961d7358c980aa099c7ca0c4bfdfac9df> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2c8c4a19-4c9b-4ce5-ae01-e0405a39c5be>,
+     <http://data.lblod.info/templates/cdeda80c-92fb-4c18-8f94-a92e5e388d31>,
+     <http://data.lblod.info/templates/a7ff25c2-a4fb-47b7-a277-2c4a8794fafa>,
+     <http://data.lblod.info/templates/1d07af94-ff78-4608-b676-bbcc737d47c8>,
+     <http://data.lblod.info/templates/bbb8eb00-eb03-457e-b25c-a2ccd30c5eac>,
+     <http://data.lblod.info/templates/601596f3-2dd3-40a5-b9cd-6d19cae1abc0> .
+
+<http://data.lblod.info/templates/1d07af94-ff78-4608-b676-bbcc737d47c8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1d07af94-ff78-4608-b676-bbcc737d47c8";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>" .
+
+<http://data.lblod.info/templates/2c8c4a19-4c9b-4ce5-ae01-e0405a39c5be> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2c8c4a19-4c9b-4ce5-ae01-e0405a39c5be";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden tijdens volgende periode ${beperking_tijd}</p>" .
+
+<http://data.lblod.info/templates/601596f3-2dd3-40a5-b9cd-6d19cae1abc0> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "601596f3-2dd3-40a5-b9cd-6d19cae1abc0";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van meer dan 300 meter</p>" .
+
+<http://data.lblod.info/templates/a7ff25c2-a4fb-47b7-a277-2c4a8794fafa> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a7ff25c2-a4fb-47b7-a277-2c4a8794fafa";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/bbb8eb00-eb03-457e-b25c-a2ccd30c5eac> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bbb8eb00-eb03-457e-b25c-a2ccd30c5eac";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/cdeda80c-92fb-4c18-8f94-a92e5e388d31> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "cdeda80c-92fb-4c18-8f94-a92e5e388d31";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt alleen voor de fietsers</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/367e8886caac739058332e5f9087d4412a15fafeed0ac1d270c71643a7dd727a> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/58289f15-1ae6-42f3-9553-d6d0a9aa5bdb>,
+     <http://data.lblod.info/templates/4e70cc21-8f3c-4279-8c84-a39576507ac2> .
+
+<http://data.lblod.info/templates/4e70cc21-8f3c-4279-8c84-a39576507ac2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4e70cc21-8f3c-4279-8c84-a39576507ac2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen rijden in de twee rijrichtingen op de dwarslopende openbare weg die men gaat oprijden</p>" .
+
+<http://data.lblod.info/templates/58289f15-1ae6-42f3-9553-d6d0a9aa5bdb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "58289f15-1ae6-42f3-9553-d6d0a9aa5bdb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het tracé van de weg waarop de bestuurders aan het volgend kruispunt voorrang hebben, wordt aangegeven</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0c471075e7f9f4f6b5c12abf3ed2acb4b1c2dd17545671ae2359ac2e9d524647> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/43880444-3825-4782-81a4-625659b25ac2>,
+     <http://data.lblod.info/templates/033f7d64-e5ce-46df-b332-f641dc752e5b>,
+     <http://data.lblod.info/templates/9b30c088-d18b-461b-9323-5d6cab69a9ef>,
+     <http://data.lblod.info/templates/5a69fe49-f92b-4eff-805c-d0caa4472735> .
+
+<http://data.lblod.info/templates/033f7d64-e5ce-46df-b332-f641dc752e5b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "033f7d64-e5ce-46df-b332-f641dc752e5b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor plaatselijk verkeer</p>" .
+
+<http://data.lblod.info/templates/43880444-3825-4782-81a4-625659b25ac2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "43880444-3825-4782-81a4-625659b25ac2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van speed pedelecs mogen in de twee richtingen rijden</p>" .
+
+<http://data.lblod.info/templates/5a69fe49-f92b-4eff-805c-d0caa4472735> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "5a69fe49-f92b-4eff-805c-d0caa4472735";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor fietsers en bestuurders van speed pedelecs</p>" .
+
+<http://data.lblod.info/templates/9b30c088-d18b-461b-9323-5d6cab69a9ef> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9b30c088-d18b-461b-9323-5d6cab69a9ef";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor ${categorie_voertuig}</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/734eff1afee00937cb46123d801e75ac98a1d26e186d8f2386cc6df45e31d324> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/97fc7b35-370c-426d-ac1d-06a2e8707c74>,
+     <http://data.lblod.info/templates/c290b0f6-bad2-4db2-9bb3-4796677f429f>,
+     <http://data.lblod.info/templates/67813b5a-ccfc-49f4-b293-db3e36aff0ba>,
+     <http://data.lblod.info/templates/38356509-b257-43e6-9d95-8c2cb0999101> .
+
+<http://data.lblod.info/templates/38356509-b257-43e6-9d95-8c2cb0999101> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "38356509-b257-43e6-9d95-8c2cb0999101";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A en speed pedelecs
+</p>""" .
+
+<http://data.lblod.info/templates/67813b5a-ccfc-49f4-b293-db3e36aff0ba> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "67813b5a-ccfc-49f4-b293-db3e36aff0ba";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/97fc7b35-370c-426d-ac1d-06a2e8707c74> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "97fc7b35-370c-426d-ac1d-06a2e8707c74";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers, bestuurders van tweewielige bromfietsen klasse A en speed pedelecs mogen in de twee richtingen rijden</p>" .
+
+<http://data.lblod.info/templates/c290b0f6-bad2-4db2-9bb3-4796677f429f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c290b0f6-bad2-4db2-9bb3-4796677f429f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor plaatselijk verkeer</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/9375ac24955c89adb412e5bb7e3c4f56d0ebde1022963bf84e52affd987715e3> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/060dfef8-14c3-42db-b35f-e193ca077adb> .
+
+<http://data.lblod.info/templates/060dfef8-14c3-42db-b35f-e193ca077adb> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "060dfef8-14c3-42db-b35f-e193ca077adb";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het fietspad moet worden gevolgd door bestuurders van speed pedelecs</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/63eca6e1d18ff9e92f71db5b637c0763e87b2d97fbdd6b1eb58e11a3514f8d8f> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/612c4167-25f6-4d97-99fa-09a82dbd43f7> .
+
+<http://data.lblod.info/templates/612c4167-25f6-4d97-99fa-09a82dbd43f7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "612c4167-25f6-4d97-99fa-09a82dbd43f7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het fietspad moet gevolgd worden door de bestuurders van tweewielige bromfietsen klasse B en speed pedelecs</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/332f5e44542833f7c5723fc1c55d20b56a7bc79da379613d8f3c48c65276184d> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/ee43abe0-163e-4d3d-a239-faee0278ff3d> .
+
+<http://data.lblod.info/templates/ee43abe0-163e-4d3d-a239-faee0278ff3d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ee43abe0-163e-4d3d-a239-faee0278ff3d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het fietspad mag niet gevolgd worden door de bestuurders van speed pedelecs</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ccfce8f5c49bf6098900d566a57a37a34c152a713eded5f0e89d5badfac2a77f> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/9ac52eea-d3b7-44f5-b9ae-71795b0b5d7c> .
+
+<http://data.lblod.info/templates/9ac52eea-d3b7-44f5-b9ae-71795b0b5d7c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9ac52eea-d3b7-44f5-b9ae-71795b0b5d7c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het fietspad mag niet gevolgd worden door de bestuurders van tweewielige bromfietsen klasse B en speed pedelecs</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/87633686f31916bfc50b2225ce37ec54affbc79f79e9eea1e4a5cf64740697f4> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/bb092c25-5e74-42d5-94d4-d2fe1e22edc3>,
+     <http://data.lblod.info/templates/7d7494bf-8209-4c8d-9b46-60d1858f1447> .
+
+<http://data.lblod.info/templates/7d7494bf-8209-4c8d-9b46-60d1858f1447> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7d7494bf-8209-4c8d-9b46-60d1858f1447";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor fietsers en bestuurders van speed pedelecs</p>" .
+
+<http://data.lblod.info/templates/bb092c25-5e74-42d5-94d4-d2fe1e22edc3> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bb092c25-5e74-42d5-94d4-d2fe1e22edc3";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van speed pedelecs mogen in de twee richtingen rijden</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/a5124762c35c1d71e97bc164c78ed9e82ce7b2fd1967ebb7f6882633fc9faba9> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/95f487d1-5e34-461a-87d1-651f2d96a511>,
+     <http://data.lblod.info/templates/f0f0022e-ac79-483a-8908-3d07b9fe53b7> .
+
+<http://data.lblod.info/templates/95f487d1-5e34-461a-87d1-651f2d96a511> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "95f487d1-5e34-461a-87d1-651f2d96a511";
+   <http://mu.semte.ch/vocabularies/ext/value> """<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A en speed pedelecs
+</p>""" .
+
+<http://data.lblod.info/templates/f0f0022e-ac79-483a-8908-3d07b9fe53b7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f0f0022e-ac79-483a-8908-3d07b9fe53b7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers, bestuurders van tweewielige bromfietsen klasse A en speed pedelecs mogen in de twee richtingen rijden</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0354a9248d379808250847432a584e4dc2be39d0eaec787dff319a30e407e053> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/9403b89f-95ed-4012-a277-f242c2e1519f>,
+     <http://data.lblod.info/templates/c67a9a71-10dc-4781-a5b3-c5d75c066948>,
+     <http://data.lblod.info/templates/72909614-4dc9-4f10-a638-3ee05990dee8>,
+     <http://data.lblod.info/templates/39a4f591-ab14-432c-94c5-ded74880104c>,
+     <http://data.lblod.info/templates/8abcf9a7-08d1-464e-981f-7c829e35647a>,
+     <http://data.lblod.info/templates/ff4f6460-bdae-482f-a2c2-b8990094f91b> .
+
+<http://data.lblod.info/templates/39a4f591-ab14-432c-94c5-ded74880104c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "39a4f591-ab14-432c-94c5-ded74880104c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor de voertuigen die zijn toegelaten tot de bijzondere overrijdbare bedding, namelijk ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/72909614-4dc9-4f10-a638-3ee05990dee8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "72909614-4dc9-4f10-a638-3ee05990dee8";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor de voertuigen die zijn toegelaten tot de busstrook, namelijk ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/8abcf9a7-08d1-464e-981f-7c829e35647a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8abcf9a7-08d1-464e-981f-7c829e35647a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor bussen</p>" .
+
+<http://data.lblod.info/templates/9403b89f-95ed-4012-a277-f242c2e1519f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "9403b89f-95ed-4012-a277-f242c2e1519f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor fietsers</p>" .
+
+<http://data.lblod.info/templates/c67a9a71-10dc-4781-a5b3-c5d75c066948> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "c67a9a71-10dc-4781-a5b3-c5d75c066948";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers mogen in beide richtingen rijden</p>" .
+
+<http://data.lblod.info/templates/ff4f6460-bdae-482f-a2c2-b8990094f91b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "ff4f6460-bdae-482f-a2c2-b8990094f91b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor ${categorie_voertuig}</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/bc312fc26af5cf71e7616e1d9fd0e3a34f8c44b0d97dfa8ab8a532d1faac3b87> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e61b065a-0679-4c92-a92e-3aea5c3dfe82>,
+     <http://data.lblod.info/templates/af72bbb5-62c0-4027-a55a-b421acd9b0df>,
+     <http://data.lblod.info/templates/22d90495-31dc-4820-a719-ea42c4a47fd2>,
+     <http://data.lblod.info/templates/a51d3e8f-8202-4fea-9824-7baba4d99c92>,
+     <http://data.lblod.info/templates/1f965122-6255-40ba-8f35-3f3d353cdcf1>,
+     <http://data.lblod.info/templates/4386ce8d-cc26-4f6b-90e0-c4b8b3812f3a> .
+
+<http://data.lblod.info/templates/1f965122-6255-40ba-8f35-3f3d353cdcf1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1f965122-6255-40ba-8f35-3f3d353cdcf1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen klasse A</p>" .
+
+<http://data.lblod.info/templates/22d90495-31dc-4820-a719-ea42c4a47fd2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "22d90495-31dc-4820-a719-ea42c4a47fd2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor plaatselijk verkeer</p>" .
+
+<http://data.lblod.info/templates/4386ce8d-cc26-4f6b-90e0-c4b8b3812f3a> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4386ce8d-cc26-4f6b-90e0-c4b8b3812f3a";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor ${categorie_voertuig}</p>" .
+
+<http://data.lblod.info/templates/a51d3e8f-8202-4fea-9824-7baba4d99c92> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a51d3e8f-8202-4fea-9824-7baba4d99c92";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor bussen</p>" .
+
+<http://data.lblod.info/templates/af72bbb5-62c0-4027-a55a-b421acd9b0df> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "af72bbb5-62c0-4027-a55a-b421acd9b0df";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor fietsers en bestuurders van tweewielige bromfietsen</p>" .
+
+<http://data.lblod.info/templates/e61b065a-0679-4c92-a92e-3aea5c3dfe82> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e61b065a-0679-4c92-a92e-3aea5c3dfe82";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en tweewielige bromfietsen klasse A mogen in beide richtingen rijden</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/600b30431b96653057da8e807aa49c299ea450433b59291ba1e2442656d309ab> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/481a25a7-9b69-4685-bc77-834817bd24b1>,
+     <http://data.lblod.info/templates/1be89032-eb1f-4764-b276-c43742da42c9> .
+
+<http://data.lblod.info/templates/1be89032-eb1f-4764-b276-c43742da42c9> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "1be89032-eb1f-4764-b276-c43742da42c9";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt niet voor fietsers</p>" .
+
+<http://data.lblod.info/templates/481a25a7-9b69-4685-bc77-834817bd24b1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "481a25a7-9b69-4685-bc77-834817bd24b1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers mogen in beide richtingen rijden</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/ce4b8d325e769ba3239378723a3d04af417ca4b8b1c76fcc18af1fd70448ebdc> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/73f5f62d-d9fe-4271-b2b3-3b599069d267> .
+
+<http://data.lblod.info/templates/73f5f62d-d9fe-4271-b2b3-3b599069d267> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "73f5f62d-d9fe-4271-b2b3-3b599069d267";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het fietspad moet worden gevolgd door bestuurders van tweewielige bromfietsen klasse B</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/b177403ff3ec65e0de763fd5d54110e4b57d0665b84eeb89ab2d6e7268bc37c1> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/4628a17a-27c3-4436-8699-afbe7966af59> .
+
+<http://data.lblod.info/templates/4628a17a-27c3-4436-8699-afbe7966af59> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4628a17a-27c3-4436-8699-afbe7966af59";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het fietspad mag niet worden gevolgd door bestuurders van tweewielige bromfietsen klasse B</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/0527c3b6261a500eade105ef371d355c2b950fcdd14302bdfc6711da2933f33a> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/a2d49af3-2e3d-44c2-b51d-9ad7d26653ff>,
+     <http://data.lblod.info/templates/f8736e4e-6342-4db9-83f5-3fd3eb50a06f>,
+     <http://data.lblod.info/templates/06736ad5-077d-4d13-ac77-f5431fc169bd>,
+     <http://data.lblod.info/templates/e901b5cd-76c5-43d6-8f36-327d75c1997d>,
+     <http://data.lblod.info/templates/15afcf63-49d2-48fd-877e-22eb6e227404>,
+     <http://data.lblod.info/templates/b62e0b5c-d975-4342-8ba7-ff494c782cc2> .
+
+<http://data.lblod.info/templates/06736ad5-077d-4d13-ac77-f5431fc169bd> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "06736ad5-077d-4d13-ac77-f5431fc169bd";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van ${aanduiding_afstand} m</p>" .
+
+<http://data.lblod.info/templates/15afcf63-49d2-48fd-877e-22eb6e227404> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "15afcf63-49d2-48fd-877e-22eb6e227404";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de maatregel geldt alleen voor de fietsers en bestuurders van tweewielige bromfietsen</p>" .
+
+<http://data.lblod.info/templates/a2d49af3-2e3d-44c2-b51d-9ad7d26653ff> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "a2d49af3-2e3d-44c2-b51d-9ad7d26653ff";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren is voorbehouden tijdens volgende periode ${beperking_tijd}</p>" .
+
+<http://data.lblod.info/templates/b62e0b5c-d975-4342-8ba7-ff494c782cc2> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b62e0b5c-d975-4342-8ba7-ff494c782cc2";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het begin van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.lblod.info/templates/e901b5cd-76c5-43d6-8f36-327d75c1997d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e901b5cd-76c5-43d6-8f36-327d75c1997d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de parkeerreglementering geldt over een afstand van meer dan 300 meter</p>" .
+
+<http://data.lblod.info/templates/f8736e4e-6342-4db9-83f5-3fd3eb50a06f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f8736e4e-6342-4db9-83f5-3fd3eb50a06f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het einde van de parkeerreglementering wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordconcept/62da21c7e453f5de930d244fbcf47580bd1f1b1773faf0c4c15a81a8f2cc3879> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/530924c1-2fc8-4e58-b343-2ea365881aa6>,
+     <http://data.lblod.info/templates/d04e694e-cd78-46b4-a7ed-8af2363667c7> .
+
+<http://data.lblod.info/templates/530924c1-2fc8-4e58-b343-2ea365881aa6> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "530924c1-2fc8-4e58-b343-2ea365881aa6";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het tracé van de weg waarop de bestuurders aan het volgend kruispunt voorrang hebben, wordt aangegeven</p>" .
+
+<http://data.lblod.info/templates/d04e694e-cd78-46b4-a7ed-8af2363667c7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "d04e694e-cd78-46b4-a7ed-8af2363667c7";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers rijden in de twee rijrichtingen op de dwarslopende openbare weg die men gaat oprijden</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeerslichtconcept/45c13c91557317dd6b7b2b37023a3825> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f30ec8be-6d77-4964-ae24-a9cb671ed467> .
+
+<http://data.lblod.info/templates/f30ec8be-6d77-4964-ae24-a9cb671ed467> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f30ec8be-6d77-4964-ae24-a9cb671ed467";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten de lichten van de  driekleurige verkeerslichten opvolgen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeerslichtconcept/f6202432ede2ff8b5d6038455776eb0d> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/0ad50485-799d-480e-9a26-045c53d59a7d> .
+
+<http://data.lblod.info/templates/0ad50485-799d-480e-9a26-045c53d59a7d> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0ad50485-799d-480e-9a26-045c53d59a7d";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders dienen het kruispunt te ontruimen. Het tegenliggend verkeer op de rijbaan die de bestuurders bij het links afslaan gaan verlaten, wordt tegengehouden door een rood licht</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeerslichtconcept/9c78205e98520de0e6d683e97179ba57> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/72f56f5c-76c5-4d53-b219-5064bf3f6aea> .
+
+<http://data.lblod.info/templates/72f56f5c-76c5-4d53-b219-5064bf3f6aea> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "72f56f5c-76c5-4d53-b219-5064bf3f6aea";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten de rijstrook zo vlug mogelijk verlaten in de richting door de pijl aangewezen. Het aantal rijstroken die in de gevolgde rijrichting mogen gebruikt worden, zal verminderen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeerslichtconcept/ae0b8b2540921e82de0df629ec17622c> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/4d27b286-95b4-4ee9-a546-049cc0435265> .
+
+<http://data.lblod.info/templates/4d27b286-95b4-4ee9-a546-049cc0435265> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4d27b286-95b4-4ee9-a546-049cc0435265";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders van voertuigen van geregelde diensten voor gemeenschappelijk vervoer moeten de lichten van de bijzondere verkeerslichten voor het regelen van het verkeer van voertuigen van geregelde diensten voor gemeenschappelijk vervoer opvolgen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Verkeerslichtconcept/00fb203200e318350886c833f6c98517> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/27cc79db-1d08-492b-b82f-b7a3324d522b> .
+
+<http://data.lblod.info/templates/27cc79db-1d08-492b-b82f-b7a3324d522b> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "27cc79db-1d08-492b-b82f-b7a3324d522b";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de voetgangers moeten de lichten van de tweekleurige voetgangerslichten opvolgen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/bec46e9faa5af0b8da32e4f2d45df471> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/b3953c87-65f4-4f1a-9b3d-99651e897f80>,
+     <http://data.lblod.info/templates/aff4a97e-6a99-4ee6-9aed-c1efd931ac0f> .
+
+<http://data.lblod.info/templates/aff4a97e-6a99-4ee6-9aed-c1efd931ac0f> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "aff4a97e-6a99-4ee6-9aed-c1efd931ac0f";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is iedere bestuurder verboden de doorlopende streep te overschrijden, alsook links van de streep te rijden wanneer deze de twee rijrichtingen scheidt</p>" .
+
+<http://data.lblod.info/templates/b3953c87-65f4-4f1a-9b3d-99651e897f80> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "b3953c87-65f4-4f1a-9b3d-99651e897f80";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voorsorteringsstroken worden afgebakend. Het is iedere bestuurder verboden de doorlopende streep te overschrijden, alsook links van de streep te rijden wanneer deze de twee rijrichtingen scheidt</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/781fcd2bf57c055cbfe5bcca20c59844> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/7e63d45d-cdbc-4ce2-85bc-4042f543b7d8>,
+     <http://data.lblod.info/templates/7fd994dc-8975-46ae-a203-ab6990703c78> .
+
+<http://data.lblod.info/templates/7e63d45d-cdbc-4ce2-85bc-4042f543b7d8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7e63d45d-cdbc-4ce2-85bc-4042f543b7d8";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het  is iedere bestuurder verboden de onderbroken streep te overschrijden, behalve om in te halen, om links af te slaan, om te keren of om van rijstrook te veranderen</p>" .
+
+<http://data.lblod.info/templates/7fd994dc-8975-46ae-a203-ab6990703c78> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "7fd994dc-8975-46ae-a203-ab6990703c78";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is iedere bestuurder verboden de onderbroken streep die het naderen van de doorlopende streep aankondigt te overschrijden, behalve om in te halen, om links af te slaan, om te keren of om van rijstrook te veranderen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/1b97495ca8acf94c3927ec1abf0153b6> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/2057ffc6-30e1-4a45-b886-8cb582651f8e> .
+
+<http://data.lblod.info/templates/2057ffc6-30e1-4a45-b886-8cb582651f8e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "2057ffc6-30e1-4a45-b886-8cb582651f8e";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het is verboden voor bestuurders om de naast elkaar getrokken doorlopende en onderbroken streep te overschrijden afhankelijk van de streep  die zich aan hun kant bevindt</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/2459b5097db8d047623e0cb56f379b0e> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/24b16045-cd84-4f40-ae9b-aaf93d06164c> .
+
+<http://data.lblod.info/templates/24b16045-cd84-4f40-ae9b-aaf93d06164c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "24b16045-cd84-4f40-ae9b-aaf93d06164c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>er wordt een rijstrook voorbehouden voor voertuigen van geregelde diensten voor gemeenschappelijk vervoer, taxi's en aan voertuigen voor schoolvervoer</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/dd1cc83a59b31d835a0fb0dfcd791351> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f81f15b6-7b30-48c6-aae5-635b1b1af547> .
+
+<http://data.lblod.info/templates/f81f15b6-7b30-48c6-aae5-635b1b1af547> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f81f15b6-7b30-48c6-aae5-635b1b1af547";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>er wordt een bedding voorbehouden voor voertuigen van geregelde diensten voor gemeenschappelijk vervoer</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/10b4bd00273285dfb7c8875d0793ab4f> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/11134862-562e-442e-afba-1c67ba21e55c> .
+
+<http://data.lblod.info/templates/11134862-562e-442e-afba-1c67ba21e55c> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "11134862-562e-442e-afba-1c67ba21e55c";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen klasse A moeten het fietspad volgen voor zover het rechts in hun rijrichting ligt</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/15e6f7af9ba7162faff36112f2d3f10a> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/4cc51d0c-ba0e-47b2-ad32-ed47af8d1cb4> .
+
+<http://data.lblod.info/templates/4cc51d0c-ba0e-47b2-ad32-ed47af8d1cb4> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "4cc51d0c-ba0e-47b2-ad32-ed47af8d1cb4";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>het parkeren op de rijbaan is verboden</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/9179cde8679045eede189507de51789a> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/bdf84cb4-fb85-43d4-bf0f-d55d48a203be> .
+
+<http://data.lblod.info/templates/bdf84cb4-fb85-43d4-bf0f-d55d48a203be> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bdf84cb4-fb85-43d4-bf0f-d55d48a203be";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de denkbeeldige rand van de rijbaan wordt aangeduid. Het deel van de openbare weg dat gelegen is aan de andere kant van deze streep is voorbehouden voor het stilstaan en parkeren, behalve op autosnelwegen en autowegen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/202b9afdd4724ae01517ab7585e18953> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/0a09a48f-13de-4390-8c97-a9acc06444d1> .
+
+<http://data.lblod.info/templates/0a09a48f-13de-4390-8c97-a9acc06444d1> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "0a09a48f-13de-4390-8c97-a9acc06444d1";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de plaats waar de bestuurders moeten stoppen ingevolge ${stop_verkeersteken} wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/053e2451065c5bd0946740fe662c2612> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/6e1aacd7-7450-4edb-bfac-81fd1b6c90a4> .
+
+<http://data.lblod.info/templates/6e1aacd7-7450-4edb-bfac-81fd1b6c90a4> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6e1aacd7-7450-4edb-bfac-81fd1b6c90a4";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de plaats waar de bestuurders, zo nodig,  moeten stoppen om voorrang te verlenen, wordt aangeduid</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/34b31ed053d2b54d905867eddeeb7bcf> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/36a04ebf-5310-42c7-84a7-62859405d115> .
+
+<http://data.lblod.info/templates/36a04ebf-5310-42c7-84a7-62859405d115> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "36a04ebf-5310-42c7-84a7-62859405d115";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voetgangers moeten de oversteekplaats volgen om de rijbaan over te steken</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/3643bf425d87dd787415022f5334b8f7> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/6383257b-1790-4214-a98d-533e04c52ad6> .
+
+<http://data.lblod.info/templates/6383257b-1790-4214-a98d-533e04c52ad6> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "6383257b-1790-4214-a98d-533e04c52ad6";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>fietsers en bestuurders van tweewielige bromfietsen moeten de oversteekplaats volgen om de rijbaan over te steken</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/e735019fc999d0180cdb4afb2ea6b75a> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/f4740cda-a5ae-436d-8b2d-e62158c31a05> .
+
+<http://data.lblod.info/templates/f4740cda-a5ae-436d-8b2d-e62158c31a05> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "f4740cda-a5ae-436d-8b2d-e62158c31a05";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de bestuurders moeten de rijstrook volgen om in de door de pijlen aangewezen richting te rijden</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/6e4088cc35ae34f65b8a1ba4350ce26e> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/bd74b16e-7355-4f2f-af75-527625be1cd0> .
+
+<http://data.lblod.info/templates/bd74b16e-7355-4f2f-af75-527625be1cd0> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "bd74b16e-7355-4f2f-af75-527625be1cd0";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>bestuurders mogen niet rijden, stilstaan of parkeren op de markeringen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/a478a6e52ee388590b5c46fcf84bb4d0> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/e77a44dc-b9d4-4c02-a50f-4d40e7c8a221> .
+
+<http://data.lblod.info/templates/e77a44dc-b9d4-4c02-a50f-4d40e7c8a221> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "e77a44dc-b9d4-4c02-a50f-4d40e7c8a221";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>voertuigen moeten parkeren binnen de afgebakende plaatsen</p>" .
+
+<http://data.vlaanderen.be/id/concept/Wegmarkeringsconcept/68decc688d862a9ff700c181b67b6bb4> <http://mu.semte.ch/vocabularies/ext/template> <http://data.lblod.info/templates/8d6dba16-ff14-427e-b2f3-d827c7feaf39> .
+
+<http://data.lblod.info/templates/8d6dba16-ff14-427e-b2f3-d827c7feaf39> a <http://mu.semte.ch/vocabularies/ext/Template>;
+   <http://mu.semte.ch/vocabularies/core/uuid> "8d6dba16-ff14-427e-b2f3-d827c7feaf39";
+   <http://mu.semte.ch/vocabularies/ext/value> "<p>de afgebakende plaats wordt voorbehouden voor voertuigen van geregelde diensten voor gemeenschappelijk vervoer. Stilstaan en parkeren op deze markering is verboden</p>" .

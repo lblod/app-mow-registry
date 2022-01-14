@@ -20,38 +20,20 @@ This project was tested on Ubuntu 20.04, but should work on most systems that ru
  ```
  $ git clone https://github.com/lblod/app-mow-registry
  ```
- 3. run the project
+ 
+ 3. setup an appropriate login
+ ```
+ $ docker-compose create
+ $ mu script project-scripts generate-login
+```
+ 4. run the project
  ```
  $ cd /path/to/mu-project
  $ docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
  ```
-After running these commands you should have a basic version of embeddable running on port 80.
 
 You can shut down using `docker-compose stop` and remove everything using `docker-compose rm`.
 
-### File service
-
-- Download/Fetch a file uploaded from the service:
-  
-    `GET` http://localhost/files/:id/download
-
-- Upload a file using the upload service:
-  
-    `POST` http://localhost/files/ `Accept: multipart/form-data`
-
-  *Note: you need to use 'file' as a Key to pass your file inside your FormData object*
-
-- Delete a file:
-
-    `DELETE` http://localhost/files/:id
-
-- Get file metadata (JSONApi /ember data):
-  
-    `GET` http://localhost/files/:id
-  
-- Get all files metadata (JSONApi /ember data):
-  
-    `GET` http://localhost/files/
 
 
 ## Overview of services
@@ -64,3 +46,6 @@ You can shut down using `docker-compose stop` and remove everything using `docke
  * [mu-authorization](https://github.com/mu-semtech/mu-authorization/)
  * [delta-notifier](https://github.com/mu-semtech/delta-notifier/)
  * [frontend-mow-registry](https://github.com/lblod/frontend-mow-registry)
+ * [static-file](https://github.com/mu-semtech/static-file-service)
+ * [file](https://github.com/mu-semtech/file-service)
+ * [login](https://github.com/mu-semtech/login-service)

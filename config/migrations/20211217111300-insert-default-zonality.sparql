@@ -1,0 +1,13 @@
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX lblodMobilitiet: <http://data.lblod.info/vocabularies/mobiliteit/>
+
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?uri ext:zonality <http://lblod.data.gift/concepts/b651931b-923c-477c-8da9-fc7dd841fdccZ>
+  }
+} WHERE {
+  ?uri a ?type.
+  FILTER NOT EXISTS { ?uri ext:zonality ?zonality }
+  FILTER(?type IN (mobiliteit:Wegmarkeringconcept, mobiliteit:Verkeerslichtconcept, mobiliteit:Verkeersbordconcept, lblodMobilitiet:TrafficMeasureConcept))
+}

@@ -1,0 +1,16 @@
+DELETE {
+  GRAPH ?g {
+    ?s <https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave> ?absoluteUrl .
+  }
+}
+INSERT {
+  GRAPH ?g {
+    ?s <https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave> ?relativeUrl .
+  }
+} WHERE {
+  GRAPH ?g {
+    ?s <https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave> ?absoluteUrl .
+  }
+  FILTER(strStarts(STR(?absoluteUrl), "https://dev.roadsigns.lblod.info"))
+  BIND(STR(REPLACE(?absoluteUrl, "https://dev.roadsigns.lblod.info", "")) AS ?relativeUrl)
+}
