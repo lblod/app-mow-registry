@@ -114,7 +114,7 @@ services:
       - ./scripts/:/app/scripts/
     restart: "no"
   annotater:
-    image: lblod/fix-annotation-service:0.0.7
+    image: lblod/fix-annotation-service:0.0.8
     restart: "no"
     logging: *default-logging
     links:
