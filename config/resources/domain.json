@@ -261,6 +261,10 @@
         "label": {
           "type": "string",
           "predicate": "skos:prefLabel"
+        },
+        "temporal": {
+          "type": "boolean",
+          "predicate": "ext:temporal"
         }
       },
       "relationships":{
