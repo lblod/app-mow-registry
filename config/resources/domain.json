@@ -326,10 +326,28 @@
           "cardinality": "many",
           "inverse": true
         },
-        "relatedRoadSignConcepts": {
-          "predicate": "lblodmow:heeftGerelateerdVerkeersbordconcept",
+        "relatedToRoadSignConcepts": {
+          "predicate": "lblodmow:verkeersbordHeeftGerelateerdVerkeersbord",
           "target": "roadSignConcept",
           "cardinality": "many"
+        },
+        "relatedFromRoadSignConcepts": {
+          "predicate": "lblodmow:verkeersbordHeeftGerelateerdVerkeersbord",
+          "target": "roadSignConcept",
+          "cardinality": "many",
+          "inverse": true
+        },
+        "relatedRoadMarkingConcepts": {
+          "predicate": "lblodmow:wegmarkeringHeeftGerelateerdVerkeersbord",
+          "target": "roadMarkingConcept",
+          "cardinality": "many",
+          "inverse": true
+        },
+        "relatedTrafficLightConcepts": {
+          "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeersbord",
+          "target": "trafficLightConcept",
+          "cardinality": "many",
+          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-sign-concepts/"
@@ -362,15 +380,27 @@
           "target": "roadMarkingConceptStatus",
           "cardinality": "one"
         },
+        "relatedToRoadMarkingConcepts": {
+          "predicate": "lblodmow:wegmarkeringHeeftGerelateerdWegmarkering",
+          "target": "roadMarkingConcept",
+          "cardinality": "many"
+        },
+        "relatedFromRoadMarkingConcepts": {
+          "predicate": "lblodmow:wegmarkeringHeeftGerelateerdWegmarkering",
+          "target": "roadMarkingConcept",
+          "cardinality": "many",
+          "inverse": true
+        },
         "relatedRoadSignConcepts": {
-          "predicate": "lblodmow:heeftGerelateerdVerkeersbordconcept",
+          "predicate": "lblodmow:wegmarkeringHeeftGerelateerdVerkeersbord",
           "target": "roadSignConcept",
           "cardinality": "many"
         },
-        "relatedRoadMarkingConcepts": {
-          "predicate": "lblodmow:heeftGerelateerdWegmarkeringconcept",
-          "target": "roadMarkingConcept",
-          "cardinality": "many"
+        "relatedTrafficLightConcepts": {
+          "predicate": "lblodmow:verkeerslichtHeeftGerelateerdWegmarkering",
+          "target": "trafficLightConcept",
+          "cardinality": "many",
+          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/road-marking-concepts/"
@@ -408,9 +438,25 @@
           "target": "trafficLightCategory",
           "cardinality": "many"
         },
-        "relatedTrafficLightConcepts": {
-          "predicate": "lblodmow:heeftGerelateerdVerkeerslichtconcept",
+        "relatedToTrafficLightConcepts": {
+          "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeerslicht",
           "target": "trafficLightConcept",
+          "cardinality": "many"
+        },
+        "relatedFromTrafficLightConcepts": {
+          "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeerslicht",
+          "target": "trafficLightConcept",
+          "cardinality": "many",
+          "inverse": true
+        },
+        "relatedRoadSignConcepts": {
+          "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeersbord",
+          "target": "roadSignConcept",
+          "cardinality": "many"
+        },
+        "relatedRoadMarkingConcepts": {
+          "predicate": "lblodmow:verkeerslichtHeeftGerelateerdWegmarkering",
+          "target": "roadMarkingConcept",
           "cardinality": "many"
         }
       },
