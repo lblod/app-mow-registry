@@ -1,0 +1,68 @@
+<http://lblod.data.gift/concept-schemes/62331E6900730AE7B99DF7EF> 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.lblod.info/vocabularies/mobiliteit/Codelist>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "62331E6900730AE7B99DF7EF";
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Zonal Location".
+
+<http://lblod.data.gift/concepts/62331E6A00730AE7B99DF7F0>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "62331E6A00730AE7B99DF7F0";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/62331E6900730AE7B99DF7EF>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "In de zone ${naam_gebied} begrensd door ${bepaling_gebied} worden volgende maatregelen met zonale geldigheid ingesteld:".
+
+
+<http://lblod.data.gift/concepts/62331E6A00730AE7B99DF7F1>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "62331E6A00730AE7B99DF7F1";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/62331E6900730AE7B99DF7EF>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "In het gebied ${naam_gebied} begrensd door ${bepaling_gebied} geldt".
+
+
+<http://lblod.data.gift/concept-schemes/62331FDD00730AE7B99DF7F2> 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.lblod.info/vocabularies/mobiliteit/Codelist>;
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "62331FDD00730AE7B99DF7F2";
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Non Zonal Location".
+
+<http://lblod.data.gift/concepts/62331FDD00730AE7B99DF7F7>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "62331FDD00730AE7B99DF7F7";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/62331FDD00730AE7B99DF7F2>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Op de ${placeholder} ter hoogte van ${placeholder} geldt".
+
+<http://lblod.data.gift/concepts/6233334700730AE7B99DF7FB>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "6233334700730AE7B99DF7FB";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/62331FDD00730AE7B99DF7F2>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "In de tegenovergestelde richting geldt".
+
+<http://lblod.data.gift/concepts/6233334700730AE7B99DF7F8>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "6233334700730AE7B99DF7F8";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/62331FDD00730AE7B99DF7F2>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Aan de kant van de (on)pare nummers".
+
+<http://lblod.data.gift/concepts/6233334700730AE7B99DF7FA>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "6233334700730AE7B99DF7FA";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/62331FDD00730AE7B99DF7F2>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Op de ${placeholder} vanaf ${placeholder} tot ${placeholder} in de richting van ${placeholder} geldt".
+
+<http://lblod.data.gift/concepts/62331FDD00730AE7B99DF7F5>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "62331FDD00730AE7B99DF7F5";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/62331FDD00730AE7B99DF7F2>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Op alle wegen die uitkomen op ${placeholder} geldt".
+
+<http://lblod.data.gift/concepts/62331FDD00730AE7B99DF7F4>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "62331FDD00730AE7B99DF7F4";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/62331FDD00730AE7B99DF7F2>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Op het kruispunt van de ${placeholder} met de ${placeholder} geldt".
+
+<http://lblod.data.gift/concepts/6233334700730AE7B99DF7F9>
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "6233334700730AE7B99DF7F9";
+  <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/62331FDD00730AE7B99DF7F2>;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Op ${placeholder}, vanaf ${placeholder} tot ${placeholder} geldt".
+
