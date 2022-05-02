@@ -40,6 +40,10 @@ services:
       - "logging=true"
     restart: always
     logging: *default-logging
+  sparql-cache:
+    image: redpencil/varnish-post:1.0.0
+    environment:
+      BACKEND_HOST: db
   db:
     image: semtech/mu-authorization:0.6.0-beta.7
     environment:
