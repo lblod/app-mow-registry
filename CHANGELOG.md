@@ -1,3 +1,11 @@
+## 0.5.0 (2022-06-17)
+
+#### :rocket: Enhancement
+* [#53](https://github.com/lblod/app-mow-registry/pull/53) use varnish to cache queries ([@nvdk](https://github.com/nvdk))
+
+#### Committers: 1
+- Niels V ([@nvdk](https://github.com/nvdk))
+
 ## 0.4.0 (2022-03-25)
 
 #### :rocket: Enhancement
