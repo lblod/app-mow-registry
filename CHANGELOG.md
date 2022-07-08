@@ -1,3 +1,11 @@
+## 0.5.1 (2022-07-08)
+
+#### :bug: Bug Fix
+* [#54](https://github.com/lblod/app-mow-registry/pull/54) :cloud: Upgrade frontend to 0.14.1 ([@nvdk](https://github.com/nvdk))
+
+#### Committers: 1
+- Niels V ([@nvdk](https://github.com/nvdk))
+
 ## 0.5.0 (2022-06-17)
 
 #### :rocket: Enhancement
