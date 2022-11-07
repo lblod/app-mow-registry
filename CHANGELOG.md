@@ -1,4 +1,14 @@
 
+
+## 0.5.3 (2022-11-07)
+
+#### :house: Internal
+* [#56](https://github.com/lblod/app-mow-registry/pull/56) chore(deps): bump frontend to v0.16.0 ([@abeforgit](https://github.com/abeforgit))
+
+#### Committers: 1
+- Arne Bertrand ([@abeforgit](https://github.com/abeforgit))
+
+
 ## 0.5.2 (2022-11-07)
 
 #### :bug: Bug Fix
