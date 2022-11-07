@@ -1,3 +1,13 @@
+
+## 0.5.2 (2022-11-07)
+
+#### :bug: Bug Fix
+* [#55](https://github.com/lblod/app-mow-registry/pull/55) Use correctly cased dateTime datatypes ([@MikiDi](https://github.com/MikiDi))
+
+#### Committers: 1
+- Michaël Dierick ([@MikiDi](https://github.com/MikiDi))
+
+
 ## 0.5.1 (2022-07-08)
 
 #### :bug: Bug Fix
