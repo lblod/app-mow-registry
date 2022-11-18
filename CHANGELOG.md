@@ -1,5 +1,14 @@
 
 
+
+## 0.5.4 (2022-11-18)
+
+#### :house: Internal
+* [#57](https://github.com/lblod/app-mow-registry/pull/57) Bump frontend to 0.16.1 ([@elpoelma](https://github.com/elpoelma))
+
+#### Committers: 1
+- Elena Poelman ([@elpoelma](https://github.com/elpoelma))
+
 ## 0.5.3 (2022-11-07)
 
 #### :house: Internal
