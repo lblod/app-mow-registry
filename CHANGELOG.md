@@ -35,6 +35,13 @@
 #### Committers: 1
 - Michaël Dierick ([@MikiDi](https://github.com/MikiDi))
 
+## 0.5.1-1 (2023-01-24)
+
+#### :bug: Bug Fix
+* [#59](https://github.com/lblod/app-mow-registry/pull/59) Hotfix: update frontend to 0.14.2 ([@elpoelma](https://github.com/elpoelma))
+
+#### Committers: 1
+- Elena Poelman ([@elpoelma](https://github.com/elpoelma))
 
 ## 0.5.1 (2022-07-08)
 
