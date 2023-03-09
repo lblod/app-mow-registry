@@ -1,11 +1,21 @@
+## 0.5.1-2 (2023-03-09)
 
+#### :house: Internal
+* [#60](https://github.com/lblod/app-mow-registry/pull/60) Ensure required services restart automatically ([@elpoelma](https://github.com/elpoelma))
 
-
-
+#### Committers: 1
+- Elena Poelman ([@elpoelma](https://github.com/elpoelma))
 ## 0.5.5 (2023-01-24)
 
 #### :house: Internal
 * [#58](https://github.com/lblod/app-mow-registry/pull/58) Update frontend to 0.16.2 ([@elpoelma](https://github.com/elpoelma))
+
+#### Committers: 1
+- Elena Poelman ([@elpoelma](https://github.com/elpoelma))
+
+## 0.5.1-1 (2023-01-24)
+#### :bug: Bug Fix
+* [#59](https://github.com/lblod/app-mow-registry/pull/59) Hotfix: update frontend to 0.14.2 ([@elpoelma](https://github.com/elpoelma))
 
 #### Committers: 1
 - Elena Poelman ([@elpoelma](https://github.com/elpoelma))
@@ -34,14 +44,6 @@
 
 #### Committers: 1
 - Michaël Dierick ([@MikiDi](https://github.com/MikiDi))
-
-## 0.5.1-1 (2023-01-24)
-
-#### :bug: Bug Fix
-* [#59](https://github.com/lblod/app-mow-registry/pull/59) Hotfix: update frontend to 0.14.2 ([@elpoelma](https://github.com/elpoelma))
-
-#### Committers: 1
-- Elena Poelman ([@elpoelma](https://github.com/elpoelma))
 
 ## 0.5.1 (2022-07-08)
 

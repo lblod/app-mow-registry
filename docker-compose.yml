@@ -44,12 +44,14 @@ services:
     image: redpencil/varnish-post:1.0.0
     environment:
       BACKEND_HOST: db
+    restart: always
   db:
     image: semtech/mu-authorization:0.6.0-beta.7
     environment:
       MU_SPARQL_ENDPOINT: "http://triplestore:8890/sparql"
     volumes:
       - ./config/authorization:/config
+    restart: always
   migrations:
     image: semtech/mu-migrations-service
     links:
@@ -98,6 +100,7 @@ services:
     image: semtech/static-file-service:0.2.0
     volumes:
       - ./data/static-files:/data
+    restart: always
   login:
     image: lblod/acmidm-login-service:feature-configurable
     links:
@@ -112,6 +115,7 @@ services:
       ACCOUNT_GRAPH_TEMPLATE: http://mu.semte.ch/graphs/users
       MU_APPLICATION_AUTH_ROLE_CLAIM: abb_registiermobiliteit_rol_3d
     logging: *default-logging
+    restart: always
   project-scripts:
     image: semtech/mu-scripts:1.0.0
     volumes:
