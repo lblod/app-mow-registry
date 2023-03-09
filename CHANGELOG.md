@@ -1,4 +1,13 @@
 
+
+## 0.5.1-2 (2023-03-09)
+
+#### :house: Internal
+* [#60](https://github.com/lblod/app-mow-registry/pull/60) Ensure required services restart automatically ([@elpoelma](https://github.com/elpoelma))
+
+#### Committers: 1
+- Elena Poelman ([@elpoelma](https://github.com/elpoelma))
+
 ## 0.5.1-1 (2023-01-24)
 
 #### :bug: Bug Fix
