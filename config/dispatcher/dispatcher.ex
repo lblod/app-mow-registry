@@ -29,115 +29,115 @@ defmodule Dispatcher do
   # domain.json
   ###############################################################
   match "/code-lists/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/code-lists/"
+    Proxy.forward conn, path, "http://cache/code-lists/"
   end
 
   match "/road-sign-concepts/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/road-sign-concepts/"
+    Proxy.forward conn, path, "http://cache/road-sign-concepts/"
   end
 
   match "/road-sign-concept-status/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/road-sign-concept-status/"
+    Proxy.forward conn, path, "http://cache/road-sign-concept-status/"
   end
 
   match "/road-sign-concept-status-codes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/road-sign-concept-status-codes/"
+    Proxy.forward conn, path, "http://cache/road-sign-concept-status-codes/"
   end
 
   match "/road-sign-categories/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/road-sign-categories/"
+    Proxy.forward conn, path, "http://cache/road-sign-categories/"
   end
 
   match "/traffic-light-concepts/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/traffic-light-concepts/"
+    Proxy.forward conn, path, "http://cache/traffic-light-concepts/"
   end
 
   match "/traffic-light-concept-status/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/traffic-light-concept-status/"
+    Proxy.forward conn, path, "http://cache/traffic-light-concept-status/"
   end
 
   match "/traffic-light-concept-status-codes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/traffic-light-concept-status-codes/"
+    Proxy.forward conn, path, "http://cache/traffic-light-concept-status-codes/"
   end
 
   match "/traffic-light-categories/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/traffic-light-categories/"
+    Proxy.forward conn, path, "http://cache/traffic-light-categories/"
   end
 
   match "/road-marking-concepts/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/road-marking-concepts/"
+    Proxy.forward conn, path, "http://cache/road-marking-concepts/"
   end
 
   match "/traffic-measure-concepts/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/traffic-measure-concepts/"
+    Proxy.forward conn, path, "http://cache/traffic-measure-concepts/"
   end
 
   match "/road-marking-concept-status/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/road-marking-concept-status/"
+    Proxy.forward conn, path, "http://cache/road-marking-concept-status/"
   end
 
   match "/road-marking-concept-status-codes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/road-marking-concept-status-codes/"
+    Proxy.forward conn, path, "http://cache/road-marking-concept-status-codes/"
   end
 
   match "/road-marking-categories/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/road-marking-categories/"
+    Proxy.forward conn, path, "http://cache/road-marking-categories/"
   end
 
   match "/resources/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/resources/"
+    Proxy.forward conn, path, "http://cache/resources/"
   end
 
   match "/shapes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/shapes/"
+    Proxy.forward conn, path, "http://cache/shapes/"
   end
 
   match "/property-shapes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/property-shapes/"
+    Proxy.forward conn, path, "http://cache/property-shapes/"
   end
 
   match "/node-shapes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/node-shapes/"
+    Proxy.forward conn, path, "http://cache/node-shapes/"
   end
 
   match "/templates/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/templates/"
+    Proxy.forward conn, path, "http://cache/templates/"
   end
 
   match "/mappings/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/mappings/"
+    Proxy.forward conn, path, "http://cache/mappings/"
   end
 
   match "/relations/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/relations/"
+    Proxy.forward conn, path, "http://cache/relations/"
   end
 
   match "/can-be-combined-with-relations/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/can-be-combined-with-relations/"
+    Proxy.forward conn, path, "http://cache/can-be-combined-with-relations/"
   end
 
   match "/must-use-relations/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/must-use-relations/"
+    Proxy.forward conn, path, "http://cache/must-use-relations/"
   end
 
   match "/concept-schemes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/concept-schemes/"
+    Proxy.forward conn, path, "http://cache/concept-schemes/"
   end
 
   match "/skos-concepts/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/skos-concepts/"
+    Proxy.forward conn, path, "http://cache/skos-concepts/"
   end
 
   match "/concepts/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/concepts/"
+    Proxy.forward conn, path, "http://cache/concepts/"
   end
 
   match "/accounts/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/accounts/"
+    Proxy.forward conn, path, "http://cache/accounts/"
   end
 
   match "/groups/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/groups/"
+    Proxy.forward conn, path, "http://cache/groups/"
   end
 
 
@@ -159,10 +159,10 @@ defmodule Dispatcher do
     Proxy.forward conn, [], "http://file/files/" <> id <> "/download"
   end
   get "/files/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/files/"
+    Proxy.forward conn, path, "http://cache/files/"
   end
   patch "/files/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://resource/files/"
+    Proxy.forward conn, path, "http://cache/files/"
   end
   post "/files/*path", %{ accept: %{upload: true}, layer: :api} do
     Proxy.forward conn, path, "http://file/files/"
