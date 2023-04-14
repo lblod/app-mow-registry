@@ -29,7 +29,7 @@ services:
     restart: always
     logging: *default-logging
   triplestore:
-    image: tenforce/virtuoso:1.3.2-virtuoso7.2.2
+    image: redpencil/virtuoso:1.1.0
     environment:
       SPARQL_UPDATE: "true"
       DEFAULT_GRAPH: "http://mu.semte.ch/application"
@@ -63,7 +63,9 @@ services:
     restart: always
     logging: *default-logging
   resource:
-    image: semtech/mu-cl-resources:latest
+    image: semtech/mu-cl-resources:1.22.0
+    environment:
+      CACHE_CLEAR_PATH: "http://cache/.mu/clear-keys"
     links:
       - db:database
     volumes:
