@@ -1,6 +1,22 @@
 
 
 
+
+## 1.1.0 (2023-05-31)
+
+#### :rocket: Enhancement
+* [#63](https://github.com/lblod/app-mow-registry/pull/63) add cache to all resources ([@lagartoverde](https://github.com/lagartoverde))
+
+#### :bug: Bug Fix
+* [#65](https://github.com/lblod/app-mow-registry/pull/65) increase default pagination limit ([@abeforgit](https://github.com/abeforgit))
+
+#### :house: Internal
+* [#66](https://github.com/lblod/app-mow-registry/pull/66) Bump frontend to 1.1.0 ([@lagartoverde](https://github.com/lagartoverde))
+
+#### Committers: 2
+- Arne Bertrand ([@abeforgit](https://github.com/abeforgit))
+- Oscar Rodriguez Villalobos ([@lagartoverde](https://github.com/lagartoverde))
+
 ## 1.0.1 (2023-03-13)
 
 #### :house: Internal
