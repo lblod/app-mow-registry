@@ -2,6 +2,15 @@
 
 
 
+
+## 1.1.1 (2023-05-31)
+
+#### :house: Internal
+* [#67](https://github.com/lblod/app-mow-registry/pull/67) update mu-cl-resources ([@lagartoverde](https://github.com/lagartoverde))
+
+#### Committers: 1
+- Oscar Rodriguez Villalobos ([@lagartoverde](https://github.com/lagartoverde))
+
 ## 1.1.0 (2023-05-31)
 
 #### :rocket: Enhancement
