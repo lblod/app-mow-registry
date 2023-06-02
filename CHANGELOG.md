@@ -3,6 +3,15 @@
 
 
 
+
+## 1.1.2 (2023-06-02)
+
+#### :house: Internal
+* [#68](https://github.com/lblod/app-mow-registry/pull/68) Update the fix annotation service ([@lagartoverde](https://github.com/lagartoverde))
+
+#### Committers: 1
+- Oscar Rodriguez Villalobos ([@lagartoverde](https://github.com/lagartoverde))
+
 ## 1.1.1 (2023-05-31)
 
 #### :house: Internal
