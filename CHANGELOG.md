@@ -4,6 +4,16 @@
 
 
 
+
+## 1.1.3 (2023-09-01)
+
+#### :house: Internal
+* [#69](https://github.com/lblod/app-mow-registry/pull/69) chore(frontend): bump to  [v1.3.1](https://github.com/lblod/frontend-mow-registry/releases/tag/1.3.1) ([@abeforgit](https://github.com/abeforgit))
+
+#### Committers: 1
+- Arne Bertrand ([@abeforgit](https://github.com/abeforgit))
+
+
 ## 1.1.2 (2023-06-02)
 
 #### :house: Internal
