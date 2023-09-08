@@ -289,6 +289,10 @@
           "type": "string",
           "predicate": "skos:scopeNote"
         },
+        "definition": {
+          "type": "string",
+          "predicate": "skos:definition"
+        },
         "road-sign-concept-code": {
           "type": "string",
           "predicate": "skos:prefLabel"
