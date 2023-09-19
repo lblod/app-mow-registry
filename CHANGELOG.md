@@ -5,6 +5,15 @@
 
 
 
+
+## 1.2.0 (2023-09-19)
+
+#### :house: Internal
+* [#71](https://github.com/lblod/app-mow-registry/pull/71) Update frontend to 1.4.0 ([@elpoelma](https://github.com/elpoelma))
+
+#### Committers: 1
+- Elena Poelman ([@elpoelma](https://github.com/elpoelma))
+
 ## 1.1.3 (2023-09-01)
 
 #### :house: Internal
