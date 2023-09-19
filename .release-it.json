@@ -3,9 +3,7 @@
     "release": true
   },
   "plugins": {
-    "release-it-lerna-changelog": {
-      "infile": "CHANGELOG.md",
-      "launchEditor": true
-    }
-  }
+    "changesets-release-it-plugin": {}
+  },
+  "npm": false
 }
