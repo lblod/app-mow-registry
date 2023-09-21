@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 1.2.2 (2023-09-21)
+
+### Patch Changes
+
+- bump identifier to 1.10.1
+
 ## 1.2.1
 
 ### Patch Changes
