@@ -9,7 +9,7 @@ x-logging:
 
 services:
   identifier:
-    image: semtech/mu-identifier:1.9.0
+    image: semtech/mu-identifier:1.10.1
     links:
       - dispatcher:dispatcher
     environment:
