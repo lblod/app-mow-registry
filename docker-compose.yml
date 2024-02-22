@@ -1,7 +1,6 @@
-version: '3.4'
+version: "3.4"
 
-x-logging:
-  &default-logging
+x-logging: &default-logging
   driver: "json-file"
   options:
     max-size: "10m"
@@ -21,7 +20,6 @@ services:
   dispatcher:
     image: semtech/mu-dispatcher:2.1.0-beta.1
     links:
-
       - resource:resource
     volumes:
       - ./config/dispatcher:/config
@@ -109,7 +107,7 @@ services:
     links:
       - db:database
     environment:
-      MU_APPLICATION_AUTH_DISCOVERY_URL: https://authenticatie-ti.vlaanderen.be/op/.well-known/openid-configuration 
+      MU_APPLICATION_AUTH_DISCOVERY_URL: https://authenticatie-ti.vlaanderen.be/op/.well-known/openid-configuration
       MU_APPLICATION_AUTH_CLIENT_ID: ae3be0bb-5c5d-447f-9916-1ea819267e53
       MU_APPLICATION_AUTH_CLIENT_SECRET: configure-in-override
       MU_APPLICATION_AUTH_REDIRECT_URI: https://roadsigns.lblod.info/authorization/callback
@@ -130,3 +128,39 @@ services:
     logging: *default-logging
     links:
       - db:database
+  ################################################################################
+  # LDES PRODUCERS
+  ################################################################################
+
+  ldes-delta-pusher:
+    image: redpencil/ldes-delta-pusher:latest
+    environment:
+      LDES_ENDPOINT: "http://ldes-backend/mow-register"
+    volumes:
+      - ./config/ldes-delta-pusher/:/config/
+    links:
+      - db:database
+    restart: always
+
+  ldes-backend:
+    image: redpencil/fragmentation-producer:0.4.0
+    environment:
+      BASE_URL: "http://data.lblod.info/ext"
+      FOLDER_DEPTH: 1
+      PAGE_RESOURCES_COUNT: 50
+      LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
+      TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
+      CACHE_SIZE: 10
+      DATA_FOLDER: "/data"
+      ENABLE_AUTH: "false"
+    restart: always
+    volumes:
+      - "./data/ldes-feed/:/data/"
+  deltanotifier:
+    image: cecemel/delta-notifier:0.2.0-beta.2
+    volumes:
+      - ./config/delta:/config
+    labels:
+      - "logging=true"
+    restart: always
+    logging: *default-logging
