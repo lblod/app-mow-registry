@@ -3,7 +3,7 @@ import { Changeset } from "../types";
 import { query, sparqlEscapeUri } from "mu";
 
 export default async function dispatch(changesets: Changeset[]) {
-  console.log('dispatching...');
+  console.log("dispatching...");
   for (const changeset of changesets) {
     const subjects = new Set(
       changeset.inserts.map((insert) => insert.subject.value),
@@ -14,17 +14,14 @@ export default async function dispatch(changesets: Changeset[]) {
       } = await query(`
         PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
         PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+        PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+        PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
         construct {
-            ?s  a <https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept>; 
-                mu:uuid ?uuid; 
-                mobiliteit:grafischeWeergave ?icon;
-                skos:prefLabel ?label.
+            ?s  ?p ?o
         } where {
-            VALUES ?s {${sparqlEscapeUri(subject)}}
-            ?s  a <https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept>; 
-                mu:uuid ?uuid;
-                mobiliteit:grafischeWeergave ?icon;
-                skos:prefLabel ?label.
+            VALUES ?s {${sparqlEscapeUri(subject)} }
+            ?s ?p ?o
+          
         }
         `);
       if (bindings.length) {
