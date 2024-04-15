@@ -16,11 +16,32 @@ export default async function dispatch(changesets: Changeset[]) {
         PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
         PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
         PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
         construct {
             ?s  ?p ?o
         } where {
             VALUES ?s {${sparqlEscapeUri(subject)} }
-            ?s ?p ?o
+            ?s a ?type; ?p ?o
+            filter (?type in (
+                rdfs:Resource,
+                skos:ConceptScheme,
+                lblodmow:Codelist,
+                skos:Concept,
+                ext:Concept,
+                ext:Template,
+                ext:Mapping,
+                ext:Relation,
+                ext:CanBeCombinedWithRelation,
+                ext:MustUseRelation,
+                lblodmow:TrafficMeasureConcept,
+                mobiliteit:Verkeersbordconcept,
+                mobiliteit:Wegmarkeringconcept,
+                mobiliteit:Verkeerslichtconcept,
+                mobiliteit:Verkeersbordcategorie,
+                mobiliteit:VerkeersbordconceptStatus,
+                lblodmow:VerkeersbordconceptStatusCode
+          ))
           
         }
         `);
