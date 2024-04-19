@@ -148,7 +148,7 @@ defmodule Dispatcher do
   # ldes
   ###############################################################
   match "/ldes-mow-register/*path", %{ accept: %{any: true}, layer: :api} do
-    Proxy.forward conn, path, "http://ldes-backend/mow-register/"
+    Proxy.forward conn, path, "http://ldes-backend/ldes-mow-register/"
   end
 
   ###############################################################

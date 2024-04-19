@@ -135,7 +135,7 @@ services:
   ldes-delta-pusher:
     image: redpencil/ldes-delta-pusher:latest
     environment:
-      LDES_ENDPOINT: "http://ldes-backend/mow-register"
+      LDES_ENDPOINT: "http://ldes-backend/ldes-mow-register"
     volumes:
       - ./config/ldes-delta-pusher/:/config/
     links:
@@ -145,7 +145,7 @@ services:
   ldes-backend:
     image: redpencil/fragmentation-producer:0.4.0
     environment:
-      BASE_URL: "http://data.lblod.info/ext"
+      BASE_URL: "https://dev-vlag.roadsigns.lblod.info/"
       FOLDER_DEPTH: 1
       PAGE_RESOURCES_COUNT: 50
       LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
