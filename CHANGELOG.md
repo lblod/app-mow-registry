@@ -1,5 +1,13 @@
 # app-mow-registry
 
+## 1.2.4
+
+### Patch Changes
+
+- [`54094a5`](https://github.com/lblod/app-mow-registry/commit/54094a5c19dae99ea495f5d0a8c88b20e08d9eaa) Thanks [@elpoelma](https://github.com/elpoelma)! - Update frontend to version 1.4.3
+
+- [#74](https://github.com/lblod/app-mow-registry/pull/74) [`8462f18`](https://github.com/lblod/app-mow-registry/commit/8462f1862f62e90e8749b1d951e97cb453d3ddb3) Thanks [@elpoelma](https://github.com/elpoelma)! - Drop resource relationships with unresolvable target
+
 ## 1.2.3
 
 ### Patch Changes
