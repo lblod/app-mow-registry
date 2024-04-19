@@ -310,11 +310,6 @@
           "target": "roadSignCategory",
           "cardinality": "many"
         },
-        "measures": {
-          "predicate": "ext:measures",
-          "target": "roadMeasure",
-          "cardinality": "many"
-        },
         "subSigns": {
           "predicate": "lblodmow:heeftOnderbordConcept",
           "target": "roadSignConcept",
@@ -375,11 +370,6 @@
         }
       },
       "relationships": {
-        "status": {
-          "predicate": "vs:term_status",
-          "target": "roadMarkingConceptStatus",
-          "cardinality": "one"
-        },
         "relatedToRoadMarkingConcepts": {
           "predicate": "lblodmow:wegmarkeringHeeftGerelateerdWegmarkering",
           "target": "roadMarkingConcept",
@@ -428,16 +418,6 @@
         }
       },
       "relationships": {
-        "status": {
-          "predicate": "vs:term_status",
-          "target": "trafficLightConceptStatus",
-          "cardinality": "one"
-        },
-        "categories": {
-          "predicate": "org:classification",
-          "target": "trafficLightCategory",
-          "cardinality": "many"
-        },
         "relatedToTrafficLightConcepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeerslicht",
           "target": "trafficLightConcept",
