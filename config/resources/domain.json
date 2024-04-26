@@ -571,12 +571,12 @@
         "codelist": {
           "predicate": "ext:codeList",
           "target": "conceptScheme",
-          "cardinality": "many"
+          "cardinality": "one"
         },
         "template": {
           "predicate": "ext:template",
           "target": "template",
-          "cardinality": "many"
+          "cardinality": "one"
         }
       }
     }
