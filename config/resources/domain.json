@@ -15,7 +15,8 @@
     "besluit": "https://data.vlaanderen.be/ns/besluit#",
     "tribont": "https://w3id.org/tribont/core#Shape",
     "cidoc": "http://www.cidoc-crm.org/cidoc-crm/",
-    "icb": "https://w3id.org/isCharacterisedBy#"
+    "icb": "https://w3id.org/isCharacterisedBy#",
+    "foaf": "http://xmlns.com/foaf/0.1/"
   },
   "resources": {
     "resources": {
