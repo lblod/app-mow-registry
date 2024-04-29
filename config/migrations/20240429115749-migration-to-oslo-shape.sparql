@@ -1,0 +1,18 @@
+PREFIX tribont: <https://w3id.org/tribont/core#Shape>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+
+DELETE {
+  graph ?g {
+    ?s a sh:Shape .
+  }
+}
+INSERT {
+  graph ?g {
+    ?s a tribont:Shape .
+  }
+}
+WHERE {
+  graph ?g {
+    ?s a sh:Shape .
+  }
+}

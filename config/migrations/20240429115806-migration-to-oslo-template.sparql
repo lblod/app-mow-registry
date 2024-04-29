@@ -1,0 +1,55 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+
+DELETE {
+  graph ?g {
+    ?s a ext:Template . 
+  }
+}
+INSERT {
+  graph ?g {
+    ?s a mobiliteit:Template .
+  }
+}
+WHERE {
+  graph ?g {
+    ?s a ext:Template .
+  }
+}
+
+;
+
+INSERT {
+  graph ?g {
+    ?s a mobiliteit:Template ; 
+    rdfs:subClassOf foaf:Document .
+  }
+}
+WHERE {
+  graph ?g {
+    ?s a mobiliteit:Template
+    FILTER NOT EXISTS { ?s rdfs:subClassOf foaf:Document }
+  }
+}
+
+;
+
+DELETE {
+  graph ?g {
+    ?s a ext:value .
+  }
+}
+INSERT {
+  graph ?g {
+    ?s a prov:value .
+  }
+}
+WHERE {
+  graph ?g {
+    ?s a ext:value .
+  }
+}
