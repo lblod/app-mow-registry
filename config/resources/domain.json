@@ -33,7 +33,7 @@
     },
     "shapes": {
       "name": "shape",
-      "class": "tribont:Shape",
+      "class": "sh:Shape",
       "relationships": {
         "targetClass": {
           "predicate": "sh:targetClass",
@@ -314,7 +314,7 @@
         },
         "possible-shape": {
           "predicate": "icb:isCharacterisedBy",
-          "target": "shape",
+          "target": "tribontShape",
           "cardinality": "one"
         },
         "has-subsign": {
@@ -580,6 +580,12 @@
           "cardinality": "one"
         }
       }
+    },
+    "tribont-shapes": {
+      "name": "tribontShape",
+      "class": "tribont:Shape",
+      "attributes": {},
+      "relationships": {}
     }
   }
 }
