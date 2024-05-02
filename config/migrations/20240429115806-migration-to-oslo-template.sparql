@@ -30,7 +30,7 @@ INSERT {
 }
 WHERE {
   graph ?g {
-    ?s a mobiliteit:Template
+    ?s a mobiliteit:Template .
   }
 }
 
@@ -38,16 +38,16 @@ WHERE {
 
 DELETE {
   graph ?g {
-    ?s a ext:value .
+    ?s ext:value ?o .
   }
 }
 INSERT {
   graph ?g {
-    ?s a prov:value .
+    ?s prov:value ?o .
   }
 }
 WHERE {
   graph ?g {
-    ?s a ext:value .
+    ?s ext:value ?o .
   }
 }
