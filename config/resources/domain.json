@@ -308,7 +308,7 @@
           "cardinality": "one"
         },
         "classifications": {
-          "predicate": "dc:type",
+          "predicate": "dct:type",
           "target": "skosConcept",
           "cardinality": "many"
         },
@@ -565,7 +565,7 @@
       "attributes": {
         "label": {
           "type": "string",
-          "predicate": "dc:title"
+          "predicate": "dct:title"
         }
       },
       "relationships": {
@@ -575,7 +575,7 @@
           "cardinality": "many"
         },
         "type": {
-          "predicate": "dc:type",
+          "predicate": "dct:type",
           "target": "skosConcept",
           "cardinality": "one"
         },
