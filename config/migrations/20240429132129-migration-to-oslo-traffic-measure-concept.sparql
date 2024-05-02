@@ -1,0 +1,38 @@
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
+
+DELETE {
+    GRAPH ?g {
+        ?s a lblodmow:TrafficMeasureConcept . 
+    }
+}
+INSERT {
+    GRAPH ?g {
+        ?s a mobiliteit:Mobiliteitmaatregelconcept .
+    }
+}
+WHERE {
+    GRAPH ?g {
+        ?s a lblodmow:TrafficMeasureConcept .
+    }
+}
+
+;
+
+DELETE {
+    GRAPH ?g {
+        ?s ext:temporal ?temporal .
+    }
+}
+INSERT {
+    GRAPH ?g {
+        ?s mobiliteit:variabeleSignalisatie ?temporal .
+    }
+}
+WHERE {
+    GRAPH ?g {
+        ?s a mobiliteit:Mobiliteitmaatregelconcept ;
+        ext:temporal ?temporal
+    }
+}
