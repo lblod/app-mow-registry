@@ -4,43 +4,51 @@ PREFIX org: <http://www.w3.org/ns/org#>
 PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
 
 
-INSERT{
-    ?s a mobiliteit:Verkeerstekenconcept
+INSERT {
+    GRAPH ?g {
+    ?s a mobiliteit:VerkeerstekenConcept .
+}
 }
 WHERE {
-    ?s a mobiliteit:Verkeersbordconcept
+    GRAPH ?g {
+    ?s a mobiliteit:VerkeersbordConcept .
+}
 }
 
 ;
 
 DELETE {
     GRAPH ?g {
-    ?s org:classification ?o
+    ?s org:classification ?o .
     }
 }
 INSERT{
     GRAPH ?g {
-    ?s dct:type ?o
+    ?s dct:type ?o .
     }
 }
 WHERE{
-    ?s a mobiliteit:Verkeersbordconcept;
-    org:classification ?o
+    GRAPH ?g {
+    ?s a mobiliteit:VerkeersbordConcept ;
+    org:classification ?o .
 } 
+}
 
 ;
 
 DELETE {
     GRAPH ?g {
-        ?s lblodmow:heeftOnderBordConcept ?o
+        ?s lblodmow:heeftOnderBordConcept ?o .
     }
 }
 INSERT {
     GRAPH ?g {
-        ?s mobiliteit:heeftOnderbordConcept
+        ?s mobiliteit:heeftOnderbordConcept ?o .
     }
 }
 WHERE {
-    ?s a mobiliteit:Verkeersbordconcept;
-    lblodmow:heeftOnderBordConcept ?o
+    GRAPH ?g {
+    ?s a mobiliteit:VerkeersbordConcept ;
+    lblodmow:heeftOnderbordConcept ?o .
+}
 }
