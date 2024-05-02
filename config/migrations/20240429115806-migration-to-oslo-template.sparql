@@ -25,14 +25,12 @@ WHERE {
 
 INSERT {
   graph ?g {
-    ?s a mobiliteit:Template ; 
-    rdfs:subClassOf foaf:Document .
+    ?s a foaf:Document .
   }
 }
 WHERE {
   graph ?g {
     ?s a mobiliteit:Template
-    FILTER NOT EXISTS { ?s rdfs:subClassOf foaf:Document }
   }
 }
 
