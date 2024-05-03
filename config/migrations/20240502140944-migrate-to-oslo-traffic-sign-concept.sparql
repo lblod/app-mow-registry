@@ -5,14 +5,14 @@ PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
 
 
 INSERT {
-    GRAPH ?g {
-    ?s a mobiliteit:VerkeerstekenConcept .
+    GRAPH ?h {
+    ?s a mobiliteit:Verkeerstekenconcept .
 }
 }
 WHERE {
     GRAPH ?g {
-    ?s a mobiliteit:VerkeersbordConcept .
-}
+    ?s a mobiliteit:Verkeersbordconcept .
+} BIND (?g AS ?h)
 }
 
 ;
@@ -29,7 +29,7 @@ INSERT{
 }
 WHERE{
     GRAPH ?g {
-    ?s a mobiliteit:VerkeersbordConcept ;
+    ?s a mobiliteit:Verkeersbordconcept ;
     org:classification ?o .
 } 
 }
@@ -48,7 +48,7 @@ INSERT {
 }
 WHERE {
     GRAPH ?g {
-    ?s a mobiliteit:VerkeersbordConcept ;
+    ?s a mobiliteit:Verkeersbordconcept ;
     lblodmow:heeftOnderbordConcept ?o .
 }
 }
