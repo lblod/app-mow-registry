@@ -38,7 +38,7 @@ WHERE{
 
 DELETE {
     GRAPH ?g {
-        ?s lblodmow:heeftOnderBordConcept ?o .
+        ?s lblodmow:heeftOnderbordConcept ?o .
     }
 }
 INSERT {
