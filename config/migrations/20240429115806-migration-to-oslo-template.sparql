@@ -24,14 +24,14 @@ WHERE {
 ;
 
 INSERT {
-  graph ?g {
+  graph ?h {
     ?s a foaf:Document .
   }
 }
 WHERE {
   graph ?g {
     ?s a mobiliteit:Template .
-  }
+  } BIND (?g AS ?h)
 }
 
 ;
