@@ -323,7 +323,7 @@
           "cardinality": "many"
         },
         "mainSigns": {
-          "predicate": "lblodmow:heeftOnderbordConcept",
+          "predicate": "mobiliteit:heeftOnderbordConcept",
           "target": "roadSignConcept",
           "cardinality": "many",
           "inverse": true
@@ -470,8 +470,8 @@
       },
       "relationships": {
         "roadSignConcepts": {
-          "predicate": "org:classification",
-          "target": "roadSignConcept",
+          "predicate": "dct:type",
+          "target": "skosConcept",
           "cardinality": "many",
           "inverse": true
         }
