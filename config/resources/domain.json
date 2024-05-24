@@ -166,6 +166,15 @@
       "relationships": {},
       "new-resource-base": "http://data.lblod.info/documents/"
     },
+    "images": {
+      "name": "image",
+      "class": "foaf:Image",
+      "super": ["document"],
+      "attributes": {},
+      "relationships": {},
+      "features": ["include-uri"],
+      "new-resource-base": " http://mobiliteit.vo.data.gift/images/"
+    },
     "templates": {
       "name": "template",
       "class": "mobiliteit:Template",
@@ -355,7 +364,7 @@
       "relationships": {
         "image": {
           "predicate": "mobiliteit:grafischeWeergave",
-          "target": "document",
+          "target": "image",
           "cardinality": "one"
         },
         "status": {
