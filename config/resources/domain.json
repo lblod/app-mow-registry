@@ -308,11 +308,38 @@
       "super": ["relation"],
       "new-resource-base": "http://data.lblod.info/must-use-relations/"
     },
+    "dimensions": {
+      "name": "dimension",
+      "class": "cidoc:E54:Dimension",
+      "attributes": {
+        "has-unit": {
+          "type": "string",
+          "predicate": "cidoc:P91_has_unit"
+        },
+        "has-value": {
+          "type": "integer",
+          "predicate": "cidoc:P90_has_value"
+        }
+      },
+      "relationships": {},
+      "new-resource-base": "http://data.lblod.info/dimensions/"
+    },
     "tribont-shapes": {
       "name": "tribontShape",
       "class": "tribont:Shape",
-      "attributes": {},
-      "relationships": {},
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "cidoc:P2_has_type"
+        }
+      },
+      "relationships": {
+        "has-dimension": {
+          "predicate": "cidoc:P43_has_dimension",
+          "target": "dimension",
+          "cardinality": "many"
+        }
+      },
       "new-resource-base": "http://data.lblod.info/tribont-shapes/"
     },
     "traffic-measure-concepts": {
@@ -403,13 +430,13 @@
         },
         "classifications": {
           "predicate": "dct:type",
-          "target": "skosConcept",
+          "target": "roadSignCategory",
           "cardinality": "many"
         },
         "possible-shape": {
           "predicate": "icb:isCharacterisedBy",
           "target": "tribontShape",
-          "cardinality": "one"
+          "cardinality": "many"
         },
         "has-subsign": {
           "predicate": "mobiliteit:heeftOnderbordConcept",
