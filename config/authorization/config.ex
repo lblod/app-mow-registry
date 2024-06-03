@@ -31,6 +31,8 @@ defmodule Acl.UserGroups.Config do
                         "http://www.w3.org/2004/02/skos/core#Concept",
                         "http://data.lblod.info/vocabularies/mobiliteit/Codelist",
                         "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept",
+                        "https://data.vlaanderen.be/ns/mobiliteit#Verkeerstekenconcept",
+
                         "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordcategorie",
                         "https://data.vlaanderen.be/ns/mobiliteit#VerkeersbordconceptStatus",
                         "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkeringconcept",
@@ -40,6 +42,7 @@ defmodule Acl.UserGroups.Config do
                         "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject",
                         "http://www.w3.org/2000/01/rdf-schema#Resource",
                         "http://www.w3.org/ns/shacl#Shape",
+                        "https://w3id.org/tribont/core#Shape",
                         "http://www.w3.org/ns/shacl#PropertyShape",
                         "http://www.w3.org/ns/shacl#NodeShape",
                         "http://mu.semte.ch/vocabularies/ext/Template",
@@ -64,6 +67,8 @@ defmodule Acl.UserGroups.Config do
                         "http://www.w3.org/2004/02/skos/core#Concept",
                         "http://data.lblod.info/vocabularies/mobiliteit/Codelist",
                         "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept",
+                        "https://data.vlaanderen.be/ns/mobiliteit#Verkeerstekenconcept",
+
                         "https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordcategorie",
                         "https://data.vlaanderen.be/ns/mobiliteit#VerkeersbordconceptStatus",
                         "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkeringconcept",
@@ -75,6 +80,7 @@ defmodule Acl.UserGroups.Config do
                         "http://www.w3.org/ns/shacl#Shape",
                         "http://www.w3.org/ns/shacl#PropertyShape",
                         "http://www.w3.org/ns/shacl#NodeShape",
+                        "https://w3id.org/tribont/core#Shape",
                         "http://mu.semte.ch/vocabularies/ext/Template",
                         "http://mu.semte.ch/vocabularies/ext/Mapping",
                         "http://mu.semte.ch/vocabularies/ext/Relation",
