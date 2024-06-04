@@ -31,9 +31,6 @@ defmodule Dispatcher do
   match "/code-lists/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/code-lists/"
   end
-  match "/images/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/images/"
-  end
   match "/road-sign-concepts/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/road-sign-concepts/"
   end
@@ -163,6 +160,15 @@ defmodule Dispatcher do
 
   match "/sessions/*path", %{ accept: %{any: true}, layer: :api} do
     Proxy.forward conn, path, "http://login/sessions/"
+  end
+###############################################################
+  # images
+  ###############################################################
+  match "/images/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/images/"
+  end
+  post "/images/*path", %{ accept: %{upload: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/images/"
   end
 
   ###############################################################
