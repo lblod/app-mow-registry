@@ -1,5 +1,5 @@
 PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/>
-PREFIX tribont: <https://w3id.org/tribont/core#Shape>
+PREFIX tribont: <https://w3id.org/tribont/core#>
 PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
 
 INSERT DATA {
