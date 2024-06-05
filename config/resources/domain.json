@@ -443,7 +443,7 @@
           "target": "roadSignCategory",
           "cardinality": "many"
         },
-        "shapes": {
+        "shape": {
           "predicate": "icb:isCharacterisedBy",
           "target": "tribontShape",
           "cardinality": "one"
