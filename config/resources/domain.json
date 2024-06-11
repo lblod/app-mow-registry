@@ -16,7 +16,8 @@
     "tribont": "https://w3id.org/tribont/core#",
     "cidoc": "http://www.cidoc-crm.org/cidoc-crm/",
     "icb": "https://w3id.org/isCharacterisedBy#",
-    "foaf": "http://xmlns.com/foaf/0.1/"
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "qudt": "http://qudt.org/schema/qudt/"
   },
   "resources": {
     "resources": {
@@ -315,15 +316,15 @@
     },
     "dimensions": {
       "name": "dimension",
-      "class": "cidoc:E54:Dimension",
+      "class": "cidoc:E54_Dimension",
       "attributes": {
-        "has-unit": {
+        "unit": {
           "type": "string",
-          "predicate": "cidoc:P91_has_unit"
+          "predicate": "qudt:hasUnit"
         },
-        "has-value": {
+        "value": {
           "type": "integer",
-          "predicate": "cidoc:P90_has_value"
+          "predicate": "qudt:numericValue"
         }
       },
       "relationships": {},
@@ -392,10 +393,6 @@
         "meaning": {
           "type": "string",
           "predicate": "skos:scopeNote"
-        },
-        "code": {
-          "type": "string",
-          "predicate": "skos:prefLabel"
         }
       },
       "relationships": {
