@@ -47,7 +47,7 @@ services:
       BACKEND_HOST: db
     restart: always
   db:
-    image: semtech/mu-authorization:0.6.0-beta.7
+    image: semtech/mu-authorization:0.6.0-beta.8
     environment:
       MU_SPARQL_ENDPOINT: "http://triplestore:8890/sparql"
     volumes:
@@ -64,7 +64,7 @@ services:
     restart: always
     logging: *default-logging
   resource:
-    image: semtech/mu-cl-resources:1.22.2
+    image: semtech/mu-cl-resources:1.24.0
     environment:
       CACHE_CLEAR_PATH: "http://cache/.mu/clear-keys"
     links:
