@@ -344,11 +344,6 @@
           "predicate": "cidoc:P43_has_dimension",
           "target": "dimension",
           "cardinality": "many"
-        },
-        "roadSignConcepts": {
-          "predicate": "dct:type",
-          "target": "roadSignConcept",
-          "cardinality": "many"
         }
       },
       "new-resource-base": "http://data.lblod.info/tribont-shapes/"
