@@ -1,5 +1,13 @@
 # app-mow-registry
 
+## 1.2.5
+
+### Patch Changes
+
+- [#76](https://github.com/lblod/app-mow-registry/pull/76) [`60713e6`](https://github.com/lblod/app-mow-registry/commit/60713e65ecedc84e36a547758ce10e471a769d42) Thanks [@elpoelma](https://github.com/elpoelma)! - Add migration to fill in missing zonalities of road-signs and traffic-measures
+
+- [#76](https://github.com/lblod/app-mow-registry/pull/76) [`4786227`](https://github.com/lblod/app-mow-registry/commit/478622758647fae49d6fa2e82d81ee00cd26a0ad) Thanks [@elpoelma](https://github.com/elpoelma)! - Add migration to fix the zonality uri used for non-zonal road-signs and traffic-measures
+
 ## 1.2.4
 
 ### Patch Changes
