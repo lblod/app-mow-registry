@@ -1,0 +1,16 @@
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?uri ext:zonality <http://lblod.data.gift/concepts/b651931b-923c-477c-8da9-fc7dd841fdccZ>.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?uri ext:zonality <http://lblod.data.gift/concepts/b651931b-923c-477c-8da9-fc7dd841fdcc>
+  }
+} WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?uri ext:zonality <http://lblod.data.gift/concepts/b651931b-923c-477c-8da9-fc7dd841fdccZ>
+  }
+}
