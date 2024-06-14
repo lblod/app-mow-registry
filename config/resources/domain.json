@@ -17,7 +17,8 @@
     "cidoc": "http://www.cidoc-crm.org/cidoc-crm/",
     "icb": "https://w3id.org/isCharacterisedBy#",
     "foaf": "http://xmlns.com/foaf/0.1/",
-    "qudt": "http://qudt.org/schema/qudt/"
+    "qudt": "http://qudt.org/schema/qudt/",
+    "prov": "http://www.w3.org/ns/prov#"
   },
   "resources": {
     "resources": {
@@ -481,24 +482,7 @@
       "name": "roadMarkingConcept",
       "class": "mobiliteit:Wegmarkeringconcept",
       "super": ["trafficSignConcept"],
-      "attributes": {
-        "image": {
-          "type": "string",
-          "predicate": "mobiliteit:grafischeWeergave"
-        },
-        "meaning": {
-          "type": "string",
-          "predicate": "skos:scopeNote"
-        },
-        "definition": {
-          "type": "string",
-          "predicate": "skos:definition"
-        },
-        "road-marking-concept-code": {
-          "type": "string",
-          "predicate": "skos:prefLabel"
-        }
-      },
+      "attributes": {},
       "relationships": {
         "relatedToRoadMarkingConcepts": {
           "predicate": "lblodmow:wegmarkeringHeeftGerelateerdWegmarkering",
@@ -530,21 +514,9 @@
       "class": "mobiliteit:Verkeerslichtconcept",
       "super": ["trafficSignConcept"],
       "attributes": {
-        "image": {
-          "type": "string",
-          "predicate": "mobiliteit:grafischeWeergave"
-        },
-        "meaning": {
-          "type": "string",
-          "predicate": "skos:scopeNote"
-        },
         "definition": {
           "type": "string",
           "predicate": "skos:definition"
-        },
-        "traffic-light-concept-code": {
-          "type": "string",
-          "predicate": "skos:prefLabel"
         }
       },
       "relationships": {
