@@ -341,7 +341,7 @@
         }
       },
       "relationships": {
-        "has-dimension": {
+        "has-dimensions": {
           "predicate": "cidoc:P43_has_dimension",
           "target": "dimension",
           "cardinality": "many"
