@@ -3,16 +3,20 @@ PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
 PREFIX org: <http://www.w3.org/ns/org#>
 PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
 
-
 INSERT {
     GRAPH ?h {
-    ?s a mobiliteit:Verkeerstekenconcept .
-}
+        ?s a mobiliteit:Verkeerstekenconcept .
+    }
 }
 WHERE {
     GRAPH ?g {
-    ?s a mobiliteit:Verkeersbordconcept .
-} BIND (?g AS ?h)
+        { ?s a mobiliteit:Verkeersbordconcept . }
+        UNION
+        { ?s a mobiliteit:Verkeerslichtconcept . }
+        UNION
+        { ?s a mobiliteit:Wegmarkeringconcept . }
+    }
+    BIND (?g AS ?h)
 }
 
 ;
