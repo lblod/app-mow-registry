@@ -1,5 +1,15 @@
 # app-mow-registry
 
+## 1.2.7
+
+### Patch Changes
+
+- [`6b87aa3`](https://github.com/lblod/app-mow-registry/commit/6b87aa3b03afaf720f79c1190aecf22d87b98ca2) Thanks [@elpoelma](https://github.com/elpoelma)! - Update frontend to version 1.4.5
+
+- [#77](https://github.com/lblod/app-mow-registry/pull/77) [`f4d1a93`](https://github.com/lblod/app-mow-registry/commit/f4d1a932ba4bb4d38e144b0717eb8c1fc01b911b) Thanks [@elpoelma](https://github.com/elpoelma)! - Add hacky workaround to ensure road-marking and traffic-light concepts can be correctly consumed:
+  - Addition of a migration which adds default zonalities to traffic-light and road-marking concepts
+  - Add `zonality` relationship to traffic-light and road-marking concepts in JSON-API definitions
+
 ## 1.2.6
 
 ### Patch Changes
