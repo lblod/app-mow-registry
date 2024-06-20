@@ -391,6 +391,11 @@
           "target": "trafficLightConcept",
           "cardinality": "many",
           "inverse": true
+        },
+        "zonality":{
+          "predicate": "ext:zonality",
+          "target": "skosConcept",
+          "cardinality": "one"
         }
       },
       "new-resource-base": "http://data.lblod.info/road-marking-concepts/"
@@ -438,6 +443,11 @@
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdWegmarkering",
           "target": "roadMarkingConcept",
           "cardinality": "many"
+        },
+        "zonality":{
+          "predicate": "ext:zonality",
+          "target": "skosConcept",
+          "cardinality": "one"
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-light-concepts/"
