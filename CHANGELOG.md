@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 1.2.6
+
+### Patch Changes
+
+- [`4e11409`](https://github.com/lblod/app-mow-registry/commit/4e114094277fa4722e599f2d2fdccce4d6aca81c) Thanks [@elpoelma](https://github.com/elpoelma)! - Update frontend to version 1.4.4
+
 ## 1.2.5
 
 ### Patch Changes
