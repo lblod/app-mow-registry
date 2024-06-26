@@ -345,6 +345,12 @@
           "predicate": "ext:template",
           "target": "template",
           "cardinality": "many"
+        },
+        "related-traffic-sign-concepts": {
+          "predicate": "mobiliteit:heeftMaatregelconcept",
+          "target": "trafficSignConcept",
+          "cardinality": "many",
+          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-measure-concepts/"
