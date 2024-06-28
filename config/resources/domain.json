@@ -204,7 +204,7 @@
         },
         "parentConcept": {
           "predicate": "ext:template",
-          "target": "concept",
+          "target": "trafficMeasureConcept",
           "cardinality": "one",
           "inverse": true
         }
@@ -320,7 +320,6 @@
     "traffic-measure-concepts": {
       "name": "trafficMeasureConcept",
       "class": "mobiliteit:Mobiliteitmaatregelconcept",
-      "super": ["concept"],
       "attributes": {
         "label": {
           "type": "string",
@@ -344,9 +343,9 @@
         "template": {
           "predicate": "ext:template",
           "target": "template",
-          "cardinality": "many"
+          "cardinality": "one"
         },
-        "related-traffic-sign-concepts": {
+        "signs": {
           "predicate": "mobiliteit:heeftMaatregelconcept",
           "target": "trafficSignConcept",
           "cardinality": "many",
@@ -376,12 +375,12 @@
           "target": "skosConcept",
           "cardinality": "one"
         },
-        "has-instruction": {
+        "hasInstructions": {
           "predicate": "mobiliteit:heeftInstructie",
           "target": "template",
           "cardinality": "many"
         },
-        "has-traffic-measure-concept": {
+        "measures": {
           "predicate": "mobiliteit:heeftMaatregelconcept",
           "target": "trafficMeasureConcept",
           "cardinality": "many"
