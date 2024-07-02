@@ -455,7 +455,12 @@
       "name": "roadMarkingConcept",
       "class": "mobiliteit:Wegmarkeringconcept",
       "super": ["trafficSignConcept"],
-      "attributes": {},
+      "attributes": {
+        "definition": {
+          "type": "string",
+          "predicate": "skos:definition"
+        }
+      },
       "relationships": {
         "relatedToRoadMarkingConcepts": {
           "predicate": "lblodmow:wegmarkeringHeeftGerelateerdWegmarkering",
