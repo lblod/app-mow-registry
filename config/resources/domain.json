@@ -530,7 +530,8 @@
         "roadSignConcepts": {
           "predicate": "dct:type",
           "target": "roadSignConcept",
-          "cardinality": "many"
+          "cardinality": "many",
+          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/road-sign-categories/"
