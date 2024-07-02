@@ -414,7 +414,7 @@
           "target": "tribontShape",
           "cardinality": "one"
         },
-        "has-subsign": {
+        "subSigns": {
           "predicate": "mobiliteit:heeftOnderbordConcept",
           "target": "roadSignConcept",
           "cardinality": "many"
