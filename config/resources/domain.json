@@ -345,7 +345,7 @@
           "target": "template",
           "cardinality": "one"
         },
-        "signs": {
+        "relatedTrafficSignConcepts": {
           "predicate": "mobiliteit:heeftMaatregelconcept",
           "target": "trafficSignConcept",
           "cardinality": "many",
@@ -380,7 +380,7 @@
           "target": "template",
           "cardinality": "many"
         },
-        "measures": {
+        "relatedTrafficMeasureConcepts": {
           "predicate": "mobiliteit:heeftMaatregelconcept",
           "target": "trafficMeasureConcept",
           "cardinality": "many"
