@@ -161,7 +161,7 @@ defmodule Dispatcher do
 ###############################################################
   # images
   ###############################################################
-  match "/images/*path", %{ accept: %{json: true}, layer: :api} do
+  get "/images/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/images/"
   end
   post "/images/*path", %{ accept: %{upload: true}, layer: :api} do
