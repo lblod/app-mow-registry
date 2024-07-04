@@ -212,6 +212,43 @@
       "new-resource-base": "http://data.lblod.info/templates/"
     },
 
+    "variables": {
+      "name": "variable",
+      "class": "mobiliteit:Variabele",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "dct:title"
+        },
+        "type": {
+          "type": "string",
+          "predicate": "dct:type"
+        }
+      },
+      "relationships": {
+        "defaultValue": {
+          "predicate": "mobiliteit:standaardwaarde",
+          "target": "resource",
+          "cardinality": "one"
+        },
+        "codeList": {
+          "predicate": "ext:codeList",
+          "target": "codeList",
+          "cardinality": "one"
+        },
+        "template": {
+          "predicate": "mobiliteit:template",
+          "target": "template",
+          "cardinality": "one"
+        },
+        "value": {
+          "predicate": "rdfs:value",
+          "target": "resource",
+          "cardinality": "one"
+        }
+      }
+    },
+
     "mappings": {
       "name": "mapping",
       "class": "ext:Mapping",
