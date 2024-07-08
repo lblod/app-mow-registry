@@ -171,6 +171,20 @@
       "relationships": {},
       "new-resource-base": "http://mobiliteit.vo.data.gift/images/"
     },
+    "icons": {
+      "name": "Icon",
+      "class": "mobiliteit:Pictogram",
+      "super": ["skosConcept"],
+      "attributes": {},
+      "relationships": {
+        "image": {
+          "predicate": "skos:prefSymbol",
+          "target": "file",
+          "cardinality": "one"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/pictograms/"
+    },
     "templates": {
       "name": "template",
       "class": "mobiliteit:Template",
