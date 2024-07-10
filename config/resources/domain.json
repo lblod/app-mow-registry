@@ -147,18 +147,7 @@
           "predicate": "ext:valid"
         }
       },
-      "relationships": {
-        "templates": {
-          "predicate": "ext:template",
-          "target": "template",
-          "cardinality": "many"
-        },
-        "relations": {
-          "predicate": "ext:relation",
-          "target": "relation",
-          "cardinality": "many"
-        }
-      },
+      "relationships": {},
       "new-resource-base": "http://data.lblod.info/concepts/"
     },
     "documents": {
@@ -244,44 +233,6 @@
       },
       "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/mappings/"
-    },
-    "relations": {
-      "name": "relation",
-      "class": "ext:Relation",
-      "attributes": {
-        "expectedNumber": {
-          "type": "integer",
-          "predicate": "ext:expectedNumber"
-        },
-        "reason": {
-          "type": "string",
-          "predicate": "ext:reason"
-        },
-        "order": {
-          "type": "integer",
-          "predicate": "qb:order"
-        }
-      },
-      "relationships": {
-        "concept": {
-          "predicate": "ext:concept",
-          "target": "concept",
-          "cardinality": "one"
-        }
-      },
-      "new-resource-base": "http://data.lblod.info/relations/"
-    },
-    "can-be-combined-with-relations": {
-      "name": "canBeCombinedWithRelation",
-      "class": "ext:CanBeCombinedWithRelation",
-      "super": ["relation"],
-      "new-resource-base": "http://data.lblod.info/can-be-combined-with-relations/"
-    },
-    "must-use-relations": {
-      "name": "mustUseRelation",
-      "class": "ext:MustUseRelation",
-      "super": ["relation"],
-      "new-resource-base": "http://data.lblod.info/must-use-relations/"
     },
     "dimensions": {
       "name": "dimension",
