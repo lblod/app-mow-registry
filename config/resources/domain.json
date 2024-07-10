@@ -380,7 +380,7 @@
           "target": "template",
           "cardinality": "many"
         },
-        "relatedTrafficMeasureConcepts": {
+        "hasTrafficMeasureConcepts": {
           "predicate": "mobiliteit:heeftMaatregelconcept",
           "target": "trafficMeasureConcept",
           "cardinality": "many"
@@ -484,7 +484,7 @@
           "cardinality": "many",
           "inverse": true
         },
-        "zonality":{
+        "zonality": {
           "predicate": "ext:zonality",
           "target": "skosConcept",
           "cardinality": "one"
@@ -524,7 +524,7 @@
           "target": "roadMarkingConcept",
           "cardinality": "many"
         },
-        "zonality":{
+        "zonality": {
           "predicate": "ext:zonality",
           "target": "skosConcept",
           "cardinality": "one"
