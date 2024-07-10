@@ -325,10 +325,6 @@
           "type": "string",
           "predicate": "skos:prefLabel"
         },
-        "temporal": {
-          "type": "boolean",
-          "predicate": "ext:temporal"
-        },
         "variable-signage": {
           "type": "boolean",
           "predicate": "mobiliteit:variabeleSignalisatie"
