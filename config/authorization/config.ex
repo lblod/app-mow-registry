@@ -47,9 +47,6 @@ defmodule Acl.UserGroups.Config do
                         "http://www.w3.org/ns/shacl#PropertyShape",
                         "http://www.w3.org/ns/shacl#NodeShape",
                         "http://mu.semte.ch/vocabularies/ext/Mapping",
-                        "http://mu.semte.ch/vocabularies/ext/Relation",
-                        "http://mu.semte.ch/vocabularies/ext/CanBeCombinedWithRelation",
-                        "http://mu.semte.ch/vocabularies/ext/MustUseRelation",
                         "http://mu.semte.ch/vocabularies/ext/Concept",
                         "http://mu.semte.ch/vocabularies/ext/Resource",
                         "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitmaatregelconcept"
@@ -83,9 +80,6 @@ defmodule Acl.UserGroups.Config do
                         "http://www.w3.org/ns/shacl#NodeShape",
                         "https://w3id.org/tribont/core#Shape",
                         "http://mu.semte.ch/vocabularies/ext/Mapping",
-                        "http://mu.semte.ch/vocabularies/ext/Relation",
-                        "http://mu.semte.ch/vocabularies/ext/CanBeCombinedWithRelation",
-                        "http://mu.semte.ch/vocabularies/ext/MustUseRelation",
                         "http://mu.semte.ch/vocabularies/ext/Concept",
                         "http://mu.semte.ch/vocabularies/ext/Resource",
                         "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitmaatregelconcept"

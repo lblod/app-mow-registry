@@ -115,18 +115,6 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/mappings/"
   end
 
-  match "/relations/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/relations/"
-  end
-
-  match "/can-be-combined-with-relations/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/can-be-combined-with-relations/"
-  end
-
-  match "/must-use-relations/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/must-use-relations/"
-  end
-
   match "/concept-schemes/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/concept-schemes/"
   end
