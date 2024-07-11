@@ -31,7 +31,6 @@ defmodule Dispatcher do
   match "/code-lists/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/code-lists/"
   end
-
   match "/road-sign-concepts/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/road-sign-concepts/"
   end
@@ -104,20 +103,16 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/templates/"
   end
 
+  match "/tribont-shapes/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/tribont-shapes/"
+  end
+
+  match "/dimensions/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/dimensions/"
+  end
+
   match "/mappings/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/mappings/"
-  end
-
-  match "/relations/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/relations/"
-  end
-
-  match "/can-be-combined-with-relations/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/can-be-combined-with-relations/"
-  end
-
-  match "/must-use-relations/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/must-use-relations/"
   end
 
   match "/concept-schemes/*path", %{ accept: %{json: true}, layer: :api} do
@@ -138,6 +133,10 @@ defmodule Dispatcher do
 
   match "/groups/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/groups/"
+  end
+
+  match "/images/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/images/"
   end
 
 

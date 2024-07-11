@@ -1,0 +1,58 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
+
+INSERT {
+    GRAPH ?h {
+        ?s a mobiliteit:Verkeerstekenconcept .
+    }
+}
+WHERE {
+    GRAPH ?g {
+        { ?s a mobiliteit:Verkeersbordconcept . }
+        UNION
+        { ?s a mobiliteit:Verkeerslichtconcept . }
+        UNION
+        { ?s a mobiliteit:Wegmarkeringconcept . }
+    }
+    BIND (?g AS ?h)
+}
+
+;
+
+DELETE {
+    GRAPH ?g {
+    ?s org:classification ?o .
+    }
+}
+INSERT{
+    GRAPH ?g {
+    ?s dct:type ?o .
+    }
+}
+WHERE{
+    GRAPH ?g {
+    ?s a mobiliteit:Verkeersbordconcept ;
+    org:classification ?o .
+} 
+}
+
+;
+
+DELETE {
+    GRAPH ?g {
+        ?s lblodmow:heeftOnderbordConcept ?o .
+    }
+}
+INSERT {
+    GRAPH ?g {
+        ?s mobiliteit:heeftOnderbordConcept ?o .
+    }
+}
+WHERE {
+    GRAPH ?g {
+    ?s a mobiliteit:Verkeersbordconcept ;
+    lblodmow:heeftOnderbordConcept ?o .
+}
+}
