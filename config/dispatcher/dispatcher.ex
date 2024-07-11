@@ -147,6 +147,10 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/groups/"
   end
 
+  match "/images/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/images/"
+  end
+
 
   ###############################################################
   # login specific
@@ -157,15 +161,6 @@ defmodule Dispatcher do
 
   match "/sessions/*path", %{ accept: %{any: true}, layer: :api} do
     Proxy.forward conn, path, "http://login/sessions/"
-  end
-###############################################################
-  # images
-  ###############################################################
-  match "/images/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/images/"
-  end
-  post "/images/*path", %{ accept: %{upload: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/images/"
   end
 
   ###############################################################
