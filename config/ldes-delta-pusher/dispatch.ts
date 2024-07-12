@@ -19,7 +19,7 @@ export default async function dispatch(changesets: Changeset[]) {
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
         construct {
-            ?s  ?p ?o
+            ?s ?p ?o
         } where {
             VALUES ?s {${sparqlEscapeUri(subject)} }
             ?s a ?type; ?p ?o
@@ -29,17 +29,14 @@ export default async function dispatch(changesets: Changeset[]) {
                 lblodmow:Codelist,
                 skos:Concept,
                 ext:Concept,
-                ext:Template,
                 ext:Mapping,
-                ext:Relation,
-                ext:CanBeCombinedWithRelation,
-                ext:MustUseRelation,
-                lblodmow:TrafficMeasureConcept,
                 mobiliteit:Verkeersbordconcept,
+                mobiliteit:Verkeerstekenconcept,
                 mobiliteit:Wegmarkeringconcept,
                 mobiliteit:Verkeerslichtconcept,
                 mobiliteit:Verkeersbordcategorie,
                 mobiliteit:VerkeersbordconceptStatus,
+                mobiliteit:Template,
                 lblodmow:VerkeersbordconceptStatusCode
           ))
           
