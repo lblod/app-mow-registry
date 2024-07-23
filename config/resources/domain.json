@@ -197,9 +197,9 @@
         }
       },
       "relationships": {
-        "mappings": {
-          "predicate": "ext:mapping",
-          "target": "mapping",
+        "variables": {
+          "predicate": "mobiliteit:variabele",
+          "target": "variable",
           "cardinality": "many"
         },
         "parentConcept": {
@@ -215,6 +215,7 @@
     "variables": {
       "name": "variable",
       "class": "mobiliteit:Variabele",
+      "super": ["resource"],
       "attributes": {
         "label": {
           "type": "string",
@@ -223,14 +224,17 @@
         "type": {
           "type": "string",
           "predicate": "dct:type"
+        },
+        "value": {
+          "type": "string",
+          "predicate": "rdfs:value"
+        },
+        "defaultValue": {
+          "type": "string",
+          "predicate": "mobiliteit:standaardwaarde"
         }
       },
       "relationships": {
-        "defaultValue": {
-          "predicate": "mobiliteit:standaardwaarde",
-          "target": "resource",
-          "cardinality": "one"
-        },
         "codeList": {
           "predicate": "ext:codeList",
           "target": "codeList",
@@ -240,13 +244,9 @@
           "predicate": "mobiliteit:template",
           "target": "template",
           "cardinality": "one"
-        },
-        "value": {
-          "predicate": "rdfs:value",
-          "target": "resource",
-          "cardinality": "one"
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/variables/"
     },
 
