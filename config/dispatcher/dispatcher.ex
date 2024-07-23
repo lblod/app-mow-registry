@@ -111,10 +111,6 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/dimensions/"
   end
 
-  match "/mappings/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/mappings/"
-  end
-
   match "/relations/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/relations/"
   end
@@ -147,6 +143,9 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/groups/"
   end
 
+  match "/variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/variables/"
+  end
 
   ###############################################################
   # ldes
