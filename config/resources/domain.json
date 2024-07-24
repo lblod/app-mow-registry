@@ -108,9 +108,9 @@
           "target": "skosConcept",
           "cardinality": "one"
         },
-        "mappings": {
+        "variables": {
           "predicate": "ext:codeList",
-          "target": "mapping",
+          "target": "variable",
           "cardinality": "many",
           "inverse": true
         }
@@ -186,9 +186,9 @@
         }
       },
       "relationships": {
-        "mappings": {
-          "predicate": "ext:mapping",
-          "target": "mapping",
+        "variables": {
+          "predicate": "mobiliteit:variabele",
+          "target": "variable",
           "cardinality": "many"
         },
         "parentConcept": {
@@ -200,39 +200,42 @@
       },
       "new-resource-base": "http://data.lblod.info/templates/"
     },
-
-    "mappings": {
-      "name": "mapping",
-      "class": "ext:Mapping",
+    "variables": {
+      "name": "variable",
+      "class": "mobiliteit:Variabele",
+      "super": ["resource"],
       "attributes": {
-        "variable": {
+        "label": {
           "type": "string",
-          "predicate": "ext:variable"
+          "predicate": "dct:title"
         },
         "type": {
           "type": "string",
-          "predicate": "ext:variableType"
+          "predicate": "dct:type"
+        },
+        "value": {
+          "type": "string",
+          "predicate": "rdfs:value"
+        },
+        "defaultValue": {
+          "type": "string",
+          "predicate": "mobiliteit:standaardwaarde"
         }
       },
       "relationships": {
-        "instruction": {
-          "predicate": "ext:instructionVariable",
-          "target": "template",
-          "cardinality": "one"
-        },
         "codeList": {
           "predicate": "ext:codeList",
           "target": "codeList",
           "cardinality": "one"
         },
-        "expects": {
-          "predicate": "ext:expects",
-          "target": "shape",
+        "template": {
+          "predicate": "mobiliteit:template",
+          "target": "template",
           "cardinality": "one"
         }
       },
       "features": ["include-uri"],
-      "new-resource-base": "http://data.lblod.info/mappings/"
+      "new-resource-base": "http://data.lblod.info/variables/"
     },
     "dimensions": {
       "name": "dimension",
