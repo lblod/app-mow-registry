@@ -179,7 +179,7 @@
       "relationships": {
         "image": {
           "predicate": "skos:prefSymbol",
-          "target": "file",
+          "target": "image",
           "cardinality": "one"
         }
       },
