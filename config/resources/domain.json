@@ -192,7 +192,7 @@
           "cardinality": "many"
         },
         "parentConcept": {
-          "predicate": "ext:template",
+          "predicate": "mobiliteit:template",
           "target": "trafficMeasureConcept",
           "cardinality": "one",
           "inverse": true
