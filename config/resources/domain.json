@@ -291,7 +291,7 @@
           "cardinality": "one"
         },
         "template": {
-          "predicate": "ext:template",
+          "predicate": "mobiliteit:template",
           "target": "template",
           "cardinality": "one"
         },
