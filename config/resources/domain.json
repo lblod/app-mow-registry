@@ -203,7 +203,6 @@
     "variables": {
       "name": "variable",
       "class": "mobiliteit:Variabele",
-      "super": ["resource"],
       "attributes": {
         "label": {
           "type": "string",
