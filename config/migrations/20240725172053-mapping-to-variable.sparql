@@ -1,0 +1,172 @@
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+
+DELETE {
+    GRAPH ?g {
+        ?s ext:mapping ?o
+    }
+}
+
+INSERT {
+    GRAPH ?g {
+        ?s mobiliteit:variabele ?o
+    }
+}
+
+WHERE {
+    GRAPH ?g {
+        ?s a mobiliteit:Template ;
+        ext:mapping ?o
+    }
+}
+
+;
+
+DELETE {
+    GRAPH ?g {
+        ?s ext:template ?o
+    }
+}
+
+INSERT {
+    GRAPH ?g {
+        ?s mobiliteit:template ?o
+    }
+}
+
+WHERE {
+    GRAPH ?g {
+        ?s a mobiliteit:Template ;
+        ext:template ?o
+    }
+}
+
+;
+
+DELETE {
+    GRAPH ?g {
+        ?s ext:variable ?o
+    }
+}
+
+
+INSERT {
+    GRAPH ?g {
+        ?s dct:title ?o
+    }
+}
+
+WHERE {
+    GRAPH ?g {
+        ?s a ext:Mapping;
+        ext:variable ?o
+    }
+}
+
+;
+
+DELETE {
+    GRAPH ?g {
+        ?s ext:variableType ?o
+    }
+}
+
+
+INSERT {
+    GRAPH ?g {
+        ?s dct:type ?o
+    }
+}
+
+WHERE {
+    GRAPH ?g {
+        ?s a ext:Mapping;
+        ext:variableType ?o
+    }
+}
+
+;
+
+DELETE {
+    GRAPH ?g {
+        ?s ext:instructionVariable ?o
+    }
+}
+
+
+INSERT {
+    GRAPH ?g {
+        ?s mobiliteit:template ?o
+    }
+}
+
+WHERE {
+    GRAPH ?g {
+        ?s a ext:Mapping;
+        ext:instructionVariable ?o
+    }
+}
+
+;
+
+DELETE {
+    GRAPH ?g {
+        ?s ext:template ?o
+    }
+}
+
+INSERT {
+    GRAPH ?g {
+        ?s mobiliteit:template ?o
+    }
+}
+
+WHERE {
+    GRAPH ?g {
+        ?s a mobiliteit:Mobiliteitmaatregelconcept ;
+        ext:template ?o
+    }
+}
+
+;
+
+DELETE { 
+    GRAPH ?g {
+        ?s a ext:Template
+    }
+}
+
+INSERT {
+    GRAPH ?g {
+        ?s a mobiliteit:Template
+    }
+}
+
+WHERE { 
+    GRAPH ?g {
+        ?s a ext:Template
+    }
+}
+
+;
+
+
+DELETE {
+    GRAPH ?g {
+        ?s a ext:Mapping
+    }
+}
+
+INSERT {
+    GRAPH ?g {
+        ?s a mobiliteit:Variabele
+    }
+}
+
+WHERE {
+    GRAPH ?g {
+        ?s a ext:Mapping
+    }
+}
