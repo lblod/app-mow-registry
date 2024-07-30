@@ -131,7 +131,7 @@
         "inScheme": {
           "predicate": "skos:inScheme",
           "target": "conceptScheme",
-          "cardinality": "one"
+          "cardinality": "many"
         }
       },
       "features": ["include-uri"],
