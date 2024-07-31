@@ -17,8 +17,7 @@ INSERT {
 
 WHERE {
     GRAPH ?g {
-        ?s a ext:Template ;
-        ext:mapping ?o
+        ?s ext:mapping ?o
     }
 }
 
@@ -38,8 +37,7 @@ INSERT {
 
 WHERE {
     GRAPH ?g {
-        ?s a ext:Template ;
-        ext:template ?o
+        ?s ext:template ?o
     }
 }
 
@@ -106,27 +104,6 @@ WHERE {
     GRAPH ?g {
         ?s a ext:Mapping;
         ext:instructionVariable ?o
-    }
-}
-
-;
-
-DELETE {
-    GRAPH ?g {
-        ?s ext:template ?o
-    }
-}
-
-INSERT {
-    GRAPH ?g {
-        ?s mobiliteit:template ?o
-    }
-}
-
-WHERE {
-    GRAPH ?g {
-        ?s a mobiliteit:Mobiliteitmaatregelconcept ;
-        ext:template ?o
     }
 }
 
