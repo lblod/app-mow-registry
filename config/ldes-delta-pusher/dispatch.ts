@@ -24,20 +24,25 @@ export default async function dispatch(changesets: Changeset[]) {
             VALUES ?s {${sparqlEscapeUri(subject)} }
             ?s a ?type; ?p ?o
             filter (?type in (
-                rdfs:Resource,
-                skos:ConceptScheme,
-                lblodmow:Codelist,
-                skos:Concept,
+                cidoc:E54_Dimension,
                 ext:Concept,
-                ext:Mapping,
+                foaf:Image,
+                lblodmow:Codelist,
+                lblodmow:VerkeersbordconceptStatusCode,
+                mobiliteit:Mobiliteitmaatregelconcept,
+                mobiliteit:Pictogram,
+                mobiliteit:Template,
+                mobiliteit:Variabele,
+                mobiliteit:Verkeersbordcategorie,
                 mobiliteit:Verkeersbordconcept,
+                mobiliteit:VerkeersbordconceptStatus,
+                mobiliteit:Verkeerslichtconcept,
                 mobiliteit:Verkeerstekenconcept,
                 mobiliteit:Wegmarkeringconcept,
-                mobiliteit:Verkeerslichtconcept,
-                mobiliteit:Verkeersbordcategorie,
-                mobiliteit:VerkeersbordconceptStatus,
-                mobiliteit:Template,
-                lblodmow:VerkeersbordconceptStatusCode
+                rdfs:Resource,
+                skos:Concept,
+                skos:ConceptScheme,
+                tribont:Shape
           ))
           
         }
