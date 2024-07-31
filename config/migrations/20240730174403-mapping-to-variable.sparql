@@ -17,7 +17,7 @@ INSERT {
 
 WHERE {
     GRAPH ?g {
-        ?s a mobiliteit:Template ;
+        ?s a ext:Template ;
         ext:mapping ?o
     }
 }
@@ -38,7 +38,7 @@ INSERT {
 
 WHERE {
     GRAPH ?g {
-        ?s a mobiliteit:Template ;
+        ?s a ext:Template ;
         ext:template ?o
     }
 }
