@@ -132,6 +132,27 @@ WHERE {
 
 ;
 
+DELETE {
+    GRAPH ?g {
+        ?s ext:template ?o
+    }
+}
+
+INSERT {
+    GRAPH ?g {
+        ?s mobiliteit:heeftInstructie ?o
+    }
+}
+
+WHERE {
+    GRAPH ?g {
+        ?s a mobiliteit:Verkeerstekenconcept ;
+        ext:template ?o
+    }
+}
+
+;
+
 DELETE { 
     GRAPH ?g {
         ?s a ext:Template
