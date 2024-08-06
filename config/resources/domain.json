@@ -418,12 +418,7 @@
       "name": "roadMarkingConcept",
       "class": "mobiliteit:Wegmarkeringconcept",
       "super": ["trafficSignConcept"],
-      "attributes": {
-        "definition": {
-          "type": "string",
-          "predicate": "skos:definition"
-        }
-      },
+      "attributes": {},
       "relationships": {
         "relatedToRoadMarkingConcepts": {
           "predicate": "lblodmow:wegmarkeringHeeftGerelateerdWegmarkering",
@@ -459,12 +454,7 @@
       "name": "trafficLightConcept",
       "class": "mobiliteit:Verkeerslichtconcept",
       "super": ["trafficSignConcept"],
-      "attributes": {
-        "definition": {
-          "type": "string",
-          "predicate": "skos:definition"
-        }
-      },
+      "attributes": {},
       "relationships": {
         "relatedToTrafficLightConcepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeerslicht",
