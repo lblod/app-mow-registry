@@ -173,8 +173,7 @@ async function getAllImageLinks() {
   const q = `
       PREFIX mu: <http://mu.semte.ch/vocabularies/core/>     
       select distinct ?roadSign ?imageUri ?imageId where {
-         ?roadSign a <https://data.vlaanderen.be/ns/mobiliteit#Verkeersbordconcept>;
-              <https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave> ?imageUri.
+         ?roadSign <https://data.vlaanderen.be/ns/mobiliteit#grafischeWeergave> ?imageUri.
          BIND(
             IF(CONTAINS(?imageUri, "/files/"), 
               REPLACE(?imageUri, "^.*/files/([a-zA-Z0-9]+).*", "$1"),
