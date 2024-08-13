@@ -32,7 +32,7 @@ async function main() {
       fileObjectUri = await getFileObjectUriFromUUID(image.imageId);
       if (!fileObjectUri) {
         console.log(`fileObject doesn't exist for ${image.imageId}`);
-        csvReport.push([image.roadSign, image.imageUri, image.imageId, extern, 'we could extract an image id but that uuid was not in db']);
+        csvReport.push([image.roadSign, `"${image.imageUri}"`, image.imageId, extern, 'we could extract an image id but that uuid was not in db']);
         continue;
       }
     } else {
@@ -41,7 +41,7 @@ async function main() {
         fileObjectUri = await downloadImage(image.imageUri);
       } catch (e) {
         console.log(`an error occurred for  ${image.imageUri}: ${e}`);
-        csvReport.push([image.roadSign, image.imageUri, image.imageId, extern, 'could not download image: ' + e]);
+        csvReport.push([image.roadSign, `"${image.imageUri}"`, image.imageId, extern, 'could not download image: ' + e]);
         continue;
       }
     }
@@ -70,7 +70,7 @@ async function main() {
     `;
     await updateSudo(updateQuery);
 
-    csvReport.push([image.roadSign, image.imageUri, image.imageId, extern, 'upadated with image: ' + imageResource]);
+    csvReport.push([image.roadSign, `"${image.imageUri}"`, image.imageId, extern, 'upadated with image: ' + imageResource]);
 
 
   }
