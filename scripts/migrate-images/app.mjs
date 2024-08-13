@@ -84,7 +84,7 @@ async function downloadImage(imageUri) {
   if (res.status !== 200) {
     throw `status error while downloading image ${imageUri}: ${res.status}`;
   }
-  const contentType = response.headers.get('Content-Type');
+  const contentType = res.headers.get('Content-Type');
   if (!Object.keys(ACCEPTED_CONTENT_TYPES).includes(contentType?.toLowerCase())) {
     throw `unknown content type for ${imageUri}: ${contentType}`;
   }
@@ -108,7 +108,7 @@ async function downloadImage(imageUri) {
       PREFIX prov: <http://www.w3.org/ns/prov#>
       PREFIX dbpedia: <http://dbpedia.org/ontology/>
       INSERT DATA {
-        GRAPH ${sparqlEscapeUri(graph)} {
+        GRAPH ${sparqlEscapeUri(MOW_GRAPH)} {
           ${sparqlEscapeUri(physicalFile)} a nfo:FileDataObject;
                                   nie:dataSource ${sparqlEscapeUri(logicalFile)} ;
                                   mu:uuid ${sparqlEscapeString(phyId)};
@@ -130,7 +130,7 @@ async function downloadImage(imageUri) {
                                   dbpedia:fileExtension "${extension}" .
         }
       }
-`, {}, connectionOptions);
+`);
 
   return logicalFile;
 }
