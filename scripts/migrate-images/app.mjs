@@ -7,7 +7,7 @@ import { createWriteStream, } from 'fs';
 import { stat, writeFile } from "fs/promises";
 
 const MOW_GRAPH = process.env.MOW_GRAPH || 'http://mu.semte.ch/graphs/mow/registry';
-const FILE_PATH = process.env.FILE_PATH || '/data/app/data/files';
+const FILE_PATH = process.env.FILE_PATH || '/project/data/files';
 const ACCEPTED_CONTENT_TYPES = {
   'image/jpeg': 'jpg',
   'image/png': 'png',
@@ -75,7 +75,7 @@ async function main() {
 
   }
 
-  await writeFile(path.join(FILE_PATH, 'csvReport' + new Date() + '.csv'), csvReport.join("\n"), { encoding: 'utf-8' });
+  await writeFile(path.join(FILE_PATH, 'csvReport' + new Date().getTime() + '.csv'), csvReport.join("\n"), { encoding: 'utf-8' });
 
 }
 
