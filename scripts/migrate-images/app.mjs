@@ -1,7 +1,22 @@
 import { querySudo, updateSudo } from "@lblod/mu-auth-sudo";
-import { uuidv4 as uuid } from 'uuid';
+import { v4 as uuid } from 'uuid';
+import { Readable } from 'stream';
+import { finished } from "stream/promises";
+import path from 'path';
+import { createWriteStream, } from 'fs';
+import { stat, writeFile } from "fs/promises";
 
 const MOW_GRAPH = process.env.MOW_GRAPH || 'http://mu.semte.ch/graphs/mow/registry';
+const FILE_PATH = process.env.FILE_PATH || '/data/app/data/files';
+const ACCEPTED_CONTENT_TYPES = {
+  'image/jpeg': 'jpg',
+  'image/png': 'png',
+  'image/gif': 'gif',
+  'image/bmp': 'bmp',
+  'image/tiff': 'tiff',
+  'image/svg+xml': 'svg',
+  'image/webp': 'webp',
+};
 const csvReport = [
   ['roadsign', 'imageUri', 'imageId', 'extern', 'note'].join(',')
 ];
@@ -22,7 +37,13 @@ async function main() {
       }
     } else {
       // probably extern
-      // TODO
+      try {
+        fileObjectUri = await downloadImage(image.imageUri);
+      } catch (e) {
+        console.log(`an error occurred for  ${image.imageUri}: ${e}`);
+        csvReport.push([image.roadSign, image.imageUri, image.imageId, extern, 'could not download image: ' + e]);
+        continue;
+      }
     }
     const imageResource = await convertToImageResource(fileObjectUri);
     const updateQuery = `
@@ -49,8 +70,69 @@ async function main() {
     `;
     await updateSudo(updateQuery);
 
+    csvReport.push([image.roadSign, image.imageUri, image.imageId, extern, 'upadated with image: ' + imageResource]);
+
+
   }
 
+  await writeFile(path.join(FILE_PATH, 'csvReport' + new Date() + '.csv'), csvReport.join("\n"), { encoding: 'utf-8' });
+
+}
+
+async function downloadImage(imageUri) {
+  const res = await fetch(imageUri);
+  if (res.status !== 200) {
+    throw `status error while downloading image ${imageUri}: ${res.status}`;
+  }
+  const contentType = response.headers.get('Content-Type');
+  if (!Object.keys(ACCEPTED_CONTENT_TYPES).includes(contentType?.toLowerCase())) {
+    throw `unknown content type for ${imageUri}: ${contentType}`;
+  }
+  const phyId = uuid();
+  const extension = ACCEPTED_CONTENT_TYPES[contentType.toLowerCase()];
+  const fileName = `${phyId}.${extension}`;
+  const physicalFile = `share://${fileName}`;
+
+  const destination = path.resolve(FILE_PATH, fileName);
+  const fileStream = createWriteStream(destination, { flags: 'wx' });
+  await finished(Readable.fromWeb(res.body).pipe(fileStream));
+  const st = await stat(destination);
+  const now = new Date();
+  const loId = uuid();
+  const logicalFile = `http://data.lblod.info/id/files/${loId}`;
+  await updateSudo(`
+      PREFIX nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
+      PREFIX nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#>
+      PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+      PREFIX dct: <http://purl.org/dc/terms/>
+      PREFIX prov: <http://www.w3.org/ns/prov#>
+      PREFIX dbpedia: <http://dbpedia.org/ontology/>
+      INSERT DATA {
+        GRAPH ${sparqlEscapeUri(graph)} {
+          ${sparqlEscapeUri(physicalFile)} a nfo:FileDataObject;
+                                  nie:dataSource ${sparqlEscapeUri(logicalFile)} ;
+                                  mu:uuid ${sparqlEscapeString(phyId)};
+                                  nfo:fileName ${sparqlEscapeString(fileName)} ;
+                                  dct:creator <http://lblod.data.gift/services/migrate-images-script>;
+                                  dct:created ${sparqlEscapeDateTime(now)};
+                                  dct:modified ${sparqlEscapeDateTime(now)};
+                                  dct:format "${contentType}";
+                                  nfo:fileSize ${sparqlEscapeInt(st.size)};
+                                  dbpedia:fileExtension "${extension}".
+          ${sparqlEscapeUri(logicalFile)} a nfo:FileDataObject;
+                                  mu:uuid ${sparqlEscapeString(loId)};
+                                  nfo:fileName ${sparqlEscapeString(fileName)} ;
+                                  dct:creator <http://lblod.data.gift/services/migrate-images-script>;
+                                  dct:created ${sparqlEscapeDateTime(now)};
+                                  dct:modified ${sparqlEscapeDateTime(now)};
+                                  dct:format "${contentType}";
+                                  nfo:fileSize ${sparqlEscapeInt(st.size)};
+                                  dbpedia:fileExtension "${extension}" .
+        }
+      }
+`, {}, connectionOptions);
+
+  return logicalFile;
 }
 
 async function convertToImageResource(fileObjectUri) {
@@ -59,9 +141,10 @@ async function convertToImageResource(fileObjectUri) {
   const updateQuery = `
        PREFIX foaf: <http://xmlns.com/foaf/0.1/>
        PREFIX mu: <http://mu.semte.ch/vocabularies/core/>     
+       PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
        INSERT DATA {
           GRAPH <${MOW_GRAPH}> {
-             ${uri} a foaf:Document, foaf:Image;
+             <${uri}> a foaf:Document, foaf:Image;
                     ext:hasFile <${fileObjectUri}>;
                     mu:uuid "${id}".
           }
@@ -97,6 +180,7 @@ async function getAllImageLinks() {
               REPLACE(?imageUri, "^.*/files/([a-zA-Z0-9]+).*", "$1"),
             ""
          ) AS ?imageId)
+         filter(isLiteral(?imageUri))
       } 
   `;
   const res = await querySudo(q);
@@ -108,4 +192,24 @@ async function getAllImageLinks() {
     }
   });
 }
+
+function sparqlEscapeString(value) {
+  return '"""' + value.replace(/[\\"]/g, function(match) { return '\\' + match; }) + '"""';
+};
+
+function sparqlEscapeUri(value) {
+  return '<' + value.replace(/[\\"<>]/g, function(match) { return '\\' + match; }) + '>';
+};
+
+
+function sparqlEscapeInt(value) {
+  return '"' + Number.parseInt(value) + '"^^xsd:integer';
+};
+
+
+
+function sparqlEscapeDateTime(value) {
+  return '"' + new Date(value).toISOString() + '"^^xsd:dateTime';
+};
+
 main().then();
