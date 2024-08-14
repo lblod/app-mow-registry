@@ -18,6 +18,8 @@ export default async function dispatch(changesets: Changeset[]) {
         PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/>
+        PREFIX tribont: <https://w3id.org/tribont/core#>
         construct {
             ?s ?p ?o
         } where {
