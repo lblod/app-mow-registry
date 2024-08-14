@@ -90,8 +90,7 @@ async function fetchNTriples(query) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
-    const data = await response.text();
-    return data
+    return await response.text();
   } catch (error) {
     console.error('Error:', error);
     process.exit(-1);
