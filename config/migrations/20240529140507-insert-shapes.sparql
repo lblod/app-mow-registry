@@ -25,8 +25,5 @@ INSERT DATA {
     <http://data.lblod.info/tribont-shapes/4f445b8f-98ce-4621-b671-009a1acb13a6>  a tribont:Shape;
             mu:uuid "4f445b8f-98ce-4621-b671-009a1acb13a6";
             cidoc:P2_has_type "Wegwijzer met puntvorm".
-    <http://data.lblod.info/tribont-shapes/10e54ea1-ea7b-4c19-ae90-eb7e34158073> a tribont:Shape;
-            mu:uuid "10e54ea1-ea7b-4c19-ae90-eb7e34158073";
-            cidoc:P2_has_type "Wegomlegging rechtdoor in puntvorm (fig. 10-1-66)".
   }
 }
