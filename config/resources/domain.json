@@ -258,9 +258,21 @@
           "type": "string",
           "predicate": "qudt:hasUnit"
         },
-        "value": {
+        "side": {
           "type": "integer",
-          "predicate": "qudt:numericValue"
+          "predicate": "ext:side"
+        },
+        "height": {
+          "type": "integer",
+          "predicate": "ext:height"
+        },
+        "width": {
+          "type": "integer",
+          "predicate": "ext:width"
+        },
+        "radius": {
+          "type": "integer",
+          "predicate": "ext:radius"
         }
       },
       "relationships": {},
