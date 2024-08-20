@@ -258,21 +258,13 @@
           "type": "string",
           "predicate": "qudt:hasUnit"
         },
-        "side": {
-          "type": "integer",
-          "predicate": "ext:side"
+        "quantity-kind": {
+          "type": "string",
+          "predicate": "qudt:hasQuantityKind"
         },
-        "height": {
-          "type": "integer",
-          "predicate": "ext:height"
-        },
-        "width": {
-          "type": "integer",
-          "predicate": "ext:width"
-        },
-        "radius": {
-          "type": "integer",
-          "predicate": "ext:radius"
+        "value": {
+          "type": "number",
+          "predicate": "rdfs:value"
         }
       },
       "relationships": {},
