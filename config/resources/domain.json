@@ -376,7 +376,7 @@
           "target": "roadSignCategory",
           "cardinality": "many"
         },
-        "shape": {
+        "shapes": {
           "predicate": "icb:isCharacterisedBy",
           "target": "tribontShape",
           "cardinality": "many"
