@@ -1,0 +1,23 @@
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+
+
+DELETE {
+    GRAPH ?g {
+        ?trafficMeasure ext:relation ?relation
+    }
+}
+
+INSERT {
+    GRAPH ?g {
+        ?trafficSignConcept mobiliteit:heeftMaatregelconcept ?trafficMeasure
+    }
+}
+
+WHERE {
+    GRAPH ?g {
+        ?trafficMeasure ext:relation ?relation.
+        ?relation <http://mu.semte.ch/vocabularies/ext/concept> ?trafficSignConcept.
+    }
+}
+
