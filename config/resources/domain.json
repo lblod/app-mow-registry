@@ -318,7 +318,7 @@
         }
       },
       "relationships": {
-        "quantity-kind": {
+        "kind": {
           "predicate": "qudt:hasQuantityKind",
           "cardinality": "one",
           "target": "quantityKind"
@@ -351,7 +351,7 @@
         "dimensions": {
           "predicate": "cidoc:P43_has_dimension",
           "target": "dimension",
-          "cardinality": "many"
+          "cardinality": "many",
         }
       },
       "new-resource-base": "http://data.lblod.info/tribont-shapes/"
