@@ -100,23 +100,22 @@ INSERT DATA {
             qudt:symbol "r" ;
             rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
             rdfs:label "Radius". 
-    unit:MilliM  a a qudt:Unit ;
+    unit:MilliM  a  qudt:Unit ;
             mu:uuid "2f7dbc7c-fb21-4ff5-bb28-09bda87844b1";
             qudt:symbol "mm" ;
             rdfs:label "Millimeter".
-    unit:MilliM  a a qudt:Unit ;
+    unit:M  a  qudt:Unit ;
             mu:uuid "f80b6ea1-438d-4155-a1ed-a938417d98b7";
             qudt:symbol "m" ;
             rdfs:label "Meter".
 
-    unit:CentiM  a a qudt:Unit ;
+    unit:CentiM  a  qudt:Unit ;
             mu:uuid "e84274d7-b6ff-43e7-8acb-1f76082967fa";
             qudt:symbol "cm" ;
             rdfs:label "Centimeter".
-    }
-    unit:DEG  a a qudt:Unit ;
+    unit:DEG  a  qudt:Unit ;
             mu:uuid "32a66efc-5285-4811-b1a4-de8e8d4e4598";
-            qudt:symbol "Â°" ;
+            qudt:symbol "°" ;
             rdfs:label "Graad".
     }
 

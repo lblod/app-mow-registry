@@ -300,7 +300,7 @@
         }
       },
       "relationships": {
-        "applicable-units": {
+        "units": {
           "predicate": "qudt:applicableUnit",
           "cardinality": "many",
           "target": "unit"
@@ -331,7 +331,7 @@
       },
       "new-resource-base": "http://data.lblod.info/dimensions/"
     },
-    "tribong-shape-classificatie-codes":{
+    "tribont-shape-classificatie-codes":{
       "name": "tribontShapeClassificatieCode",
       "class": "ext:ShapeClassificatieCode",
       "super": ["skosConcept"],
