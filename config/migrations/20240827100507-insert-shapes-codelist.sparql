@@ -1,0 +1,123 @@
+PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX tribont: <https://w3id.org/tribont/core#>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX mobiliteit: <http://data.lblod.info/vocabularies/mobiliteit/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX unit: <http://qudt.org/vocab/unit/>
+PREFIX quantitykind: <http://qudt.org/vocab/quantitykind/>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+
+# FIXME this is probably not correct, check with Niels
+
+
+INSERT DATA {
+  GRAPH  <http://mu.semte.ch/graphs/public> {
+    <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f> a skos:Concept;
+            mu:uuid "6c12157f-2bcc-4c18-9042-68b1ac430c7f";
+            skos:prefLabel "Shape codelist".     
+
+    <http://lblod.data.gift/concept-schemes/1cddd186-6018-4d12-84d6-f1a5d01affde> a skos:Concept, ext:ShapeClassificatieCode;
+            mu:uuid "1cddd186-6018-4d12-84d6-f1a5d01affde";
+            skos:inScheme <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:topConceptOf <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:prefLabel "Driehoekig".
+    <http://data.lblod.info/concept-schemes/0e0897d1-5c74-47ae-9868-adecbde6f2f3> a skos:Concept, ext:ShapeClassificatieCode;
+            mu:uuid "0e0897d1-5c74-47ae-9868-adecbde6f2f3";
+            skos:inScheme <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:topConceptOf <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:prefLabel "Achthoekig".
+    <http://data.lblod.info/concept-schemes/2481e377-1a89-4e25-9c58-1b509e0f7d74> a skos:Concept, ext:ShapeClassificatieCode;
+            mu:uuid "2481e377-1a89-4e25-9c58-1b509e0f7d74";
+            skos:inScheme <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:topConceptOf <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:prefLabel "Rond".
+    <http://data.lblod.info/concept-schemes/322852b4-ec7b-4ca2-b267-4fcc263fa0d7> a  skos:Concept, ext:ShapeClassificatieCode;
+            mu:uuid "322852b4-ec7b-4ca2-b267-4fcc263fa0d7";
+            skos:inScheme <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:topConceptOf <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:prefLabel "Ruitvormig".
+    <http://data.lblod.info/tribont-shapes/09675ff8-bb7d-4e76-9766-61816b993f25>  a skos:Concept, ext:ShapeClassificatieCode;
+            mu:uuid "09675ff8-bb7d-4e76-9766-61816b993f25";
+            skos:inScheme <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:topConceptOf <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:prefLabel "Klein ruitvormig".
+    <http://data.lblod.info/tribont-shapes/a5a1b947-1c34-40df-8842-707de418adb8>  a skos:Concept, ext:ShapeClassificatieCode;
+            mu:uuid "a5a1b947-1c34-40df-8842-707de418adb8";
+            skos:inScheme <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:topConceptOf <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:prefLabel "Groot bord".
+    <http://data.lblod.info/tribont-shapes/4f445b8f-98ce-4621-b671-009a1acb13a6>  a skos:Concept, ext:ShapeClassificatieCode;
+            mu:uuid "4f445b8f-98ce-4621-b671-009a1acb13a6";
+            skos:inScheme <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:topConceptOf <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            skos:prefLabel "Wegwijzer met puntvorm".
+
+
+    quantitykind:Length a qudt:QuantityKind ;
+            mu:uuid "3ab17bee-f370-447c-849f-436ad2a98fb1";
+            qudt:abbreviation "length" ;
+            qudt:applicableUnit unit:CentiM ;
+            qudt:applicableUnit unit:M ;
+            qudt:applicableUnit unit:MilliM ;
+            qudt:symbol "l" ;
+            rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+            rdfs:label "lengte". 
+
+    quantitykind:Angle a qudt:QuantityKind ;
+            mu:uuid "8cf226fc-34cd-4120-a872-087e5af29f78";
+            qudt:abbreviation "angle" ;
+            qudt:applicableUnit unit:DEG ;
+            rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+            rdfs:label "hoek". 
+
+    quantitykind:Height a qudt:QuantityKind ;
+            mu:uuid "c6fad555-39d4-4c75-bd96-bb7c006bdc2c";
+            qudt:abbreviation "height" ;
+            qudt:applicableUnit unit:CentiM ;
+            qudt:applicableUnit unit:M ;
+            qudt:applicableUnit unit:MilliM ;
+            qudt:symbol "h" ;
+            rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+            rdfs:label "Hoogte". 
+
+    quantitykind:Width a qudt:QuantityKind ;
+            mu:uuid "6f2325ca-d4ea-4686-a70f-548b152bfbed";
+            qudt:abbreviation "width" ;
+            qudt:applicableUnit unit:CentiM ;
+            qudt:applicableUnit unit:M ;
+            qudt:applicableUnit unit:MilliM ;
+            qudt:symbol "h" ;
+            rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+            rdfs:label "Wijdte". 
+    
+    quantitykind:Radius a qudt:QuantityKind ;
+            mu:uuid "84239754-a25a-482e-9035-e602a998e6e9";
+            qudt:abbreviation "Radius" ;
+            qudt:applicableUnit unit:CentiM ;
+            qudt:applicableUnit unit:M ;
+            qudt:applicableUnit unit:MilliM ;
+            qudt:symbol "r" ;
+            rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
+            rdfs:label "Radius". 
+    unit:MilliM  a a qudt:Unit ;
+            mu:uuid "2f7dbc7c-fb21-4ff5-bb28-09bda87844b1";
+            qudt:symbol "mm" ;
+            rdfs:label "Millimeter".
+    unit:MilliM  a a qudt:Unit ;
+            mu:uuid "f80b6ea1-438d-4155-a1ed-a938417d98b7";
+            qudt:symbol "m" ;
+            rdfs:label "Meter".
+
+    unit:CentiM  a a qudt:Unit ;
+            mu:uuid "e84274d7-b6ff-43e7-8acb-1f76082967fa";
+            qudt:symbol "cm" ;
+            rdfs:label "Centimeter".
+    }
+    unit:DEG  a a qudt:Unit ;
+            mu:uuid "32a66efc-5285-4811-b1a4-de8e8d4e4598";
+            qudt:symbol "Â°" ;
+            rdfs:label "Graad".
+    }
+
+}
