@@ -27,6 +27,7 @@ defmodule Acl.UserGroups.Config do
                     graph: "http://mu.semte.ch/graphs/mow/registry",
                     constraint: %ResourceConstraint{
                       resource_types: [
+                        "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
                         "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                         "http://www.w3.org/2004/02/skos/core#Concept",
                         "http://data.lblod.info/vocabularies/mobiliteit/Codelist",
@@ -61,6 +62,10 @@ defmodule Acl.UserGroups.Config do
                     graph: "http://mu.semte.ch/graphs/mow/registry",
                     constraint: %ResourceConstraint{
                       resource_types: [
+                        "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
+                        "http://mu.semte.ch/vocabularies/ext/ShapeClassificatieCode",
+                        "http://qudt.org/schema/qudt/Unit",
+                        "http://qudt.org/schema/qudt/QuantityKind",
                         "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                         "http://www.w3.org/2004/02/skos/core#Concept",
                         "http://data.lblod.info/vocabularies/mobiliteit/Codelist",

@@ -44,7 +44,8 @@ export default async function dispatch(changesets: Changeset[]) {
                 rdfs:Resource,
                 skos:Concept,
                 skos:ConceptScheme,
-                tribont:Shape
+                tribont:Shape,
+                cidoc:E54_Dimension
           ))
           
         }
