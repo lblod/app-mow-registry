@@ -1,0 +1,17 @@
+{
+  "name": "migrate-images",
+  "version": "1.0.0",
+  "description": "This script must run only once, when v2.0 will be deployed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lblod/mu-auth-sudo": "^0.6.1",
+    "express-http-context": "^1.2.4",
+    "uuid": "^10.0.0",
+    "node-fetch": "^3.3.0"
+  }
+}
