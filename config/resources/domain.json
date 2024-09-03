@@ -58,9 +58,7 @@
     "property-shapes": {
       "name": "propertyShape",
       "class": "sh:PropertyShape",
-      "super": [
-        "shape"
-      ],
+      "super": ["shape"],
       "relationships": {
         "path": {
           "predicate": "sh:path",
@@ -73,9 +71,7 @@
     "node-shapes": {
       "name": "nodeShape",
       "class": "sh:NodeShape",
-      "super": [
-        "shape"
-      ],
+      "super": ["shape"],
       "new-resource-base": "http://data.lblod.info/node-shapes/"
     },
     "concept-schemes": {
@@ -105,9 +101,7 @@
     "code-lists": {
       "name": "codeList",
       "class": "lblodmow:Codelist",
-      "super": [
-        "conceptScheme"
-      ],
+      "super": ["conceptScheme"],
       "relationships": {
         "type": {
           "predicate": "dct:type",
@@ -121,9 +115,7 @@
           "inverse": true
         }
       },
-      "features": [
-        "include-uri"
-      ],
+      "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/concept-schemes/"
     },
     "skos-concepts": {
@@ -142,17 +134,13 @@
           "cardinality": "many"
         }
       },
-      "features": [
-        "include-uri"
-      ],
+      "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/concepts/"
     },
     "concepts": {
       "name": "concept",
       "class": "ext:Concept",
-      "super": [
-        "resource"
-      ],
+      "super": ["resource"],
       "attributes": {
         "valid": {
           "type": "boolean",
@@ -178,9 +166,7 @@
     "images": {
       "name": "image",
       "class": "foaf:Image",
-      "super": [
-        "document"
-      ],
+      "super": ["document"],
       "attributes": {},
       "relationships": {},
       "new-resource-base": "http://mobiliteit.vo.data.gift/images/"
@@ -188,9 +174,7 @@
     "icons": {
       "name": "Icon",
       "class": "mobiliteit:Pictogram",
-      "super": [
-        "skosConcept"
-      ],
+      "super": ["skosConcept"],
       "attributes": {},
       "relationships": {
         "image": {
@@ -204,9 +188,7 @@
     "templates": {
       "name": "template",
       "class": "mobiliteit:Template",
-      "super": [
-        "document"
-      ],
+      "super": ["document"],
       "attributes": {
         "value": {
           "type": "string",
@@ -265,9 +247,7 @@
           "cardinality": "one"
         }
       },
-      "features": [
-        "include-uri"
-      ],
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/variables/"
     },
     "dimensions": {
@@ -340,9 +320,7 @@
     "traffic-sign-concepts": {
       "name": "trafficSignConcept",
       "class": "mobiliteit:Verkeerstekenconcept",
-      "super": [
-        "skosConcept"
-      ],
+      "super": ["skosConcept"],
       "attributes": {
         "meaning": {
           "type": "string",
@@ -376,9 +354,7 @@
     "road-sign-concepts": {
       "name": "roadSignConcept",
       "class": "mobiliteit:Verkeersbordconcept",
-      "super": [
-        "trafficSignConcept"
-      ],
+      "super": ["trafficSignConcept"],
       "attributes": {},
       "relationships": {
         "status": {
@@ -441,9 +417,7 @@
     "road-marking-concepts": {
       "name": "roadMarkingConcept",
       "class": "mobiliteit:Wegmarkeringconcept",
-      "super": [
-        "trafficSignConcept"
-      ],
+      "super": ["trafficSignConcept"],
       "attributes": {},
       "relationships": {
         "relatedToRoadMarkingConcepts": {
@@ -479,9 +453,7 @@
     "traffic-light-concepts": {
       "name": "trafficLightConcept",
       "class": "mobiliteit:Verkeerslichtconcept",
-      "super": [
-        "trafficSignConcept"
-      ],
+      "super": ["trafficSignConcept"],
       "attributes": {},
       "relationships": {
         "relatedToTrafficLightConcepts": {
