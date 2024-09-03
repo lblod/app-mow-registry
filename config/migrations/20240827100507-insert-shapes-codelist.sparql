@@ -57,26 +57,26 @@ INSERT DATA {
     quantitykind:Length a qudt:QuantityKind ;
             mu:uuid "3ab17bee-f370-447c-849f-436ad2a98fb1";
             qudt:abbreviation "length" ;
+            qudt:applicableUnit unit:MilliM ;
             qudt:applicableUnit unit:CentiM ;
             qudt:applicableUnit unit:M ;
-            qudt:applicableUnit unit:MilliM ;
             qudt:symbol "l" ;
             rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
-            rdfs:label "lengte". 
+            rdfs:label "Lengte". 
 
     quantitykind:Angle a qudt:QuantityKind ;
             mu:uuid "8cf226fc-34cd-4120-a872-087e5af29f78";
             qudt:abbreviation "angle" ;
             qudt:applicableUnit unit:DEG ;
             rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
-            rdfs:label "hoek". 
+            rdfs:label "Hoek". 
 
     quantitykind:Height a qudt:QuantityKind ;
             mu:uuid "c6fad555-39d4-4c75-bd96-bb7c006bdc2c";
             qudt:abbreviation "height" ;
+            qudt:applicableUnit unit:MilliM ;
             qudt:applicableUnit unit:CentiM ;
             qudt:applicableUnit unit:M ;
-            qudt:applicableUnit unit:MilliM ;
             qudt:symbol "h" ;
             rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
             rdfs:label "Hoogte". 
@@ -84,39 +84,42 @@ INSERT DATA {
     quantitykind:Width a qudt:QuantityKind ;
             mu:uuid "6f2325ca-d4ea-4686-a70f-548b152bfbed";
             qudt:abbreviation "width" ;
+            qudt:applicableUnit unit:MilliM ;
             qudt:applicableUnit unit:CentiM ;
             qudt:applicableUnit unit:M ;
-            qudt:applicableUnit unit:MilliM ;
             qudt:symbol "h" ;
             rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
-            rdfs:label "Wijdte". 
+            rdfs:label "Breedte". 
     
     quantitykind:Radius a qudt:QuantityKind ;
             mu:uuid "84239754-a25a-482e-9035-e602a998e6e9";
-            qudt:abbreviation "Radius" ;
+            qudt:abbreviation "radius" ;
+            qudt:applicableUnit unit:MilliM ;
             qudt:applicableUnit unit:CentiM ;
             qudt:applicableUnit unit:M ;
-            qudt:applicableUnit unit:MilliM ;
             qudt:symbol "r" ;
             rdfs:isDefinedBy <http://qudt.org/2.1/vocab/quantitykind> ;
-            rdfs:label "Radius". 
+            rdfs:label "Straal". 
+
     unit:MilliM  a  qudt:Unit ;
             mu:uuid "2f7dbc7c-fb21-4ff5-bb28-09bda87844b1";
             qudt:symbol "mm" ;
             rdfs:label "Millimeter".
-    unit:M  a  qudt:Unit ;
-            mu:uuid "f80b6ea1-438d-4155-a1ed-a938417d98b7";
-            qudt:symbol "m" ;
-            rdfs:label "Meter".
 
     unit:CentiM  a  qudt:Unit ;
             mu:uuid "e84274d7-b6ff-43e7-8acb-1f76082967fa";
             qudt:symbol "cm" ;
             rdfs:label "Centimeter".
+
+    unit:M  a  qudt:Unit ;
+            mu:uuid "f80b6ea1-438d-4155-a1ed-a938417d98b7";
+            qudt:symbol "m" ;
+            rdfs:label "Meter".
+
     unit:DEG  a  qudt:Unit ;
             mu:uuid "32a66efc-5285-4811-b1a4-de8e8d4e4598";
             qudt:symbol "°" ;
-            rdfs:label "Graad".
+            rdfs:label "Graden".
     }
 
 }
