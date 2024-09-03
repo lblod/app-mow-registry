@@ -331,11 +331,11 @@
       },
       "new-resource-base": "http://data.lblod.info/dimensions/"
     },
-    "tribont-shape-classificatie-codes":{
-      "name": "tribontShapeClassificatieCode",
+    "tribont-shape-classification-codes":{
+      "name": "tribontShapeClassificationCode",
       "class": "ext:ShapeClassificatieCode",
       "super": ["skosConcept"],
-      "new-resource-base": "http://data.lblod.info/tribong-shape-classificatie-codes/"
+      "new-resource-base": "http://data.lblod.info/tribont-shape-classification-codes/"
 
     },
     "tribont-shapes": {
@@ -346,7 +346,7 @@
         "classification": {
           "predicate": "cidoc:P2_has_type",
           "cardinality": "one",
-          "target": "tribontShapeClassificatieCode"
+          "target": "tribontShapeClassificationCode"
         },
         "dimensions": {
           "predicate": "cidoc:P43_has_dimension",
