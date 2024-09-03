@@ -111,10 +111,20 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/tribont-shapes/"
   end
 
+  match "/tribont-shape-classification-codes/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/tribont-shape-classification-codes/"
+  end
+
   match "/dimensions/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/dimensions/"
   end
 
+  match "/units/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/units/"
+  end
+  match "/quantity-kinds/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/quantity-kinds/"
+  end
   match "/variables/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/variables/"
   end
