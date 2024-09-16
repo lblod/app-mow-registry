@@ -13,6 +13,7 @@ services:
       - dispatcher:dispatcher
     environment:
       DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER: "*"
+      SESSION_COOKIE_SECURE: "true"
     labels:
       - "logging=true"
     restart: always
