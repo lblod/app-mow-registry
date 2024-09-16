@@ -24,14 +24,7 @@
     "resources": {
       "name": "resource",
       "class": "rdfs:Resource",
-      "new-resource-base": "http://data.lblod.info/resources/",
-      "relationships": {
-        "used": {
-          "predicate": "ext:used",
-          "target": "concept",
-          "cardinality": "many"
-        }
-      }
+      "new-resource-base": "http://data.lblod.info/resources/"
     },
     "shapes": {
       "name": "shape",
@@ -45,11 +38,6 @@
         "targetNode": {
           "predicate": "sh:targetNode",
           "target": "resource",
-          "cardinality": "one"
-        },
-        "targetHasConcept": {
-          "predicate": "ext:targetHasConcept",
-          "target": "concept",
           "cardinality": "one"
         }
       },
@@ -89,11 +77,6 @@
           "target": "skosConcept",
           "cardinality": "many",
           "inverse": true
-        },
-        "top-concepts": {
-          "predicate": "skos:topConceptOf",
-          "target": "concept",
-          "cardinality": "many"
         }
       },
       "new-resource-base": "http://data.lblod.info/concept-schemes/"
