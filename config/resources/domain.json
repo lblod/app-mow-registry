@@ -24,7 +24,14 @@
     "resources": {
       "name": "resource",
       "class": "rdfs:Resource",
-      "new-resource-base": "http://data.lblod.info/resources/"
+      "new-resource-base": "http://data.lblod.info/resources/",
+      "relationships": {
+        "used": {
+          "predicate": "ext:used",
+          "target": "concept",
+          "cardinality": "many"
+        }
+      }
     },
     "shapes": {
       "name": "shape",
@@ -39,9 +46,14 @@
           "predicate": "sh:targetNode",
           "target": "resource",
           "cardinality": "one"
-        }
-      },
-      "new-resource-base": "http://data.lblod.info/shapes/"
+        },
+        "targetHasConcept": {
+          "predicate": "ext:targetHasConcept",
+          "target": "concept",
+          "cardinality": "one"
+        },
+        "new-resource-base": "http://data.lblod.info/shapes/"
+      }
     },
     "property-shapes": {
       "name": "propertyShape",
@@ -77,6 +89,11 @@
           "target": "skosConcept",
           "cardinality": "many",
           "inverse": true
+        },
+        "top-concepts": {
+          "predicate": "skos:topConceptOf",
+          "target": "concept",
+          "cardinality": "many"
         }
       },
       "new-resource-base": "http://data.lblod.info/concept-schemes/"
@@ -119,6 +136,19 @@
       },
       "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/concepts/"
+    },
+    "concepts": {
+      "name": "concept",
+      "class": "ext:Concept",
+      "super": ["resource"],
+      "attributes": {
+        "valid": {
+          "type": "boolean",
+          "predicate": "ext:valid"
+        }
+      },
+      "relationships": {},
+      "new-resource-base": "http://data.lblod.info/concepts/"
     },
     "documents": {
       "name": "document",
