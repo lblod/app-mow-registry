@@ -51,9 +51,9 @@
           "predicate": "ext:targetHasConcept",
           "target": "concept",
           "cardinality": "one"
-        },
-        "new-resource-base": "http://data.lblod.info/shapes/"
-      }
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/shapes/"
     },
     "property-shapes": {
       "name": "propertyShape",
