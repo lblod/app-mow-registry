@@ -2,12 +2,21 @@ PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
 
 DELETE {
     GRAPH ?g {
-        ?s a ext:Concept 
+        ?s a ext:Concept;
+        ext:valid ?o .
         }
     }
 
+INSERT {
+    GRAPH ?g {
+        ?s a mobiliteit:Verkeerstekenconcept;
+        ext:valid ?o .
+    }
+}
+
 WHERE {
     GRAPH ?g {
-        ?s a ext:Concept  
+        ?s a ext:Concept;
+        ext:valid ?o .
     }
 }
