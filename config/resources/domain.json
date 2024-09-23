@@ -345,6 +345,10 @@
         "variable-signage": {
           "type": "boolean",
           "predicate": "mobiliteit:variabeleSignalisatie"
+        },
+        "valid": {
+          "type": "boolean",
+          "predicate": "ext:valid"
         }
       },
       "relationships": {
