@@ -1,23 +1,24 @@
 PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
-PREFIX mobiliteit: <http://data.lblod.info/vocabularies/mobiliteit/>
+PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
 
 DELETE {
     GRAPH ?g {
-    ?s a mobiliteit:Verkeersbordconcept;
-    ext:valid ?o .
+        ?s a lblodmow:TrafficMeasureConcept;
+        ext:valid ?o .
         }
     }
 
 INSERT {
     GRAPH ?g {
-    ?s a mobiliteit:Verkeerstekenconcept;
-    ext:valid ?o .
+        ?s a mobiliteit:Mobiliteitmaatregelconcept;
+        ext:valid ?o .
     }
 }
 
 WHERE {
     GRAPH ?g {
-        ?s a mobiliteit:Verkeersbordconcept;
+        ?s a lblodmow:TrafficMeasureConcept;
         ext:valid ?o .
     }
 }
@@ -26,61 +27,15 @@ WHERE {
 
 DELETE {
     GRAPH ?g {
-    ?s a mobiliteit:Wegmarkeringconcept;
-    ext:valid ?o .
-        }
-    }
-
-INSERT {
-    GRAPH ?g {
-    ?s a mobiliteit:Verkeerstekenconcept;
-    ext:valid ?o .
-    }
-}
-
-WHERE {
-    GRAPH ?g {
-    ?s a mobiliteit:Wegmarkeringconcept;
+        ?s a ext:Concept;
         ext:valid ?o .
-    }
-}
-
-;
-
-DELETE {
-    GRAPH ?g {
-    ?s a mobiliteit:Verkeerslichtconcept;
-    ext:valid ?o .
         }
     }
 
 INSERT {
     GRAPH ?g {
-    ?s a mobiliteit:Verkeerstekenconcept;
-    ext:valid ?o .
-    }
-}
-
-WHERE {
-    GRAPH ?g {
-        ?s a mobiliteit:Verkeerslichtconcept;
+        ?s a mobiliteit:Verkeerstekenconcept;
         ext:valid ?o .
-    }
-}
-
-;
-
-DELETE {
-    GRAPH ?g {
-    ?s a ext:Concept;
-    ext:valid ?o .
-        }
-    }
-
-INSERT {
-    GRAPH ?g {
-    ?s a mobiliteit:Mobiliteitmaatregelconcept;
-    ext:valid ?o .
     }
 }
 
