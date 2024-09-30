@@ -27,6 +27,8 @@ export default async function dispatch(changesets: Changeset[]) {
             ?s a ?type; ?p ?o
             filter (?type in (
                 cidoc:E54_Dimension,
+                ext:ShapeClassificatieCode,
+                foaf:Document,
                 ext:Concept,
                 foaf:Image,
                 lblodmow:Codelist,
