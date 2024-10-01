@@ -20,6 +20,8 @@ export default async function dispatch(changesets: Changeset[]) {
         PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
         PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/>
         PREFIX tribont: <https://w3id.org/tribont/core#>
+        PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
         construct {
             ?s ?p ?o
         } where {
