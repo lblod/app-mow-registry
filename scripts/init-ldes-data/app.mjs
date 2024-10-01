@@ -51,32 +51,34 @@ async function getTotalCount() {
 
     SELECT (COUNT(distinct *) AS ?count)
     WHERE {
-      GRAPH ?g {
-        ?s a ?type; ?p ?o.
-        FILTER (?type IN (
-          cidoc:E54_Dimension,
-          ext:ShapeClassificatieCode,
-          foaf:Document,
-          ext:Concept,
-          foaf:Image,
-          <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject>,
-          lblodmow:Codelist,
-          lblodmow:VerkeersbordconceptStatusCode,
-          mobiliteit:Mobiliteitmaatregelconcept,
-          mobiliteit:Pictogram,
-          mobiliteit:Template,
-          mobiliteit:Variabele,
-          mobiliteit:Verkeersbordcategorie,
-          mobiliteit:Verkeersbordconcept,
-          mobiliteit:VerkeersbordconceptStatus,
-          mobiliteit:Verkeerslichtconcept,
-          mobiliteit:Verkeerstekenconcept,
-          mobiliteit:Wegmarkeringconcept,
-          rdfs:Resource,
-          skos:Concept,
-          skos:ConceptScheme,
-          tribont:Shape
-        ))
+      GRAPH <${INPUT_GRAPH}>{
+        ?s ?p ?o.
+        FILTER EXISTS {
+          ?s a ?type.
+          FILTER (?type IN (
+            cidoc:E54_Dimension,
+            ext:ShapeClassificatieCode,
+            foaf:Document,
+            ext:Concept,
+            foaf:Image,
+            lblodmow:Codelist,
+            lblodmow:VerkeersbordconceptStatusCode,
+            mobiliteit:Mobiliteitmaatregelconcept,
+            mobiliteit:Pictogram,
+            mobiliteit:Template,
+            mobiliteit:Variabele,
+            mobiliteit:Verkeersbordcategorie,
+            mobiliteit:Verkeersbordconcept,
+            mobiliteit:VerkeersbordconceptStatus,
+            mobiliteit:Verkeerslichtconcept,
+            mobiliteit:Verkeerstekenconcept,
+            mobiliteit:Wegmarkeringconcept,
+            rdfs:Resource,
+            skos:Concept,
+            skos:ConceptScheme,
+            tribont:Shape
+          )) 
+        }
       }
     }
   `;
