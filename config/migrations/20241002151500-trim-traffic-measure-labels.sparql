@@ -1,0 +1,22 @@
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+DELETE {
+  GRAPH ?g {
+    ?s skos:prefLabel ?oldLabel .
+  }
+}
+INSERT {
+  GRAPH ?g {
+    ?s skos:prefLabel ?newLabel .
+  }
+}
+WHERE {
+  GRAPH ?g {
+    ?s a mobiliteit:Mobiliteitmaatregelconcept ;
+        skos:prefLabel ?oldLabel .
+  }
+  BIND( IF(STRENDS(?oldLabel, " Traffic Measure"),
+            REPLACE(?oldLabel, " Traffic Measure$", ""),
+            ?oldLabel) AS ?newLabel ) .
+}
