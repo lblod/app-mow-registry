@@ -134,7 +134,7 @@ services:
   ################################################################################
 
   ldes-delta-pusher:
-    image: redpencil/ldes-delta-pusher:latest
+    image: redpencil/ldes-delta-pusher:0.4.1
     environment:
       LDES_ENDPOINT: "http://ldes-backend/ldes-mow-register"
     volumes:
