@@ -48,7 +48,7 @@ async function getTotalCount() {
     PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/>
     PREFIX tribont: <https://w3id.org/tribont/core#>
     PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-
+    PREFIX as: <https://www.w3.org/ns/activitystreams#>
     SELECT (COUNT(distinct *) AS ?count)
     WHERE {
       GRAPH <${INPUT_GRAPH}>{
@@ -66,6 +66,7 @@ async function getTotalCount() {
             mobiliteit:Mobiliteitmaatregelconcept,
             mobiliteit:Pictogram,
             mobiliteit:Template,
+            as:Tombstone,
             mobiliteit:Variabele,
             mobiliteit:Verkeersbordcategorie,
             mobiliteit:Verkeersbordconcept,
