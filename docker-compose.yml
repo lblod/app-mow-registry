@@ -157,6 +157,10 @@ services:
     restart: always
     volumes:
       - "./data/ldes-feed/:/data/"
+  tombstone:
+    image: lblod/tombstone-service
+    links:
+      - db:database
   deltanotifier:
     image: cecemel/delta-notifier:0.2.0-beta.2
     volumes:
