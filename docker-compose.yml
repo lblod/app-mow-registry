@@ -133,30 +133,40 @@ services:
   # LDES PRODUCERS
   ################################################################################
 
+  ldes-serve-feed:
+    image: lblod/ldes-serve-feed-service
+    environment:
+      BASE_URL: "https://dev-vlag.roadsigns.lblod.info/"
+      LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
+      TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
+      DATA_FOLDER: "/ldes/ldes-feed"
+      LDES_FOLDER: "ldes-mow-register"
+    volumes:
+      - ./data/ldes-feed:/ldes/ldes-feed
+    restart: always
+
   ldes-delta-pusher:
     image: redpencil/ldes-delta-pusher:0.4.1
     environment:
-      LDES_ENDPOINT: "http://ldes-backend/ldes-mow-register"
+      LDES_BASE: "https://dev-vlag.roadsigns.lblod.info/"
+      FOLDER_DEPTH: "1"
+      PAGE_RESOURCES_COUNT: "50"
+      LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
+      TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
+      CACHE_SIZE: "1000"
+      DATA_FOLDER: "/ldes/ldes-feed"
+      LDES_FOLDER: "ldes-mow-register"
+      NODE_ENV: "development"
     volumes:
-      - ./config/ldes-delta-pusher/:/config/
+      - ./config/ldes-delta-pusher/dispatch.ts:/config/dispatch.ts
+      - /home/nbittich/work/lblod/ldes-delta-pusher-service:/app
+      - ./data/ldes-feed:/ldes/ldes-feed
+    ports:
+      - 9229:9229
     links:
       - db:database
     restart: always
 
-  ldes-backend:
-    image: redpencil/fragmentation-producer:0.4.0
-    environment:
-      BASE_URL: "https://dev-vlag.roadsigns.lblod.info/"
-      FOLDER_DEPTH: 1
-      PAGE_RESOURCES_COUNT: 50
-      LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
-      TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
-      CACHE_SIZE: 10
-      DATA_FOLDER: "/data"
-      ENABLE_AUTH: "false"
-    restart: always
-    volumes:
-      - "./data/ldes-feed/:/data/"
   tombstone:
     image: lblod/tombstone-service
     links:

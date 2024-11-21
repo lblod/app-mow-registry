@@ -58,13 +58,25 @@ export default async function dispatch(changesets: Changeset[]) {
         `);
       if (bindings.length) {
         console.log("SUCCESS");
-        await moveTriples([
-          {
+        try {
+          await moveTriples([
+            {
+              inserts: bindings.map(({ s, p, o }) => {
+                return { subject: s, predicate: p, object: o };
+              }),
+            },
+          ]);
+        } catch (e) {
+          console.log('FAILURE');
+          console.log('==================================================');
+          console.log(e);
+          console.log({
             inserts: bindings.map(({ s, p, o }) => {
               return { subject: s, predicate: p, object: o };
             }),
-          },
-        ]);
+          });
+          console.log('==================================================');
+        }
       }
     }
   }
