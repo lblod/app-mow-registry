@@ -139,6 +139,7 @@ services:
       BASE_URL: "https://dev-vlag.roadsigns.lblod.info/"
       LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
       TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
+      PAGE_RESOURCES_COUNT: "50"
       DATA_FOLDER: "/ldes/ldes-feed"
       LDES_FOLDER: "ldes-mow-register"
     volumes:
@@ -146,7 +147,7 @@ services:
     restart: always
 
   ldes-delta-pusher:
-    image: redpencil/ldes-delta-pusher:0.4.1
+    image: redpencil/ldes-delta-pusher:1.0.0
     environment:
       LDES_BASE: "https://dev-vlag.roadsigns.lblod.info/"
       FOLDER_DEPTH: "1"
@@ -156,13 +157,9 @@ services:
       CACHE_SIZE: "1000"
       DATA_FOLDER: "/ldes/ldes-feed"
       LDES_FOLDER: "ldes-mow-register"
-      NODE_ENV: "development"
     volumes:
       - ./config/ldes-delta-pusher/dispatch.ts:/config/dispatch.ts
-      - /home/nbittich/work/lblod/ldes-delta-pusher-service:/app
       - ./data/ldes-feed:/ldes/ldes-feed
-    ports:
-      - 9229:9229
     links:
       - db:database
     restart: always
