@@ -228,7 +228,7 @@
         },
         "value": {
           "type": "string",
-          "predicate": "rdfs:value"
+          "predicate": "rdf:value"
         },
         "defaultValue": {
           "type": "string",
@@ -293,7 +293,7 @@
       "attributes": {
         "value": {
           "type": "number",
-          "predicate": "rdfs:value"
+          "predicate": "rdf:value"
         }
       },
       "relationships": {
