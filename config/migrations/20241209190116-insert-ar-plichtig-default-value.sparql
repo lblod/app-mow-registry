@@ -1,0 +1,16 @@
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+INSERT {
+  GRAPH ?g {
+    ?s ext:arPlichtig "false"^^xsd:boolean
+  } 
+}
+  
+  WHERE {
+    GRAPH ?g {
+    ?s a mobiliteit:Verkeerstekenconcept .    
+    }BIND (?g AS ?h)
+  }

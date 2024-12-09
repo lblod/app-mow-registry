@@ -383,6 +383,10 @@
         "valid": {
           "type": "boolean",
           "predicate": "ext:valid"
+        },
+        "arPlichtig": {
+          "type":"boolean",
+          "predicate": "ext:arPlichtig"
         }
       },
       "relationships": {
