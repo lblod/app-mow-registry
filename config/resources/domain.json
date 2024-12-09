@@ -384,7 +384,7 @@
           "type": "boolean",
           "predicate": "ext:valid"
         },
-        "arPlichtig": {
+        "ar-plichtig": {
           "type":"boolean",
           "predicate": "ext:arPlichtig"
         }
