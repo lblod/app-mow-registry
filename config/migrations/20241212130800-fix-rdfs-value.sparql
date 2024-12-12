@@ -1,0 +1,20 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+DELETE {
+    GRAPH ?g {
+        ?s rdfs:value ?value .
+    }
+}
+
+INSERT {
+    GRAPH ?g {
+        ?s rdf:value ?value .
+    }
+}
+
+WHERE {
+    GRAPH ?g {
+        ?s rdfs:value ?value .
+    }
+}
