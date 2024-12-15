@@ -46,4 +46,21 @@ export default [
       gracePeriod: 1000,
     },
   },
+  {
+    match: {
+      predicate: {
+        type: 'uri',
+        value: 'http://www.w3.org/ns/prov#value'
+      }
+    },
+    callback: {
+      url: "http://annotater/delta",
+      method: "POST",
+    },
+    options: {
+      resourceFormat: "v0.0.1",
+      ignoreFromSelf: true,
+      gracePeriod: 250,
+    },
+  },
 ];
