@@ -124,7 +124,9 @@ services:
       - ./scripts/:/app/scripts/
     restart: "no"
   annotater:
-    image: lblod/fix-annotation-service:1.0.0
+    image: lblod/fix-annotation-service:2.0.0
+    environment:
+      SPARQL_ENDPOINT: https://roadsigns.lblod.info/sparql
     restart: "no"
     logging: *default-logging
     links:
