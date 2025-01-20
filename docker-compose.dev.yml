@@ -1,9 +1,10 @@
-version: "3.4"
-
 services:
   identifier:
+    restart: "no"
     ports:
       - "80:80"
+  dispatcher:
+    restart: "no"
   triplestore:
     ports:
       - "8890:8890"
@@ -26,3 +27,29 @@ services:
       SITE_ADDRESS: "roadsigns.lblod.info"
     volumes:
       - ./config/dev/tlsproxy/Caddyfile:/etc/caddy/Caddyfile
+  sparql-cache:
+    restart: "no"
+  db:
+    restart: "no"
+  migrations:
+    restart: "no"
+  resource:
+    restart: "no"
+  cache:
+    restart: "no"
+  file:
+    restart: "no"
+  frontend:
+    restart: "no"
+  static-file:
+    restart: "no"
+  login:
+    restart: "no"
+  ldes-delta-pusher:
+    restart: "no"
+  ldes-backend:
+    restart: "no"
+  tombstone:
+    restart: "no"
+  deltanotifier:
+    restart: "no"
