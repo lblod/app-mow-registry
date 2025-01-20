@@ -1,5 +1,3 @@
-version: "3.4"
-
 x-logging: &default-logging
   driver: "json-file"
   options:
@@ -163,6 +161,7 @@ services:
     image: lblod/tombstone-service
     links:
       - db:database
+    restart: always
   deltanotifier:
     image: cecemel/delta-notifier:0.2.0-beta.2
     volumes:
