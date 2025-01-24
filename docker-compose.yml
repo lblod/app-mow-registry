@@ -47,11 +47,12 @@ services:
       - "logging=true"
     logging: *default-logging
   db:
-    image: semtech/mu-authorization:0.6.0-beta.8
-    environment:
-      MU_SPARQL_ENDPOINT: "http://triplestore:8890/sparql"
+    image: semtech/sparql-parser:0.0.13
     volumes:
-      - ./config/authorization:/config
+      - ./config/cl-authorization:/config
+      - ./data/mu-auth:/data
+    labels:
+      - "logging=true"
     restart: always
     labels:
       - "logging=true"
