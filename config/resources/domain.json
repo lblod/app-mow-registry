@@ -194,9 +194,9 @@
           "type": "string",
           "predicate": "prov:value"
         },
-        "annotated": {
+        "preview": {
           "type": "string",
-          "predicate": "ext:annotated"
+          "predicate": "ext:preview"
         }
       },
       "relationships": {
