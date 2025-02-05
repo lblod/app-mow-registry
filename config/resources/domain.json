@@ -10,6 +10,7 @@
     "sh": "http://www.w3.org/ns/shacl#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "qb": "http://purl.org/linked-data/cube#",
     "besluit": "https://data.vlaanderen.be/ns/besluit#",
@@ -18,7 +19,6 @@
     "icb": "https://w3id.org/isCharacterisedBy#",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "qudt": "http://qudt.org/schema/qudt/",
-    "prov": "http://www.w3.org/ns/prov#",
     "variables": "http://lblod.data.gift/vocabularies/variables/"
   },
   "resources": {
@@ -193,7 +193,7 @@
       "attributes": {
         "value": {
           "type": "string",
-          "predicate": "prov:value"
+          "predicate": "rdf:value"
         },
         "preview": {
           "type": "string",
