@@ -51,7 +51,7 @@ defmodule Acl.UserGroups.Config do
                         "http://mu.semte.ch/vocabularies/ext/Concept",
                         "http://mu.semte.ch/vocabularies/ext/Resource",
                         "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitmaatregelconcept",
-                        "https://data.vlaanderen.be/ns/mobiliteit#Variabele"
+                        "http://lblod.data.gift/vocabularies/variables/Variable"
                       ] } } ] },
       %GroupSpec{
         name: "public",
@@ -89,7 +89,7 @@ defmodule Acl.UserGroups.Config do
                         "http://mu.semte.ch/vocabularies/ext/Concept",
                         "http://mu.semte.ch/vocabularies/ext/Resource",
                         "https://data.vlaanderen.be/ns/mobiliteit#Mobiliteitmaatregelconcept",
-                        "https://data.vlaanderen.be/ns/mobiliteit#Variabele"
+                        "http://lblod.data.gift/vocabularies/variables/Variable"
                       ] } },
           %GraphSpec{
                     graph: "http://mu.semte.ch/graphs/public",

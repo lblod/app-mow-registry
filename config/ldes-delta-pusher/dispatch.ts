@@ -22,6 +22,7 @@ export default async function dispatch(changesets: Changeset[]) {
         PREFIX tribont: <https://w3id.org/tribont/core#>
         PREFIX foaf: <http://xmlns.com/foaf/0.1/>
         PREFIX as: <https://www.w3.org/ns/activitystreams#>
+        PREFIX variables: <http://lblod.data.gift/vocabularies/variables/>
 
         construct {
             ?s ?p ?o
@@ -40,7 +41,7 @@ export default async function dispatch(changesets: Changeset[]) {
                 mobiliteit:Mobiliteitmaatregelconcept,
                 mobiliteit:Pictogram,
                 mobiliteit:Template,
-                mobiliteit:Variabele,
+                variables:Variable,
                 mobiliteit:Verkeersbordcategorie,
                 mobiliteit:Verkeersbordconcept,
                 mobiliteit:VerkeersbordconceptStatus,

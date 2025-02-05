@@ -49,6 +49,8 @@ async function getTotalCount() {
     PREFIX tribont: <https://w3id.org/tribont/core#>
     PREFIX foaf: <http://xmlns.com/foaf/0.1/>
     PREFIX as: <https://www.w3.org/ns/activitystreams#>
+    PREFIX variables: <http://lblod.data.gift/vocabularies/variables/>
+
     SELECT (COUNT(distinct *) AS ?count)
     WHERE {
       GRAPH <${INPUT_GRAPH}>{
@@ -67,7 +69,7 @@ async function getTotalCount() {
             mobiliteit:Pictogram,
             mobiliteit:Template,
             as:Tombstone,
-            mobiliteit:Variabele,
+            variables:Variable,
             mobiliteit:Verkeersbordcategorie,
             mobiliteit:Verkeersbordconcept,
             mobiliteit:VerkeersbordconceptStatus,
@@ -126,7 +128,7 @@ async function getGraphTriples(page, limit) {
                         mobiliteit:Mobiliteitmaatregelconcept,
                         mobiliteit:Pictogram,
                         mobiliteit:Template,
-                        mobiliteit:Variabele,
+                        variables:Variable,
                         mobiliteit:Verkeersbordcategorie,
                         mobiliteit:Verkeersbordconcept,
                         mobiliteit:VerkeersbordconceptStatus,

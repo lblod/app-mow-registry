@@ -18,7 +18,8 @@
     "icb": "https://w3id.org/isCharacterisedBy#",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "qudt": "http://qudt.org/schema/qudt/",
-    "prov": "http://www.w3.org/ns/prov#"
+    "prov": "http://www.w3.org/ns/prov#",
+    "variables": "http://lblod.data.gift/vocabularies/variables/"
   },
   "resources": {
     "resources": {
@@ -216,24 +217,28 @@
     },
     "variables": {
       "name": "variable",
-      "class": "mobiliteit:Variabele",
+      "class": "variables:Variable",
       "attributes": {
-        "label": {
-          "type": "string",
-          "predicate": "dct:title"
-        },
         "type": {
           "type": "string",
           "predicate": "dct:type"
         },
+        "label": {
+          "type": "string",
+          "predicate": "dct:title"
+        },
+        "required": {
+          "type": "boolean",
+          "predicate": "variables:required"
+        },
         "defaultValue": {
           "type": "string",
-          "predicate": "mobiliteit:standaardwaarde"
+          "predicate": "variables:defaultValue"
         }
       },
       "relationships": {
         "codeList": {
-          "predicate": "ext:codeList",
+          "predicate": "mobiliteit:codelijst",
           "target": "codeList",
           "cardinality": "one"
         },
