@@ -194,9 +194,9 @@
           "type": "string",
           "predicate": "prov:value"
         },
-        "annotated": {
+        "preview": {
           "type": "string",
-          "predicate": "ext:annotated"
+          "predicate": "ext:preview"
         }
       },
       "relationships": {
@@ -225,10 +225,6 @@
         "type": {
           "type": "string",
           "predicate": "dct:type"
-        },
-        "value": {
-          "type": "string",
-          "predicate": "rdf:value"
         },
         "defaultValue": {
           "type": "string",
