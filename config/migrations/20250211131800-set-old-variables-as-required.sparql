@@ -1,0 +1,13 @@
+PREFIX variables: <http://lblod.data.gift/vocabularies/variables/>
+INSERT {
+    GRAPH ?g {
+        ?variable variables:required "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean>.
+    }
+} WHERE {
+    GRAPH ?g {
+        ?variable a variables:Variable.
+        FILTER NOT EXISTS {
+            ?variable variables:required ?required.
+        }
+    }
+}
