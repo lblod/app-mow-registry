@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 2.0.1
+
+### Patch Changes
+
+- [`b57f858`](https://github.com/lblod/app-mow-registry/commit/b57f8588b11fa8137a6d7dae0d798285648968ae) Thanks [@abeforgit](https://github.com/abeforgit)! - Update to newer ldes delta pusher
+
 ## 2.0.0
 
 ### Major Changes
