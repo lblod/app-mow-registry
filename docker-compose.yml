@@ -158,7 +158,7 @@ services:
       DATA_FOLDER: "/ldes/ldes-feed"
       LDES_FOLDER: "ldes-mow-register"
     volumes:
-      - ./config/ldes-delta-pusher/dispatch.ts:/config/dispatch.ts
+      - ./config/ldes-delta-pusher:/config
       - ./data/ldes-feed:/ldes/ldes-feed
       # work around https://github.com/redpencilio/ldes-delta-pusher-service/issues/22, can simply be removed when fixed
       - ./data/ldes-feed:/data
