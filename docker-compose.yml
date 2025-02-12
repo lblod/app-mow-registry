@@ -124,7 +124,7 @@ services:
   annotater:
     image: lblod/fix-annotation-service:4.1.0
     environment:
-      SPARQL_ENDPOINT: https://roadsigns.lblod.info/sparql
+      SPARQL_ENDPOINT: "http://db:8890/sparql"
     restart: "no"
     logging: *default-logging
     links:
@@ -133,30 +133,37 @@ services:
   # LDES PRODUCERS
   ################################################################################
 
-  ldes-delta-pusher:
-    image: redpencil/ldes-delta-pusher:0.4.1
+  ldes-serve-feed:
+    image: lblod/ldes-serve-feed-service
     environment:
-      LDES_ENDPOINT: "http://ldes-backend/ldes-mow-register"
+      BASE_URL: "https://dev-vlag.roadsigns.lblod.info/"
+      LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
+      TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
+      PAGE_RESOURCES_COUNT: "50"
+      DATA_FOLDER: "/ldes/ldes-feed"
+      LDES_FOLDER: "ldes-mow-register"
     volumes:
-      - ./config/ldes-delta-pusher/:/config/
+      - ./data/ldes-feed:/ldes/ldes-feed
+    restart: always
+
+  ldes-delta-pusher:
+    image: redpencil/ldes-delta-pusher:1.2.0
+    environment:
+      LDES_BASE: "https://dev-vlag.roadsigns.lblod.info/"
+      FOLDER_DEPTH: "1"
+      PAGE_RESOURCES_COUNT: "50"
+      LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
+      TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
+      CACHE_SIZE: "1000"
+      DATA_FOLDER: "/ldes/ldes-feed"
+      LDES_FOLDER: "ldes-mow-register"
+    volumes:
+      - ./config/ldes-delta-pusher/dispatch.ts:/config/dispatch.ts
+      - ./data/ldes-feed:/ldes/ldes-feed
     links:
       - db:database
     restart: always
 
-  ldes-backend:
-    image: redpencil/fragmentation-producer:0.4.0
-    environment:
-      BASE_URL: "https://dev-vlag.roadsigns.lblod.info/"
-      FOLDER_DEPTH: 1
-      PAGE_RESOURCES_COUNT: 50
-      LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
-      TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
-      CACHE_SIZE: 10
-      DATA_FOLDER: "/data"
-      ENABLE_AUTH: "false"
-    restart: always
-    volumes:
-      - "./data/ldes-feed/:/data/"
   tombstone:
     image: lblod/tombstone-service
     links:
