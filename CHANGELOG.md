@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 2.0.3
+
+### Patch Changes
+
+- [`a53c472`](https://github.com/lblod/app-mow-registry/commit/a53c472f2f5fd0a173ca777f414629488a642208) Thanks [@abeforgit](https://github.com/abeforgit)! - fix ldes initialization
+
 ## 2.0.2
 
 ### Patch Changes
