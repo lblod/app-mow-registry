@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 2.0.2
+
+### Patch Changes
+
+- [`428cc74`](https://github.com/lblod/app-mow-registry/commit/428cc749f37189a1d33e3a4b11d49e82105f3542) Thanks [@abeforgit](https://github.com/abeforgit)! - fix: add config to make ldes initial sync work
+
 ## 2.0.1
 
 ### Patch Changes
