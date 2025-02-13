@@ -3,15 +3,15 @@ import { Changeset } from "../types";
 import { query, sparqlEscapeUri } from "mu";
 
 export default async function dispatch(changesets: Changeset[]) {
-  console.log("dispatching...");
-  for (const changeset of changesets) {
-    const subjects = new Set(
-      changeset.inserts.map((insert) => insert.subject.value),
-    );
-    for (const subject of subjects) {
-      const {
-        results: { bindings },
-      } = await query(`
+    console.log("dispatching...");
+    for (const changeset of changesets) {
+        const subjects = new Set(
+            changeset.inserts.map((insert) => insert.subject.value),
+        );
+        for (const subject of subjects) {
+            const {
+                results: { bindings },
+            } = await query(`
         PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
         PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
         PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
@@ -23,6 +23,7 @@ export default async function dispatch(changesets: Changeset[]) {
         PREFIX foaf: <http://xmlns.com/foaf/0.1/>
         PREFIX as: <https://www.w3.org/ns/activitystreams#>
         PREFIX variables: <http://lblod.data.gift/vocabularies/variables/>
+        PREFIX nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
 
         construct {
             ?s ?p ?o
@@ -51,33 +52,34 @@ export default async function dispatch(changesets: Changeset[]) {
                 rdfs:Resource,
                 skos:Concept,
                 skos:ConceptScheme,
+                nfo:FileDataObject,
                 tribont:Shape
           ))
           
         }
         `);
-      if (bindings.length) {
-        console.log("SUCCESS");
-        try {
-          await moveTriples([
-            {
-              inserts: bindings.map(({ s, p, o }) => {
-                return { subject: s, predicate: p, object: o };
-              }),
-            },
-          ]);
-        } catch (e) {
-          console.log('FAILURE');
-          console.log('==================================================');
-          console.log(e);
-          console.log({
-            inserts: bindings.map(({ s, p, o }) => {
-              return { subject: s, predicate: p, object: o };
-            }),
-          });
-          console.log('==================================================');
+            if (bindings.length) {
+                console.log("SUCCESS");
+                try {
+                    await moveTriples([
+                        {
+                            inserts: bindings.map(({ s, p, o }) => {
+                                return { subject: s, predicate: p, object: o };
+                            }),
+                        },
+                    ]);
+                } catch (e) {
+                    console.log('FAILURE');
+                    console.log('==================================================');
+                    console.log(e);
+                    console.log({
+                        inserts: bindings.map(({ s, p, o }) => {
+                            return { subject: s, predicate: p, object: o };
+                        }),
+                    });
+                    console.log('==================================================');
+                }
+            }
         }
-      }
     }
-  }
 }
