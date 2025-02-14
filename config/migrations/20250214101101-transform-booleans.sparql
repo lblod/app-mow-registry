@@ -1,0 +1,19 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+DELETE {
+    GRAPH ?g {
+        ?a ?b ?oldBoolean.
+    }
+}INSERT {
+    GRAPH ?g {
+        ?a ?b ?newBoolean.
+    }
+}
+WHERE {
+  VALUES (?oldBoolean ?newBoolean) {
+    ("true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> "true"^^xsd:boolean)
+    ("false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean> "false"^^xsd:boolean)
+  }
+  GRAPH ?g {
+    ?a ?b ?oldBoolean.
+  }
+}
