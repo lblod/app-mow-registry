@@ -1,0 +1,15 @@
+DELETE {
+    ?a ?b "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean>.
+}INSERT {
+    ?a ?b "true"^^xsd:boolean.
+} WHERE {
+    ?a ?b "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean>.
+}
+
+DELETE {
+    ?a ?b "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean>.
+}INSERT {
+    ?a ?b "false"^^xsd:boolean.
+} WHERE {
+    ?a ?b "false"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean>.
+}

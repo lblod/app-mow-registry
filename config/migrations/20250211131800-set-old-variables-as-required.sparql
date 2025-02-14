@@ -1,7 +1,8 @@
 PREFIX variables: <http://lblod.data.gift/vocabularies/variables/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 INSERT {
     GRAPH ?g {
-        ?variable variables:required "true"^^<http://mu.semte.ch/vocabularies/typed-literals/boolean>.
+        ?variable variables:required "true"^^xsd:boolean.
     }
 } WHERE {
     GRAPH ?g {
