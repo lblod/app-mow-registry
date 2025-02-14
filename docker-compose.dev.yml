@@ -47,7 +47,7 @@ services:
     restart: "no"
   ldes-delta-pusher:
     restart: "no"
-  ldes-backend:
+  ldes-serve-feed:
     restart: "no"
   tombstone:
     restart: "no"
