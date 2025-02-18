@@ -62,7 +62,7 @@ DELETE {
 
 } INSERT {
     GRAPH ?g {
-        ?a ?b  <http://data.lblod.info/concept-schemes/f478f78b-9392-464e-ae09-f63dcd3b6e5a>.
+        ?a ?b  <http://data.lblod.info/concept-schemes/a5a1b947-1c34-40df-8842-707de418adb8>.
     }
 } WHERE {
     GRAPH ?g {
@@ -77,7 +77,7 @@ DELETE {
 
 } INSERT {
     GRAPH ?g {
-        <http://data.lblod.info/concept-schemes/f478f78b-9392-464e-ae09-f63dcd3b6e5a> ?a ?b.
+        <http://data.lblod.info/concept-schemes/a5a1b947-1c34-40df-8842-707de418adb8> ?a ?b.
     }
 } WHERE {
     GRAPH ?g {
@@ -94,7 +94,7 @@ DELETE {
 
 } INSERT {
     GRAPH ?g {
-        ?a ?b  <http://data.lblod.info/concept-schemes/48ed64a7-c8a8-428a-9fc8-c3a04e9945b7>.
+        ?a ?b  <http://data.lblod.info/concept-schemes/4f445b8f-98ce-4621-b671-009a1acb13a6>.
     }
 } WHERE {
     GRAPH ?g {
@@ -109,7 +109,7 @@ DELETE {
 
 } INSERT {
     GRAPH ?g {
-        <http://data.lblod.info/concept-schemes/48ed64a7-c8a8-428a-9fc8-c3a04e9945b7> ?a ?b.
+        <http://data.lblod.info/concept-schemes/4f445b8f-98ce-4621-b671-009a1acb13a6> ?a ?b.
     }
 } WHERE {
     GRAPH ?g {
