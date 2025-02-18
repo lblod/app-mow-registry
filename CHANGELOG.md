@@ -1,5 +1,15 @@
 # app-mow-registry
 
+## 2.1.0
+
+### Minor Changes
+
+- [`7596a37`](https://github.com/lblod/app-mow-registry/commit/7596a37ee12148352a7af4abafbcfda8b164c2c8) Thanks [@lagartoverde](https://github.com/lagartoverde)! - feat: bump frontend to [v2.1.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.1.0)
+
+### Patch Changes
+
+- [#112](https://github.com/lblod/app-mow-registry/pull/112) [`c439e8a`](https://github.com/lblod/app-mow-registry/commit/c439e8a1d9bfb75add34205b81e2dc4aa0e4a6bf) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Set old variables as required and transform the types of booleans to xsd:boolean
+
 ## 2.0.3
 
 ### Patch Changes
