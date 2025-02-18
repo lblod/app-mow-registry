@@ -1,0 +1,132 @@
+DELETE {
+    GRAPH ?g {
+        <http://lblod.data.gift/concept-schemes/1cddd186-6018-4d12-84d6-f1a5d01affde> <http://www.w3.org/2004/02/skos/core#prefLabel> "Driehoekig".
+        <http://data.lblod.info/concept-schemes/0e0897d1-5c74-47ae-9868-adecbde6f2f3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Achthoekig".
+        <http://data.lblod.info/concept-schemes/322852b4-ec7b-4ca2-b267-4fcc263fa0d7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ruitvormig".
+        <http://data.lblod.info/tribont-shapes/a5a1b947-1c34-40df-8842-707de418adb8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Groot bord".
+        <http://data.lblod.info/tribont-shapes/4f445b8f-98ce-4621-b671-009a1acb13a6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wegwijzer met puntvorm".
+    }
+
+} INSERT {
+    GRAPH ?g {
+        <http://lblod.data.gift/concept-schemes/1cddd186-6018-4d12-84d6-f1a5d01affde> <http://www.w3.org/2004/02/skos/core#prefLabel> "Driehoek".
+        <http://data.lblod.info/concept-schemes/0e0897d1-5c74-47ae-9868-adecbde6f2f3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Achthoek".
+        <http://data.lblod.info/concept-schemes/322852b4-ec7b-4ca2-b267-4fcc263fa0d7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ruit".
+        <http://data.lblod.info/tribont-shapes/a5a1b947-1c34-40df-8842-707de418adb8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rechthoek".
+        <http://data.lblod.info/tribont-shapes/4f445b8f-98ce-4621-b671-009a1acb13a6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wegwijzer met punt".
+    }
+} WHERE {
+    GRAPH ?g {
+        <http://lblod.data.gift/concept-schemes/1cddd186-6018-4d12-84d6-f1a5d01affde> <http://www.w3.org/2004/02/skos/core#prefLabel> "Driehoekig".
+        <http://data.lblod.info/concept-schemes/0e0897d1-5c74-47ae-9868-adecbde6f2f3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Achthoekig".
+        <http://data.lblod.info/concept-schemes/322852b4-ec7b-4ca2-b267-4fcc263fa0d7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ruitvormig".
+        <http://data.lblod.info/tribont-shapes/a5a1b947-1c34-40df-8842-707de418adb8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Groot bord".
+        <http://data.lblod.info/tribont-shapes/4f445b8f-98ce-4621-b671-009a1acb13a6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wegwijzer met puntvorm".
+    }
+}
+
+# Delete Klein ruitvormig and convert everything to ruit
+DELETE {
+    GRAPH ?g {
+        <http://data.lblod.info/tribont-shapes/09675ff8-bb7d-4e76-9766-61816b993f25> ?a ?b.
+    }
+} WHERE {
+    GRAPH ?g {
+        <http://data.lblod.info/tribont-shapes/09675ff8-bb7d-4e76-9766-61816b993f25> ?a ?b.
+    }
+}
+
+DELETE {
+    GRAPH ?g {
+        ?a ?b  <http://data.lblod.info/tribont-shapes/09675ff8-bb7d-4e76-9766-61816b993f25>.
+    }
+
+} INSERT {
+    GRAPH ?g {
+        ?a ?b  <http://data.lblod.info/concept-schemes/322852b4-ec7b-4ca2-b267-4fcc263fa0d7>.
+    }
+
+} WHERE {
+    GRAPH ?g {
+        ?a ?b  <http://data.lblod.info/tribont-shapes/09675ff8-bb7d-4e76-9766-61816b993f25>.
+    }
+}
+
+
+# Redo the uris
+# Old groot bord
+DELETE {
+    GRAPH ?g {
+        ?a ?b  <http://data.lblod.info/tribont-shapes/a5a1b947-1c34-40df-8842-707de418adb8>.
+    }
+
+} INSERT {
+    GRAPH ?g {
+        ?a ?b  <http://data.lblod.info/concept-schemes/a5a1b947-1c34-40df-8842-707de418adb8>.
+    }
+} WHERE {
+    GRAPH ?g {
+        ?a ?b  <http://data.lblod.info/tribont-shapes/a5a1b947-1c34-40df-8842-707de418adb8>
+    }
+}
+
+DELETE {
+    GRAPH ?g {
+        <http://data.lblod.info/tribont-shapes/a5a1b947-1c34-40df-8842-707de418adb8> ?a ?b.
+    }
+
+} INSERT {
+    GRAPH ?g {
+        <http://data.lblod.info/concept-schemes/a5a1b947-1c34-40df-8842-707de418adb8> ?a ?b.
+    }
+} WHERE {
+    GRAPH ?g {
+        <http://data.lblod.info/tribont-shapes/a5a1b947-1c34-40df-8842-707de418adb8> ?a ?b.
+    }
+}
+
+
+# Old Wegwijzer met puntvorm 
+DELETE {
+    GRAPH ?g {
+        ?a ?b  <http://data.lblod.info/tribont-shapes/4f445b8f-98ce-4621-b671-009a1acb13a6>.
+    }
+
+} INSERT {
+    GRAPH ?g {
+        ?a ?b  <http://data.lblod.info/concept-schemes/4f445b8f-98ce-4621-b671-009a1acb13a6>.
+    }
+} WHERE {
+    GRAPH ?g {
+        ?a ?b  <http://data.lblod.info/tribont-shapes/4f445b8f-98ce-4621-b671-009a1acb13a6>
+    }
+}
+
+DELETE {
+    GRAPH ?g {
+        <http://data.lblod.info/tribont-shapes/4f445b8f-98ce-4621-b671-009a1acb13a6> ?a ?b.
+    }
+
+} INSERT {
+    GRAPH ?g {
+        <http://data.lblod.info/concept-schemes/4f445b8f-98ce-4621-b671-009a1acb13a6> ?a ?b.
+    }
+} WHERE {
+    GRAPH ?g {
+        <http://data.lblod.info/tribont-shapes/4f445b8f-98ce-4621-b671-009a1acb13a6> ?a ?b.
+    }
+}
+
+
+# Create Omgekeerde driehoek 
+INSERT DATA {
+    GRAPH <http://mu.semte.ch/graphs/public> {
+        <http://data.lblod.info/concept-schemes/10b19729-8b4a-4ea5-8470-bc34fc204791> a <http://www.w3.org/2004/02/skos/core#Concept>;
+            a <http://mu.semte.ch/vocabularies/ext/ShapeClassificatieCode>;
+            <http://mu.semte.ch/vocabularies/core/uuid> "10b19729-8b4a-4ea5-8470-bc34fc204791";
+            <http://www.w3.org/2004/02/skos/core#inScheme> <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Omgekeerde driehoek";
+            <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f>.
+    }
+}
+
