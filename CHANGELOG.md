@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 2.1.1
+
+### Patch Changes
+
+- [#114](https://github.com/lblod/app-mow-registry/pull/114) [`02b781b`](https://github.com/lblod/app-mow-registry/commit/02b781b6e160e5a59d5f354f4ac6d78981bd35b8) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Add migration to fix roadsign shapes
+
 ## 2.1.0
 
 ### Minor Changes
