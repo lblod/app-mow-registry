@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 2.1.2
+
+### Patch Changes
+
+- [`4e0bcab`](https://github.com/lblod/app-mow-registry/commit/4e0bcabc9541501bc594fb247e7cf4570a66932b) Thanks [@elpoelma](https://github.com/elpoelma)! - Remove obsolete `ext:Relation` resources
+
 ## 2.1.1
 
 ### Patch Changes
