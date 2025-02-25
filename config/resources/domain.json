@@ -379,6 +379,10 @@
         "valid": {
           "type": "boolean",
           "predicate": "ext:valid"
+        },
+        "ar-plichtig": {
+          "type":"boolean",
+          "predicate": "mobiliteit:ARplichtig"
         }
       },
       "relationships": {
