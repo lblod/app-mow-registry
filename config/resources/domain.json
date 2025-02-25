@@ -3,22 +3,18 @@
   "prefixes": {
     "lblodmow": "http://data.lblod.info/vocabularies/mobiliteit/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
-    "org": "http://www.w3.org/ns/org#",
     "mobiliteit": "https://data.vlaanderen.be/ns/mobiliteit#",
     "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
     "ext": "http://mu.semte.ch/vocabularies/ext/",
     "sh": "http://www.w3.org/ns/shacl#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "qb": "http://purl.org/linked-data/cube#",
-    "besluit": "https://data.vlaanderen.be/ns/besluit#",
     "tribont": "https://w3id.org/tribont/core#",
     "cidoc": "http://www.cidoc-crm.org/cidoc-crm/",
     "icb": "https://w3id.org/isCharacterisedBy#",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "qudt": "http://qudt.org/schema/qudt/",
-    "prov": "http://www.w3.org/ns/prov#"
+    "variables": "http://lblod.data.gift/vocabularies/variables/"
   },
   "resources": {
     "resources": {
@@ -192,11 +188,11 @@
       "attributes": {
         "value": {
           "type": "string",
-          "predicate": "prov:value"
+          "predicate": "rdf:value"
         },
-        "annotated": {
+        "preview": {
           "type": "string",
-          "predicate": "ext:annotated"
+          "predicate": "ext:preview"
         }
       },
       "relationships": {
@@ -216,28 +212,28 @@
     },
     "variables": {
       "name": "variable",
-      "class": "mobiliteit:Variabele",
+      "class": "variables:Variable",
       "attributes": {
-        "label": {
-          "type": "string",
-          "predicate": "dct:title"
-        },
         "type": {
           "type": "string",
           "predicate": "dct:type"
         },
-        "value": {
+        "label": {
           "type": "string",
-          "predicate": "rdfs:value"
+          "predicate": "dct:title"
+        },
+        "required": {
+          "type": "boolean",
+          "predicate": "variables:required"
         },
         "defaultValue": {
           "type": "string",
-          "predicate": "mobiliteit:standaardwaarde"
+          "predicate": "variables:defaultValue"
         }
       },
       "relationships": {
         "codeList": {
-          "predicate": "ext:codeList",
+          "predicate": "mobiliteit:codelijst",
           "target": "codeList",
           "cardinality": "one"
         },
@@ -293,7 +289,7 @@
       "attributes": {
         "value": {
           "type": "number",
-          "predicate": "rdfs:value"
+          "predicate": "rdf:value"
         }
       },
       "relationships": {

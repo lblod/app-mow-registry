@@ -1,0 +1,42 @@
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+
+DELETE {
+    GRAPH ?g {
+        ?s ext:mapping ?o
+    }
+}
+
+INSERT {
+    GRAPH ?g {
+        ?s mobiliteit:variabele ?o
+    }
+}
+
+WHERE {
+    GRAPH ?g {
+        ?s a mobiliteit:Template ;
+        ext:mapping ?o
+    }
+}
+
+;
+
+DELETE {
+    GRAPH ?g {
+        ?s ext:template ?o
+    }
+}
+
+INSERT {
+    GRAPH ?g {
+        ?s mobiliteit:template ?o
+    }
+}
+
+WHERE {
+    GRAPH ?g {
+        ?s a mobiliteit:Template ;
+        ext:template ?o
+    }
+}

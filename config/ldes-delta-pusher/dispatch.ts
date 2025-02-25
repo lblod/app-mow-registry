@@ -21,6 +21,8 @@ export default async function dispatch(changesets: Changeset[]) {
         PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/>
         PREFIX tribont: <https://w3id.org/tribont/core#>
         PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+        PREFIX as: <https://www.w3.org/ns/activitystreams#>
+        PREFIX variables: <http://lblod.data.gift/vocabularies/variables/>
 
         construct {
             ?s ?p ?o
@@ -33,12 +35,13 @@ export default async function dispatch(changesets: Changeset[]) {
                 foaf:Document,
                 ext:Concept,
                 foaf:Image,
+                as:Tombstone,
                 lblodmow:Codelist,
                 lblodmow:VerkeersbordconceptStatusCode,
                 mobiliteit:Mobiliteitmaatregelconcept,
                 mobiliteit:Pictogram,
                 mobiliteit:Template,
-                mobiliteit:Variabele,
+                variables:Variable,
                 mobiliteit:Verkeersbordcategorie,
                 mobiliteit:Verkeersbordconcept,
                 mobiliteit:VerkeersbordconceptStatus,
@@ -55,13 +58,25 @@ export default async function dispatch(changesets: Changeset[]) {
         `);
       if (bindings.length) {
         console.log("SUCCESS");
-        await moveTriples([
-          {
+        try {
+          await moveTriples([
+            {
+              inserts: bindings.map(({ s, p, o }) => {
+                return { subject: s, predicate: p, object: o };
+              }),
+            },
+          ]);
+        } catch (e) {
+          console.log('FAILURE');
+          console.log('==================================================');
+          console.log(e);
+          console.log({
             inserts: bindings.map(({ s, p, o }) => {
               return { subject: s, predicate: p, object: o };
             }),
-          },
-        ]);
+          });
+          console.log('==================================================');
+        }
       }
     }
   }

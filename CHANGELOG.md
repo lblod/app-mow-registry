@@ -1,5 +1,69 @@
 # app-mow-registry
 
+## 2.1.2
+
+### Patch Changes
+
+- [`4e0bcab`](https://github.com/lblod/app-mow-registry/commit/4e0bcabc9541501bc594fb247e7cf4570a66932b) Thanks [@elpoelma](https://github.com/elpoelma)! - Remove obsolete `ext:Relation` resources
+
+## 2.1.1
+
+### Patch Changes
+
+- [#114](https://github.com/lblod/app-mow-registry/pull/114) [`02b781b`](https://github.com/lblod/app-mow-registry/commit/02b781b6e160e5a59d5f354f4ac6d78981bd35b8) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Add migration to fix roadsign shapes
+
+## 2.1.0
+
+### Minor Changes
+
+- [`7596a37`](https://github.com/lblod/app-mow-registry/commit/7596a37ee12148352a7af4abafbcfda8b164c2c8) Thanks [@lagartoverde](https://github.com/lagartoverde)! - feat: bump frontend to [v2.1.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.1.0)
+
+### Patch Changes
+
+- [#112](https://github.com/lblod/app-mow-registry/pull/112) [`c439e8a`](https://github.com/lblod/app-mow-registry/commit/c439e8a1d9bfb75add34205b81e2dc4aa0e4a6bf) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Set old variables as required and transform the types of booleans to xsd:boolean
+
+## 2.0.3
+
+### Patch Changes
+
+- [`a53c472`](https://github.com/lblod/app-mow-registry/commit/a53c472f2f5fd0a173ca777f414629488a642208) Thanks [@abeforgit](https://github.com/abeforgit)! - fix ldes initialization
+
+## 2.0.2
+
+### Patch Changes
+
+- [`428cc74`](https://github.com/lblod/app-mow-registry/commit/428cc749f37189a1d33e3a4b11d49e82105f3542) Thanks [@abeforgit](https://github.com/abeforgit)! - fix: add config to make ldes initial sync work
+
+## 2.0.1
+
+### Patch Changes
+
+- [`b57f858`](https://github.com/lblod/app-mow-registry/commit/b57f8588b11fa8137a6d7dae0d798285648968ae) Thanks [@abeforgit](https://github.com/abeforgit)! - Update to newer ldes delta pusher
+
+## 2.0.0
+
+### Major Changes
+
+- [`8dab766`](https://github.com/lblod/app-mow-registry/commit/8dab7660c90d7251f30eb2f235ce7496d617953f) Thanks [@abeforgit](https://github.com/abeforgit)! - Adapt backend for new VLAG datamodel
+
+### Minor Changes
+
+- [#111](https://github.com/lblod/app-mow-registry/pull/111) [`562b96a`](https://github.com/lblod/app-mow-registry/commit/562b96aa281911d39c1f7c61a3cf8de4dec354ba) Thanks [@elpoelma](https://github.com/elpoelma)! - Replace `prov:value` by `rdf:value` on `mobiliteit:Template` resources. This ensures it is correctly following the `mobiliteit` data model.
+
+- [#108](https://github.com/lblod/app-mow-registry/pull/108) [`96c0b93`](https://github.com/lblod/app-mow-registry/commit/96c0b93d6a7a34d6e3327b497c9ef14ba86ea31d) Thanks [@elpoelma](https://github.com/elpoelma)! - Update `annotater` service to version [4.0.0](https://github.com/lblod/fix-annotation-service/releases/tag/v4.0.0)
+
+- [#108](https://github.com/lblod/app-mow-registry/pull/108) [`b20f8a9`](https://github.com/lblod/app-mow-registry/commit/b20f8a90e6e4027dead993f2c8dc28560b0afad7) Thanks [@elpoelma](https://github.com/elpoelma)! - Remove support for `annotated` property of `template` resource and add support for `preview` property
+
+- [#110](https://github.com/lblod/app-mow-registry/pull/110) [`bea29a5`](https://github.com/lblod/app-mow-registry/commit/bea29a584ce6bcec4cbc9427ee9aa4d614fcfa42) Thanks [@elpoelma](https://github.com/elpoelma)! - Move variables to new datamodel
+
+### Patch Changes
+
+- [#111](https://github.com/lblod/app-mow-registry/pull/111) [`4f1660c`](https://github.com/lblod/app-mow-registry/commit/4f1660c642fbaaf2484f00d50f4f8b71a24aea0c) Thanks [@elpoelma](https://github.com/elpoelma)! - Update `annotater` to version [4.1.0](https://github.com/lblod/fix-annotation-service/releases/tag/v4.1.0)
+
+- [#106](https://github.com/lblod/app-mow-registry/pull/106) [`eb467be`](https://github.com/lblod/app-mow-registry/commit/eb467be5c71af0f3cb81cdf8fcf26b9d00ff6ff1) Thanks [@piemonkey](https://github.com/piemonkey)! - Add restart configurations to dev services to prevent restarting on developer machines
+
+- [#108](https://github.com/lblod/app-mow-registry/pull/108) [`55f500c`](https://github.com/lblod/app-mow-registry/commit/55f500cb438c1439ad4d59cd178769e9997e9ebe) Thanks [@elpoelma](https://github.com/elpoelma)! - Variables: replace `rdf:value` by more appropriate `dct:title` to represent the label/title of a variable
+
 ## 1.2.7
 
 ### Patch Changes

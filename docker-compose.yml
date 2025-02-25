@@ -1,5 +1,3 @@
-version: "3.4"
-
 x-logging: &default-logging
   driver: "json-file"
   options:
@@ -93,7 +91,7 @@ services:
     restart: always
     logging: *default-logging
   frontend:
-    image: lblod/frontend-mow-registry:2.0.0-beta.0
+    image: lblod/frontend-mow-registry:2.1.0
     labels:
       - "logging=true"
     restart: always
@@ -124,7 +122,9 @@ services:
       - ./scripts/:/app/scripts/
     restart: "no"
   annotater:
-    image: lblod/fix-annotation-service:1.0.0
+    image: lblod/fix-annotation-service:4.1.0
+    environment:
+      SPARQL_ENDPOINT: "http://db:8890/sparql"
     restart: "no"
     logging: *default-logging
     links:
@@ -133,30 +133,45 @@ services:
   # LDES PRODUCERS
   ################################################################################
 
-  ldes-delta-pusher:
-    image: redpencil/ldes-delta-pusher:0.4.1
+  ldes-serve-feed:
+    image: lblod/ldes-serve-feed-service
     environment:
-      LDES_ENDPOINT: "http://ldes-backend/ldes-mow-register"
+      BASE_URL: "https://dev-vlag.roadsigns.lblod.info/"
+      LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
+      TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
+      PAGE_RESOURCES_COUNT: "50"
+      DATA_FOLDER: "/ldes/ldes-feed"
+      LDES_FOLDER: "ldes-mow-register"
     volumes:
-      - ./config/ldes-delta-pusher/:/config/
+      - ./data/ldes-feed:/ldes/ldes-feed
+    restart: always
+
+  ldes-delta-pusher:
+    image: redpencil/ldes-delta-pusher:1.2.0
+    environment:
+      LDES_BASE: "https://dev-vlag.roadsigns.lblod.info/"
+      FOLDER_DEPTH: "1"
+      PAGE_RESOURCES_COUNT: "50"
+      LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
+      TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
+      CACHE_SIZE: "1000"
+      DATA_FOLDER: "/ldes/ldes-feed"
+      LDES_FOLDER: "ldes-mow-register"
+    volumes:
+      - ./config/ldes-delta-pusher:/config
+      - ./data/ldes-feed:/ldes/ldes-feed
+      # work around https://github.com/redpencilio/ldes-delta-pusher-service/issues/22, can simply be removed when fixed
+      - ./data/ldes-feed:/data
+    links:
+      - db:database
+      - triplestore:virtuoso
+    restart: always
+
+  tombstone:
+    image: lblod/tombstone-service
     links:
       - db:database
     restart: always
-
-  ldes-backend:
-    image: redpencil/fragmentation-producer:0.4.0
-    environment:
-      BASE_URL: "https://dev-vlag.roadsigns.lblod.info/"
-      FOLDER_DEPTH: 1
-      PAGE_RESOURCES_COUNT: 50
-      LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
-      TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
-      CACHE_SIZE: 10
-      DATA_FOLDER: "/data"
-      ENABLE_AUTH: "false"
-    restart: always
-    volumes:
-      - "./data/ldes-feed/:/data/"
   deltanotifier:
     image: cecemel/delta-notifier:0.2.0-beta.2
     volumes:

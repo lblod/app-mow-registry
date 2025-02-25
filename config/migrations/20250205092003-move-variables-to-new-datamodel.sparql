@@ -1,0 +1,53 @@
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX variables: <http://lblod.data.gift/vocabularies/variables/>
+
+DELETE {
+  GRAPH ?g {
+    ?uri a mobiliteit:Variabele.
+  }
+}
+INSERT {
+  GRAPH ?g {
+    ?uri a variables:Variable.
+  }
+}
+WHERE {
+  GRAPH ?g {
+    ?uri a mobiliteit:Variabele.
+  }
+};
+
+DELETE {
+  GRAPH ?g {
+    ?uri mobiliteit:standaardwaarde ?defaultValue.
+  }
+}
+INSERT {
+  GRAPH ?g {
+    ?uri variables:defaultValue ?defaultValue.
+  }
+}
+WHERE {
+  GRAPH ?g {
+    ?uri a variables:Variable;
+         mobiliteit:standaardwaarde ?defaultValue.
+  }
+};
+
+DELETE {
+  GRAPH ?g {
+    ?uri ext:codeList ?codelist.
+  }
+}
+INSERT {
+  GRAPH ?g {
+    ?uri mobiliteit:codelijst ?codelist.   
+  }
+}
+WHERE {
+  GRAPH ?g {
+    ?uri a variables:Variable;
+         ext:codeList ?codelist.
+  }
+}

@@ -1,0 +1,21 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+
+DELETE {
+  GRAPH ?g {
+    ?uri prov:value ?value.
+  }
+}
+INSERT {
+  GRAPH ?g {
+    ?uri rdf:value ?value.
+  }
+}
+WHERE {
+  GRAPH ?g {
+    ?uri 
+      a mobiliteit:Template;
+      prov:value ?value.
+  }
+}

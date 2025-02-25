@@ -1,0 +1,21 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+DELETE {
+  GRAPH ?g {
+    ?variable rdf:value ?label.
+  }
+}
+INSERT {
+  GRAPH ?g {
+  	?variable dct:title ?label.
+  }
+}
+WHERE {
+  GRAPH ?g {
+    ?variable a mobiliteit:Variabele.
+    ?variable rdf:value ?label.
+  }
+}
