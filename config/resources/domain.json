@@ -382,7 +382,7 @@
         },
         "ar-plichtig": {
           "type":"boolean",
-          "predicate": "ext:arPlichtig"
+          "predicate": "mobiliteit:ARplichtig"
         }
       },
       "relationships": {
