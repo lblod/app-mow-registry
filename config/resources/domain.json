@@ -13,7 +13,6 @@
     "cidoc": "http://www.cidoc-crm.org/cidoc-crm/",
     "icb": "https://w3id.org/isCharacterisedBy#",
     "foaf": "http://xmlns.com/foaf/0.1/",
-    "dcat": "http://www.w3.org/ns/dcat#",
     "qudt": "http://qudt.org/schema/qudt/",
     "variables": "http://lblod.data.gift/vocabularies/variables/"
   },
@@ -172,12 +171,7 @@
       "name": "Icon",
       "class": "mobiliteit:Pictogram",
       "super": ["skosConcept"],
-      "attributes": {
-        "downloadURL": {
-          "predicate": "dcat:downloadURL",
-          "type": "url"
-        }
-      },
+      "attributes": {},
       "relationships": {
         "image": {
           "predicate": "skos:prefSymbol",
