@@ -2,6 +2,8 @@
 export const initialization = {
   'ldes-mow-register': {
     "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension":{},
+    "http://qudt.org/schema/qudt/Unit":{},
+    "http://qudt.org/schema/qudt/QuantityKind":{},
     "http://mu.semte.ch/vocabularies/ext/ShapeClassificatieCode":{},
     "http://xmlns.com/foaf/0.1/Document":{},
     "http://mu.semte.ch/vocabularies/ext/Concept":{},

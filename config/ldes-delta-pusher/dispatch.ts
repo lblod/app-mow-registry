@@ -30,6 +30,7 @@ export default async function dispatch(changesets: Changeset[]) {
         PREFIX foaf: <http://xmlns.com/foaf/0.1/>
         PREFIX as: <https://www.w3.org/ns/activitystreams#>
         PREFIX variables: <http://lblod.data.gift/vocabularies/variables/>
+        PREFIX qudt: <http://qudt.org/schema/qudt/>
 
         construct {
             ?s ?p ?o
@@ -58,7 +59,9 @@ export default async function dispatch(changesets: Changeset[]) {
                 rdfs:Resource,
                 skos:Concept,
                 skos:ConceptScheme,
-                tribont:Shape
+                tribont:Shape,
+                qudt:Unit,
+                qudt:QuantityKind
           ))
           
         }
