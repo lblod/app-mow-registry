@@ -46,6 +46,8 @@ services:
   login:
     restart: "no"
   ldes-delta-pusher:
+    environment:
+      LDES_BASE: "http://localhost/"
     restart: "no"
   ldes-serve-feed:
     restart: "no"

@@ -2,19 +2,19 @@ export default [
   {
     match: {
       predicate: {
-        type: 'uri',
-        value: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'
-      }
+        type: "uri",
+        value: "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      },
     },
     callback: {
-      method: 'POST',
-      url: 'http://tombstone/delta'
+      method: "POST",
+      url: "http://tombstone/delta",
     },
     options: {
-      resourceFormat: 'v0.0.1',
+      resourceFormat: "v0.0.1",
       gracePeriod: 1000,
-      ignoreFromSelf: true
-    }
+      ignoreFromSelf: true,
+    },
   },
   {
     match: {},
@@ -38,7 +38,7 @@ export default [
     },
     options: {
       resourceFormat: "v0.0.1",
-      ignoreFromSelf: true,
+      ignoreFromSelf: false,
       optOutMuScopeIds: [
         "http://redpencil.data.gift/id/concept/muScope/deltas/initialSync",
         "http://redpencil.data.gift/id/concept/muScope/deltas/publicationGraphMaintenance",
@@ -49,9 +49,9 @@ export default [
   {
     match: {
       predicate: {
-        type: 'uri',
-        value: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#value'
-      }
+        type: "uri",
+        value: "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      },
     },
     callback: {
       url: "http://annotater/delta",
