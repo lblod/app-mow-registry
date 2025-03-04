@@ -5,20 +5,20 @@ import { URL } from "url";
 const MOW_REGISTRY_BASE_URL = process.env.LDES_BASE;
 
 if (!MOW_REGISTRY_BASE_URL) {
-    throw "missing MOW_REGISTRY_BASE_URL";
+  throw "missing MOW_REGISTRY_BASE_URL";
 }
 
 console.log(MOW_REGISTRY_BASE_URL);
 export default async function dispatch(changesets: Changeset[]) {
-    console.log("dispatching...");
-    for (const changeset of changesets) {
-        const subjects = new Set(
-            changeset.inserts.map((insert) => insert.subject.value),
-        );
-        for (const subject of subjects) {
-            const {
-                results: { bindings },
-            } = await query(`
+  console.log("dispatching...");
+  for (const changeset of changesets) {
+    const subjects = new Set(
+      changeset.inserts.map((insert) => insert.subject.value),
+    );
+    for (const subject of subjects) {
+      const {
+        results: { bindings },
+      } = await query(`
         PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
         PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
         PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
@@ -63,33 +63,51 @@ export default async function dispatch(changesets: Changeset[]) {
           
         }
         `);
-            if (bindings.length) {
-                console.log("SUCCESS");
-                try {
-                    let rdfType = bindings.find((b) => b.p.value === "http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
+      if (bindings.length) {
+        console.log("SUCCESS");
+        try {
+          let rdfType = bindings.find(
+            (b) =>
+              b.p.value === "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          );
 
+          if (
+            [
+              "http://xmlns.com/foaf/0.1/Image",
+              "http://xmlns.com/foaf/0.1/Document",
+            ].includes(rdfType.o.value)
+          ) {
+            let downloadURL = bindings.find(
+              (b) => b.p.value === "http://www.w3.org/ns/dcat#downloadURL",
+            );
+            let resp;
 
-                    if (["http://xmlns.com/foaf/0.1/Image", "http://xmlns.com/foaf/0.1/Document"].includes(rdfType.o.value)) {
-                        let downloadURL = bindings.find((b) => b.p.value === "http://www.w3.org/ns/dcat#downloadURL");
-                        let resp;
+            let hasFile = bindings.find(
+              (b) =>
+                b.p.value === "http://mu.semte.ch/vocabularies/ext/hasFile",
+            );
 
+            if (hasFile)
+              resp = await query(
+                `select distinct ?id where {<${hasFile.o.value}> <http://mu.semte.ch/vocabularies/core/uuid> ?id} `,
+              );
 
-                        let hasFile = bindings.find((b) => b.p.value === "http://mu.semte.ch/vocabularies/ext/hasFile")
-
-                        if (hasFile)
-                            resp = await query(`select distinct ?id where {<${hasFile.o.value}> <http://mu.semte.ch/vocabularies/core/uuid> ?id} `);
-
-                        if (!resp?.results?.bindings?.length) {
-                            console.error(`downloadURL: could not determine mu:uuid for <${hasFile}> and subject <${subject}>`);
-                        } else {
-                            let fileUuid = resp.results.bindings[0].id.value;
-                            let newDownloadURL = new URL(`/files/${fileUuid}/download`, MOW_REGISTRY_BASE_URL).toString();
-                            // add downloadURL before inserting to ldes
-                            // delta notifier will be retriggered so we don't want to push to ldes twice
-                            // we should not set ignoreFromSelf to true in the deltanotifier config for this reason
-                            if (downloadURL?.o?.value !== newDownloadURL) {
-                                console.log(downloadURL, newDownloadURL)
-                                await update(`
+            if (!resp?.results?.bindings?.length) {
+              console.error(
+                `downloadURL: could not determine mu:uuid for <${hasFile}> and subject <${subject}>`,
+              );
+            } else {
+              let fileUuid = resp.results.bindings[0].id.value;
+              let newDownloadURL = new URL(
+                `/files/${fileUuid}/download`,
+                MOW_REGISTRY_BASE_URL,
+              ).toString();
+              // add downloadURL before inserting to ldes
+              // delta notifier will be retriggered so we don't want to push to ldes twice
+              // we should not set ignoreFromSelf to true in the deltanotifier config for this reason
+              if (downloadURL?.o?.value !== newDownloadURL) {
+                console.log(downloadURL, newDownloadURL);
+                await update(`
                                     DELETE  {
                                         <${subject}> <http://www.w3.org/ns/dcat#downloadURL> ?oldDownloadUrl.
                                     }
@@ -100,29 +118,29 @@ export default async function dispatch(changesets: Changeset[]) {
                                         OPTIONAL {<${subject}> <http://www.w3.org/ns/dcat#downloadURL> ?oldDownloadUrl.}
                                     }
                                 `);
-                                continue;
-                            }
-                        }
-                    }
-                    await moveTriples([
-                        {
-                            inserts: bindings.map(({ s, p, o }) => {
-                                return { subject: s, predicate: p, object: o };
-                            }),
-                        },
-                    ]);
-                } catch (e) {
-                    console.log('FAILURE');
-                    console.log('==================================================');
-                    console.log(e);
-                    console.log({
-                        inserts: bindings.map(({ s, p, o }) => {
-                            return { subject: s, predicate: p, object: o };
-                        }),
-                    });
-                    console.log('==================================================');
-                }
+                continue;
+              }
             }
+          }
+          await moveTriples([
+            {
+              inserts: bindings.map(({ s, p, o }) => {
+                return { subject: s, predicate: p, object: o };
+              }),
+            },
+          ]);
+        } catch (e) {
+          console.log("FAILURE");
+          console.log("==================================================");
+          console.log(e);
+          console.log({
+            inserts: bindings.map(({ s, p, o }) => {
+              return { subject: s, predicate: p, object: o };
+            }),
+          });
+          console.log("==================================================");
         }
+      }
     }
+  }
 }
