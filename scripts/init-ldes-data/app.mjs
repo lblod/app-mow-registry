@@ -109,6 +109,7 @@ async function getGraphTriples(page, limit) {
     PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/>
     PREFIX tribont: <https://w3id.org/tribont/core#>
     PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+    PREFIX variables: <http://lblod.data.gift/vocabularies/variables/>
 
     CONSTRUCT {?s ?p ?o} WHERE
     {
