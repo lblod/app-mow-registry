@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 2.2.1
+
+### Patch Changes
+
+- [#117](https://github.com/lblod/app-mow-registry/pull/117) [`5775824`](https://github.com/lblod/app-mow-registry/commit/577582457e3f3ae9ec2886be00564c76a66d5032) Thanks [@elpoelma](https://github.com/elpoelma)! - Add missing prefix to SPARQL query in `init-ldes-data` mu-script
+
 ## 2.2.0
 
 ### Minor Changes
