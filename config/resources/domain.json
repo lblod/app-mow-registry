@@ -193,6 +193,14 @@
         "preview": {
           "type": "string",
           "predicate": "ext:preview"
+        },
+        "start-date": {
+          "type": "datetime",
+          "predicate": "ext:startDate"
+        },
+        "end-date": {
+          "type": "datetime",
+          "predicate": "ext:endDate"
         }
       },
       "relationships": {
@@ -345,6 +353,14 @@
         "valid": {
           "type": "boolean",
           "predicate": "ext:valid"
+        },
+        "start-date": {
+          "type": "datetime",
+          "predicate": "ext:startDate"
+        },
+        "end-date": {
+          "type": "datetime",
+          "predicate": "ext:endDate"
         }
       },
       "relationships": {
@@ -383,6 +399,14 @@
         "ar-plichtig": {
           "type":"boolean",
           "predicate": "mobiliteit:ARplichtig"
+        },
+        "start-date": {
+          "type": "datetime",
+          "predicate": "ext:startDate"
+        },
+        "end-date": {
+          "type": "datetime",
+          "predicate": "ext:endDate"
         }
       },
       "relationships": {
