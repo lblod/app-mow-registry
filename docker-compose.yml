@@ -147,8 +147,10 @@ services:
     restart: always
 
   ldes-delta-pusher:
-    image: redpencil/ldes-delta-pusher:1.2.0
+    image: redpencil/ldes-delta-pusher:1.2.2
     environment:
+      CRON_HEALING: "0 0 0 * * *" # Every day at midnight
+      AUTO_HEALING: "true"
       LDES_BASE: "https://dev-vlag.roadsigns.lblod.info/"
       FOLDER_DEPTH: "1"
       PAGE_RESOURCES_COUNT: "50"
@@ -180,3 +182,15 @@ services:
       - "logging=true"
     restart: always
     logging: *default-logging
+  
+  modified:
+    image: lblod/track-modified-service:0.0.1
+    labels:
+      - "logging=true"
+    volumes:
+      - ./config/modified:/config
+    links:
+      - db:database
+    restart: always
+    logging: *default-logging
+
