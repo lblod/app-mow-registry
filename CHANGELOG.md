@@ -1,5 +1,17 @@
 # app-mow-registry
 
+## 2.3.0
+
+### Minor Changes
+
+- [#118](https://github.com/lblod/app-mow-registry/pull/118) [`149158b`](https://github.com/lblod/app-mow-registry/commit/149158b9e0e1b47bcb08f7ae4010296864799172) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Add validity dates to mu-cl-resource models
+
+- [#119](https://github.com/lblod/app-mow-registry/pull/119) [`02b04bc`](https://github.com/lblod/app-mow-registry/commit/02b04bc55208821b611ab71a1ee020dc52b52b64) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Expose raw-sparql endpoint
+
+### Patch Changes
+
+- [#121](https://github.com/lblod/app-mow-registry/pull/121) [`c522d40`](https://github.com/lblod/app-mow-registry/commit/c522d4011a96da2a600da17533ba8bd2cf90cddc) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Add missing logging keys to docker-compose.yml
+
 ## 2.2.1
 
 ### Patch Changes
