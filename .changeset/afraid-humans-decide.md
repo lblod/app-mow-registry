@@ -2,4 +2,4 @@
 "app-mow-registry": minor
 ---
 
-Add validity dates
+Add validity dates to mu-cl-resource models
