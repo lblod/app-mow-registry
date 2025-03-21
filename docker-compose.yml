@@ -43,6 +43,9 @@ services:
     environment:
       BACKEND_HOST: db
     restart: always
+    labels:
+      - "logging=true"
+    logging: *default-logging
   db:
     image: semtech/mu-authorization:0.6.0-beta.8
     environment:
@@ -50,6 +53,9 @@ services:
     volumes:
       - ./config/authorization:/config
     restart: always
+    labels:
+      - "logging=true"
+    logging: *default-logging
   migrations:
     image: semtech/mu-migrations-service
     links:
@@ -101,6 +107,9 @@ services:
     volumes:
       - ./data/static-files:/data
     restart: always
+    labels:
+      - "logging=true"
+    logging: *default-logging
   login:
     image: lblod/acmidm-login-service:feature-configurable
     links:
@@ -116,6 +125,8 @@ services:
       MU_APPLICATION_AUTH_ROLE_CLAIM: abb_registiermobiliteit_rol_3d
     logging: *default-logging
     restart: always
+    labels:
+      - "logging=true"
   project-scripts:
     image: semtech/mu-scripts:1.0.0
     volumes:
@@ -129,6 +140,8 @@ services:
     logging: *default-logging
     links:
       - db:database
+    labels:
+      - "logging=true"
   ################################################################################
   # LDES PRODUCERS
   ################################################################################
