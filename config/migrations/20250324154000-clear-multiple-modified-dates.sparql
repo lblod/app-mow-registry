@@ -1,0 +1,11 @@
+DELETE {
+GRAPH ?g {
+?a <http://purl.org/dc/terms/modified> ?c.
+}
+}where {
+GRAPH ?g {
+?a <http://purl.org/dc/terms/modified> ?b.
+?a <http://purl.org/dc/terms/modified> ?c.
+}
+Filter(?b > ?c)
+}
