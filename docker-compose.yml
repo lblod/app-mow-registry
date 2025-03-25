@@ -27,7 +27,7 @@ services:
     restart: always
     logging: *default-logging
   triplestore:
-    image: redpencil/virtuoso:1.0.0
+    image: redpencil/virtuoso:1.2.0
     environment:
       SPARQL_UPDATE: "true"
       DEFAULT_GRAPH: "http://mu.semte.ch/application"
@@ -147,7 +147,7 @@ services:
     restart: always
 
   ldes-delta-pusher:
-    image: redpencil/ldes-delta-pusher:1.2.2
+    image: redpencil/ldes-delta-pusher:1.2.4
     environment:
       CRON_HEALING: "0 0 0 * * *" # Every day at midnight
       AUTO_HEALING: "true"
@@ -159,6 +159,7 @@ services:
       CACHE_SIZE: "1000"
       DATA_FOLDER: "/ldes/ldes-feed"
       LDES_FOLDER: "ldes-mow-register"
+      VIRTUOSO_DATE_WORKAROUND: "true"
     volumes:
       - ./config/ldes-delta-pusher:/config
       - ./data/ldes-feed:/ldes/ldes-feed
