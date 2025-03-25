@@ -1,3 +1,5 @@
+import { Changeset } from "../types";
+
 export const interestingTypes = [
   "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
   "http://qudt.org/schema/qudt/Unit",
