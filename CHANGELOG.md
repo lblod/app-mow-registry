@@ -1,5 +1,15 @@
 # app-mow-registry
 
+## 2.4.0
+
+### Minor Changes
+
+- [#120](https://github.com/lblod/app-mow-registry/pull/120) [`ec12de2`](https://github.com/lblod/app-mow-registry/commit/ec12de2ea14ad4885b6ba420379d37129cac902f) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Add autohealing to the ldes stream
+
+### Patch Changes
+
+- [#123](https://github.com/lblod/app-mow-registry/pull/123) [`c8c526e`](https://github.com/lblod/app-mow-registry/commit/c8c526ee81bdd543c9984e9f3a05d8fa8ab35478) Thanks [@elpoelma](https://github.com/elpoelma)! - Pin the `lblod/ldes-serve-feed` service to version 0.1.0
+
 ## 2.3.0
 
 ### Minor Changes
