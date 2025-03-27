@@ -136,7 +136,7 @@ services:
   ldes-serve-feed:
     image: lblod/ldes-serve-feed-service
     environment:
-      BASE_URL: "https://dev-vlag.roadsigns.lblod.info/"
+      BASE_URL: "https://dev.roadsigns.lblod.info/"
       LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
       TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
       PAGE_RESOURCES_COUNT: "50"
@@ -149,7 +149,7 @@ services:
   ldes-delta-pusher:
     image: redpencil/ldes-delta-pusher:1.2.0
     environment:
-      LDES_BASE: "https://dev-vlag.roadsigns.lblod.info/"
+      LDES_BASE: "https://dev.roadsigns.lblod.info/"
       FOLDER_DEPTH: "1"
       PAGE_RESOURCES_COUNT: "50"
       LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"

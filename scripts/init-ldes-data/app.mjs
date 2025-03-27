@@ -6,7 +6,7 @@ const LDES_FOLDER = process.env.LDES_FOLDER || "ldes-mow-register";
 const LDES_FRAGMENTER = process.env.LDES_FRAGMENTER || undefined;
 
 process.env.BASE_URL =
-    process.env.BASE_URL || "https://dev-vlag.roadsigns.lblod.info/";
+    process.env.BASE_URL || "https://dev.roadsigns.lblod.info/";
 process.env.FOLDER_DEPTH = process.env.FOLDER_DEPTH || "1";
 process.env.PAGE_RESOURCES_COUNT = process.env.PAGE_RESOURCES_COUNT || "50";
 process.env.LDES_STREAM_PREFIX =
