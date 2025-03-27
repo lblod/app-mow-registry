@@ -36,11 +36,11 @@ async function main() {
                 body: triples,
                 fragmenter: LDES_FRAGMENTER,
             });
-        catch (e) {
-                console.error(`could not add data to ldes! skipping triples \n${triples}`);
-            }
         }
-}
+        catch (e) {
+            console.error(`could not add data to ldes! skipping triples \n${triples}`);
+        }
+    }
     function calculatePages(totalCount, limit) {
         return Math.ceil(totalCount / limit);
     }
