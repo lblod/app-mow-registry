@@ -36,16 +36,18 @@ async function main() {
                 body: triples,
                 fragmenter: LDES_FRAGMENTER,
             });
-        }
-        catch (e) {
-            console.error(`could not add data to ldes! skipping triples \n${triples}`);
+        } catch (e) {
+            console.error(
+                `could not add data to ldes! skipping triples \n${triples}`,
+            );
         }
     }
-    function calculatePages(totalCount, limit) {
-        return Math.ceil(totalCount / limit);
-    }
-    async function getTotalCount() {
-        const countQuery = `
+}
+function calculatePages(totalCount, limit) {
+    return Math.ceil(totalCount / limit);
+}
+async function getTotalCount() {
+    const countQuery = `
     PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
     PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
     PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
@@ -93,23 +95,23 @@ async function main() {
     }
   `;
 
-        const response = await fetch(
-            `${process.env.MU_SPARQL_ENDPOINT}?query=${encodeURIComponent(countQuery)}`,
-            {
-                method: "POST",
-                headers: {
-                    Accept: "application/sparql-results+json",
-                },
+    const response = await fetch(
+        `${process.env.MU_SPARQL_ENDPOINT}?query=${encodeURIComponent(countQuery)}`,
+        {
+            method: "POST",
+            headers: {
+                Accept: "application/sparql-results+json",
             },
-        );
+        },
+    );
 
-        const result = await response.json();
-        const count = parseInt(result.results.bindings[0].count.value, 10);
-        return count;
-    }
-    async function getGraphTriples(page, limit) {
-        const offset = (page - 1) * limit;
-        const q = `
+    const result = await response.json();
+    const count = parseInt(result.results.bindings[0].count.value, 10);
+    return count;
+}
+async function getGraphTriples(page, limit) {
+    const offset = (page - 1) * limit;
+    const q = `
     PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
     PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
     PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
@@ -162,38 +164,38 @@ async function main() {
     OFFSET ${offset}
 
 `;
-        console.log(q);
+    console.log(q);
 
-        return await fetchNTriples(q);
-    }
+    return await fetchNTriples(q);
+}
 
-    async function deleteDirectory(path) {
-        try {
-            await rm(path, { recursive: true, force: true });
-        } catch (error) {
-            console.error(`Error while deleting directory ${path}:`, error);
-        }
+async function deleteDirectory(path) {
+    try {
+        await rm(path, { recursive: true, force: true });
+    } catch (error) {
+        console.error(`Error while deleting directory ${path}:`, error);
     }
-    async function fetchNTriples(query) {
-        try {
-            const response = await fetch(
-                `${process.env.MU_SPARQL_ENDPOINT}?query=${encodeURIComponent(query)}&format=${encodeURIComponent("text/plain")}`,
-                {
-                    method: "POST",
-                    headers: {
-                        Accept: "text/plain",
-                    },
+}
+async function fetchNTriples(query) {
+    try {
+        const response = await fetch(
+            `${process.env.MU_SPARQL_ENDPOINT}?query=${encodeURIComponent(query)}&format=${encodeURIComponent("text/plain")}`,
+            {
+                method: "POST",
+                headers: {
+                    Accept: "text/plain",
                 },
-            );
+            },
+        );
 
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-
-            return await response.text();
-        } catch (error) {
-            console.error("Error:", error);
-            process.exit(-1);
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
         }
+
+        return await response.text();
+    } catch (error) {
+        console.error("Error:", error);
+        process.exit(-1);
     }
-    main().then();
+}
+main().then();
