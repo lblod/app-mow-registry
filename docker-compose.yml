@@ -149,7 +149,6 @@ services:
   ldes-serve-feed:
     image: lblod/ldes-serve-feed-service:0.1.0
     environment:
-      BASE_URL: "https://dev.roadsigns.lblod.info/"
       LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
       TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
       PAGE_RESOURCES_COUNT: "50"
@@ -164,7 +163,6 @@ services:
     environment:
       CRON_HEALING: "0 0 0 * * *" # Every day at midnight
       AUTO_HEALING: "true"
-      LDES_BASE: "https://dev.roadsigns.lblod.info/"
       FOLDER_DEPTH: "1"
       PAGE_RESOURCES_COUNT: "50"
       LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"

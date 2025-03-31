@@ -5,8 +5,7 @@ const INPUT_GRAPH =
 const LDES_FOLDER = process.env.LDES_FOLDER || "ldes-mow-register";
 const LDES_FRAGMENTER = process.env.LDES_FRAGMENTER || undefined;
 
-process.env.BASE_URL =
-    process.env.BASE_URL || "https://dev.roadsigns.lblod.info/";
+const BASE_URL = process.env.BASE_URL;
 process.env.FOLDER_DEPTH = process.env.FOLDER_DEPTH || "1";
 process.env.PAGE_RESOURCES_COUNT = process.env.PAGE_RESOURCES_COUNT || "50";
 process.env.LDES_STREAM_PREFIX =
@@ -17,6 +16,10 @@ process.env.TIME_TREE_RELATION_PATH =
 process.env.CACHE_SIZE = process.env.CACHE_SIZE || "10";
 process.env.DATA_FOLDER = process.env.DATA_FOLDER || "/project/data/ldes-feed";
 
+if (!BASE_URL?.length) {
+    console.error("You must provide a BASE_URL");
+    process.exit(1);
+}
 async function main() {
     const ldesProducerConfig = getConfigFromEnv();
     await deleteDirectory(process.env.DATA_FOLDER);
