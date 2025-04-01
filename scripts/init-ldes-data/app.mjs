@@ -27,18 +27,12 @@ async function main() {
         triples += await getGraphTriples(page, limit);
     }
     if (triples.length) {
-        try {
-            await addData(ldesProducerConfig, {
-                contentType: "text/turtle",
-                folder: LDES_FOLDER,
-                body: triples,
-                fragmenter: LDES_FRAGMENTER,
-            });
-        } catch (e) {
-            console.error(
-                `could not add data to ldes! skipping triples \n${triples}`,
-            );
-        }
+        await addData(ldesProducerConfig, {
+            contentType: "text/turtle",
+            folder: LDES_FOLDER,
+            body: triples,
+            fragmenter: LDES_FRAGMENTER,
+        });
     }
 }
 function calculatePages(totalCount, limit) {
