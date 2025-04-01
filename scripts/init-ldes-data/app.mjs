@@ -19,7 +19,7 @@ async function main() {
     const ldesProducerConfig = getConfigFromEnv();
     await deleteDirectory(process.env.DATA_FOLDER);
     const count = await getTotalCount();
-    const limit = 1000;
+    const limit = 10000;
     const totalPages = calculatePages(count, limit);
     console.log("count:", count, "total pages:", totalPages);
     let triples = "";
