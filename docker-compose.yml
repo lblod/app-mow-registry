@@ -147,7 +147,7 @@ services:
   ################################################################################
 
   ldes-serve-feed:
-    image: lblod/ldes-serve-feed-service:0.1.0
+    image: lblod/ldes-serve-feed-service:0.1.1
     environment:
       LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
       TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
@@ -159,7 +159,7 @@ services:
     restart: always
 
   ldes-delta-pusher:
-    image: redpencil/ldes-delta-pusher:1.2.4
+    image: redpencil/ldes-delta-pusher:1.2.5
     environment:
       CRON_HEALING: "0 0 0 * * *" # Every day at midnight
       AUTO_HEALING: "true"
