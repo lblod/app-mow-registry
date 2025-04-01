@@ -15,15 +15,11 @@ process.env.TIME_TREE_RELATION_PATH =
 process.env.CACHE_SIZE = process.env.CACHE_SIZE || "10";
 process.env.DATA_FOLDER = process.env.DATA_FOLDER || "/project/data/ldes-feed";
 
-if (!process.env.BASE_URL?.length) {
-    console.error("You must provide a BASE_URL");
-    process.exit(1);
-}
 async function main() {
     const ldesProducerConfig = getConfigFromEnv();
     await deleteDirectory(process.env.DATA_FOLDER);
     const count = await getTotalCount();
-    const limit = 100;
+    const limit = 1000;
     const totalPages = calculatePages(count, limit);
     console.log("count:", count, "total pages:", totalPages);
     let triples = "";
