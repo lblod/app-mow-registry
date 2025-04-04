@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 2.5.2
+
+### Patch Changes
+
+- [`41f9f57`](https://github.com/lblod/app-mow-registry/commit/41f9f57312b4cc1453c129bd05dfb94b41ac3653) Thanks [@abeforgit](https://github.com/abeforgit)! - make sure the init-ldes script doesn't use the dev-vlag env
+
 ## 2.5.1
 
 ### Patch Changes
