@@ -50,6 +50,8 @@ services:
       LDES_BASE: "http://localhost/"
     restart: "no"
   ldes-serve-feed:
+    environment:
+      BASE_URL: "http://localhost/"
     restart: "no"
   tombstone:
     restart: "no"
