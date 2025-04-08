@@ -1,0 +1,16 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix mobiliteit:	<https://data.vlaanderen.be/ns/mobiliteit#> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix mu:	<http://mu.semte.ch/vocabularies/core/> .
+
+<https://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/ae1b7231-1f31-492d-947a-25fc5d114492>	rdf:type	mobiliteit:Verkeersbordcategorie ;
+	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
+	mu:uuid	"ae1b7231-1f31-492d-947a-25fc5d114492" ;
+	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie>;
+	skos:prefLabel	"XXbord" .
+
+<https://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/8e302648-0eca-478b-8b48-67c3b0e39c0a>	rdf:type	mobiliteit:Verkeersbordcategorie ;
+	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
+	mu:uuid	"8e302648-0eca-478b-8b48-67c3b0e39c0a" ;
+	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie>;
+	skos:prefLabel	"XX-AWVbord" .
