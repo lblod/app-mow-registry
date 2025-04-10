@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 2.6.0
+
+### Minor Changes
+
+- [#125](https://github.com/lblod/app-mow-registry/pull/125) [`5ee78d8`](https://github.com/lblod/app-mow-registry/commit/5ee78d8c2faa8cd8309e511b7de5be6a9ae2ab28) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Add new roadsign classifications
+
 ## 2.5.2
 
 ### Patch Changes
