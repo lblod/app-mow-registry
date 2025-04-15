@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 2.6.1
+
+### Patch Changes
+
+- [`bfd9767`](https://github.com/lblod/app-mow-registry/commit/bfd9767e7fec6c265355cb30435f6e6cdccf2c37) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Bump frontend to [2.3.2](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.3.2)
+
 ## 2.6.0
 
 ### Minor Changes
