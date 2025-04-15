@@ -44,6 +44,7 @@
   :sh "http://www.w3.org/ns/shacl#"
   :tribont "https://w3id.org/tribont/core#"
   :musession "http://mu.semte.ch/vocabularies/session/"
+  :variables "http://lblod.data.gift/vocabularies/variables/"
 )
 
 (define-graph public ("http://mu.semte.ch/graphs/public")
@@ -64,7 +65,6 @@
   ("mobiliteit:Template" -> _)
   ("mobiliteit:Pictogram" -> _)
   ("mobiliteit:Pictogram" -> _)
-  ("mobiliteit:Variabele" -> _)
   ("foaf:Image" -> _)
   ("foaf:Document" -> _)
   ("nfo:FileDataObject" -> _)
@@ -76,6 +76,7 @@
   ("ext:ShapeClassificatieCode" -> _)
   ("ext:Concept" -> _)
   ("ext:Resource" -> _)
+  ("variables:Variable" -> _)
 )
 
 (define-graph mow-admin ("http://mu.semte.ch/graphs/mow/registry")
@@ -101,7 +102,7 @@
   ("tribont:Shape" -> _)
   ("ext:Concept" -> _)
   ("ext:Resource" -> _)
-  ("mobiliteit:Variabele" -> _)
+  ("variables:Variable" -> _)
 )
 
 (define-graph sessions ("http://mu.semte.ch/graphs/sessions")
