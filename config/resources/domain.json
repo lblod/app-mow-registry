@@ -210,7 +210,7 @@
           "cardinality": "many"
         },
         "parentConcept": {
-          "predicate": "mobiliteit:variabele",
+          "predicate": "mobiliteit:template",
           "target": "trafficMeasureConcept",
           "cardinality": "one",
           "inverse": true
@@ -246,9 +246,10 @@
           "cardinality": "one"
         },
         "template": {
-          "predicate": "mobiliteit:template",
+          "predicate": "mobiliteit:variabele",
           "target": "template",
-          "cardinality": "one"
+          "cardinality": "one",
+          "inverse": true
         }
       },
       "features": ["include-uri"],
@@ -397,7 +398,7 @@
           "predicate": "ext:valid"
         },
         "ar-plichtig": {
-          "type": "boolean",
+          "type":"boolean",
           "predicate": "mobiliteit:ARplichtig"
         },
         "start-date": {
