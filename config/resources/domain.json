@@ -207,11 +207,10 @@
         "variables": {
           "predicate": "mobiliteit:variabele",
           "target": "variable",
-          "cardinality": "many",
-          "inverse": true
+          "cardinality": "many"
         },
         "parentConcept": {
-          "predicate": "mobiliteit:template",
+          "predicate": "mobiliteit:variabele",
           "target": "trafficMeasureConcept",
           "cardinality": "one",
           "inverse": true
@@ -398,7 +397,7 @@
           "predicate": "ext:valid"
         },
         "ar-plichtig": {
-          "type":"boolean",
+          "type": "boolean",
           "predicate": "mobiliteit:ARplichtig"
         },
         "start-date": {
