@@ -207,7 +207,8 @@
         "variables": {
           "predicate": "mobiliteit:variabele",
           "target": "variable",
-          "cardinality": "many"
+          "cardinality": "many",
+          "inverse": true
         },
         "parentConcept": {
           "predicate": "mobiliteit:template",
