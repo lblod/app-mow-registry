@@ -54,8 +54,6 @@ services:
     labels:
       - "logging=true"
     restart: always
-    labels:
-      - "logging=true"
     logging: *default-logging
   migrations:
     image: semtech/mu-migrations-service
