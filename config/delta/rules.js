@@ -39,11 +39,7 @@ export default [
     options: {
       resourceFormat: "v0.0.1",
       ignoreFromSelf: false,
-      optOutMuScopeIds: [
-        "http://redpencil.data.gift/id/concept/muScope/deltas/initialSync",
-        "http://redpencil.data.gift/id/concept/muScope/deltas/publicationGraphMaintenance",
-      ],
-      gracePeriod: 1000,
+      gracePeriod: 15000,
     },
   },
   {
