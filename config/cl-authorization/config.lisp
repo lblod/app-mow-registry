@@ -130,6 +130,6 @@
        :for-allowed-group "public")
        
 (in-package :support)
-;; virtuoso supports strings up to 2GB in size, assuming this a character count and a char uses max 4 bytes gives us 536_870_912
-(defparameter *string-max-size* 536_870_912
+;; setting the string-max-size to nil assures us that strings will never be converted to files
+(defparameter *string-max-size* nil
   "Maximum size of a string before it gets converted.")
