@@ -47,7 +47,7 @@
   :variables "http://lblod.data.gift/vocabularies/variables/"
 )
 
-(define-graph public ("http://mu.semte.ch/graphs/public")
+(define-graph public-graph ("http://mu.semte.ch/graphs/public")
   ("cidoc:E54_Dimension" -> _)
   ("qudt:Unit" -> _)
   ("qudt:QuantityKind" -> _)
@@ -79,7 +79,7 @@
   ("variables:Variable" -> _)
 )
 
-(define-graph mow-admin ("http://mu.semte.ch/graphs/mow/registry")
+(define-graph mow-admin-graph ("http://mu.semte.ch/graphs/mow/registry")
   ("cidoc:E54_Dimension" -> _)
   ("skos:ConceptScheme" -> _)
   ("skos:Concept" -> _)
@@ -120,13 +120,13 @@
 )
 
 (grant (read write)
-       :to-graph  mow-admin
+       :to-graph  mow-admin-graph
        :for-allowed-group "logged-in-user")
 
 (supply-allowed-group "public")
 
 (grant (read)
-       :to-graph public
+       :to-graph public-graph
        :for-allowed-group "public")
        
 (in-package :support)
