@@ -110,6 +110,11 @@
   ("variables:Variable" -> _)
 )
 
+(define-graph sessions ("http://mu.semte.ch/graphs/sessions")
+  ("musession:Session" -> _))
+
+(define-graph impersonating-sessions ("http://mu.semte.ch/graphs/sessions/")
+  ("musession:Session" -> _))
 
 (supply-allowed-group "logged-in-user"
   :parameters ()
