@@ -26,7 +26,6 @@
 (defparameter *rights* nil
   "All known GRANT instances connecting ACCESS-SPECIFICATION to GRAPH.")
 
-(type-cache::add-type-for-prefix "http://mu.semte.ch/sessions/" "http://mu.semte.ch/vocabularies/session/Session")
 
 (define-prefixes
   :lblodmow "http://data.lblod.info/vocabularies/mobiliteit/"
@@ -109,12 +108,6 @@
   ("ext:Resource" -> _)
   ("variables:Variable" -> _)
 )
-
-(define-graph sessions ("http://mu.semte.ch/graphs/sessions")
-  ("musession:Session" -> _))
-
-(define-graph impersonating-sessions ("http://mu.semte.ch/graphs/sessions/")
-  ("musession:Session" -> _))
 
 (supply-allowed-group "logged-in-user"
   :parameters ()
