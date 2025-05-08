@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 2.6.3
+
+### Patch Changes
+
+- [`8d6ceb8`](https://github.com/lblod/app-mow-registry/commit/8d6ceb83c69bd854e7db1e5ea6a0ba03f57f89e2) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Upgrade to sparql-parser
+
 ## 2.6.2
 
 ### Patch Changes
