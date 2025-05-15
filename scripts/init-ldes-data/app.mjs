@@ -205,7 +205,7 @@ async function fetchNTriples(query) {
       {
         method: "post",
         headers: {
-          accept: "text/plain",
+          Accept: "text/plain",
         },
       },
     );
