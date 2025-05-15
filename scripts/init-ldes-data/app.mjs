@@ -35,7 +35,7 @@ export async function waitForDatabase() {
       );
 
       if (!response.ok) {
-        throw new error(`http error! status: ${response.status}`);
+        throw new Error(`http error! status: ${response.status}`);
       }
       break;
     } catch (e) {
@@ -211,7 +211,7 @@ async function fetchNTriples(query) {
     );
 
     if (!response.ok) {
-      throw new error(`http error! status: ${response.status}`);
+      throw new Error(`http error! status: ${response.status}`);
     }
 
     return await response.text();
