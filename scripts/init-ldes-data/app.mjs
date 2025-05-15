@@ -29,7 +29,7 @@ export async function waitForDatabase() {
         {
           method: "post",
           headers: {
-            accept: "text/plain",
+            Accept: "text/plain",
           },
         },
       );
