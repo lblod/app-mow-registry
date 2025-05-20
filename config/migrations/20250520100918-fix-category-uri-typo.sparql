@@ -1,0 +1,34 @@
+DELETE {
+  GRAPH ?g {
+    ?uriWithTypo ?pOut ?oOut.
+    ?sIn ?pIn ?uriWithTypo.
+  }
+}
+INSERT {
+  GRAPH ?g {
+    ?correctedUri ?pOut ?oOut.
+    ?sIn ?pIn ?correctedUri.
+  }
+}
+WHERE {
+  GRAPH ?g {
+    VALUES ?uriWithTypo {
+      <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/2982567006d9e19f04063df73123f56f40e3a28941031a7ba6e6667f64740fa9>
+      <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/29ea3335e357e414d07229242607b352941c0c21e78760600cc0f5270f18c38b>
+      <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/737da5751bc7f311398a834f34df310dd95255a0b62afa2db2882c72d54b47d2>
+      <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/86a67f3cba6512ae10c4b9b09ba35d8c80109189b44d37e848858af9efb37019>
+      <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/955a9adc73d076a2a424754cd540b73da8d15fb002ab6c9f115d080edddb57e8>
+      <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/991b04b477b77bc7cf1414fb5d255cc4435dd9c1681e8de66f770710c1c83ad0>
+      <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/9d84069e70f192b7a474d02f07687bc3343ee324207ad9e093c0b2f5def647f8>
+      <http://data.vlaanderen.be/id/concept/Verkeersbordcatergorie/9ea8f8b421343370d20a8bd45d6226aadc48125bda8ddbbeeb53d99f181ee05a>
+      <http://data.vlaanderen.be/id/concept/Wegmarkeringcatergorie/737da5751bc7f311398a834f34df310dd95255a0b62afa2db2882c72d54b47d2>
+    }
+    OPTIONAL {
+      ?uriWithTypo ?pOut ?oOut.
+    }
+    OPTIONAL {
+      ?sIn ?pIn ?uriWithTypo.
+    }
+    BIND(URI(REPLACE(STR(?uriWithTypo), 'catergorie', 'categorie')) AS ?correctedUri)
+  }
+}
