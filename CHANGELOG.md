@@ -1,5 +1,15 @@
 # app-mow-registry
 
+## 2.6.4
+
+### Patch Changes
+
+- [#129](https://github.com/lblod/app-mow-registry/pull/129) [`795d1d0`](https://github.com/lblod/app-mow-registry/commit/795d1d08300092a8e13cafcb76bf74c105d26706) Thanks [@elpoelma](https://github.com/elpoelma)! - Fix 'catergorie' typo in road-sign-category uri's
+
+- [#127](https://github.com/lblod/app-mow-registry/pull/127) [`178f743`](https://github.com/lblod/app-mow-registry/commit/178f7432b1bca8e9ad15d7fd0f578dac8dc22af5) Thanks [@nbittich](https://github.com/nbittich)! - Increase grace period for ldes deltas
+
+- [`33b78e5`](https://github.com/lblod/app-mow-registry/commit/33b78e519136b0ebe9c0b458ce3e6b75d7f8fbf0) Thanks [@abeforgit](https://github.com/abeforgit)! - bump frontend to [v2.3.4](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.3.4)
+
 ## 2.6.3
 
 ### Patch Changes
