@@ -1,0 +1,8 @@
+DELETE {
+    ?uri mobiliteit:template ?template.
+} INSERT {
+    ?uri mobiliteit:Mobiliteitsmaatregelconcept.template ? template.
+} WHERE {
+    ?uri a mobiliteit:Mobiliteitmaatregelconcept;
+        mobiliteit:template ?template.
+}
