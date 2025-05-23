@@ -210,7 +210,7 @@
           "cardinality": "many"
         },
         "parentConcept": {
-          "predicate": "mobiliteit:template",
+          "predicate": "mobiliteit:Mobiliteitsmaatregelconcept.template",
           "target": "trafficMeasureConcept",
           "cardinality": "one",
           "inverse": true
@@ -370,7 +370,7 @@
           "cardinality": "one"
         },
         "template": {
-          "predicate": "mobiliteit:template",
+          "predicate": "mobiliteit:Mobiliteitsmaatregelconcept.template",
           "target": "template",
           "cardinality": "one"
         },
