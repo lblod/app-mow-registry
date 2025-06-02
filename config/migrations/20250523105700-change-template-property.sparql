@@ -1,0 +1,15 @@
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+DELETE {
+    GRAPH ?g {
+        ?uri mobiliteit:template ?template.
+    }
+} INSERT {
+    GRAPH ?g {
+        ?uri mobiliteit:Mobiliteitsmaatregelconcept.template ?template.
+    }
+} WHERE {
+    GRAPH ?g {
+        ?uri a mobiliteit:Mobiliteitmaatregelconcept;
+            mobiliteit:template ?template.
+    }
+}
