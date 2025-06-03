@@ -6,6 +6,7 @@ services:
   dispatcher:
     restart: "no"
   triplestore:
+    restart: "no"
     ports:
       - "8890:8890"
   mocklogin:
@@ -56,4 +57,6 @@ services:
   tombstone:
     restart: "no"
   deltanotifier:
+    restart: "no"
+  modified:
     restart: "no"
