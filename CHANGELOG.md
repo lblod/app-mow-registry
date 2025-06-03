@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 3.0.0
+
+### Major Changes
+
+- [#130](https://github.com/lblod/app-mow-registry/pull/130) [`e1ff244`](https://github.com/lblod/app-mow-registry/commit/e1ff244c741803ff93093aa94724097e2e6f1177) Thanks [@lagartoverde](https://github.com/lagartoverde)! - MODEL BREAKING: changed Mobiliteitmaatregelconcept relationship to template from mobiliteit:template to mobiliteit:Mobiliteitsmaatregelconcept.template
+
 ## 2.6.4
 
 ### Patch Changes
