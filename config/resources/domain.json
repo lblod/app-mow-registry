@@ -415,6 +415,11 @@
           "target": "image",
           "cardinality": "one"
         },
+        "variables": {
+          "predicate": "mobiliteit:variabele",
+          "target": "variable",
+          "cardinality": "many"
+        },
         "status": {
           "predicate": "vs:term_status",
           "target": "skosConcept",
@@ -439,11 +444,6 @@
       "super": ["trafficSignConcept"],
       "attributes": {},
       "relationships": {
-        "variables": {
-          "predicate": "mobiliteit:variabele",
-          "target": "variable",
-          "cardinality": "many"
-        },
         "status": {
           "predicate": "vs:term_status",
           "target": "roadSignConceptStatus",
