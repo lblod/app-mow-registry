@@ -420,6 +420,11 @@
           "target": "variable",
           "cardinality": "many"
         },
+        "shapes": {
+          "predicate": "icb:isCharacterisedBy",
+          "target": "tribontShape",
+          "cardinality": "many"
+        },
         "status": {
           "predicate": "vs:term_status",
           "target": "skosConcept",
@@ -457,11 +462,6 @@
         "classifications": {
           "predicate": "dct:type",
           "target": "roadSignCategory",
-          "cardinality": "many"
-        },
-        "shapes": {
-          "predicate": "icb:isCharacterisedBy",
-          "target": "tribontShape",
           "cardinality": "many"
         },
         "subSigns": {
