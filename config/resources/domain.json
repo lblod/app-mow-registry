@@ -415,6 +415,16 @@
           "target": "image",
           "cardinality": "one"
         },
+        "variables": {
+          "predicate": "mobiliteit:variabele",
+          "target": "variable",
+          "cardinality": "many"
+        },
+        "shapes": {
+          "predicate": "icb:isCharacterisedBy",
+          "target": "tribontShape",
+          "cardinality": "many"
+        },
         "status": {
           "predicate": "vs:term_status",
           "target": "skosConcept",
@@ -439,11 +449,6 @@
       "super": ["trafficSignConcept"],
       "attributes": {},
       "relationships": {
-        "variables": {
-          "predicate": "mobiliteit:variabele",
-          "target": "variable",
-          "cardinality": "many"
-        },
         "status": {
           "predicate": "vs:term_status",
           "target": "roadSignConceptStatus",
@@ -457,11 +462,6 @@
         "classifications": {
           "predicate": "dct:type",
           "target": "roadSignCategory",
-          "cardinality": "many"
-        },
-        "shapes": {
-          "predicate": "icb:isCharacterisedBy",
-          "target": "tribontShape",
           "cardinality": "many"
         },
         "subSigns": {
