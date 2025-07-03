@@ -425,6 +425,11 @@
           "target": "tribontShape",
           "cardinality": "many"
         },
+        "defaultShape": {
+          "predicate": "mobiliteit:heeftStandaardVorm",
+          "target": "tribontShape",
+          "cardinality": "one"
+        },
         "status": {
           "predicate": "vs:term_status",
           "target": "skosConcept",
