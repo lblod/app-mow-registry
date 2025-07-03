@@ -1,5 +1,23 @@
 # app-mow-registry
 
+## 3.1.0
+
+### Minor Changes
+
+- [#132](https://github.com/lblod/app-mow-registry/pull/132) [`eb908a5`](https://github.com/lblod/app-mow-registry/commit/eb908a5285df1c5567c246456c74118425aa6202) Thanks [@elpoelma](https://github.com/elpoelma)! - Move `icb:isCharacterisedBy` shapes relationship from `road-sign-concept` to `traffic-sign-concept` class
+
+- [#133](https://github.com/lblod/app-mow-registry/pull/133) [`2f682c8`](https://github.com/lblod/app-mow-registry/commit/2f682c80d73e114d44b7f111e44eaef37cbc253f) Thanks [@piemonkey](https://github.com/piemonkey)! - Update frontend to support setting default shapes (v2.5.0)
+
+- [#133](https://github.com/lblod/app-mow-registry/pull/133) [`65444d1`](https://github.com/lblod/app-mow-registry/commit/65444d159425fa84b474eda87a19c65f109f6dd7) Thanks [@piemonkey](https://github.com/piemonkey)! - Add default shape to road signs and road markings
+
+- [#131](https://github.com/lblod/app-mow-registry/pull/131) [`5c61937`](https://github.com/lblod/app-mow-registry/commit/5c6193796753b39d17a9c2aa9c7427c42053d998) Thanks [@piemonkey](https://github.com/piemonkey)! - Move variable relationship up a level of inheritance so that it is usable on any traffic sign concept
+
+- [#131](https://github.com/lblod/app-mow-registry/pull/131) [`5bf3a84`](https://github.com/lblod/app-mow-registry/commit/5bf3a84580dfc693b434de3156b587f020ff2e96) Thanks [@piemonkey](https://github.com/piemonkey)! - Update frontend to version [2.4.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.4.0)
+
+### Patch Changes
+
+- [#133](https://github.com/lblod/app-mow-registry/pull/133) [`4e1d325`](https://github.com/lblod/app-mow-registry/commit/4e1d3254c38d51364009f7a9c335717a7cd8a3ee) Thanks [@piemonkey](https://github.com/piemonkey)! - Update fix-annotation-service to latest with fixes to how deletions are handled
+
 ## 3.0.1
 
 ### Patch Changes
