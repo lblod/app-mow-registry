@@ -157,6 +157,8 @@ services:
       - ./data/ldes-feed:/ldes/ldes-feed
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
 
   ldes-delta-pusher:
     image: redpencil/ldes-delta-pusher:1.2.5
@@ -181,6 +183,8 @@ services:
       - triplestore:virtuoso
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
 
   tombstone:
     image: lblod/tombstone-service
@@ -188,6 +192,8 @@ services:
       - db:database
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
 
   deltanotifier:
     image: cecemel/delta-notifier:0.2.0-beta.2
