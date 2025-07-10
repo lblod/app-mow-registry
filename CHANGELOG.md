@@ -1,5 +1,17 @@
 # app-mow-registry
 
+## 3.2.0
+
+### Minor Changes
+
+- [`6091a5d`](https://github.com/lblod/app-mow-registry/commit/6091a5da679df7a152161bcec6604d91451882fd) Thanks [@abeforgit](https://github.com/abeforgit)! - Bump frontend to [v2.6.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.6.0)
+
+- [#135](https://github.com/lblod/app-mow-registry/pull/135) [`633f75b`](https://github.com/lblod/app-mow-registry/commit/633f75b3724f36e2d71791b6028520bfe2662ff1) Thanks [@piemonkey](https://github.com/piemonkey)! - Rename super-class of road signs, road markings and traffic lights to 'traffic signal' to more closely match the original Dutch 'verkeersteken'
+
+### Patch Changes
+
+- [#134](https://github.com/lblod/app-mow-registry/pull/134) [`44d3669`](https://github.com/lblod/app-mow-registry/commit/44d3669b69e767ebfe99bd76014840034d732346) Thanks [@piemonkey](https://github.com/piemonkey)! - Add log rotation configuration for ldes services that were missing it
+
 ## 3.1.0
 
 ### Minor Changes
