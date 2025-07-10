@@ -374,17 +374,17 @@
           "target": "template",
           "cardinality": "one"
         },
-        "relatedTrafficSignConcepts": {
+        "relatedTrafficSignalConcepts": {
           "predicate": "mobiliteit:heeftMaatregelconcept",
-          "target": "trafficSignConcept",
+          "target": "trafficSignalConcept",
           "cardinality": "many",
           "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-measure-concepts/"
     },
-    "traffic-sign-concepts": {
-      "name": "trafficSignConcept",
+    "traffic-signal-concepts": {
+      "name": "trafficSignalConcept",
       "class": "mobiliteit:Verkeerstekenconcept",
       "super": ["skosConcept"],
       "attributes": {
@@ -446,12 +446,12 @@
           "cardinality": "many"
         }
       },
-      "new-resource-base": "http://data.lblod.info/traffic-sign-concepts/"
+      "new-resource-base": "http://data.lblod.info/traffic-signal-concepts/"
     },
     "road-sign-concepts": {
       "name": "roadSignConcept",
       "class": "mobiliteit:Verkeersbordconcept",
-      "super": ["trafficSignConcept"],
+      "super": ["trafficSignalConcept"],
       "attributes": {},
       "relationships": {
         "status": {
@@ -509,7 +509,7 @@
     "road-marking-concepts": {
       "name": "roadMarkingConcept",
       "class": "mobiliteit:Wegmarkeringconcept",
-      "super": ["trafficSignConcept"],
+      "super": ["trafficSignalConcept"],
       "attributes": {},
       "relationships": {
         "relatedToRoadMarkingConcepts": {
@@ -545,7 +545,7 @@
     "traffic-light-concepts": {
       "name": "trafficLightConcept",
       "class": "mobiliteit:Verkeerslichtconcept",
-      "super": ["trafficSignConcept"],
+      "super": ["trafficSignalConcept"],
       "attributes": {},
       "relationships": {
         "relatedToTrafficLightConcepts": {
