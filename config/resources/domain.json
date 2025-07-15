@@ -106,7 +106,7 @@
         },
         "variables": {
           "predicate": "ext:codeList",
-          "target": "variable",
+          "target": "codelist-variable",
           "cardinality": "many",
           "inverse": true
         }
@@ -233,7 +233,60 @@
         "required": {
           "type": "boolean",
           "predicate": "variables:required"
-        },
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "text-variables": {
+      "name": "textVariable",
+      "class": "ext:TextVariable",
+      "super": ["variable"],
+      "attributes": {
+        "defaultValue": {
+          "type": "string",
+          "predicate": "variables:defaultValue"
+        }
+      }
+    },
+    "number-variables": {
+      "name": "numberVariable",
+      "class": "ext:NumberVariable",
+      "super": ["variable"],
+      "attributes": {
+        "defaultValue": {
+          "type": "number",
+          "predicate": "variables:defaultValue"
+        }
+      }
+    },
+    "date-variables": {
+      "name": "dateVariable",
+      "class": "ext:DateVariable",
+      "super": ["variable"],
+      "attributes": {
+        "defaultValue": {
+          "type": "date",
+          "predicate": "variables:defaultValue"
+        }
+      }
+    },
+    "location-variables": {
+      "name": "locationVariable",
+      "class": "ext:LocationVariable",
+      "super": ["variable"],
+      "attributes": {
+        "defaultValue": {
+          "type": "string",
+          "predicate": "variables:defaultValue"
+        }
+      }
+    },
+    "codelist-variables": {
+      "name": "codelistVariable",
+      "class": "ext:CodelistVariable",
+      "super": ["variable"],
+      "attributes": {
         "defaultValue": {
           "type": "string",
           "predicate": "variables:defaultValue"
@@ -244,15 +297,20 @@
           "predicate": "mobiliteit:codelijst",
           "target": "codeList",
           "cardinality": "one"
-        },
+        }
+      }
+    },
+    "instruction-variables": {
+      "name": "instructionVariable",
+      "class": "ext:InstructionVariable",
+      "super": ["variable"],
+      "relationships": {
         "template": {
           "predicate": "mobiliteit:template",
           "target": "template",
           "cardinality": "one"
         }
-      },
-      "features": ["include-uri"],
-      "new-resource-base": "http://data.lblod.info/variables/"
+      }
     },
     "units": {
       "name": "unit",
@@ -397,7 +455,7 @@
           "predicate": "ext:valid"
         },
         "ar-plichtig": {
-          "type":"boolean",
+          "type": "boolean",
           "predicate": "mobiliteit:ARplichtig"
         },
         "start-date": {
