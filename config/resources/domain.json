@@ -14,7 +14,8 @@
     "icb": "https://w3id.org/isCharacterisedBy#",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "qudt": "http://qudt.org/schema/qudt/",
-    "variables": "http://lblod.data.gift/vocabularies/variables/"
+    "variables": "http://lblod.data.gift/vocabularies/variables/",
+    "schema": "http://schema.org/"
   },
   "resources": {
     "resources": {
@@ -379,9 +380,32 @@
           "target": "trafficSignalConcept",
           "cardinality": "many",
           "inverse": true
+        },
+        "relatedTrafficSignalConceptsOrdered": {
+          "predicate": "mobiliteit:heeftVerkeerstekenLijstItem",
+          "target": "trafficSignalListItem",
+          "cardinality": "many"
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-measure-concepts/"
+    },
+    "traffic-signal-list-items": {
+      "name": "trafficSignalListItem",
+      "class": "mobiliteit:MaatregelVerkeerstekenLijstItem",
+      "attributes": {
+        "position": {
+          "type": "number",
+          "predicate": "schema:position"
+        }
+      },
+      "relationships": {
+        "item": {
+          "predicate": "schema:item",
+          "target": "trafficSignalConcept",
+          "cardinality": "one"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/traffic-signal-list-items/"
     },
     "traffic-signal-concepts": {
       "name": "trafficSignalConcept",
