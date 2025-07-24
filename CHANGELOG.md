@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 3.3.0
+
+### Minor Changes
+
+- [`9a87148`](https://github.com/lblod/app-mow-registry/commit/9a871485eda9d02a4e88b8eb2bedbe61ae481fb1) Thanks [@piemonkey](https://github.com/piemonkey)! - frontend to [v2.7.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.7.0)
+
 ## 3.2.0
 
 ### Minor Changes
