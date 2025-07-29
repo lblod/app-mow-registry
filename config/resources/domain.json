@@ -247,7 +247,8 @@
           "type": "string",
           "predicate": "variables:defaultValue"
         }
-      }
+      },
+      "new-resource-base": "http://data.lblod.info/variables/"
     },
     "number-variables": {
       "name": "numberVariable",
@@ -258,7 +259,8 @@
           "type": "number",
           "predicate": "variables:defaultValue"
         }
-      }
+      },
+      "new-resource-base": "http://data.lblod.info/variables/"
     },
     "date-variables": {
       "name": "dateVariable",
@@ -269,7 +271,8 @@
           "type": "date",
           "predicate": "variables:defaultValue"
         }
-      }
+      },
+      "new-resource-base": "http://data.lblod.info/variables/"
     },
     "location-variables": {
       "name": "locationVariable",
@@ -280,7 +283,8 @@
           "type": "string",
           "predicate": "variables:defaultValue"
         }
-      }
+      },
+      "new-resource-base": "http://data.lblod.info/variables/"
     },
     "codelist-variables": {
       "name": "codelistVariable",
@@ -298,7 +302,8 @@
           "target": "codeList",
           "cardinality": "one"
         }
-      }
+      },
+      "new-resource-base": "http://data.lblod.info/variables/"
     },
     "instruction-variables": {
       "name": "instructionVariable",
@@ -310,7 +315,8 @@
           "target": "template",
           "cardinality": "one"
         }
-      }
+      },
+      "new-resource-base": "http://data.lblod.info/variables/"
     },
     "units": {
       "name": "unit",
