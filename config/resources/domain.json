@@ -106,8 +106,8 @@
           "cardinality": "one"
         },
         "variables": {
-          "predicate": "ext:codeList",
-          "target": "codelist-variable",
+          "predicate": "mobiliteit:codelijst",
+          "target": "codelistVariable",
           "cardinality": "many",
           "inverse": true
         }
