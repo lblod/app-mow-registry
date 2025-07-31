@@ -26,7 +26,7 @@
 (add-prefix "org" "http://www.w3.org/ns/org#")
 (add-prefix "mobiliteit" "https://data.vlaanderen.be/ns/mobiliteit#")
 (add-prefix "vs" "http://www.w3.org/2003/06/sw-vocab-status/ns#")
-
+(add-prefix "schema" "http://schema.org/")
 
 
 ;;;;;
