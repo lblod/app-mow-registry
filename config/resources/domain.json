@@ -133,6 +133,19 @@
       "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/concepts/"
     },
+    "code-list-values": {
+      "name": "codeListValue",
+      "class": "ext:CodeListValue",
+      "super": ["skosConcept"],
+      "attributes": {
+        "position": {
+          "type": "number",
+          "predicate": "schema:position"
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://lblod.data.gift/code-list-value/"
+    },
     "concepts": {
       "name": "concept",
       "class": "ext:Concept",
