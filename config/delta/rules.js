@@ -75,4 +75,23 @@ export default [
       retryTimeout: 250,
     },
   },
+  {
+    match: {
+      predicate: {
+        type: "uri",
+        value:
+          "https://data.vlaanderen.be/ns/mobiliteit#heeftVerkeerstekenLijstItem",
+      },
+    },
+    callback: {
+      url: "http://ordered-signs/delta",
+      method: "POST",
+    },
+    options: {
+      resourceFormat: "v0.0.1",
+      ignoreFromSelf: true,
+      gracePeriod: 10000,
+      foldEffectiveChanges: true,
+    },
+  },
 ];
