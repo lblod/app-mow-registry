@@ -67,7 +67,16 @@ services:
     restart: always
     logging: *default-logging
   resource:
-    image: semtech/mu-cl-resources:1.24.0
+    # !! CHECK BEFORE UPDATING !!
+    # there is a patch in domain.lisp, which fixes a problem with the 2
+    # relationships that use the mobiliteit:template predicate
+    # (variable->template and measure->template)
+    # There is a small chance this patch breaks in a later version, since it uses private apis
+    # It is also quite likely the patch is no longer needed in later versions,
+    # since it is a rather clear bugfix
+    # So, either verify the patch still works (ask @abeforgit for context) or
+    # remove it if you've confirmed the fix is in the new version
+    image: semtech/mu-cl-resources:1.27.0
     environment:
       CACHE_CLEAR_PATH: "http://cache/.mu/clear-keys"
     links:
