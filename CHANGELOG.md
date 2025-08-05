@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 2.4.1
+
+### Patch Changes
+
+- [`f26fab0`](https://github.com/lblod/app-mow-registry/commit/f26fab012d47c5e7d5786ea4875e9eade0eb0e7a) Thanks [@abeforgit](https://github.com/abeforgit)! - Fix crash when loading instruction templates for template-type variables in measures
+
 ## 2.4.0
 
 ### Minor Changes
