@@ -252,71 +252,83 @@
       "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/variables/"
     },
+    "literal-variables": {
+      "name": "literalVariable",
+      "super": ["variable"],
+      "class": "variables:VariableWithLiteralValue",
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
     "text-variables": {
       "name": "textVariable",
+      "super": ["literalVariable"],
       "class": "ext:TextVariable",
-      "super": ["variable"],
       "attributes": {
         "defaultValue": {
           "type": "string",
           "predicate": "variables:defaultValue"
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/variables/"
     },
     "number-variables": {
       "name": "numberVariable",
+      "super": ["literalVariable"],
       "class": "ext:NumberVariable",
-      "super": ["variable"],
       "attributes": {
         "defaultValue": {
           "type": "number",
           "predicate": "variables:defaultValue"
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/variables/"
     },
     "date-variables": {
       "name": "dateVariable",
+      "super": ["literalVariable"],
       "class": "ext:DateVariable",
-      "super": ["variable"],
       "attributes": {
         "defaultValue": {
           "type": "date",
           "predicate": "variables:defaultValue"
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/variables/"
     },
-    "location-variables": {
-      "name": "locationVariable",
-      "class": "ext:LocationVariable",
+    "reference-variables": {
+      "name": "referenceVariable",
       "super": ["variable"],
-      "attributes": {
-        "defaultValue": {
-          "type": "string",
-          "predicate": "variables:defaultValue"
-        }
-      },
-      "new-resource-base": "http://data.lblod.info/variables/"
-    },
-    "codelist-variables": {
-      "name": "codelistVariable",
-      "class": "ext:CodelistVariable",
-      "super": ["variable"],
-      "attributes": {
-        "defaultValue": {
-          "type": "string",
-          "predicate": "variables:defaultValue"
-        }
-      },
+      "class": "variables:VariableWithReference",
       "relationships": {
         "codeList": {
           "predicate": "mobiliteit:codelijst",
           "target": "codeList",
           "cardinality": "one"
+        },
+        "defaultValue": {
+          "predicate": "variables:defaultValue",
+          "target": "skosConcept",
+          "cardinality": "one"
         }
       },
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "codelist-variables": {
+      "name": "codelistVariable",
+      "super": ["referenceVariable"],
+      "class": "ext:CodelistVariable",
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "location-variables": {
+      "name": "locationVariable",
+      "super": ["variable"],
+      "class": "variables:VariableWithLocation",
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/variables/"
     },
     "instruction-variables": {
