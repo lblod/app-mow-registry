@@ -196,7 +196,7 @@ services:
       - "logging=true"
 
   deltanotifier:
-    image: cecemel/delta-notifier:0.2.0-beta.2
+    image: semtech/mu-delta-notifier:0.4.0
     volumes:
       - ./config/delta:/config
     labels:
@@ -214,3 +214,7 @@ services:
       - db:database
     restart: always
     logging: *default-logging
+  ordered-signs:
+    image: lblod/mow-ordered-signs-service:1.0.1
+    links:
+      - triplestore:database
