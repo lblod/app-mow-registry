@@ -214,3 +214,7 @@ services:
       - db:database
     restart: always
     logging: *default-logging
+  ordered-signs:
+    image: lblod/mow-ordered-signs-service:1.0.1
+    links:
+      - triplestore:database
