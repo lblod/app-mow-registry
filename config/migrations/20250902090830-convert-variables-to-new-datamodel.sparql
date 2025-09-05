@@ -1,0 +1,48 @@
+PREFIX variables: <http://lblod.data.gift/vocabularies/variables/>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a variables:VariableWithLiteralValue;
+              a ?typeUri.
+  }
+  
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    VALUES (?type ?typeUri) {
+      ("text" ext:TextVariable)
+      ("number" ext:NumberVariable)
+      ("date" ext:DateVariable)
+    }
+    ?variable a variables:Variable;
+              dct:type ?type.
+  }
+};
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a variables:VariableWithReference;
+              a ext:CodelistVariable.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a variables:Variable;
+              dct:type ?type.
+  }
+  FILTER(?type = 'codelist')
+};
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a variables:VariableWithLocation.
+  }
+  
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a variables:Variable;
+              dct:type ?type.
+  }
+  FILTER(?type = 'location')
+}
