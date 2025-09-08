@@ -45,4 +45,28 @@ WHERE {
               dct:type ?type.
   }
   FILTER(?type = 'location')
+};
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a variables:VariableWithLocation.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a variables:Variable;
+              dct:type ?type.
+  }
+  FILTER(?type = 'location')
+};
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a ext:InstructionVariable.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a variables:Variable;
+              dct:type ?type.
+  }
+  FILTER(?type = 'instruction')
 }
