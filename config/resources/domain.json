@@ -340,6 +340,12 @@
           "predicate": "mobiliteit:template",
           "target": "template",
           "cardinality": "one"
+        },
+        "trafficSignalConcept": {
+          "predicate": "mobiliteit:variabele",
+          "target": "trafficSignalConcept",
+          "cardinality": "one",
+          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/variables/"
@@ -379,6 +385,7 @@
           "target": "unit"
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/quantitykind/"
     },
     "dimensions": {
@@ -424,8 +431,15 @@
           "predicate": "cidoc:P43_has_dimension",
           "target": "dimension",
           "cardinality": "many"
+        },
+        "trafficSignalConcept": {
+          "predicate": "icb:isCharacterisedBy",
+          "target": "trafficSignalConcept",
+          "cardinality": "one",
+          "inverse": true
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/tribont-shapes/"
     },
     "traffic-measure-concepts": {
