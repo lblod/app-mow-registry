@@ -35,6 +35,11 @@ defmodule Dispatcher do
   match "/code-lists/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/code-lists/"
   end
+
+  match "/code-list-values/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/code-list-values/"
+  end
+
   match "/road-sign-concepts/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/road-sign-concepts/"
   end
@@ -65,6 +70,10 @@ defmodule Dispatcher do
 
   match "/traffic-light-categories/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/traffic-light-categories/"
+  end
+
+  match "/traffic-signal-list-items/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/traffic-signal-list-items/"
   end
 
   match "/road-marking-concepts/*path", %{ accept: %{json: true}, layer: :api} do

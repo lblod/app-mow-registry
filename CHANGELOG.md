@@ -1,5 +1,105 @@
 # app-mow-registry
 
+## 3.3.0
+
+### Minor Changes
+
+- [`9a87148`](https://github.com/lblod/app-mow-registry/commit/9a871485eda9d02a4e88b8eb2bedbe61ae481fb1) Thanks [@piemonkey](https://github.com/piemonkey)! - frontend to [v2.7.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.7.0)
+
+## 3.2.0
+
+### Minor Changes
+
+- [`6091a5d`](https://github.com/lblod/app-mow-registry/commit/6091a5da679df7a152161bcec6604d91451882fd) Thanks [@abeforgit](https://github.com/abeforgit)! - Bump frontend to [v2.6.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.6.0)
+
+- [#135](https://github.com/lblod/app-mow-registry/pull/135) [`633f75b`](https://github.com/lblod/app-mow-registry/commit/633f75b3724f36e2d71791b6028520bfe2662ff1) Thanks [@piemonkey](https://github.com/piemonkey)! - Rename super-class of road signs, road markings and traffic lights to 'traffic signal' to more closely match the original Dutch 'verkeersteken'
+
+### Patch Changes
+
+- [#134](https://github.com/lblod/app-mow-registry/pull/134) [`44d3669`](https://github.com/lblod/app-mow-registry/commit/44d3669b69e767ebfe99bd76014840034d732346) Thanks [@piemonkey](https://github.com/piemonkey)! - Add log rotation configuration for ldes services that were missing it
+
+## 3.1.0
+
+### Minor Changes
+
+- [#132](https://github.com/lblod/app-mow-registry/pull/132) [`eb908a5`](https://github.com/lblod/app-mow-registry/commit/eb908a5285df1c5567c246456c74118425aa6202) Thanks [@elpoelma](https://github.com/elpoelma)! - Move `icb:isCharacterisedBy` shapes relationship from `road-sign-concept` to `traffic-sign-concept` class
+
+- [#133](https://github.com/lblod/app-mow-registry/pull/133) [`2f682c8`](https://github.com/lblod/app-mow-registry/commit/2f682c80d73e114d44b7f111e44eaef37cbc253f) Thanks [@piemonkey](https://github.com/piemonkey)! - Update frontend to support setting default shapes (v2.5.0)
+
+- [#133](https://github.com/lblod/app-mow-registry/pull/133) [`65444d1`](https://github.com/lblod/app-mow-registry/commit/65444d159425fa84b474eda87a19c65f109f6dd7) Thanks [@piemonkey](https://github.com/piemonkey)! - Add default shape to road signs and road markings
+
+- [#131](https://github.com/lblod/app-mow-registry/pull/131) [`5c61937`](https://github.com/lblod/app-mow-registry/commit/5c6193796753b39d17a9c2aa9c7427c42053d998) Thanks [@piemonkey](https://github.com/piemonkey)! - Move variable relationship up a level of inheritance so that it is usable on any traffic sign concept
+
+- [#131](https://github.com/lblod/app-mow-registry/pull/131) [`5bf3a84`](https://github.com/lblod/app-mow-registry/commit/5bf3a84580dfc693b434de3156b587f020ff2e96) Thanks [@piemonkey](https://github.com/piemonkey)! - Update frontend to version [2.4.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.4.0)
+
+### Patch Changes
+
+- [#133](https://github.com/lblod/app-mow-registry/pull/133) [`4e1d325`](https://github.com/lblod/app-mow-registry/commit/4e1d3254c38d51364009f7a9c335717a7cd8a3ee) Thanks [@piemonkey](https://github.com/piemonkey)! - Update fix-annotation-service to latest with fixes to how deletions are handled
+
+## 3.0.1
+
+### Patch Changes
+
+- [`282ebe9`](https://github.com/lblod/app-mow-registry/commit/282ebe979b89ee5c6ed6222ad0b5507935c44f88) Thanks [@abeforgit](https://github.com/abeforgit)! - update frontend to [v2.3.5](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.3.5)
+
+## 3.0.0
+
+### Major Changes
+
+- [#130](https://github.com/lblod/app-mow-registry/pull/130) [`e1ff244`](https://github.com/lblod/app-mow-registry/commit/e1ff244c741803ff93093aa94724097e2e6f1177) Thanks [@lagartoverde](https://github.com/lagartoverde)! - MODEL BREAKING: changed Mobiliteitmaatregelconcept relationship to template from mobiliteit:template to mobiliteit:Mobiliteitsmaatregelconcept.template
+
+## 2.6.4
+
+### Patch Changes
+
+- [#129](https://github.com/lblod/app-mow-registry/pull/129) [`795d1d0`](https://github.com/lblod/app-mow-registry/commit/795d1d08300092a8e13cafcb76bf74c105d26706) Thanks [@elpoelma](https://github.com/elpoelma)! - Fix 'catergorie' typo in road-sign-category uri's
+
+- [#127](https://github.com/lblod/app-mow-registry/pull/127) [`178f743`](https://github.com/lblod/app-mow-registry/commit/178f7432b1bca8e9ad15d7fd0f578dac8dc22af5) Thanks [@nbittich](https://github.com/nbittich)! - Increase grace period for ldes deltas
+
+- [`33b78e5`](https://github.com/lblod/app-mow-registry/commit/33b78e519136b0ebe9c0b458ce3e6b75d7f8fbf0) Thanks [@abeforgit](https://github.com/abeforgit)! - bump frontend to [v2.3.4](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.3.4)
+
+## 2.6.3
+
+### Patch Changes
+
+- [`8d6ceb8`](https://github.com/lblod/app-mow-registry/commit/8d6ceb83c69bd854e7db1e5ea6a0ba03f57f89e2) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Upgrade to sparql-parser
+
+## 2.6.2
+
+### Patch Changes
+
+- [`327ac66`](https://github.com/lblod/app-mow-registry/commit/327ac660c4cc22020bcf8ebe74a9992f4dca4065) Thanks [@elpoelma](https://github.com/elpoelma)! - Update frontend to version [2.3.3](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.3.3)
+
+## 2.6.1
+
+### Patch Changes
+
+- [`bfd9767`](https://github.com/lblod/app-mow-registry/commit/bfd9767e7fec6c265355cb30435f6e6cdccf2c37) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Bump frontend to [2.3.2](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.3.2)
+
+## 2.6.0
+
+### Minor Changes
+
+- [#125](https://github.com/lblod/app-mow-registry/pull/125) [`5ee78d8`](https://github.com/lblod/app-mow-registry/commit/5ee78d8c2faa8cd8309e511b7de5be6a9ae2ab28) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Add new roadsign classifications
+
+## 2.5.2
+
+### Patch Changes
+
+- [`41f9f57`](https://github.com/lblod/app-mow-registry/commit/41f9f57312b4cc1453c129bd05dfb94b41ac3653) Thanks [@abeforgit](https://github.com/abeforgit)! - make sure the init-ldes script doesn't use the dev-vlag env
+
+## 2.5.1
+
+### Patch Changes
+
+- [`8c1c842`](https://github.com/lblod/app-mow-registry/commit/8c1c842ed0304d6b247f2b9dca0206662225068d) Thanks [@abeforgit](https://github.com/abeforgit)! - Bump frontend to [2.3.1](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.3.1)
+
+## 2.5.0
+
+### Minor Changes
+
+- [`6f88d2a`](https://github.com/lblod/app-mow-registry/commit/6f88d2a3077c966e50490dbb71f5f706d5b29346) Thanks [@elpoelma](https://github.com/elpoelma)! - Update frontend to version [2.3.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.3.0)
+
 ## 2.4.0
 
 ### Minor Changes

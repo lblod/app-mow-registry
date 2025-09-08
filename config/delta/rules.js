@@ -39,11 +39,7 @@ export default [
     options: {
       resourceFormat: "v0.0.1",
       ignoreFromSelf: false,
-      optOutMuScopeIds: [
-        "http://redpencil.data.gift/id/concept/muScope/deltas/initialSync",
-        "http://redpencil.data.gift/id/concept/muScope/deltas/publicationGraphMaintenance",
-      ],
-      gracePeriod: 1000,
+      gracePeriod: 15000,
     },
   },
   {
@@ -77,6 +73,25 @@ export default [
       retry: 3,
       ignoreFromSelf: true,
       retryTimeout: 250,
+    },
+  },
+  {
+    match: {
+      predicate: {
+        type: "uri",
+        value:
+          "https://data.vlaanderen.be/ns/mobiliteit#heeftVerkeerstekenLijstItem",
+      },
+    },
+    callback: {
+      url: "http://ordered-signs/delta",
+      method: "POST",
+    },
+    options: {
+      resourceFormat: "v0.0.1",
+      ignoreFromSelf: true,
+      gracePeriod: 10000,
+      foldEffectiveChanges: true,
     },
   },
 ];

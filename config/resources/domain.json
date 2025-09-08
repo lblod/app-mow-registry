@@ -14,7 +14,8 @@
     "icb": "https://w3id.org/isCharacterisedBy#",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "qudt": "http://qudt.org/schema/qudt/",
-    "variables": "http://lblod.data.gift/vocabularies/variables/"
+    "variables": "http://lblod.data.gift/vocabularies/variables/",
+    "schema": "http://schema.org/"
   },
   "resources": {
     "resources": {
@@ -133,6 +134,19 @@
       "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/concepts/"
     },
+    "code-list-values": {
+      "name": "codeListValue",
+      "class": "ext:CodeListValue",
+      "super": ["skosConcept"],
+      "attributes": {
+        "position": {
+          "type": "number",
+          "predicate": "schema:position"
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://lblod.data.gift/code-list-value/"
+    },
     "concepts": {
       "name": "concept",
       "class": "ext:Concept",
@@ -210,7 +224,7 @@
           "cardinality": "many"
         },
         "parentConcept": {
-          "predicate": "mobiliteit:template",
+          "predicate": "mobiliteit:Mobiliteitsmaatregelconcept.template",
           "target": "trafficMeasureConcept",
           "cardinality": "one",
           "inverse": true
@@ -370,21 +384,44 @@
           "cardinality": "one"
         },
         "template": {
-          "predicate": "mobiliteit:template",
+          "predicate": "mobiliteit:Mobiliteitsmaatregelconcept.template",
           "target": "template",
           "cardinality": "one"
         },
-        "relatedTrafficSignConcepts": {
+        "relatedTrafficSignalConcepts": {
           "predicate": "mobiliteit:heeftMaatregelconcept",
-          "target": "trafficSignConcept",
+          "target": "trafficSignalConcept",
           "cardinality": "many",
           "inverse": true
+        },
+        "relatedTrafficSignalConceptsOrdered": {
+          "predicate": "mobiliteit:heeftVerkeerstekenLijstItem",
+          "target": "trafficSignalListItem",
+          "cardinality": "many"
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-measure-concepts/"
     },
-    "traffic-sign-concepts": {
-      "name": "trafficSignConcept",
+    "traffic-signal-list-items": {
+      "name": "trafficSignalListItem",
+      "class": "mobiliteit:MaatregelVerkeerstekenLijstItem",
+      "attributes": {
+        "position": {
+          "type": "number",
+          "predicate": "schema:position"
+        }
+      },
+      "relationships": {
+        "item": {
+          "predicate": "schema:item",
+          "target": "trafficSignalConcept",
+          "cardinality": "one"
+        }
+      },
+      "new-resource-base": "http://data.lblod.info/traffic-signal-list-items/"
+    },
+    "traffic-signal-concepts": {
+      "name": "trafficSignalConcept",
       "class": "mobiliteit:Verkeerstekenconcept",
       "super": ["skosConcept"],
       "attributes": {
@@ -415,6 +452,21 @@
           "target": "image",
           "cardinality": "one"
         },
+        "variables": {
+          "predicate": "mobiliteit:variabele",
+          "target": "variable",
+          "cardinality": "many"
+        },
+        "shapes": {
+          "predicate": "icb:isCharacterisedBy",
+          "target": "tribontShape",
+          "cardinality": "many"
+        },
+        "defaultShape": {
+          "predicate": "mobiliteit:heeftStandaardVorm",
+          "target": "tribontShape",
+          "cardinality": "one"
+        },
         "status": {
           "predicate": "vs:term_status",
           "target": "skosConcept",
@@ -431,19 +483,14 @@
           "cardinality": "many"
         }
       },
-      "new-resource-base": "http://data.lblod.info/traffic-sign-concepts/"
+      "new-resource-base": "http://data.lblod.info/traffic-signal-concepts/"
     },
     "road-sign-concepts": {
       "name": "roadSignConcept",
       "class": "mobiliteit:Verkeersbordconcept",
-      "super": ["trafficSignConcept"],
+      "super": ["trafficSignalConcept"],
       "attributes": {},
       "relationships": {
-        "variables": {
-          "predicate": "mobiliteit:variabele",
-          "target": "variable",
-          "cardinality": "many"
-        },
         "status": {
           "predicate": "vs:term_status",
           "target": "roadSignConceptStatus",
@@ -457,11 +504,6 @@
         "classifications": {
           "predicate": "dct:type",
           "target": "roadSignCategory",
-          "cardinality": "many"
-        },
-        "shapes": {
-          "predicate": "icb:isCharacterisedBy",
-          "target": "tribontShape",
           "cardinality": "many"
         },
         "subSigns": {
@@ -504,7 +546,7 @@
     "road-marking-concepts": {
       "name": "roadMarkingConcept",
       "class": "mobiliteit:Wegmarkeringconcept",
-      "super": ["trafficSignConcept"],
+      "super": ["trafficSignalConcept"],
       "attributes": {},
       "relationships": {
         "relatedToRoadMarkingConcepts": {
@@ -540,7 +582,7 @@
     "traffic-light-concepts": {
       "name": "trafficLightConcept",
       "class": "mobiliteit:Verkeerslichtconcept",
-      "super": ["trafficSignConcept"],
+      "super": ["trafficSignalConcept"],
       "attributes": {},
       "relationships": {
         "relatedToTrafficLightConcepts": {

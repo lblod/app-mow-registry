@@ -47,14 +47,13 @@ services:
       - "logging=true"
     logging: *default-logging
   db:
-    image: semtech/mu-authorization:0.6.0-beta.8
-    environment:
-      MU_SPARQL_ENDPOINT: "http://triplestore:8890/sparql"
+    image: semtech/sparql-parser:feature-construct-updates
     volumes:
-      - ./config/authorization:/config
-    restart: always
+      - ./config/cl-authorization:/config
+      - ./data/mu-auth:/data
     labels:
       - "logging=true"
+    restart: always
     logging: *default-logging
   migrations:
     image: semtech/mu-migrations-service
@@ -106,7 +105,7 @@ services:
     restart: always
     logging: *default-logging
   frontend:
-    image: lblod/frontend-mow-registry:2.2.0
+    image: lblod/frontend-mow-registry:2.7.0
     labels:
       - "logging=true"
     restart: always
@@ -142,7 +141,7 @@ services:
       - ./scripts/:/app/scripts/
     restart: "no"
   annotater:
-    image: lblod/fix-annotation-service:4.1.0
+    image: lblod/fix-annotation-service:4.1.2
     environment:
       SPARQL_ENDPOINT: "http://db:8890/sparql"
     restart: "no"
@@ -156,9 +155,8 @@ services:
   ################################################################################
 
   ldes-serve-feed:
-    image: lblod/ldes-serve-feed-service:0.1.0
+    image: lblod/ldes-serve-feed-service:0.1.1
     environment:
-      BASE_URL: "https://dev-vlag.roadsigns.lblod.info/"
       LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
       TIME_TREE_RELATION_PATH: "http://www.w3.org/ns/prov#generatedAtTime"
       PAGE_RESOURCES_COUNT: "50"
@@ -167,13 +165,15 @@ services:
     volumes:
       - ./data/ldes-feed:/ldes/ldes-feed
     restart: always
+    logging: *default-logging
+    labels:
+      - "logging=true"
 
   ldes-delta-pusher:
-    image: redpencil/ldes-delta-pusher:1.2.4
+    image: redpencil/ldes-delta-pusher:1.2.5
     environment:
       CRON_HEALING: "0 0 0 * * *" # Every day at midnight
       AUTO_HEALING: "true"
-      LDES_BASE: "https://dev-vlag.roadsigns.lblod.info/"
       FOLDER_DEPTH: "1"
       PAGE_RESOURCES_COUNT: "50"
       LDES_STREAM_PREFIX: "http://data.lblod.info/streams/op/"
@@ -191,21 +191,28 @@ services:
       - db:database
       - triplestore:virtuoso
     restart: always
+    logging: *default-logging
+    labels:
+      - "logging=true"
 
   tombstone:
     image: lblod/tombstone-service
     links:
       - db:database
     restart: always
+    logging: *default-logging
+    labels:
+      - "logging=true"
+
   deltanotifier:
-    image: cecemel/delta-notifier:0.2.0-beta.2
+    image: semtech/mu-delta-notifier:0.4.0
     volumes:
       - ./config/delta:/config
     labels:
       - "logging=true"
     restart: always
     logging: *default-logging
-  
+
   modified:
     image: lblod/track-modified-service:0.0.1
     labels:
@@ -216,4 +223,7 @@ services:
       - db:database
     restart: always
     logging: *default-logging
-
+  ordered-signs:
+    image: lblod/mow-ordered-signs-service:1.0.1
+    links:
+      - triplestore:database

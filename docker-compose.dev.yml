@@ -6,6 +6,7 @@ services:
   dispatcher:
     restart: "no"
   triplestore:
+    restart: "no"
     ports:
       - "8890:8890"
   mocklogin:
@@ -50,8 +51,12 @@ services:
       LDES_BASE: "http://localhost/"
     restart: "no"
   ldes-serve-feed:
+    environment:
+      BASE_URL: "http://localhost/"
     restart: "no"
   tombstone:
     restart: "no"
   deltanotifier:
+    restart: "no"
+  modified:
     restart: "no"
