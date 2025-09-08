@@ -75,7 +75,7 @@ services:
     # since it is a rather clear bugfix
     # So, either verify the patch still works (ask @abeforgit for context) or
     # remove it if you've confirmed the fix is in the new version
-    image: semtech/mu-cl-resources:1.27.0
+    image: semtech/mu-cl-resources:feature-always-assume-lockless-hashtables
     environment:
       CACHE_CLEAR_PATH: "http://cache/.mu/clear-keys"
     links:
