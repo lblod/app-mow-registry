@@ -77,6 +77,7 @@
   ("ext:Concept" -> _)
   ("ext:Resource" -> _)
   ("variables:Variable" -> _)
+  ("mobiliteit:MaatregelVerkeerstekenLijstItem" -> _)
 )
 
 (define-graph public-graph ("http://mu.semte.ch/graphs/public")
@@ -110,6 +111,7 @@
   ("ext:Concept" -> _)
   ("ext:Resource" -> _)
   ("variables:Variable" -> _)
+  ("mobiliteit:MaatregelVerkeerstekenLijstItem" -> _)
 )
 
 (supply-allowed-group "logged-in-user"
