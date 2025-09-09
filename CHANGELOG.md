@@ -1,5 +1,19 @@
 # app-mow-registry
 
+## 3.4.0
+
+### Minor Changes
+
+- [#138](https://github.com/lblod/app-mow-registry/pull/138) [`b53c32d`](https://github.com/lblod/app-mow-registry/commit/b53c32d2ceb42a48cf97f2c4b61321ee9fe6f4e3) Thanks [@piemonkey](https://github.com/piemonkey)! - Add code-list-value as a subclass of skos-concept to handle storing positions
+
+### Patch Changes
+
+- [#139](https://github.com/lblod/app-mow-registry/pull/139) [`ed77c6a`](https://github.com/lblod/app-mow-registry/commit/ed77c6a79de9eb26bf762699b089a7dd721698c8) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Mark some existing signs as AR plichtig
+
+- [#142](https://github.com/lblod/app-mow-registry/pull/142) [`ee5a999`](https://github.com/lblod/app-mow-registry/commit/ee5a9991ab8eb68b9731d9c5f8da4b848ee1d9de) Thanks [@elpoelma](https://github.com/elpoelma)! - Update sparql-parser to `feature-construct-updates` tag
+
+- [#141](https://github.com/lblod/app-mow-registry/pull/141) [`f26fab0`](https://github.com/lblod/app-mow-registry/commit/f26fab012d47c5e7d5786ea4875e9eade0eb0e7a) Thanks [@abeforgit](https://github.com/abeforgit)! - Fix crash when loading instruction templates for template-type variables in measures
+
 ## 3.3.0
 
 ### Minor Changes
