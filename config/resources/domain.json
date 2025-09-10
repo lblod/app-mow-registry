@@ -349,7 +349,12 @@
     "tribont-shapes": {
       "name": "tribontShape",
       "class": "tribont:Shape",
-      "attributes": {},
+      "attributes": {
+        "created-on": {
+          "type": "datetime",
+          "predicate": "dct:created"
+        }
+      },
       "relationships": {
         "classification": {
           "predicate": "cidoc:P2_has_type",
