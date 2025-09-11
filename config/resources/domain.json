@@ -16,6 +16,7 @@
     "qudt": "http://qudt.org/schema/qudt/",
     "variables": "http://lblod.data.gift/vocabularies/variables/",
     "schema": "http://schema.org/"
+    "dct": "http://lblod.data.gift/vocabularies/variables/"
   },
   "resources": {
     "resources": {
@@ -267,6 +268,10 @@
         "defaultValue": {
           "type": "string",
           "predicate": "variables:defaultValue"
+        },
+        "created-on": {
+          "type": "datetime",
+          "predicate": "dct:created"
         }
       },
       "features": ["include-uri"],
@@ -420,7 +425,12 @@
     "tribont-shapes": {
       "name": "tribontShape",
       "class": "tribont:Shape",
-      "attributes": {},
+      "attributes": {
+        "created-on": {
+          "type": "datetime",
+          "predicate": "dct:created"
+        }
+      },
       "relationships": {
         "classification": {
           "predicate": "cidoc:P2_has_type",
