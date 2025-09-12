@@ -248,6 +248,18 @@
         "required": {
           "type": "boolean",
           "predicate": "variables:required"
+        },
+        "created-on": {
+          "type": "datetime",
+          "predicate": "dct:created"
+        }
+      },
+      "relationships": {
+        "trafficSignalConcept": {
+          "predicate": "mobiliteit:variabele",
+          "target": "trafficSignalConcept",
+          "cardinality": "one",
+          "inverse": true
         }
       },
       "features": ["include-uri"],
@@ -268,10 +280,6 @@
         "defaultValue": {
           "type": "string",
           "predicate": "variables:defaultValue"
-        },
-        "created-on": {
-          "type": "datetime",
-          "predicate": "dct:created"
         }
       },
       "features": ["include-uri"],
@@ -345,12 +353,6 @@
           "predicate": "mobiliteit:template",
           "target": "template",
           "cardinality": "one"
-        },
-        "trafficSignalConcept": {
-          "predicate": "mobiliteit:variabele",
-          "target": "trafficSignalConcept",
-          "cardinality": "one",
-          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/variables/"
