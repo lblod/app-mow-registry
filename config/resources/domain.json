@@ -107,8 +107,8 @@
           "cardinality": "one"
         },
         "variables": {
-          "predicate": "ext:codeList",
-          "target": "variable",
+          "predicate": "mobiliteit:codelijst",
+          "target": "codelistVariable",
           "cardinality": "many",
           "inverse": true
         }
@@ -249,26 +249,12 @@
           "type": "boolean",
           "predicate": "variables:required"
         },
-        "defaultValue": {
-          "type": "string",
-          "predicate": "variables:defaultValue"
-        },
         "created-on": {
           "type": "datetime",
           "predicate": "dct:created"
         }
       },
       "relationships": {
-        "codeList": {
-          "predicate": "mobiliteit:codelijst",
-          "target": "codeList",
-          "cardinality": "one"
-        },
-        "template": {
-          "predicate": "mobiliteit:template",
-          "target": "template",
-          "cardinality": "one"
-        },
         "trafficSignalConcept": {
           "predicate": "mobiliteit:variabele",
           "target": "trafficSignalConcept",
@@ -277,6 +263,98 @@
         }
       },
       "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "literal-variables": {
+      "name": "literalVariable",
+      "super": ["variable"],
+      "class": "variables:VariableWithLiteralValue",
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "text-variables": {
+      "name": "textVariable",
+      "super": ["literalVariable"],
+      "class": "ext:TextVariable",
+      "attributes": {
+        "defaultValue": {
+          "type": "string",
+          "predicate": "variables:defaultValue"
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "number-variables": {
+      "name": "numberVariable",
+      "super": ["literalVariable"],
+      "class": "ext:NumberVariable",
+      "attributes": {
+        "defaultValue": {
+          "type": "number",
+          "predicate": "variables:defaultValue"
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "date-variables": {
+      "name": "dateVariable",
+      "super": ["literalVariable"],
+      "class": "ext:DateVariable",
+      "attributes": {
+        "defaultValue": {
+          "type": "date",
+          "predicate": "variables:defaultValue"
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "reference-variables": {
+      "name": "referenceVariable",
+      "super": ["variable"],
+      "class": "variables:VariableWithReference",
+      "relationships": {
+        "codeList": {
+          "predicate": "mobiliteit:codelijst",
+          "target": "codeList",
+          "cardinality": "one"
+        },
+        "defaultValue": {
+          "predicate": "variables:defaultValue",
+          "target": "skosConcept",
+          "cardinality": "one"
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "codelist-variables": {
+      "name": "codelistVariable",
+      "super": ["referenceVariable"],
+      "class": "ext:CodelistVariable",
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "location-variables": {
+      "name": "locationVariable",
+      "super": ["variable"],
+      "class": "variables:VariableWithLocation",
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "instruction-variables": {
+      "name": "instructionVariable",
+      "class": "ext:InstructionVariable",
+      "super": ["variable"],
+      "relationships": {
+        "template": {
+          "predicate": "mobiliteit:template",
+          "target": "template",
+          "cardinality": "one"
+        }
+      },
       "new-resource-base": "http://data.lblod.info/variables/"
     },
     "units": {
@@ -458,7 +536,7 @@
           "predicate": "ext:valid"
         },
         "ar-plichtig": {
-          "type":"boolean",
+          "type": "boolean",
           "predicate": "mobiliteit:ARplichtig"
         },
         "start-date": {
