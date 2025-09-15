@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 3.4.1
+
+### Patch Changes
+
+- [#144](https://github.com/lblod/app-mow-registry/pull/144) [`9ec3a1a`](https://github.com/lblod/app-mow-registry/commit/9ec3a1a7aa310e6dd18175b52d0640ed8c811743) Thanks [@elpoelma](https://github.com/elpoelma)! - Update `mu-cl-resources` service to `feature-always-assume-lockless-hashtables` tag. This tag fixes issues with failing DELETE requests introduced in version 1.27.0
+
 ## 3.4.0
 
 ### Minor Changes
