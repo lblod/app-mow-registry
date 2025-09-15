@@ -277,7 +277,7 @@
       "super": ["literalVariable"],
       "class": "ext:TextVariable",
       "attributes": {
-        "defaultValue": {
+        "default-value": {
           "type": "string",
           "predicate": "variables:defaultValue"
         }
@@ -290,7 +290,7 @@
       "super": ["literalVariable"],
       "class": "ext:NumberVariable",
       "attributes": {
-        "defaultValue": {
+        "default-value": {
           "type": "number",
           "predicate": "variables:defaultValue"
         }
@@ -303,8 +303,8 @@
       "super": ["literalVariable"],
       "class": "ext:DateVariable",
       "attributes": {
-        "defaultValue": {
-          "type": "date",
+        "default-value": {
+          "type": "datetime",
           "predicate": "variables:defaultValue"
         }
       },
