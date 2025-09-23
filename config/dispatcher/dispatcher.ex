@@ -174,6 +174,17 @@ defmodule Dispatcher do
   end
 
   ###############################################################
+  # metis
+  ###############################################################
+  get "/uri-info/*path", %{ accept: %{ json: true } } do
+    forward conn, path, "http://uri-info/"
+  end
+
+  get "/resource-labels/*path", %{ accept: %{ json: true } } do
+    forward conn, path, "http://resource-labels-cache/"
+  end
+
+  ###############################################################
   # login specific
   ###############################################################
   match "/mock/sessions/*path", %{ accept: %{any: true}, layer: :api} do
