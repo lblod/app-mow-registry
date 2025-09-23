@@ -269,7 +269,7 @@
           "target": "template",
           "cardinality": "one"
         },
-        "trafficSignalConcept": {
+        "traffic-signal-concept": {
           "predicate": "mobiliteit:variabele",
           "target": "trafficSignalConcept",
           "cardinality": "one",
@@ -366,7 +366,7 @@
           "target": "dimension",
           "cardinality": "many"
         },
-        "trafficSignalConcept": {
+        "traffic-signal-concept": {
           "predicate": "icb:isCharacterisedBy",
           "target": "trafficSignalConcept",
           "cardinality": "one",
