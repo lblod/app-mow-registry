@@ -481,6 +481,17 @@
           "predicate": "mobiliteit:heeftMaatregelconcept",
           "target": "trafficMeasureConcept",
           "cardinality": "many"
+        },
+        "canContainSignals": {
+          "predicate": "mobiliteit:Verkeerstekenconcept.magVerkeerstekenconceptBevatten",
+          "target": "trafficSignalConcept",
+          "cardinality": "many"
+        },
+        "canBeContainedInSignals": {
+          "predicate": "mobiliteit:Verkeerstekenconcept.magVerkeerstekenconceptBevatten",
+          "target": "trafficSignalConcept",
+          "cardinality": "many",
+          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-signal-concepts/"
