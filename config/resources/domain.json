@@ -34,17 +34,17 @@
       "name": "shape",
       "class": "sh:Shape",
       "relationships": {
-        "targetClass": {
+        "target-class": {
           "predicate": "sh:targetClass",
           "target": "resource",
           "cardinality": "one"
         },
-        "targetNode": {
+        "target-node": {
           "predicate": "sh:targetNode",
           "target": "resource",
           "cardinality": "one"
         },
-        "targetHasConcept": {
+        "target-has-concept": {
           "predicate": "ext:targetHasConcept",
           "target": "concept",
           "cardinality": "one"
@@ -125,7 +125,7 @@
         }
       },
       "relationships": {
-        "inScheme": {
+        "in-scheme": {
           "predicate": "skos:inScheme",
           "target": "conceptScheme",
           "cardinality": "many"
@@ -223,7 +223,7 @@
           "target": "variable",
           "cardinality": "many"
         },
-        "parentConcept": {
+        "parent-concept": {
           "predicate": "mobiliteit:Mobiliteitsmaatregelconcept.template",
           "target": "trafficMeasureConcept",
           "cardinality": "one",
@@ -248,13 +248,13 @@
           "type": "boolean",
           "predicate": "variables:required"
         },
-        "defaultValue": {
+        "default-value": {
           "type": "string",
           "predicate": "variables:defaultValue"
         }
       },
       "relationships": {
-        "codeList": {
+        "code-list": {
           "predicate": "mobiliteit:codelijst",
           "target": "codeList",
           "cardinality": "one"
@@ -388,13 +388,13 @@
           "target": "template",
           "cardinality": "one"
         },
-        "relatedTrafficSignalConcepts": {
+        "related-traffic-signal-concepts": {
           "predicate": "mobiliteit:heeftMaatregelconcept",
           "target": "trafficSignalConcept",
           "cardinality": "many",
           "inverse": true
         },
-        "relatedTrafficSignalConceptsOrdered": {
+        "related-traffic-signal-concepts-ordered": {
           "predicate": "mobiliteit:heeftVerkeerstekenLijstItem",
           "target": "trafficSignalListItem",
           "cardinality": "many"
@@ -462,7 +462,7 @@
           "target": "tribontShape",
           "cardinality": "many"
         },
-        "defaultShape": {
+        "default-shape": {
           "predicate": "mobiliteit:heeftStandaardVorm",
           "target": "tribontShape",
           "cardinality": "one"
@@ -472,12 +472,12 @@
           "target": "skosConcept",
           "cardinality": "one"
         },
-        "hasInstructions": {
+        "has-instructions": {
           "predicate": "mobiliteit:heeftInstructie",
           "target": "template",
           "cardinality": "many"
         },
-        "hasTrafficMeasureConcepts": {
+        "has-traffic-measure-concepts": {
           "predicate": "mobiliteit:heeftMaatregelconcept",
           "target": "trafficMeasureConcept",
           "cardinality": "many"
@@ -506,35 +506,35 @@
           "target": "roadSignCategory",
           "cardinality": "many"
         },
-        "subSigns": {
+        "sub-signs": {
           "predicate": "mobiliteit:heeftOnderbordConcept",
           "target": "roadSignConcept",
           "cardinality": "many"
         },
-        "mainSigns": {
+        "main-signs": {
           "predicate": "mobiliteit:heeftOnderbordConcept",
           "target": "roadSignConcept",
           "cardinality": "many",
           "inverse": true
         },
-        "relatedToRoadSignConcepts": {
+        "related-to-road-sign-concepts": {
           "predicate": "lblodmow:verkeersbordHeeftGerelateerdVerkeersbord",
           "target": "roadSignConcept",
           "cardinality": "many"
         },
-        "relatedFromRoadSignConcepts": {
+        "related-from-road-sign-concepts": {
           "predicate": "lblodmow:verkeersbordHeeftGerelateerdVerkeersbord",
           "target": "roadSignConcept",
           "cardinality": "many",
           "inverse": true
         },
-        "relatedRoadMarkingConcepts": {
+        "related-road-marking-concepts": {
           "predicate": "lblodmow:wegmarkeringHeeftGerelateerdVerkeersbord",
           "target": "roadMarkingConcept",
           "cardinality": "many",
           "inverse": true
         },
-        "relatedTrafficLightConcepts": {
+        "related-traffic-light-concepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeersbord",
           "target": "trafficLightConcept",
           "cardinality": "many",
@@ -549,23 +549,23 @@
       "super": ["trafficSignalConcept"],
       "attributes": {},
       "relationships": {
-        "relatedToRoadMarkingConcepts": {
+        "related-to-road-marking-concepts": {
           "predicate": "lblodmow:wegmarkeringHeeftGerelateerdWegmarkering",
           "target": "roadMarkingConcept",
           "cardinality": "many"
         },
-        "relatedFromRoadMarkingConcepts": {
+        "related-from-road-marking-concepts": {
           "predicate": "lblodmow:wegmarkeringHeeftGerelateerdWegmarkering",
           "target": "roadMarkingConcept",
           "cardinality": "many",
           "inverse": true
         },
-        "relatedRoadSignConcepts": {
+        "related-road-sign-concepts": {
           "predicate": "lblodmow:wegmarkeringHeeftGerelateerdVerkeersbord",
           "target": "roadSignConcept",
           "cardinality": "many"
         },
-        "relatedTrafficLightConcepts": {
+        "related-traffic-light-concepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdWegmarkering",
           "target": "trafficLightConcept",
           "cardinality": "many",
@@ -585,23 +585,23 @@
       "super": ["trafficSignalConcept"],
       "attributes": {},
       "relationships": {
-        "relatedToTrafficLightConcepts": {
+        "related-to-traffic-light-concepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeerslicht",
           "target": "trafficLightConcept",
           "cardinality": "many"
         },
-        "relatedFromTrafficLightConcepts": {
+        "related-from-traffic-light-concepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeerslicht",
           "target": "trafficLightConcept",
           "cardinality": "many",
           "inverse": true
         },
-        "relatedRoadSignConcepts": {
+        "related-road-sign-concepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeersbord",
           "target": "roadSignConcept",
           "cardinality": "many"
         },
-        "relatedRoadMarkingConcepts": {
+        "related-road-marking-concepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdWegmarkering",
           "target": "roadMarkingConcept",
           "cardinality": "many"
@@ -624,7 +624,7 @@
         }
       },
       "relationships": {
-        "roadSignConcepts": {
+        "road-sign-concepts": {
           "predicate": "dct:type",
           "target": "roadSignConcept",
           "cardinality": "many",
@@ -637,12 +637,12 @@
       "name": "roadSignConceptStatus",
       "class": "mobiliteit:VerkeersbordconceptStatus",
       "relationships": {
-        "roadSignConceptStatusCode": {
+        "road-sign-concept-status-code": {
           "predicate": "mobiliteit:VerkeersbordconceptStatus.status",
           "target": "roadSignConceptStatusCode",
           "cardinality": "one"
         },
-        "roadSignConcept": {
+        "road-sign-concept": {
           "predicate": "vs:term_status",
           "target": "roadSignConcept",
           "cardinality": "many",
@@ -661,7 +661,7 @@
         }
       },
       "relationships": {
-        "roadSignConceptStatus": {
+        "road-sign-concept-status": {
           "predicate": "mobiliteit:VerkeersbordconceptStatus.status",
           "target": "roadSignConceptStatus",
           "cardinality": "many",
