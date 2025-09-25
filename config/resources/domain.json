@@ -45,11 +45,6 @@
           "target": "skosConcept",
           "cardinality": "many",
           "inverse": true
-        },
-        "top-concepts": {
-          "predicate": "skos:topConceptOf",
-          "target": "concept",
-          "cardinality": "many"
         }
       },
       "new-resource-base": "http://data.lblod.info/concept-schemes/"
