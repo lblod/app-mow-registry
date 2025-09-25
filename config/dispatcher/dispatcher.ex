@@ -100,18 +100,6 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/resources/"
   end
 
-  match "/shapes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/shapes/"
-  end
-
-  match "/property-shapes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/property-shapes/"
-  end
-
-  match "/node-shapes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/node-shapes/"
-  end
-
   match "/icons/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/icons/"
   end

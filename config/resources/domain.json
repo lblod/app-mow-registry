@@ -30,47 +30,6 @@
         }
       }
     },
-    "shapes": {
-      "name": "shape",
-      "class": "sh:Shape",
-      "relationships": {
-        "target-class": {
-          "predicate": "sh:targetClass",
-          "target": "resource",
-          "cardinality": "one"
-        },
-        "target-node": {
-          "predicate": "sh:targetNode",
-          "target": "resource",
-          "cardinality": "one"
-        },
-        "target-has-concept": {
-          "predicate": "ext:targetHasConcept",
-          "target": "concept",
-          "cardinality": "one"
-        }
-      },
-      "new-resource-base": "http://data.lblod.info/shapes/"
-    },
-    "property-shapes": {
-      "name": "propertyShape",
-      "class": "sh:PropertyShape",
-      "super": ["shape"],
-      "relationships": {
-        "path": {
-          "predicate": "sh:path",
-          "target": "resource",
-          "cardinality": "one"
-        }
-      },
-      "new-resource-base": "http://data.lblod.info/property-shapes/"
-    },
-    "node-shapes": {
-      "name": "nodeShape",
-      "class": "sh:NodeShape",
-      "super": ["shape"],
-      "new-resource-base": "http://data.lblod.info/node-shapes/"
-    },
     "concept-schemes": {
       "name": "conceptScheme",
       "class": "skos:ConceptScheme",
