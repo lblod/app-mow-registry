@@ -1,0 +1,28 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?trafficSignalConcept 
+      a skos:Concept;
+      dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?trafficSignalConcept
+      dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?trafficSignalConcept 
+      a mobiliteit:Verkeerstekenconcept;
+      a skos:Concept.
+    OPTIONAL {
+      ?trafficSignalConcept dct:modified ?oldModified.
+    }
+  }
+  BIND(NOW() as ?now)
+}

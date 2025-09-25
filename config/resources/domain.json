@@ -423,8 +423,11 @@
     "traffic-signal-concepts": {
       "name": "trafficSignalConcept",
       "class": "mobiliteit:Verkeerstekenconcept",
-      "super": ["skosConcept"],
       "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        },
         "meaning": {
           "type": "string",
           "predicate": "skos:scopeNote"
