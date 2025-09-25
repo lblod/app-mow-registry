@@ -21,14 +21,7 @@
     "resources": {
       "name": "resource",
       "class": "rdfs:Resource",
-      "new-resource-base": "http://data.lblod.info/resources/",
-      "relationships": {
-        "used": {
-          "predicate": "ext:used",
-          "target": "concept",
-          "cardinality": "many"
-        }
-      }
+      "new-resource-base": "http://data.lblod.info/resources/"
     },
     "concept-schemes": {
       "name": "conceptScheme",
@@ -100,19 +93,6 @@
       },
       "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/code-list-value/"
-    },
-    "concepts": {
-      "name": "concept",
-      "class": "ext:Concept",
-      "super": ["resource"],
-      "attributes": {
-        "valid": {
-          "type": "boolean",
-          "predicate": "ext:valid"
-        }
-      },
-      "relationships": {},
-      "new-resource-base": "http://data.lblod.info/concepts/"
     },
     "documents": {
       "name": "document",
