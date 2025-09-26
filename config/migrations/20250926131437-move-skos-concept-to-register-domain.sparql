@@ -1,0 +1,169 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+
+# Adjust URI base of:
+# - zonality types concepts
+# - codelist types concepts
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?concept.
+    ?concept ?p_out ?o_out.
+    ?concept dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?newUri.
+    ?newUri ?p_out ?o_out.
+    ?newUri dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?concept a skos:Concept.
+    VALUES ?concept { 
+      <http://lblod.data.gift/concepts/13901FE2-BD0E-4843-B709-FF515EE81743> # Single-select codelist-type
+      <http://lblod.data.gift/concepts/57C93E12-A02C-4D4B-8B95-666B6701286C> # Multi-select codelist type
+
+      <http://lblod.data.gift/concepts/b651931b-923c-477c-8da9-fc7dd841fdcc> # Non-zonal
+      <http://lblod.data.gift/concepts/c81c6b96-736a-48cf-b003-6f5cc3dbc55d> # Zonal
+      <http://lblod.data.gift/concepts/8f9367b2-c717-4be7-8833-4c75bbb4ae1f> # Potentially zonal
+    }
+    {
+      ?s_in ?p_in ?concept.
+    }
+    UNION
+    {
+      ?concept ?p_out ?o_out.
+      FILTER(?p_out != dct:modified)
+    }
+    UNION
+    {
+      ?concept dct:modified ?oldModified.
+    }
+
+    BIND(URI(REPLACE(STR(?concept), 'http://lblod.data.gift/concepts/', 'http://register.mobiliteit.vlaanderen.be/concepts/')) AS ?newUri)
+  }
+  BIND(NOW() AS ?now)
+}
+;
+# Adjust URI base of shape-classification-code concepts
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?shapeClassificationCode.
+    ?shapeClassificationCode ?p_out ?o_out.
+    ?shapeClassificationCode dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?newUri.
+    ?newUri ?p_out ?o_out.
+    ?newUri dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?shapeClassificationCode
+      mu:uuid ?id;
+      a skos:Concept;
+      a ext:ShapeClassificatieCode.
+
+    {
+      ?s_in ?p_in ?shapeClassificationCode.
+    }
+    UNION
+    {
+      ?shapeClassificationCode ?p_out ?o_out.
+      FILTER(?p_out != dct:modified)
+    }
+    UNION
+    {
+      ?shapeClassificationCode dct:modified ?oldModified.
+    }
+    BIND(URI(CONCAT('http://register.mobiliteit.vlaanderen.be/shape-classification-codes/', ?id)) AS ?newUri)
+  }
+  BIND(NOW() AS ?now)
+}
+;
+# Adjust URI base of pictogram concepts
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?pictogram.
+    ?pictogram ?p_out ?o_out.
+    ?pictogram dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?newUri.
+    ?newUri ?p_out ?o_out.
+    ?newUri dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?pictogram
+      mu:uuid ?id;
+      a skos:Concept;
+      a mobiliteit:Pictogram.
+
+    {
+      ?s_in ?p_in ?pictogram.
+    }
+    UNION
+    {
+      ?pictogram ?p_out ?o_out.
+      FILTER(?p_out != dct:modified)
+    }
+    UNION
+    {
+      ?pictogram dct:modified ?oldModified.
+    }
+    BIND(URI(CONCAT('http://register.mobiliteit.vlaanderen.be/pictograms/', ?id)) AS ?newUri)
+  }
+  BIND(NOW() AS ?now)
+}
+;
+# Adjust URI base of codelist-value concepts
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?codelistValue.
+    ?codelistValue ?p_out ?o_out.
+    ?codelistValue dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?newUri.
+    ?newUri ?p_out ?o_out.
+    ?newUri dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?codelistValue
+      mu:uuid ?id;
+      a skos:Concept;
+      a ext:CodeListValue.
+
+    {
+      ?s_in ?p_in ?codelistValue.
+    }
+    UNION
+    {
+      ?codelistValue ?p_out ?o_out.
+      FILTER(?p_out != dct:modified)
+    }
+    UNION
+    {
+      ?codelistValue dct:modified ?oldModified.
+    }
+    BIND(URI(CONCAT('http://register.mobiliteit.vlaanderen.be/codelist-values/', ?id)) AS ?newUri)
+  }
+  BIND(NOW() AS ?now)
+}
