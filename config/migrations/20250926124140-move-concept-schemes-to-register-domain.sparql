@@ -1,0 +1,87 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
+
+# Adjust URI base of:
+# - shape types concept-scheme
+# - zonality types concept-scheme
+# - codelist types concept-scheme
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?conceptScheme.
+    ?conceptScheme ?p_out ?o_out.
+    ?conceptScheme dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?newUri.
+    ?newUri ?p_out ?o_out.
+    ?newUri dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?conceptScheme a skos:ConceptScheme.
+    VALUES ?conceptScheme { 
+      <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f> # Shape types
+      <http://lblod.data.gift/concept-schemes/37246d14-d8ad-478c-95b1-2fd57e688b22> # Zonality types
+      <http://lblod.data.gift/concept-schemes/F452BCB4-4CE7-4318-8E00-5A96E7FED207> # Codelist types
+    }
+    {
+      ?s_in ?p_in ?conceptScheme.
+    }
+    UNION
+    {
+      ?conceptScheme ?p_out ?o_out.
+      FILTER(?p_out != dct:modified)
+    }
+    UNION
+    {
+      ?conceptScheme dct:modified ?oldModified.
+    }
+
+    BIND(URI(REPLACE(STR(?conceptScheme), 'http://lblod.data.gift/concept-schemes/', 'http://register.mobiliteit.vlaanderen.be/concept-schemes/')) AS ?newUri)
+  }
+  BIND(NOW() AS ?now)
+}
+
+;
+# Adjust URI base of codelist concept-schemes
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?codelist.
+    ?codelist ?p_out ?o_out.
+    ?codelist dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?newUri.
+    ?newUri ?p_out ?o_out.
+    ?newUri dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?codelist 
+      a skos:ConceptScheme;
+      a lblodmow:Codelist.
+
+    {
+      ?s_in ?p_in ?codelist.
+    }
+    UNION
+    {
+      ?codelist ?p_out ?o_out.
+      FILTER(?p_out != dct:modified)
+    }
+    UNION
+    {
+      ?codelist dct:modified ?oldModified.
+    }
+
+    BIND(URI(REPLACE(STR(?codelist), 'http://lblod.data.gift/concept-schemes/', 'http://register.mobiliteit.vlaanderen.be/concept-schemes/')) AS ?newUri)
+  }
+  BIND(NOW() AS ?now)
+}

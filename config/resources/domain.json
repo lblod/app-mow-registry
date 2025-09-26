@@ -36,7 +36,7 @@
           "inverse": true
         }
       },
-      "new-resource-base": "http://data.lblod.info/concept-schemes/"
+      "new-resource-base": "http://register.mobiliteit.vlaanderen.be/concept-schemes/"
     },
     "code-lists": {
       "name": "code-list",
@@ -56,7 +56,7 @@
         }
       },
       "features": ["include-uri"],
-      "new-resource-base": "http://lblod.data.gift/concept-schemes/"
+      "new-resource-base": "http://register.mobiliteit.vlaanderen.be/concept-schemes/"
     },
     "skos-concepts": {
       "name": "skos-concept",
