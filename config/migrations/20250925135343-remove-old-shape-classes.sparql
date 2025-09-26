@@ -1,0 +1,20 @@
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?shape ?p_out ?o_out.
+    ?s_in ?p_in ?shape.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?shape a sh:Shape.
+    {
+      ?shape ?p_out ?o_out.
+    }
+    UNION
+    {
+      ?s_in ?p_in ?shape.
+    }
+  }
+}

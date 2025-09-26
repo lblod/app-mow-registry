@@ -1,0 +1,89 @@
+# this migration repeats an earlier migration to convert remaining resources to the `mobiliteit:Verkeerstekenconcept` model
+
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s 
+      a mobiliteit:Verkeerstekenconcept;
+      dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    { ?s a mobiliteit:Verkeersbordconcept . }
+    UNION
+    { ?s a mobiliteit:Verkeerslichtconcept . }
+    UNION
+    { ?s a mobiliteit:Wegmarkeringconcept . }
+
+    FILTER NOT EXISTS 
+    { ?s a mobiliteit:Verkeerstekenconcept. }
+
+    OPTIONAL {
+      ?s dct:modified ?oldModified.
+    }
+  }
+  BIND(NOW() as ?now)
+}
+
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s 
+      org:classification ?o;
+      dct:modified ?oldModified.
+  }
+}
+INSERT{
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s 
+      dct:type ?o;
+      dct:modified ?now.
+  }
+}
+WHERE{
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s a mobiliteit:Verkeersbordconcept ;
+    org:classification ?o .
+    OPTIONAL {
+      ?s dct:modified ?oldModified.
+    }
+  } 
+  BIND(NOW() as ?now)
+}
+
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s 
+      lblodmow:heeftOnderbordConcept ?o;
+      dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s 
+      mobiliteit:heeftOnderbordConcept ?o;
+      dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s lblodmow:heeftOnderbordConcept ?o .
+    OPTIONAL {
+      ?s dct:modified ?oldModified.
+    }
+  }
+  BIND(NOW() as ?now)
+}

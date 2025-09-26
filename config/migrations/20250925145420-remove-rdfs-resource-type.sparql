@@ -1,0 +1,24 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?sub 
+      a rdfs:Resource;
+      dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?sub dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?sub a rdfs:Resource.
+    OPTIONAL {
+      ?sub dct:modified ?oldModified.
+    }
+  }
+  BIND(NOW() AS ?now)
+}

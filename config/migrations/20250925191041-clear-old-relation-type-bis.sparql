@@ -1,0 +1,66 @@
+# this migration repeats an earlier migration to remove resources with the `ext:Relation`/`ext:MustUseRelation` type
+# The previous migration was probably not fully sucessful due to virtuoso query response limits
+# OR: the migrations were run before the appropriate changes were made to the frontend/backend
+
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?relation ?p_out ?o_out.
+    ?s_in ?p_in ?relation.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?relation a ext:MustUseRelation.
+    {
+      ?relation ?p_out ?o_out.
+    }
+    UNION
+    {
+      ?s_in ?p_in ?relation.
+    }
+  }
+}
+
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?relation ?p_out ?o_out.
+    ?s_in ?p_in ?relation.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?relation a ext:Relation.
+    {
+      ?relation ?p_out ?o_out.
+    }
+    UNION
+    {
+      ?s_in ?p_in ?relation.
+    }
+  }
+}
+
+;
+# Removes dangling must-use-relation resources
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?relation ?p_out ?o_out.
+    ?s_in ?p_in ?relation.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    {
+      ?relation ?p_out ?o_out.
+    }
+    UNION
+    {
+      ?s_in ?p_in ?relation.
+    }
+    FILTER (STRSTARTS(STR(?relation), "http://data.lblod.info/must-use-relations/"))
+  }
+}
