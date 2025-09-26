@@ -15,7 +15,8 @@
     "foaf": "http://xmlns.com/foaf/0.1/",
     "qudt": "http://qudt.org/schema/qudt/",
     "variables": "http://lblod.data.gift/vocabularies/variables/",
-    "schema": "http://schema.org/"
+    "schema": "http://schema.org/",
+    "dct": "http://lblod.data.gift/vocabularies/variables/"
   },
   "resources": {
     "resources": {
@@ -251,6 +252,10 @@
         "default-value": {
           "type": "string",
           "predicate": "variables:defaultValue"
+        },
+        "created-on": {
+          "type": "datetime",
+          "predicate": "dct:created"
         }
       },
       "relationships": {
@@ -263,6 +268,12 @@
           "predicate": "mobiliteit:template",
           "target": "template",
           "cardinality": "one"
+        },
+        "trafficSignalConcept": {
+          "predicate": "mobiliteit:variabele",
+          "target": "trafficSignalConcept",
+          "cardinality": "one",
+          "inverse": true
         }
       },
       "features": ["include-uri"],
@@ -303,6 +314,7 @@
           "target": "unit"
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/quantitykind/"
     },
     "dimensions": {
@@ -337,7 +349,12 @@
     "tribont-shapes": {
       "name": "tribont-shape",
       "class": "tribont:Shape",
-      "attributes": {},
+      "attributes": {
+        "created-on": {
+          "type": "datetime",
+          "predicate": "dct:created"
+        }
+      },
       "relationships": {
         "classification": {
           "predicate": "cidoc:P2_has_type",
@@ -348,8 +365,15 @@
           "predicate": "cidoc:P43_has_dimension",
           "target": "dimension",
           "cardinality": "many"
+        },
+        "trafficSignalConcept": {
+          "predicate": "icb:isCharacterisedBy",
+          "target": "trafficSignalConcept",
+          "cardinality": "one",
+          "inverse": true
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/tribont-shapes/"
     },
     "traffic-measure-concepts": {
