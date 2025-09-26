@@ -1,0 +1,26 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f> 
+      a skos:Concept;
+      dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f> 
+      a skos:ConceptScheme;
+      dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f> a skos:Concept.
+    OPTIONAL {
+      <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f> dct:modified ?oldModified.
+    }   
+  }
+  BIND(NOW() as ?now)
+}
