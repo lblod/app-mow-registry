@@ -1,0 +1,29 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX qudt: <http://qudt.org/schema/qudt/>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?sub a ?type.
+    ?sub ?p ?o.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?sub a ?type.
+    ?sub ?p ?o.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?sub a ?type.
+    ?sub ?p ?o.
+    VALUES ?type { 
+      qudt:QuantityKind 
+      qudt:Unit 
+      ext:ShapeClassificatieCode 
+      skos:Concept 
+      skos:ConceptScheme 
+    }
+  }
+}
