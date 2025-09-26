@@ -444,6 +444,10 @@
         "end-date": {
           "type": "datetime",
           "predicate": "ext:endDate"
+        },
+        "irgn-name": {
+          "type": "string",
+          "predicate": "ext:irgnName"
         }
       },
       "relationships": {
