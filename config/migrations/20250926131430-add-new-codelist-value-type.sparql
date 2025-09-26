@@ -1,0 +1,33 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?codelist dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?codelistValue a ext:CodeListValue.
+    ?codelistValue dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?codelistValue a skos:Concept.
+    FILTER NOT EXISTS 
+    { ?codelistValue a ext:CodeListValue }
+
+    ?codelistValue skos:inScheme ?codelist.
+    ?codelist
+    a skos:ConceptScheme;
+    a lblodmow:Codelist.
+
+    OPTIONAL {
+      ?codelist dct:modified ?oldModified.
+    }
+  }
+  BIND(NOW() as ?now)
+}
