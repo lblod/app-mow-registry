@@ -75,7 +75,7 @@
         }
       },
       "features": ["include-uri"],
-      "new-resource-base": "http://lblod.data.gift/concepts/"
+      "new-resource-base": "http://register.mobiliteit.vlaanderen.be/concepts/"
     },
     "code-list-values": {
       "name": "code-list-value",
@@ -88,7 +88,7 @@
         }
       },
       "features": ["include-uri"],
-      "new-resource-base": "http://lblod.data.gift/code-list-value/"
+      "new-resource-base": "http://register.mobiliteit.vlaanderen.be/code-list-values/"
     },
     "documents": {
       "name": "document",
@@ -123,7 +123,7 @@
           "cardinality": "one"
         }
       },
-      "new-resource-base": "http://data.lblod.info/pictograms/"
+      "new-resource-base": "http://register.mobiliteit.vlaanderen.be/pictograms/"
     },
     "templates": {
       "name": "template",
@@ -351,7 +351,7 @@
       "name": "tribont-shape-classification-code",
       "class": "ext:ShapeClassificatieCode",
       "super": ["skos-concept"],
-      "new-resource-base": "http://data.lblod.info/tribont-shape-classification-codes/"
+      "new-resource-base": "http://register.mobiliteit.vlaanderen.be/shape-classification-codes/"
     },
     "tribont-shapes": {
       "name": "tribont-shape",
