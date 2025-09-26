@@ -1,0 +1,19 @@
+clone:
+  git:
+    image: woodpeckerci/plugin-git
+    settings:
+      lfs: false
+      remote: ${CI_REPO_CLONE_URL}
+
+steps:
+  install:
+    image: node:22-slim
+    commands:
+      - npm ci
+  lint:resources:
+    image: node:22-slim
+    commands:
+      - npm run lint:resources
+when:
+  event:
+    - pull_request
