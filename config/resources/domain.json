@@ -445,9 +445,9 @@
           "type": "datetime",
           "predicate": "ext:endDate"
         },
-        "irgn-name": {
+        "regulatory-notation": {
           "type": "string",
-          "predicate": "ext:irgnName"
+          "predicate": "ext:regulatoryNotation"
         }
       },
       "relationships": {
