@@ -38,7 +38,7 @@
       "new-resource-base": "http://data.lblod.info/concept-schemes/"
     },
     "code-lists": {
-      "name": "codeList",
+      "name": "code-list",
       "class": "lblodmow:Codelist",
       "super": ["concept-scheme"],
       "relationships": {
@@ -185,7 +185,7 @@
       "relationships": {
         "code-list": {
           "predicate": "mobiliteit:codelijst",
-          "target": "codeList",
+          "target": "code-list",
           "cardinality": "one"
         },
         "template": {
