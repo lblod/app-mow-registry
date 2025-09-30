@@ -170,7 +170,7 @@ services:
       - "logging=true"
 
   ldes-delta-pusher:
-    image: redpencil/ldes-delta-pusher:1.2.5
+    image: redpencil/ldes-delta-pusher:1.2.9
     environment:
       CRON_HEALING: "0 0 0 * * *" # Every day at midnight
       AUTO_HEALING: "true"
