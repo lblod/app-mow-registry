@@ -1,0 +1,77 @@
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+    PREFIX icb: <https://w3id.org/isCharacterisedBy#>
+    PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/>
+    PREFIX qudt: <http://qudt.org/schema/qudt/>
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX tribont: <https://w3id.org/tribont/core#>
+INSERT {
+  GRAPH ?g {
+    ?shape cidoc:P43_has_dimension ?newDimensionUri.
+    ?newDimensionUri a cidoc:E54_Dimension;
+      rdf:value "0";
+      mu:uuid ?newDimensionUuid;
+      qudt:hasQuantityKind <http://qudt.org/vocab/quantitykind/Height>;
+      qudt:hasUnit ?unit.
+  }
+} WHERE {
+  GRAPH ?g {
+    ?shape a tribont:Shape;
+      cidoc:P2_has_type ?shapeType;
+      cidoc:P43_has_dimension ?dimensionTwo.
+  
+    FILTER NOT EXISTS {
+      ?shape cidoc:P43_has_dimension ?dimension.
+      ?dimension qudt:hasQuantityKind ?dimensionType
+    }
+
+    ?dimensionTwo qudt:hasUnit ?unit.
+  
+  VALUES ?shapeType {
+    <http://data.lblod.info/concept-schemes/a5a1b947-1c34-40df-8842-707de418adb8>
+    <http://data.lblod.info/concept-schemes/4f445b8f-98ce-4621-b671-009a1acb13a6>
+    <http://data.lblod.info/concept-schemes/10b19729-8b4a-4ea5-8470-bc34fc204791>
+    <http://lblod.data.gift/concept-schemes/1cddd186-6018-4d12-84d6-f1a5d01affde>
+  }
+  VALUES ?dimensionType {
+    <http://qudt.org/vocab/quantitykind/Height>
+  }
+  bind(strUUID() as ?newDimensionUuid)
+  bind(IRI(concat("http://data.lblod.info/dimensions/", ?newDimensionUuid)) as ?newDimensionUri)
+}
+}
+
+INSERT {
+  GRAPH ?g {
+    ?shape cidoc:P43_has_dimension ?newDimensionUri.
+    ?newDimensionUri a cidoc:E54_Dimension;
+      rdf:value "0";
+      mu:uuid ?newDimensionUuid;
+      qudt:hasQuantityKind <http://qudt.org/vocab/quantitykind/Width>;
+      qudt:hasUnit ?unit.
+  }
+} WHERE {
+  GRAPH ?g {
+    ?shape a tribont:Shape;
+      cidoc:P2_has_type ?shapeType;
+      cidoc:P43_has_dimension ?dimensionTwo.
+  
+    FILTER NOT EXISTS {
+      ?shape cidoc:P43_has_dimension ?dimension.
+      ?dimension qudt:hasQuantityKind ?dimensionType
+    }
+
+    ?dimensionTwo qudt:hasUnit ?unit.
+  
+  VALUES ?shapeType {
+    <http://data.lblod.info/concept-schemes/a5a1b947-1c34-40df-8842-707de418adb8>
+    <http://data.lblod.info/concept-schemes/4f445b8f-98ce-4621-b671-009a1acb13a6>
+    <http://data.lblod.info/concept-schemes/10b19729-8b4a-4ea5-8470-bc34fc204791>
+    <http://lblod.data.gift/concept-schemes/1cddd186-6018-4d12-84d6-f1a5d01affde>
+  }
+  VALUES ?dimensionType {
+    <http://qudt.org/vocab/quantitykind/Width>
+  }
+  bind(strUUID() as ?newDimensionUuid)
+  bind(IRI(concat("http://data.lblod.info/dimensions/", ?newDimensionUuid)) as ?newDimensionUri)
+}
+}
