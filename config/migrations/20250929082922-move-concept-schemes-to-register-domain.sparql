@@ -6,7 +6,6 @@ PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
 # Adjust URI base of:
 # - shape types concept-scheme
 # - zonality types concept-scheme
-# - codelist types concept-scheme
 DELETE {
   GRAPH <http://mu.semte.ch/graphs/mow/registry> {
     ?s_in ?p_in ?conceptScheme.
@@ -30,7 +29,6 @@ WHERE {
     VALUES ?conceptScheme { 
       <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f> # Shape types
       <http://lblod.data.gift/concept-schemes/37246d14-d8ad-478c-95b1-2fd57e688b22> # Zonality types
-      <http://lblod.data.gift/concept-schemes/F452BCB4-4CE7-4318-8E00-5A96E7FED207> # Codelist types
     }
     {
       ?s_in ?p_in ?conceptScheme.

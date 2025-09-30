@@ -29,9 +29,6 @@ WHERE {
       a skos:Concept.
 
     VALUES ?concept { 
-      <http://lblod.data.gift/concepts/13901FE2-BD0E-4843-B709-FF515EE81743> # Single-select codelist-type
-      <http://lblod.data.gift/concepts/57C93E12-A02C-4D4B-8B95-666B6701286C> # Multi-select codelist type
-
       <http://lblod.data.gift/concepts/b651931b-923c-477c-8da9-fc7dd841fdcc> # Non-zonal
       <http://lblod.data.gift/concepts/c81c6b96-736a-48cf-b003-6f5cc3dbc55d> # Zonal
       <http://lblod.data.gift/concepts/8f9367b2-c717-4be7-8833-4c75bbb4ae1f> # Potentially zonal
