@@ -60,3 +60,5 @@ services:
     restart: "no"
   modified:
     restart: "no"
+  consumer:
+    restart: "no"
