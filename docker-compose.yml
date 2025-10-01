@@ -140,16 +140,7 @@ services:
     volumes:
       - ./scripts/:/app/scripts/
     restart: "no"
-  annotater:
-    image: lblod/fix-annotation-service:4.1.2
-    environment:
-      SPARQL_ENDPOINT: "http://db:8890/sparql"
-    restart: "no"
-    logging: *default-logging
-    links:
-      - db:database
-    labels:
-      - "logging=true"
+
   ################################################################################
   # LDES PRODUCERS
   ################################################################################
@@ -223,8 +214,27 @@ services:
       - db:database
     restart: always
     logging: *default-logging
+
+  ################################################################################
+  # MOW SPECIFIC SERVICES
+  ################################################################################
+  annotater:
+    image: lblod/fix-annotation-service:4.1.2
+    environment:
+      SPARQL_ENDPOINT: "http://db:8890/sparql"
+    restart: always
+    logging: *default-logging
+    links:
+      - db:database
+    labels:
+      - "logging=true"
+
   ordered-signs:
     image: lblod/mow-ordered-signs-service:1.0.1
+    restart: always
+    logging: *default-logging
+    labels:
+      - "logging=true"
     links:
       - triplestore:database
   uri-info:
