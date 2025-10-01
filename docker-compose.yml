@@ -255,7 +255,7 @@ services:
     image: lblod/fix-annotation-service:4.1.2
     environment:
       SPARQL_ENDPOINT: "http://db:8890/sparql"
-    restart: "no"
+    restart: always
     logging: *default-logging
     links:
       - db:database
@@ -264,5 +264,9 @@ services:
 
   ordered-signs:
     image: lblod/mow-ordered-signs-service:1.0.1
+    restart: always
+    logging: *default-logging
+    labels:
+      - "logging=true"
     links:
       - triplestore:database
