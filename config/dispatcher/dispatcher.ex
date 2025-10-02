@@ -122,8 +122,27 @@ defmodule Dispatcher do
   match "/quantity-kinds/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/quantity-kinds/"
   end
+
   match "/variables/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/variables/"
+  end
+  match "/codelist-variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/codelist-variables/"
+  end
+  match "/text-variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/text-variables/"
+  end
+  match "/number-variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/number-variables/"
+  end
+  match "/date-variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/date-variables/"
+  end
+  match "/location-variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/location-variables/"
+  end
+  match "/instruction-variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/instruction-variables/"
   end
 
   match "/concept-schemes/*path", %{ accept: %{json: true}, layer: :api} do

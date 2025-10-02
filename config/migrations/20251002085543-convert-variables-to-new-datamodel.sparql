@@ -1,0 +1,129 @@
+PREFIX variables: <http://lblod.data.gift/vocabularies/variables/>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable 
+      a variables:VariableWithLiteralValue;
+      a ?typeUri;
+      dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    VALUES (?type ?typeUri) {
+      ("text" ext:TextVariable)
+      ("number" ext:NumberVariable)
+      ("date" ext:DateVariable)
+    }
+    ?variable a variables:Variable;
+              dct:type ?type.
+    OPTIONAL {
+      ?variable dct:modified ?oldModified.
+    }
+  }
+  BIND(NOW() AS ?now)
+};
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable 
+      a variables:VariableWithReference;
+      a ext:CodelistVariable;
+      dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a variables:Variable;
+              dct:type ?type.
+    OPTIONAL {
+      ?variable dct:modified ?oldModified.
+    }
+  }
+  FILTER(?type = 'codelist')
+  BIND(NOW() AS ?now)
+};
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable 
+      a variables:VariableWithLocation;
+      dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a variables:Variable;
+              dct:type ?type.
+    OPTIONAL {
+      ?variable dct:modified ?oldModified.
+    }
+  }
+  FILTER(?type = 'location')
+  BIND(NOW() AS ?now)
+};
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable 
+      a variables:VariableWithLocation;
+      dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a variables:Variable;
+              dct:type ?type.
+    OPTIONAL {
+      ?variable dct:modified ?oldModified.
+    }
+  }
+  FILTER(?type = 'location')
+  BIND(NOW() AS ?now)
+};
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable 
+      a ext:InstructionVariable;
+      dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?variable a variables:Variable;
+              dct:type ?type.
+    OPTIONAL {
+      ?variable dct:modified ?oldModified.
+    }
+  }
+  FILTER(?type = 'instruction')
+  BIND(NOW() AS ?now)
+}
