@@ -235,6 +235,8 @@ services:
       LDES_VERSION_OF_PATH: "http://purl.org/dc/terms/isVersionOf"
       LDES_TIMESTAMP_PATH: "http://purl.org/dc/terms/issued"
       MU_SPARQL_ENDPOINT: "http://db:8890/sparql"
+      MU_APPLICATION_GRAPH: "http://mu.semte.ch/graphs/awv/ldes"
+      INGEST_MODE: "MATERIALIZE"
       PERSIST_STATE: true
       LDES_ENDPOINT_VIEW: "https://services.apps-dev.mow.vlaanderen.be/ldes-server/geplande-opstellingen-v1/by-page"
       LDES_SANITIZE_CONTENTS_STRING: "\\u0020"
