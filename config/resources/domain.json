@@ -19,59 +19,6 @@
     "dct": "http://lblod.data.gift/vocabularies/variables/"
   },
   "resources": {
-    "resources": {
-      "name": "resource",
-      "class": "rdfs:Resource",
-      "new-resource-base": "http://data.lblod.info/resources/",
-      "relationships": {
-        "used": {
-          "predicate": "ext:used",
-          "target": "concept",
-          "cardinality": "many"
-        }
-      }
-    },
-    "shapes": {
-      "name": "shape",
-      "class": "sh:Shape",
-      "relationships": {
-        "target-class": {
-          "predicate": "sh:targetClass",
-          "target": "resource",
-          "cardinality": "one"
-        },
-        "target-node": {
-          "predicate": "sh:targetNode",
-          "target": "resource",
-          "cardinality": "one"
-        },
-        "target-has-concept": {
-          "predicate": "ext:targetHasConcept",
-          "target": "concept",
-          "cardinality": "one"
-        }
-      },
-      "new-resource-base": "http://data.lblod.info/shapes/"
-    },
-    "property-shapes": {
-      "name": "property-shape",
-      "class": "sh:PropertyShape",
-      "super": ["shape"],
-      "relationships": {
-        "path": {
-          "predicate": "sh:path",
-          "target": "resource",
-          "cardinality": "one"
-        }
-      },
-      "new-resource-base": "http://data.lblod.info/property-shapes/"
-    },
-    "node-shapes": {
-      "name": "node-shape",
-      "class": "sh:NodeShape",
-      "super": ["shape"],
-      "new-resource-base": "http://data.lblod.info/node-shapes/"
-    },
     "concept-schemes": {
       "name": "concept-scheme",
       "class": "skos:ConceptScheme",
@@ -87,11 +34,6 @@
           "target": "skos-concept",
           "cardinality": "many",
           "inverse": true
-        },
-        "top-concepts": {
-          "predicate": "skos:topConceptOf",
-          "target": "concept",
-          "cardinality": "many"
         }
       },
       "new-resource-base": "http://data.lblod.info/concept-schemes/"
@@ -147,19 +89,6 @@
       },
       "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/code-list-value/"
-    },
-    "concepts": {
-      "name": "concept",
-      "class": "ext:Concept",
-      "super": ["resource"],
-      "attributes": {
-        "valid": {
-          "type": "boolean",
-          "predicate": "ext:valid"
-        }
-      },
-      "relationships": {},
-      "new-resource-base": "http://data.lblod.info/concepts/"
     },
     "documents": {
       "name": "document",
@@ -525,8 +454,11 @@
     "traffic-signal-concepts": {
       "name": "traffic-signal-concept",
       "class": "mobiliteit:Verkeerstekenconcept",
-      "super": ["skos-concept"],
       "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        },
         "meaning": {
           "type": "string",
           "predicate": "skos:scopeNote"
