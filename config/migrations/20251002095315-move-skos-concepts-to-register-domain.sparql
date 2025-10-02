@@ -7,7 +7,6 @@ PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
 
 # Adjust URI base of:
 # - zonality types concepts
-# - codelist types concepts
 DELETE {
   GRAPH <http://mu.semte.ch/graphs/mow/registry> {
     ?s_in ?p_in ?concept.
@@ -79,7 +78,6 @@ WHERE {
     VALUES ?subtype { 
       ext:ShapeClassificatieCode
       mobiliteit:Pictogram
-      ext:CodeListValue
     }
     
 
