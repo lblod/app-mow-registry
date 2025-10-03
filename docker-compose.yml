@@ -227,3 +227,18 @@ services:
     image: lblod/mow-ordered-signs-service:1.0.1
     links:
       - triplestore:database
+  uri-info:
+    image: redpencil/mu-uri-info-service:0.2.1
+    links:
+      - db:database
+  resource-labels-cache:
+    image: semtech/mu-cache:2.0.2
+    links:
+      - resource-labels:backend
+      - db:database
+  resource-labels:
+    image: lblod/resource-label-service:0.3.2
+    environment:
+      DEFAULT_LANGUAGE: nil
+    links:
+      - db:database
