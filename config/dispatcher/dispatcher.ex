@@ -96,22 +96,6 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/road-marking-categories/"
   end
 
-  match "/resources/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/resources/"
-  end
-
-  match "/shapes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/shapes/"
-  end
-
-  match "/property-shapes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/property-shapes/"
-  end
-
-  match "/node-shapes/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/node-shapes/"
-  end
-
   match "/icons/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/icons/"
   end
@@ -138,8 +122,27 @@ defmodule Dispatcher do
   match "/quantity-kinds/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/quantity-kinds/"
   end
+
   match "/variables/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/variables/"
+  end
+  match "/codelist-variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/codelist-variables/"
+  end
+  match "/text-variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/text-variables/"
+  end
+  match "/number-variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/number-variables/"
+  end
+  match "/date-variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/date-variables/"
+  end
+  match "/location-variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/location-variables/"
+  end
+  match "/instruction-variables/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/instruction-variables/"
   end
 
   match "/concept-schemes/*path", %{ accept: %{json: true}, layer: :api} do
@@ -148,10 +151,6 @@ defmodule Dispatcher do
 
   match "/skos-concepts/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/skos-concepts/"
-  end
-
-  match "/concepts/*path", %{ accept: %{json: true}, layer: :api} do
-    Proxy.forward conn, path, "http://cache/concepts/"
   end
 
   match "/accounts/*path", %{ accept: %{json: true}, layer: :api} do

@@ -15,64 +15,12 @@
     "foaf": "http://xmlns.com/foaf/0.1/",
     "qudt": "http://qudt.org/schema/qudt/",
     "variables": "http://lblod.data.gift/vocabularies/variables/",
-    "schema": "http://schema.org/"
+    "schema": "http://schema.org/",
+    "dct": "http://lblod.data.gift/vocabularies/variables/"
   },
   "resources": {
-    "resources": {
-      "name": "resource",
-      "class": "rdfs:Resource",
-      "new-resource-base": "http://data.lblod.info/resources/",
-      "relationships": {
-        "used": {
-          "predicate": "ext:used",
-          "target": "concept",
-          "cardinality": "many"
-        }
-      }
-    },
-    "shapes": {
-      "name": "shape",
-      "class": "sh:Shape",
-      "relationships": {
-        "targetClass": {
-          "predicate": "sh:targetClass",
-          "target": "resource",
-          "cardinality": "one"
-        },
-        "targetNode": {
-          "predicate": "sh:targetNode",
-          "target": "resource",
-          "cardinality": "one"
-        },
-        "targetHasConcept": {
-          "predicate": "ext:targetHasConcept",
-          "target": "concept",
-          "cardinality": "one"
-        }
-      },
-      "new-resource-base": "http://data.lblod.info/shapes/"
-    },
-    "property-shapes": {
-      "name": "propertyShape",
-      "class": "sh:PropertyShape",
-      "super": ["shape"],
-      "relationships": {
-        "path": {
-          "predicate": "sh:path",
-          "target": "resource",
-          "cardinality": "one"
-        }
-      },
-      "new-resource-base": "http://data.lblod.info/property-shapes/"
-    },
-    "node-shapes": {
-      "name": "nodeShape",
-      "class": "sh:NodeShape",
-      "super": ["shape"],
-      "new-resource-base": "http://data.lblod.info/node-shapes/"
-    },
     "concept-schemes": {
-      "name": "conceptScheme",
+      "name": "concept-scheme",
       "class": "skos:ConceptScheme",
       "attributes": {
         "label": {
@@ -83,31 +31,26 @@
       "relationships": {
         "concepts": {
           "predicate": "skos:inScheme",
-          "target": "skosConcept",
+          "target": "skos-concept",
           "cardinality": "many",
           "inverse": true
-        },
-        "top-concepts": {
-          "predicate": "skos:topConceptOf",
-          "target": "concept",
-          "cardinality": "many"
         }
       },
       "new-resource-base": "http://data.lblod.info/concept-schemes/"
     },
     "code-lists": {
-      "name": "codeList",
+      "name": "code-list",
       "class": "lblodmow:Codelist",
-      "super": ["conceptScheme"],
+      "super": ["concept-scheme"],
       "relationships": {
         "type": {
           "predicate": "dct:type",
-          "target": "skosConcept",
+          "target": "skos-concept",
           "cardinality": "one"
         },
         "variables": {
-          "predicate": "ext:codeList",
-          "target": "variable",
+          "predicate": "mobiliteit:codelijst",
+          "target": "codelist-variable",
           "cardinality": "many",
           "inverse": true
         }
@@ -116,7 +59,7 @@
       "new-resource-base": "http://lblod.data.gift/concept-schemes/"
     },
     "skos-concepts": {
-      "name": "skosConcept",
+      "name": "skos-concept",
       "class": "skos:Concept",
       "attributes": {
         "label": {
@@ -125,9 +68,9 @@
         }
       },
       "relationships": {
-        "inScheme": {
+        "in-scheme": {
           "predicate": "skos:inScheme",
-          "target": "conceptScheme",
+          "target": "concept-scheme",
           "cardinality": "many"
         }
       },
@@ -135,9 +78,9 @@
       "new-resource-base": "http://lblod.data.gift/concepts/"
     },
     "code-list-values": {
-      "name": "codeListValue",
+      "name": "code-list-value",
       "class": "ext:CodeListValue",
-      "super": ["skosConcept"],
+      "super": ["skos-concept"],
       "attributes": {
         "position": {
           "type": "number",
@@ -146,19 +89,6 @@
       },
       "features": ["include-uri"],
       "new-resource-base": "http://lblod.data.gift/code-list-value/"
-    },
-    "concepts": {
-      "name": "concept",
-      "class": "ext:Concept",
-      "super": ["resource"],
-      "attributes": {
-        "valid": {
-          "type": "boolean",
-          "predicate": "ext:valid"
-        }
-      },
-      "relationships": {},
-      "new-resource-base": "http://data.lblod.info/concepts/"
     },
     "documents": {
       "name": "document",
@@ -182,9 +112,9 @@
       "new-resource-base": "http://mobiliteit.vo.data.gift/images/"
     },
     "icons": {
-      "name": "Icon",
+      "name": "icon",
       "class": "mobiliteit:Pictogram",
-      "super": ["skosConcept"],
+      "super": ["skos-concept"],
       "attributes": {},
       "relationships": {
         "image": {
@@ -223,9 +153,9 @@
           "target": "variable",
           "cardinality": "many"
         },
-        "parentConcept": {
+        "parent-concept": {
           "predicate": "mobiliteit:Mobiliteitsmaatregelconcept.template",
-          "target": "trafficMeasureConcept",
+          "target": "traffic-measure-concept",
           "cardinality": "one",
           "inverse": true
         }
@@ -248,24 +178,112 @@
           "type": "boolean",
           "predicate": "variables:required"
         },
-        "defaultValue": {
+        "created-on": {
+          "type": "datetime",
+          "predicate": "dct:created"
+        }
+      },
+      "relationships": {
+        "traffic-signal-concept": {
+          "predicate": "mobiliteit:variabele",
+          "target": "traffic-signal-concept",
+          "cardinality": "one",
+          "inverse": true
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "literal-variables": {
+      "name": "literal-variable",
+      "super": ["variable"],
+      "class": "variables:VariableWithLiteralValue",
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "text-variables": {
+      "name": "text-variable",
+      "super": ["literal-variable"],
+      "class": "ext:TextVariable",
+      "attributes": {
+        "default-value": {
           "type": "string",
           "predicate": "variables:defaultValue"
         }
       },
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "number-variables": {
+      "name": "number-variable",
+      "super": ["literal-variable"],
+      "class": "ext:NumberVariable",
+      "attributes": {
+        "default-value": {
+          "type": "number",
+          "predicate": "variables:defaultValue"
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "date-variables": {
+      "name": "date-variable",
+      "super": ["literal-variable"],
+      "class": "ext:DateVariable",
+      "attributes": {
+        "default-value": {
+          "type": "datetime",
+          "predicate": "variables:defaultValue"
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "reference-variables": {
+      "name": "reference-variable",
+      "super": ["variable"],
+      "class": "variables:VariableWithReference",
       "relationships": {
-        "codeList": {
+        "code-list": {
           "predicate": "mobiliteit:codelijst",
-          "target": "codeList",
+          "target": "code-list",
           "cardinality": "one"
         },
+        "default-value": {
+          "predicate": "variables:defaultValue",
+          "target": "skos-concept",
+          "cardinality": "one"
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "codelist-variables": {
+      "name": "codelist-variable",
+      "super": ["reference-variable"],
+      "class": "ext:CodelistVariable",
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "location-variables": {
+      "name": "location-variable",
+      "super": ["variable"],
+      "class": "variables:VariableWithLocation",
+      "features": ["include-uri"],
+      "new-resource-base": "http://data.lblod.info/variables/"
+    },
+    "instruction-variables": {
+      "name": "instruction-variable",
+      "class": "ext:InstructionVariable",
+      "super": ["variable"],
+      "relationships": {
         "template": {
           "predicate": "mobiliteit:template",
           "target": "template",
           "cardinality": "one"
         }
       },
-      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/variables/"
     },
     "units": {
@@ -284,7 +302,7 @@
       "new-resource-base": "http://data.lblod.info/units/"
     },
     "quantity-kinds": {
-      "name": "quantityKind",
+      "name": "quantity-kind",
       "class": "qudt:QuantityKind",
       "attributes": {
         "symbol": {
@@ -303,6 +321,7 @@
           "target": "unit"
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/quantitykind/"
     },
     "dimensions": {
@@ -318,7 +337,7 @@
         "kind": {
           "predicate": "qudt:hasQuantityKind",
           "cardinality": "one",
-          "target": "quantityKind"
+          "target": "quantity-kind"
         },
         "unit": {
           "predicate": "qudt:hasUnit",
@@ -329,31 +348,43 @@
       "new-resource-base": "http://data.lblod.info/dimensions/"
     },
     "tribont-shape-classification-codes": {
-      "name": "tribontShapeClassificationCode",
+      "name": "tribont-shape-classification-code",
       "class": "ext:ShapeClassificatieCode",
-      "super": ["skosConcept"],
+      "super": ["skos-concept"],
       "new-resource-base": "http://data.lblod.info/tribont-shape-classification-codes/"
     },
     "tribont-shapes": {
-      "name": "tribontShape",
+      "name": "tribont-shape",
       "class": "tribont:Shape",
-      "attributes": {},
+      "attributes": {
+        "created-on": {
+          "type": "datetime",
+          "predicate": "dct:created"
+        }
+      },
       "relationships": {
         "classification": {
           "predicate": "cidoc:P2_has_type",
           "cardinality": "one",
-          "target": "tribontShapeClassificationCode"
+          "target": "tribont-shape-classification-code"
         },
         "dimensions": {
           "predicate": "cidoc:P43_has_dimension",
           "target": "dimension",
           "cardinality": "many"
+        },
+        "traffic-signal-concept": {
+          "predicate": "icb:isCharacterisedBy",
+          "target": "traffic-signal-concept",
+          "cardinality": "one",
+          "inverse": true
         }
       },
+      "features": ["include-uri"],
       "new-resource-base": "http://data.lblod.info/tribont-shapes/"
     },
     "traffic-measure-concepts": {
-      "name": "trafficMeasureConcept",
+      "name": "traffic-measure-concept",
       "class": "mobiliteit:Mobiliteitmaatregelconcept",
       "attributes": {
         "label": {
@@ -380,7 +411,7 @@
       "relationships": {
         "zonality": {
           "predicate": "ext:zonality",
-          "target": "skosConcept",
+          "target": "skos-concept",
           "cardinality": "one"
         },
         "template": {
@@ -388,22 +419,22 @@
           "target": "template",
           "cardinality": "one"
         },
-        "relatedTrafficSignalConcepts": {
+        "related-traffic-signal-concepts": {
           "predicate": "mobiliteit:heeftMaatregelconcept",
-          "target": "trafficSignalConcept",
+          "target": "traffic-signal-concept",
           "cardinality": "many",
           "inverse": true
         },
-        "relatedTrafficSignalConceptsOrdered": {
+        "related-traffic-signal-concepts-ordered": {
           "predicate": "mobiliteit:heeftVerkeerstekenLijstItem",
-          "target": "trafficSignalListItem",
+          "target": "traffic-signal-list-item",
           "cardinality": "many"
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-measure-concepts/"
     },
     "traffic-signal-list-items": {
-      "name": "trafficSignalListItem",
+      "name": "traffic-signal-list-item",
       "class": "mobiliteit:MaatregelVerkeerstekenLijstItem",
       "attributes": {
         "position": {
@@ -414,17 +445,20 @@
       "relationships": {
         "item": {
           "predicate": "schema:item",
-          "target": "trafficSignalConcept",
+          "target": "traffic-signal-concept",
           "cardinality": "one"
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-signal-list-items/"
     },
     "traffic-signal-concepts": {
-      "name": "trafficSignalConcept",
+      "name": "traffic-signal-concept",
       "class": "mobiliteit:Verkeerstekenconcept",
-      "super": ["skosConcept"],
       "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        },
         "meaning": {
           "type": "string",
           "predicate": "skos:scopeNote"
@@ -434,7 +468,7 @@
           "predicate": "ext:valid"
         },
         "ar-plichtig": {
-          "type":"boolean",
+          "type": "boolean",
           "predicate": "mobiliteit:ARplichtig"
         },
         "start-date": {
@@ -463,84 +497,95 @@
         },
         "shapes": {
           "predicate": "icb:isCharacterisedBy",
-          "target": "tribontShape",
+          "target": "tribont-shape",
           "cardinality": "many"
         },
-        "defaultShape": {
+        "default-shape": {
           "predicate": "mobiliteit:heeftStandaardVorm",
-          "target": "tribontShape",
+          "target": "tribont-shape",
           "cardinality": "one"
         },
         "status": {
           "predicate": "vs:term_status",
-          "target": "skosConcept",
+          "target": "skos-concept",
           "cardinality": "one"
         },
-        "hasInstructions": {
+        "has-instructions": {
           "predicate": "mobiliteit:heeftInstructie",
           "target": "template",
           "cardinality": "many"
         },
-        "hasTrafficMeasureConcepts": {
+        "has-traffic-measure-concepts": {
           "predicate": "mobiliteit:heeftMaatregelconcept",
-          "target": "trafficMeasureConcept",
+          "target": "traffic-measure-concept",
           "cardinality": "many"
+        },
+        "can-contain-signals": {
+          "predicate": "mobiliteit:Verkeerstekenconcept.magVerkeerstekenconceptBevatten",
+          "target": "traffic-signal-concept",
+          "cardinality": "many"
+        },
+        "can-be-contained-in-signals": {
+          "predicate": "mobiliteit:Verkeerstekenconcept.magVerkeerstekenconceptBevatten",
+          "target": "traffic-signal-concept",
+          "cardinality": "many",
+          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-signal-concepts/"
     },
     "road-sign-concepts": {
-      "name": "roadSignConcept",
+      "name": "road-sign-concept",
       "class": "mobiliteit:Verkeersbordconcept",
-      "super": ["trafficSignalConcept"],
+      "super": ["traffic-signal-concept"],
       "attributes": {},
       "relationships": {
         "status": {
           "predicate": "vs:term_status",
-          "target": "roadSignConceptStatus",
+          "target": "road-sign-concept-status",
           "cardinality": "one"
         },
         "zonality": {
           "predicate": "ext:zonality",
-          "target": "skosConcept",
+          "target": "skos-concept",
           "cardinality": "one"
         },
         "classifications": {
           "predicate": "dct:type",
-          "target": "roadSignCategory",
+          "target": "road-sign-category",
           "cardinality": "many"
         },
-        "subSigns": {
+        "sub-signs": {
           "predicate": "mobiliteit:heeftOnderbordConcept",
-          "target": "roadSignConcept",
+          "target": "road-sign-concept",
           "cardinality": "many"
         },
-        "mainSigns": {
+        "main-signs": {
           "predicate": "mobiliteit:heeftOnderbordConcept",
-          "target": "roadSignConcept",
+          "target": "road-sign-concept",
           "cardinality": "many",
           "inverse": true
         },
-        "relatedToRoadSignConcepts": {
+        "related-to-road-sign-concepts": {
           "predicate": "lblodmow:verkeersbordHeeftGerelateerdVerkeersbord",
-          "target": "roadSignConcept",
+          "target": "road-sign-concept",
           "cardinality": "many"
         },
-        "relatedFromRoadSignConcepts": {
+        "related-from-road-sign-concepts": {
           "predicate": "lblodmow:verkeersbordHeeftGerelateerdVerkeersbord",
-          "target": "roadSignConcept",
+          "target": "road-sign-concept",
           "cardinality": "many",
           "inverse": true
         },
-        "relatedRoadMarkingConcepts": {
+        "related-road-marking-concepts": {
           "predicate": "lblodmow:wegmarkeringHeeftGerelateerdVerkeersbord",
-          "target": "roadMarkingConcept",
+          "target": "road-marking-concept",
           "cardinality": "many",
           "inverse": true
         },
-        "relatedTrafficLightConcepts": {
+        "related-traffic-light-concepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeersbord",
-          "target": "trafficLightConcept",
+          "target": "traffic-light-concept",
           "cardinality": "many",
           "inverse": true
         }
@@ -548,78 +593,78 @@
       "new-resource-base": "http://data.lblod.info/road-sign-concepts/"
     },
     "road-marking-concepts": {
-      "name": "roadMarkingConcept",
+      "name": "road-marking-concept",
       "class": "mobiliteit:Wegmarkeringconcept",
-      "super": ["trafficSignalConcept"],
+      "super": ["traffic-signal-concept"],
       "attributes": {},
       "relationships": {
-        "relatedToRoadMarkingConcepts": {
+        "related-to-road-marking-concepts": {
           "predicate": "lblodmow:wegmarkeringHeeftGerelateerdWegmarkering",
-          "target": "roadMarkingConcept",
+          "target": "road-marking-concept",
           "cardinality": "many"
         },
-        "relatedFromRoadMarkingConcepts": {
+        "related-from-road-marking-concepts": {
           "predicate": "lblodmow:wegmarkeringHeeftGerelateerdWegmarkering",
-          "target": "roadMarkingConcept",
+          "target": "road-marking-concept",
           "cardinality": "many",
           "inverse": true
         },
-        "relatedRoadSignConcepts": {
+        "related-road-sign-concepts": {
           "predicate": "lblodmow:wegmarkeringHeeftGerelateerdVerkeersbord",
-          "target": "roadSignConcept",
+          "target": "road-sign-concept",
           "cardinality": "many"
         },
-        "relatedTrafficLightConcepts": {
+        "related-traffic-light-concepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdWegmarkering",
-          "target": "trafficLightConcept",
+          "target": "traffic-light-concept",
           "cardinality": "many",
           "inverse": true
         },
         "zonality": {
           "predicate": "ext:zonality",
-          "target": "skosConcept",
+          "target": "skos-concept",
           "cardinality": "one"
         }
       },
       "new-resource-base": "http://data.lblod.info/road-marking-concepts/"
     },
     "traffic-light-concepts": {
-      "name": "trafficLightConcept",
+      "name": "traffic-light-concept",
       "class": "mobiliteit:Verkeerslichtconcept",
-      "super": ["trafficSignalConcept"],
+      "super": ["traffic-signal-concept"],
       "attributes": {},
       "relationships": {
-        "relatedToTrafficLightConcepts": {
+        "related-to-traffic-light-concepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeerslicht",
-          "target": "trafficLightConcept",
+          "target": "traffic-light-concept",
           "cardinality": "many"
         },
-        "relatedFromTrafficLightConcepts": {
+        "related-from-traffic-light-concepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeerslicht",
-          "target": "trafficLightConcept",
+          "target": "traffic-light-concept",
           "cardinality": "many",
           "inverse": true
         },
-        "relatedRoadSignConcepts": {
+        "related-road-sign-concepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdVerkeersbord",
-          "target": "roadSignConcept",
+          "target": "road-sign-concept",
           "cardinality": "many"
         },
-        "relatedRoadMarkingConcepts": {
+        "related-road-marking-concepts": {
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdWegmarkering",
-          "target": "roadMarkingConcept",
+          "target": "road-marking-concept",
           "cardinality": "many"
         },
         "zonality": {
           "predicate": "ext:zonality",
-          "target": "skosConcept",
+          "target": "skos-concept",
           "cardinality": "one"
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-light-concepts/"
     },
     "road-sign-categories": {
-      "name": "roadSignCategory",
+      "name": "road-sign-category",
       "class": "mobiliteit:Verkeersbordcategorie",
       "attributes": {
         "label": {
@@ -628,9 +673,9 @@
         }
       },
       "relationships": {
-        "roadSignConcepts": {
+        "road-sign-concepts": {
           "predicate": "dct:type",
-          "target": "roadSignConcept",
+          "target": "road-sign-concept",
           "cardinality": "many",
           "inverse": true
         }
@@ -638,17 +683,17 @@
       "new-resource-base": "http://data.lblod.info/road-sign-categories/"
     },
     "road-sign-concept-status": {
-      "name": "roadSignConceptStatus",
+      "name": "road-sign-concept-status",
       "class": "mobiliteit:VerkeersbordconceptStatus",
       "relationships": {
-        "roadSignConceptStatusCode": {
+        "road-sign-concept-status-code": {
           "predicate": "mobiliteit:VerkeersbordconceptStatus.status",
-          "target": "roadSignConceptStatusCode",
+          "target": "road-sign-concept-status-code",
           "cardinality": "one"
         },
-        "roadSignConcept": {
+        "road-sign-concept": {
           "predicate": "vs:term_status",
-          "target": "roadSignConcept",
+          "target": "road-sign-concept",
           "cardinality": "many",
           "inverse": true
         }
@@ -656,7 +701,7 @@
       "new-resource-base": "http://data.lblod.info/road-sign-concept-status/"
     },
     "road-sign-concept-status-codes": {
-      "name": "roadSignConceptStatusCode",
+      "name": "road-sign-concept-status-code",
       "class": "lblodmow:VerkeersbordconceptStatusCode",
       "attributes": {
         "label": {
@@ -665,9 +710,9 @@
         }
       },
       "relationships": {
-        "roadSignConceptStatus": {
+        "road-sign-concept-status": {
           "predicate": "mobiliteit:VerkeersbordconceptStatus.status",
-          "target": "roadSignConceptStatus",
+          "target": "road-sign-concept-status",
           "cardinality": "many",
           "inverse": true
         }
