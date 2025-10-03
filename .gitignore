@@ -5,14 +5,15 @@
 !/data/db/toLoad
 !/data/db/toLoad/*
 /data/files/*
+/data/ldes-consumer/*
 docker-compose.override.yml
+
 .idea
 *.iml
-
 /data/elasticsearch/**
 /tmp
 *.DS_Store
+
 .env
 node_modules
-
 .eslintcache

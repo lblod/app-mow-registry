@@ -45,6 +45,8 @@
   :musession "http://mu.semte.ch/vocabularies/session/"
   :variables "http://lblod.data.gift/vocabularies/variables/"
   :besluit "http://data.vlaanderen.be/ns/besluit#"
+  :onderdeel "https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#"
+  :weginst "https://wegenenverkeer.data.vlaanderen.be/ns/installatie#"
 )
 
 (define-graph mow-public-graph ("http://mu.semte.ch/graphs/mow/registry")
@@ -114,6 +116,33 @@
   ("mobiliteit:MaatregelVerkeerstekenLijstItem" -> _)
 )
 
+; https://lblod.data.gift/vocabularies/variables/
+(define-graph ldes-graph ("http://mu.semte.ch/graphs/awv/ldes")
+  ("onderdeel:WordtAangeduidDoor" -> _)
+  ("mobiliteit:VerkeersbordVerkeersteken" -> _)
+  ("onderdeel:Realiseert" -> _)
+  ("onderdeel:BevatMaatregelOntwerp" -> _)
+  ("onderdeel:IsGebaseerdOp" -> _)
+  ("https://lblod.data.gift/vocabularies/variables/VariableInstanceWithLiteralValue" -> _)
+  ("onderdeel:HoortBij" -> _)
+  ("onderdeel:HeeftVerkeersteken" -> _)
+  ("weginst:AanzichtVerkeersbordopstelling" -> _)
+  ("onderdeel:HeeftBetrokkene" -> _)
+  ("mobiliteit:SignalisatieOntwerp" -> _)
+  ("onderdeel:HeeftAanzicht" -> _)
+  ("weginst:Verkeersbordopstelling" -> _)
+  ("onderdeel:HeeftOntwerp" -> _)
+  ("onderdeel:RetroreflecterendVerkeersbord" -> _)
+  ("onderdeel:BevatVerkeersteken" -> _)
+  ("onderdeel:IsOntwerpVan" -> _)
+  ("mobiliteit:MobiliteitsmaatregelOntwerp" -> _)
+  ("mobiliteit:OntwerpVerkeersteken" -> _)
+  ("onderdeel:RetroreflecterendeFolie" -> _)
+  ("onderdeel:Bevestiging" -> _)
+  ("mobiliteit:AanvullendReglementOntwerp" -> _)
+  ("onderdeel:HeeftWaardeVoor" -> _)
+)
+
 (supply-allowed-group "logged-in-user"
   :parameters ()
   :query "PREFIX session: <http://mu.semte.ch/vocabularies/session/>
@@ -124,6 +153,10 @@
 
 (grant (read write)
        :to-graph  mow-admin-graph
+       :for-allowed-group "logged-in-user")
+
+(grant (read write)
+       :to-graph  ldes-graph
        :for-allowed-group "logged-in-user")
 
 (supply-allowed-group "public")

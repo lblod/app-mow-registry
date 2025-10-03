@@ -60,3 +60,9 @@ services:
     restart: "no"
   modified:
     restart: "no"
+  consumer:
+    restart: "no"
+  annotater:
+    restart: "no"
+  ordered-signs:
+    restart: "no"
