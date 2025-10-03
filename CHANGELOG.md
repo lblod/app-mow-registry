@@ -1,5 +1,43 @@
 # app-mow-registry
 
+## 3.5.0
+
+### Minor Changes
+
+- [#145](https://github.com/lblod/app-mow-registry/pull/145) [`2ca63ef`](https://github.com/lblod/app-mow-registry/commit/2ca63ef11d23117c066f740ae359030865264a96) Thanks [@elpoelma](https://github.com/elpoelma)! - Set-up ember-metis services
+
+- [#136](https://github.com/lblod/app-mow-registry/pull/136) [`852bf43`](https://github.com/lblod/app-mow-registry/commit/852bf43ce584846622430e5b8b512e2268a4680c) Thanks [@elpoelma](https://github.com/elpoelma)! - Move variabels to new datamodel and add support for default values
+
+- [#148](https://github.com/lblod/app-mow-registry/pull/148) [`c7df5e3`](https://github.com/lblod/app-mow-registry/commit/c7df5e365c61110d3d33dca6aac80f141d9ed9bd) Thanks [@elpoelma](https://github.com/elpoelma)! - Add migration which moves relevant data from `http://mu.semte.ch/graphs/public` to `http://mu.semte.ch/graphs/mow/registry` graph
+
+- [#148](https://github.com/lblod/app-mow-registry/pull/148) [`aa6db15`](https://github.com/lblod/app-mow-registry/commit/aa6db1566060eb3df87df52bb9f14078368c68a6) Thanks [@elpoelma](https://github.com/elpoelma)! - Remove obsolete `shape` model:
+
+  - `sh:Shape`
+  - `sh:NodeShape`
+  - `sh:PropertyShape`
+
+- [#148](https://github.com/lblod/app-mow-registry/pull/148) [`78dd9b1`](https://github.com/lblod/app-mow-registry/commit/78dd9b1df1c95e81d6107c4e7a68f3c4b4991100) Thanks [@elpoelma](https://github.com/elpoelma)! - Add migration to move remaining old traffic-sign-concepts to new `mobiliteit:Verkeerstekenconcept` model
+
+- [#147](https://github.com/lblod/app-mow-registry/pull/147) [`175325a`](https://github.com/lblod/app-mow-registry/commit/175325a00383294103825972c5b5bc9697956237) Thanks [@piemonkey](https://github.com/piemonkey)! - Add relationship for traffic signal concepts to be able to contain other signals
+
+- [`a71dfc7`](https://github.com/lblod/app-mow-registry/commit/a71dfc7c124b18f44513fa9af450c99338c7fa1e) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Update frontend frontend to [v2.9.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.9.0)
+
+- [#148](https://github.com/lblod/app-mow-registry/pull/148) [`ae06111`](https://github.com/lblod/app-mow-registry/commit/ae061117d121edf90828f3acfbcbdca66e7a6320) Thanks [@elpoelma](https://github.com/elpoelma)! - Remove obsolete `rdfs:Resource` class/data-model
+
+- [#148](https://github.com/lblod/app-mow-registry/pull/148) [`7291777`](https://github.com/lblod/app-mow-registry/commit/7291777b84f53d045793cd9447fa526c95b7dc93) Thanks [@elpoelma](https://github.com/elpoelma)! - remove incorrect `top-concepts` relationship of `concept-scheme` class
+
+- [#148](https://github.com/lblod/app-mow-registry/pull/148) [`aaf18bb`](https://github.com/lblod/app-mow-registry/commit/aaf18bb1575d5a04a17d99c782a977cc695e433b) Thanks [@elpoelma](https://github.com/elpoelma)! - Add migration which removes remaining resources of `ext:Relation` and `ext:MustUseRelation` type
+
+- [#148](https://github.com/lblod/app-mow-registry/pull/148) [`4b9e6af`](https://github.com/lblod/app-mow-registry/commit/4b9e6af553ccca77f0171d960a435fb1a6249864) Thanks [@elpoelma](https://github.com/elpoelma)! - Remove obsolete `ext:Concept` model/class
+
+### Patch Changes
+
+- [#143](https://github.com/lblod/app-mow-registry/pull/143) [`a9f1572`](https://github.com/lblod/app-mow-registry/commit/a9f15729c10cb4b335c55ff1a872c9abf5bb161c) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Add inverse relationship to support pagination on variables and shapes
+
+- [`aa36e7c`](https://github.com/lblod/app-mow-registry/commit/aa36e7c7f87f6ee7e681e0eb78ef37685bac6a1c) Thanks [@elpoelma](https://github.com/elpoelma)! - Update `ldes-delta-pusher` service to version 1.2.9. This version improves handling of boolean values and ensures that variables being marked as 'not required' are correctly propagated as such on the ldes feed.
+
+- [#146](https://github.com/lblod/app-mow-registry/pull/146) [`9a7bcbf`](https://github.com/lblod/app-mow-registry/commit/9a7bcbf48dcdc3cdd42cf9968d679ef01d292c8d) Thanks [@lagartoverde](https://github.com/lagartoverde)! - Convert all relationships to kebab case
+
 ## 3.4.1
 
 ### Patch Changes
