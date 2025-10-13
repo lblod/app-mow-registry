@@ -105,7 +105,7 @@ services:
     restart: always
     logging: *default-logging
   frontend:
-    image: lblod/frontend-mow-registry:2.9.0
+    image: lblod/frontend-mow-registry:2.10.0
     labels:
       - "logging=true"
     restart: always
