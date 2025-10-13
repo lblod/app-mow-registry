@@ -1,5 +1,15 @@
 # app-mow-registry
 
+## 3.6.0
+
+### Minor Changes
+
+- [`a86a87d`](https://github.com/lblod/app-mow-registry/commit/a86a87da08ed19fe5406326a95d7c3a594f9ab01) Thanks [@elpoelma](https://github.com/elpoelma)! - Update frontend to version 2.10.0
+
+### Patch Changes
+
+- [#154](https://github.com/lblod/app-mow-registry/pull/154) [`cec5959`](https://github.com/lblod/app-mow-registry/commit/cec5959ca84c9e85580c83e02294b5eeb7724139) Thanks [@elpoelma](https://github.com/elpoelma)! - Update to `semtech/sparql-parser:feature-improve-float-writing` which improves handling of floats
+
 ## 3.5.0
 
 ### Minor Changes
