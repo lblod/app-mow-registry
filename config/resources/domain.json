@@ -478,6 +478,10 @@
         "end-date": {
           "type": "datetime",
           "predicate": "ext:endDate"
+        },
+        "regulatory-notation": {
+          "type": "string",
+          "predicate": "ext:regulatoryNotation"
         }
       },
       "relationships": {
