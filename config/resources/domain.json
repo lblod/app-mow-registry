@@ -185,7 +185,7 @@
       },
       "relationships": {
         "traffic-signal-concept": {
-          "predicate": "mobiliteit:variabele",
+          "predicate": "mobiliteit:definieert",
           "target": "traffic-signal-concept",
           "cardinality": "one",
           "inverse": true
@@ -473,11 +473,11 @@
         },
         "start-date": {
           "type": "datetime",
-          "predicate": "ext:startDate"
+          "predicate": "schema:validFrom"
         },
         "end-date": {
           "type": "datetime",
-          "predicate": "ext:endDate"
+          "predicate": "schema:validUntil"
         },
         "regulatory-notation": {
           "type": "string",
@@ -491,7 +491,7 @@
           "cardinality": "one"
         },
         "variables": {
-          "predicate": "mobiliteit:variabele",
+          "predicate": "mobiliteit:definieert",
           "target": "variable",
           "cardinality": "many"
         },
@@ -521,12 +521,12 @@
           "cardinality": "many"
         },
         "can-contain-signals": {
-          "predicate": "mobiliteit:Verkeerstekenconcept.magVerkeerstekenconceptBevatten",
+          "predicate": "mobiliteit:magVerkeerstekenconceptBevatten",
           "target": "traffic-signal-concept",
           "cardinality": "many"
         },
         "can-be-contained-in-signals": {
-          "predicate": "mobiliteit:Verkeerstekenconcept.magVerkeerstekenconceptBevatten",
+          "predicate": "mobiliteit:magVerkeerstekenconceptBevatten",
           "target": "traffic-signal-concept",
           "cardinality": "many",
           "inverse": true
@@ -546,7 +546,7 @@
           "cardinality": "one"
         },
         "zonality": {
-          "predicate": "ext:zonality",
+          "predicate": "mobiliteit:zonaliteit",
           "target": "skos-concept",
           "cardinality": "one"
         },
@@ -556,12 +556,12 @@
           "cardinality": "many"
         },
         "sub-signs": {
-          "predicate": "mobiliteit:heeftOnderbordConcept",
+          "predicate": "mobiliteit:heeftMogelijkOnderbord",
           "target": "road-sign-concept",
           "cardinality": "many"
         },
         "main-signs": {
-          "predicate": "mobiliteit:heeftOnderbordConcept",
+          "predicate": "mobiliteit:heeftMogelijkOnderbord",
           "target": "road-sign-concept",
           "cardinality": "many",
           "inverse": true
@@ -619,11 +619,6 @@
           "target": "traffic-light-concept",
           "cardinality": "many",
           "inverse": true
-        },
-        "zonality": {
-          "predicate": "ext:zonality",
-          "target": "skos-concept",
-          "cardinality": "one"
         }
       },
       "new-resource-base": "http://data.lblod.info/road-marking-concepts/"
@@ -654,11 +649,6 @@
           "predicate": "lblodmow:verkeerslichtHeeftGerelateerdWegmarkering",
           "target": "road-marking-concept",
           "cardinality": "many"
-        },
-        "zonality": {
-          "predicate": "ext:zonality",
-          "target": "skos-concept",
-          "cardinality": "one"
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-light-concepts/"
