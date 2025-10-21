@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 3.6.1
+
+### Patch Changes
+
+- [`9d040cb`](https://github.com/lblod/app-mow-registry/commit/9d040cb87e56643771b7856852b67db60e91fb32) Thanks [@elpoelma](https://github.com/elpoelma)! - Update frontend to version 2.10.1
+
 ## 3.6.0
 
 ### Minor Changes
