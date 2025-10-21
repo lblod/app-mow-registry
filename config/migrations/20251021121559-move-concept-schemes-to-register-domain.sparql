@@ -1,0 +1,49 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX lblodmow: <http://data.lblod.info/vocabularies/mobiliteit/>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+
+# Adjust URI base of:
+# - shape types concept-scheme
+# - zonality types concept-scheme
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?conceptScheme.
+    ?conceptScheme ?p_out ?o_out.
+    ?conceptScheme dct:modified ?oldModified.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?s_in ?p_in ?newUri.
+    ?newUri ?p_out ?o_out.
+    ?newUri dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?conceptScheme 
+      mu:uuid ?id;
+      a skos:ConceptScheme.
+
+    VALUES ?conceptScheme { 
+      <http://lblod.data.gift/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f> # Shape types
+      <http://lblod.data.gift/concept-schemes/37246d14-d8ad-478c-95b1-2fd57e688b22> # Zonality types
+    }
+    {
+      ?s_in ?p_in ?conceptScheme.
+    }
+    UNION
+    {
+      ?conceptScheme ?p_out ?o_out.
+      FILTER(?p_out != dct:modified)
+    }
+    UNION
+    {
+      ?conceptScheme dct:modified ?oldModified.
+    }
+
+    BIND(URI(CONCAT('http://register.mobiliteit.vlaanderen.be/concept-schemes/', ?id)) AS ?newUri)
+  }
+  BIND(NOW() AS ?now)
+}

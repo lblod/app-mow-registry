@@ -54,4 +54,4 @@ WHERE {
     }
   }
   BIND(NOW() AS ?now)
-};
+}
