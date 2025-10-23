@@ -1,0 +1,46 @@
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+INSERT {
+    GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+        ?uri mobiliteit:template <http://data.lblod.info/templates/9ab97cfc-be37-4ecc-b346-01015ae8977b>.
+    }
+} WHERE {
+    GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+        ?uri a ext:InstructionVariable.
+        ?uri <http://purl.org/dc/terms/title> 'Parkeerautomaat'.
+
+        FILTER NOT EXISTS {
+            ?uri mobiliteit:template ?template.
+        }
+    }
+}
+
+INSERT {
+    GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+        ?uri mobiliteit:template <http://data.lblod.info/templates/91a00650-2d77-4dc8-8825-841dd56e3f5a>.
+    }
+} WHERE {
+    GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+        ?uri a ext:InstructionVariable.
+        ?uri <http://purl.org/dc/terms/title> 'GVIII'.
+
+        FILTER NOT EXISTS {
+            ?uri mobiliteit:template ?template.
+        }
+    }
+}
+
+INSERT {
+    GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+        ?uri mobiliteit:template <http://data.lblod.info/templates/1907fb2e-b36c-45b1-9a69-e2c367f4fb28>.
+    }
+} WHERE {
+    GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+        ?uri a ext:InstructionVariable.
+        ?uri <http://purl.org/dc/terms/title> 'B15'.
+
+        FILTER NOT EXISTS {
+            ?uri mobiliteit:template ?template.
+        }
+    }
+}
