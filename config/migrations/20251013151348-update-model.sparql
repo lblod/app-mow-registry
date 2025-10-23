@@ -1,0 +1,57 @@
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX schema: <http://schema.org/>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?signalConcept dct:modified ?oldModified ;
+      ext:startDate ?validFrom ;
+      ext:endDate ?validUntil ;
+      mobiliteit:variabele ?variable ;
+      mobiliteit:Verkeerstekenconcept.magVerkeerstekenconceptBevatten ?canContainSignal ;
+      ext:zonality ?zonality ;
+      mobiliteit:heeftOnderbordConcept ?subSign .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?signalConcept 
+      schema:validFrom ?validFrom ;
+      schema:validUntil ?validUntil ;
+      mobiliteit:definieert ?variable ;
+      dct:modified ?now ;
+      mobiliteit:magVerkeerstekenconceptBevatten ?canContainSignal ;
+      mobiliteit:zonaliteit ?zonality ;
+      mobiliteit:heeftMogelijkOnderbord ?subSign .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?signalConcept 
+      a mobiliteit:Verkeerstekenconcept .
+    OPTIONAL {
+      ?signalConcept mobiliteit:variabele ?variable .
+    }
+    OPTIONAL {
+      ?signalConcept dct:modified ?oldModified .
+    }
+    OPTIONAL {
+      ?signalConcept ext:startDate ?validFrom .
+    }
+    OPTIONAL {
+      ?signalConcept ext:endDate ?validUntil .
+    }
+    OPTIONAL {
+      ?signalConcept mobiliteit:Verkeerstekenconcept.magVerkeerstekenconceptBevatten ?canContainSignal .
+    }
+    # The next 2 only apply to signs but since they're also signals we include them here
+    OPTIONAL {
+      ?signalConcept ext:zonality ?zonality .
+    }
+    OPTIONAL {
+      ?signalConcept mobiliteit:heeftOnderbordConcept ?subSign .
+    }
+  }
+  BIND(NOW() AS ?now)
+}
