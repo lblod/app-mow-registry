@@ -1,0 +1,43 @@
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX foaf: 	<http://xmlns.com/foaf/0.1/>
+INSERT {
+    GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+        ?image <http://www.w3.org/ns/dcat#downloadURL> ?downloadUrl.
+    }
+} WHERE {
+    ?sign a mobiliteit:Verkeerstekenconcept;
+        skos:prefLabel ?label;
+        mobiliteit:grafischeWeergave ?image.
+    ?image a foaf:Image;
+        ext:hasFile ?file.
+    ?file mu:uuid ?uuid.
+    VALUES ?label {
+        "F17"
+        "M20"
+        "M11"
+        "M12"
+        "M9"
+        "M14"
+        "M19"
+        "M15"
+        "M16"
+        "M1"
+        "F101a"
+        "M17"
+        "M5"
+        "M8"
+        "M7"
+        "M6"
+        "M18"
+        "M2"
+        "M4"
+        "M13"
+        "F8"
+        "M10"
+        "F99c"
+    }
+    BIND(CONCAT("https://roadsigns.lblod.info/files/", STR(?uuid), "/download") as ?downloadUrl)
+}
