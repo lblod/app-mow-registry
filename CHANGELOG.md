@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 4.0.1
+
+### Patch Changes
+
+- [#158](https://github.com/lblod/app-mow-registry/pull/158) [`99816c6`](https://github.com/lblod/app-mow-registry/commit/99816c656cd875933a4ca3c6eb366a64d2bbce76) Thanks [@elpoelma](https://github.com/elpoelma)! - Add new 'Afbakeningsbord' road-sign-category
+
 ## 4.0.0
 
 ### Major Changes
