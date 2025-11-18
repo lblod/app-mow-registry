@@ -1,5 +1,6 @@
 import { moveTriples } from "../support";
 import { Changeset } from "../types";
+import { querySudo, updateSudo } from "@lblod/mu-auth-sudo";
 import { query, update, sparqlEscapeUri } from "mu";
 import { URL } from "url";
 const MOW_REGISTRY_BASE_URL = process.env.LDES_BASE;
@@ -18,7 +19,7 @@ export default async function dispatch(changesets: Changeset[]) {
     for (const subject of subjects) {
       const {
         results: { bindings },
-      } = await query(/* sparql */`
+      } = await querySudo(/* sparql */`
         PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
         PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
         PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
@@ -35,8 +36,12 @@ export default async function dispatch(changesets: Changeset[]) {
         CONSTRUCT {
             ?s ?p ?o
         } WHERE {
+            GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+              ?s 
+                a ?type; 
+                ?p ?o.
+            }
             VALUES ?s {${sparqlEscapeUri(subject)} }
-            ?s a ?type; ?p ?o
             FILTER (?type IN (
                 cidoc:E54_Dimension,
                 ext:ShapeClassificatieCode,
@@ -109,15 +114,21 @@ export default async function dispatch(changesets: Changeset[]) {
               // we should not set ignoreFromSelf to true in the deltanotifier config for this reason
               if (downloadURL?.o?.value !== newDownloadURL) {
                 console.log(downloadURL, newDownloadURL);
-                await update(`
+                await updateSudo(/* sparql */`
                                     DELETE  {
+                                      GRAPH <http://mu.semte.ch/graphs/mow/registry> {
                                         <${subject}> <http://www.w3.org/ns/dcat#downloadURL> ?oldDownloadUrl.
+                                      }
                                     }
                                     INSERT  {
+                                      GRAPH <http://mu.semte.ch/graphs/mow/registry> {
                                         <${subject}> <http://www.w3.org/ns/dcat#downloadURL> <${newDownloadURL.toString()}>.
+                                      }
                                     }
                                     WHERE {
+                                      GRAPH <http://mu.semte.ch/graphs/mow/registry> {
                                         OPTIONAL {<${subject}> <http://www.w3.org/ns/dcat#downloadURL> ?oldDownloadUrl.}
+                                      }
                                     }
                                 `);
                 continue;
