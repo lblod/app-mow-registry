@@ -18,7 +18,7 @@ export default async function dispatch(changesets: Changeset[]) {
     for (const subject of subjects) {
       const {
         results: { bindings },
-      } = await query(`
+      } = await query(/* sparql */`
         PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
         PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
         PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
@@ -32,12 +32,12 @@ export default async function dispatch(changesets: Changeset[]) {
         PREFIX variables: <http://lblod.data.gift/vocabularies/variables/>
         PREFIX qudt: <http://qudt.org/schema/qudt/>
 
-        construct {
+        CONSTRUCT {
             ?s ?p ?o
-        } where {
+        } WHERE {
             VALUES ?s {${sparqlEscapeUri(subject)} }
             ?s a ?type; ?p ?o
-            filter (?type in (
+            FILTER (?type IN (
                 cidoc:E54_Dimension,
                 ext:ShapeClassificatieCode,
                 foaf:Document,
@@ -63,7 +63,6 @@ export default async function dispatch(changesets: Changeset[]) {
                 qudt:Unit,
                 qudt:QuantityKind
           ))
-          
         }
         `);
       if (bindings.length) {
