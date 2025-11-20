@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 4.0.2
+
+### Patch Changes
+
+- [#159](https://github.com/lblod/app-mow-registry/pull/159) [`7f514b7`](https://github.com/lblod/app-mow-registry/commit/7f514b727fa2ab85f802c70b0884a9b2566a1805) Thanks [@elpoelma](https://github.com/elpoelma)! - Adjust ldes-delta-pusher dispatch function to only query from and to `http://mu.semte.ch/graphs/mow/registry` graph
+
 ## 4.0.1
 
 ### Patch Changes
