@@ -224,9 +224,11 @@ services:
     restart: always
     logging: *default-logging
   ordered-signs:
-    image: lblod/mow-ordered-signs-service:1.0.1
+    image: lblod/mow-ordered-signs-service:1.0.2
+    environment:
+      ALLOW_MU_AUTH_SUDO: true
     links:
-      - triplestore:database
+      - db:database
   uri-info:
     image: redpencil/mu-uri-info-service:0.2.1
     links:
