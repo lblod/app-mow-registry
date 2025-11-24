@@ -61,6 +61,7 @@ export default async function dispatch(changesets: Changeset[]) {
                 mobiliteit:Verkeerslichtconcept,
                 mobiliteit:Verkeerstekenconcept,
                 mobiliteit:Wegmarkeringconcept,
+                mobiliteit:MaatregelVerkeerstekenLijstItem,
                 rdfs:Resource,
                 skos:Concept,
                 skos:ConceptScheme,
