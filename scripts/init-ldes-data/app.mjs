@@ -1,8 +1,17 @@
 import { addData, getConfigFromEnv } from "@lblod/ldes-producer";
 import { rm } from "fs/promises";
+import * as fs from "node:fs";
+import { sparqlEscapeUri } from "./utils.mjs";
 const INPUT_GRAPH = "http://mu.semte.ch/graphs/mow/registry";
 const LDES_FOLDER = "ldes-mow-register";
 const LDES_FRAGMENTER = undefined;
+
+const RESOURCE_TYPES = JSON.parse(
+  fs.readFileSync(
+    "/project/config/ldes-delta-pusher/resource_types.json",
+    "utf8"
+  )
+);
 
 process.env.FOLDER_DEPTH = "1";
 process.env.PAGE_RESOURCES_COUNT = "50";
@@ -25,13 +34,15 @@ export async function waitForDatabase() {
   while (true) {
     try {
       const response = await fetch(
-        `${process.env.MU_SPARQL_ENDPOINT}?query=${encodeURIComponent("ASK { ?s ?p ?o }")}&format=${encodeURIComponent("text/plain")}`,
+        `${process.env.MU_SPARQL_ENDPOINT}?query=${encodeURIComponent(
+          "ASK { ?s ?p ?o }"
+        )}&format=${encodeURIComponent("text/plain")}`,
         {
           method: "post",
           headers: {
             Accept: "text/plain",
           },
-        },
+        }
       );
 
       if (!response.ok) {
@@ -89,29 +100,7 @@ async function getTotalCount() {
         FILTER EXISTS {
           ?s a ?type.
           FILTER (?type IN (
-            cidoc:E54_Dimension,
-            ext:ShapeClassificatieCode,
-            foaf:Document,
-            ext:Concept,
-            foaf:Image,
-            lblodmow:Codelist,
-            lblodmow:VerkeersbordconceptStatusCode,
-            mobiliteit:Mobiliteitmaatregelconcept,
-            mobiliteit:Pictogram,
-            mobiliteit:Template,
-            as:Tombstone,
-            variables:Variable,
-            mobiliteit:Verkeersbordcategorie,
-            mobiliteit:Verkeersbordconcept,
-            mobiliteit:VerkeersbordconceptStatus,
-            mobiliteit:Verkeerslichtconcept,
-            mobiliteit:Verkeerstekenconcept,
-            mobiliteit:Wegmarkeringconcept,
-            mobiliteit:MaatregelVerkeerstekenLijstItem,
-            rdfs:Resource,
-            skos:Concept,
-            skos:ConceptScheme,
-            tribont:Shape
+            ${RESOURCE_TYPES.map((type) => sparqlEscapeUri(type)).join(",\n")}
           )) 
         }
       }
@@ -125,7 +114,7 @@ async function getTotalCount() {
       headers: {
         Accept: "application/sparql-results+json",
       },
-    },
+    }
   );
 
   const result = await response.json();
@@ -154,29 +143,9 @@ async function getGraphTriples(page, limit) {
                {
                     ?s a ?type; ?p ?o.
                     filter (?type in (
-                        cidoc:E54_Dimension,
-                        ext:ShapeClassificatieCode,
-                        foaf:Document,
-                        ext:Concept,
-                        foaf:Image,
-                        lblodmow:Codelist,
-                        lblodmow:VerkeersbordconceptStatusCode,
-                        mobiliteit:Mobiliteitmaatregelconcept,
-                        mobiliteit:Pictogram,
-                        mobiliteit:Template,
-                        variables:Variable,
-                        mobiliteit:Verkeersbordcategorie,
-                        mobiliteit:Verkeersbordconcept,
-                        mobiliteit:VerkeersbordconceptStatus,
-                        mobiliteit:Verkeerslichtconcept,
-                        mobiliteit:Verkeerstekenconcept,
-                        mobiliteit:Wegmarkeringconcept,
-                        rdfs:Resource,
-                        skos:Concept,
-                        skos:ConceptScheme,
-                        tribont:Shape,
-                        qudt:Unit,
-                        qudt:QuantityKind
+                        ${RESOURCE_TYPES.map((type) =>
+                          sparqlEscapeUri(type)
+                        ).join(",\n")}
                   ))
                }
       } ORDER BY ?s ?p ?o
@@ -202,13 +171,15 @@ async function deleteDirectory(path) {
 async function fetchNTriples(query) {
   try {
     const response = await fetch(
-      `${process.env.MU_SPARQL_ENDPOINT}?query=${encodeURIComponent(query)}&format=${encodeURIComponent("text/plain")}`,
+      `${process.env.MU_SPARQL_ENDPOINT}?query=${encodeURIComponent(
+        query
+      )}&format=${encodeURIComponent("text/plain")}`,
       {
         method: "post",
         headers: {
           Accept: "text/plain",
         },
-      },
+      }
     );
 
     if (!response.ok) {
