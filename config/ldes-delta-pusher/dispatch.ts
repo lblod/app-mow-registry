@@ -1,5 +1,6 @@
 import { moveTriples } from "../support";
-import { Changeset } from "../types";
+import { Changeset, Quad } from "./types";
+import { enrichWithDownloadURLs } from "./add-download-url";
 import { querySudo, updateSudo } from "@lblod/mu-auth-sudo";
 import { query, sparqlEscapeUri } from "mu";
 import { URL } from "url";
@@ -12,15 +13,17 @@ if (!MOW_REGISTRY_BASE_URL) {
 
 console.log(MOW_REGISTRY_BASE_URL);
 export default async function dispatch(changesets: Changeset[]) {
+  const filteredChangesets = filterOutIrrelevantChanges(changesets);
+  const subjects = mapToSubjects(filteredChangesets);
+  if(!subjects.length){
+    return;
+  }
   console.log("dispatching...");
-  for (const changeset of changesets) {
-    const subjects = new Set(
-      changeset.inserts.map((insert) => insert.subject.value),
-    );
-    for (const subject of subjects) {
-      const {
-        results: { bindings },
-      } = await querySudo(/* sparql */`
+  await enrichWithDownloadURLs(subjects, MOW_REGISTRY_BASE_URL as string);
+  for (const subject of subjects) {
+    const {
+      results: { bindings },
+    } = await querySudo(/* sparql */ `
         PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
         PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
         PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
@@ -48,90 +51,48 @@ export default async function dispatch(changesets: Changeset[]) {
           ))
         }
         `);
-      if (bindings.length) {
-        console.log("SUCCESS");
-        try {
-          let rdfType = bindings.find(
-            (b) =>
-              b.p.value === "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-          );
-
-          if (
-            [
-              "http://xmlns.com/foaf/0.1/Image",
-              "http://xmlns.com/foaf/0.1/Document",
-            ].includes(rdfType.o.value)
-          ) {
-            let downloadURL = bindings.find(
-              (b) => b.p.value === "http://www.w3.org/ns/dcat#downloadURL",
-            );
-            let resp;
-
-            let hasFile = bindings.find(
-              (b) =>
-                b.p.value === "http://mu.semte.ch/vocabularies/ext/hasFile",
-            );
-
-            if (hasFile)
-              resp = await query(
-                `select distinct ?id where {<${hasFile.o.value}> <http://mu.semte.ch/vocabularies/core/uuid> ?id} `,
-              );
-
-            if (!resp?.results?.bindings?.length) {
-              console.error(
-                `downloadURL: could not determine mu:uuid for <${hasFile}> and subject <${subject}>`,
-              );
-            } else {
-              let fileUuid = resp.results.bindings[0].id.value;
-              let newDownloadURL = new URL(
-                `/files/${fileUuid}/download`,
-                MOW_REGISTRY_BASE_URL,
-              ).toString();
-              // add downloadURL before inserting to ldes
-              // delta notifier will be retriggered so we don't want to push to ldes twice
-              // we should not set ignoreFromSelf to true in the deltanotifier config for this reason
-              if (downloadURL?.o?.value !== newDownloadURL) {
-                console.log(downloadURL, newDownloadURL);
-                await updateSudo(/* sparql */`
-                                    DELETE  {
-                                      GRAPH <http://mu.semte.ch/graphs/mow/registry> {
-                                        <${subject}> <http://www.w3.org/ns/dcat#downloadURL> ?oldDownloadUrl.
-                                      }
-                                    }
-                                    INSERT  {
-                                      GRAPH <http://mu.semte.ch/graphs/mow/registry> {
-                                        <${subject}> <http://www.w3.org/ns/dcat#downloadURL> <${newDownloadURL.toString()}>.
-                                      }
-                                    }
-                                    WHERE {
-                                      GRAPH <http://mu.semte.ch/graphs/mow/registry> {
-                                        OPTIONAL {<${subject}> <http://www.w3.org/ns/dcat#downloadURL> ?oldDownloadUrl.}
-                                      }
-                                    }
-                                `);
-                continue;
-              }
-            }
-          }
-          await moveTriples([
-            {
-              inserts: bindings.map(({ s, p, o }) => {
-                return { subject: s, predicate: p, object: o };
-              }),
-            },
-          ]);
-        } catch (e) {
-          console.log("FAILURE");
-          console.log("==================================================");
-          console.log(e);
-          console.log({
+    if (bindings.length) {
+      console.log("SUCCESS");
+      try {
+        await moveTriples([
+          {
             inserts: bindings.map(({ s, p, o }) => {
               return { subject: s, predicate: p, object: o };
             }),
-          });
-          console.log("==================================================");
-        }
+          },
+        ]);
+      } catch (e) {
+        console.log("FAILURE");
+        console.log("==================================================");
+        console.log(e);
+        console.log({
+          inserts: bindings.map(({ s, p, o }) => {
+            return { subject: s, predicate: p, object: o };
+          }),
+        });
+        console.log("==================================================");
       }
     }
   }
+}
+
+function filterOutIrrelevantChanges(changesets: Changeset[]): Changeset[] {
+  return changesets.map((changeset) => {
+    const filterFn = (quad: Quad) =>
+      quad.predicate.value !== "http://purl.org/dc/terms/modified";
+    return {
+      inserts: changeset.inserts.filter(filterFn),
+      deletes: changeset.deletes.filter(filterFn),
+    };
+  });
+}
+
+export function mapToSubjects(changesets: Changeset[]) {
+  const subjects = new Set<string>();
+  for (const changeset of changesets) {
+    changeset.inserts.forEach((insert) => {
+      subjects.add(insert.subject.value as string);
+    });
+  }
+  return Array.from(subjects);
 }

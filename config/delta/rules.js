@@ -38,7 +38,7 @@ export default [
     },
     options: {
       resourceFormat: "v0.0.1",
-      ignoreFromSelf: false,
+      ignoreFromSelf: true,
       gracePeriod: 15000,
     },
   },
