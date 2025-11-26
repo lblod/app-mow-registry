@@ -1,8 +1,9 @@
 import { moveTriples } from "../support";
 import { Changeset } from "../types";
 import { querySudo, updateSudo } from "@lblod/mu-auth-sudo";
-import { query, update, sparqlEscapeUri } from "mu";
+import { query, sparqlEscapeUri } from "mu";
 import { URL } from "url";
+import { RESOURCE_TYPES } from "./constants";
 const MOW_REGISTRY_BASE_URL = process.env.LDES_BASE;
 
 if (!MOW_REGISTRY_BASE_URL) {
@@ -43,31 +44,7 @@ export default async function dispatch(changesets: Changeset[]) {
             }
             VALUES ?s {${sparqlEscapeUri(subject)} }
             FILTER (?type IN (
-                cidoc:E54_Dimension,
-                ext:ShapeClassificatieCode,
-                foaf:Document,
-                ext:Concept,
-                foaf:Image,
-                as:Tombstone,
-                lblodmow:Codelist,
-                lblodmow:VerkeersbordconceptStatusCode,
-                mobiliteit:Mobiliteitmaatregelconcept,
-                mobiliteit:Pictogram,
-                mobiliteit:Template,
-                variables:Variable,
-                mobiliteit:Verkeersbordcategorie,
-                mobiliteit:Verkeersbordconcept,
-                mobiliteit:VerkeersbordconceptStatus,
-                mobiliteit:Verkeerslichtconcept,
-                mobiliteit:Verkeerstekenconcept,
-                mobiliteit:Wegmarkeringconcept,
-                mobiliteit:MaatregelVerkeerstekenLijstItem,
-                rdfs:Resource,
-                skos:Concept,
-                skos:ConceptScheme,
-                tribont:Shape,
-                qudt:Unit,
-                qudt:QuantityKind
+                ${RESOURCE_TYPES.map((type) => sparqlEscapeUri(type)).join(",\n")}
           ))
         }
         `);
