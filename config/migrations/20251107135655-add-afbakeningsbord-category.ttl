@@ -1,0 +1,10 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix mobiliteit:	<https://data.vlaanderen.be/ns/mobiliteit#> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix mu:	<http://mu.semte.ch/vocabularies/core/> .
+
+<http://data.vlaanderen.be/id/concept/Verkeersbordcategorie/96c6bc79-6857-4959-acf4-4b08374bcb9c>	rdf:type	mobiliteit:Verkeersbordcategorie ;
+	skos:inScheme	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> ;
+	mu:uuid	"96c6bc79-6857-4959-acf4-4b08374bcb9c" ;
+	skos:prefLabel	"Afbakeningsbord" ;
+	skos:topConceptOf	<http://data.vlaanderen.be/id/conceptscheme/Verkeersbordcategorie> .

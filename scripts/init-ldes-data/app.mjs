@@ -107,6 +107,7 @@ async function getTotalCount() {
             mobiliteit:Verkeerslichtconcept,
             mobiliteit:Verkeerstekenconcept,
             mobiliteit:Wegmarkeringconcept,
+            mobiliteit:MaatregelVerkeerstekenLijstItem,
             rdfs:Resource,
             skos:Concept,
             skos:ConceptScheme,

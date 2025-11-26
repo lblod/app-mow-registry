@@ -21,6 +21,7 @@ export const initialization = {
     "https://data.vlaanderen.be/ns/mobiliteit#Verkeerslichtconcept":{},
     "https://data.vlaanderen.be/ns/mobiliteit#Verkeerstekenconcept":{},
     "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkeringconcept":{},
+    "https://data.vlaanderen.be/ns/mobiliteit#MaatregelVerkeerstekenLijstItem":{},
     "http://www.w3.org/2000/01/rdf-schema#Resource":{},
     "http://www.w3.org/2004/02/skos/core#Concept":{},
     "http://www.w3.org/2004/02/skos/core#ConceptScheme":{},

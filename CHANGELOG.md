@@ -1,5 +1,48 @@
 # app-mow-registry
 
+## 4.0.3
+
+### Patch Changes
+
+- [#161](https://github.com/lblod/app-mow-registry/pull/161) [`2ab5ee5`](https://github.com/lblod/app-mow-registry/commit/2ab5ee52e38c0773f350f91bb7459629a6540a70) Thanks [@elpoelma](https://github.com/elpoelma)! - Update `ordered-signs` service to version [1.0.3](https://github.com/lblod/mow-ordered-signs-service/releases/tag/v1.0.3)
+  Ensure `ordered-signs` service sends queries to sparql-parser instead of to virtuoso directly.
+
+- [#161](https://github.com/lblod/app-mow-registry/pull/161) [`2511a08`](https://github.com/lblod/app-mow-registry/commit/2511a08d6b9695880bd0192272e3a992336eedbd) Thanks [@elpoelma](https://github.com/elpoelma)! - fix: take `mobiliteit:MaatregelVerkeerstekenLijstItem` resources into account when pushing to LDES feed
+
+## 4.0.2
+
+### Patch Changes
+
+- [#159](https://github.com/lblod/app-mow-registry/pull/159) [`7f514b7`](https://github.com/lblod/app-mow-registry/commit/7f514b727fa2ab85f802c70b0884a9b2566a1805) Thanks [@elpoelma](https://github.com/elpoelma)! - Adjust ldes-delta-pusher dispatch function to only query from and to `http://mu.semte.ch/graphs/mow/registry` graph
+
+## 4.0.1
+
+### Patch Changes
+
+- [#158](https://github.com/lblod/app-mow-registry/pull/158) [`99816c6`](https://github.com/lblod/app-mow-registry/commit/99816c656cd875933a4ca3c6eb366a64d2bbce76) Thanks [@elpoelma](https://github.com/elpoelma)! - Add new 'Afbakeningsbord' road-sign-category
+
+## 4.0.0
+
+### Major Changes
+
+- [#155](https://github.com/lblod/app-mow-registry/pull/155) [`38a9a16`](https://github.com/lblod/app-mow-registry/commit/38a9a1668bd2a16119acbad32019cf687d0121ad) Thanks [@piemonkey](https://github.com/piemonkey)! - Breaking: Update a number of predicates to those used in the latest model
+
+### Minor Changes
+
+- [#153](https://github.com/lblod/app-mow-registry/pull/153) [`adafc84`](https://github.com/lblod/app-mow-registry/commit/adafc8482d0fa1a3248f5a726348d4e171fcaf37) Thanks [@elpoelma](https://github.com/elpoelma)! - Add migration moving `skos:Concept` resources to the `http://register.mobiliteit.vlaanderen.be/` base-url
+
+- [#153](https://github.com/lblod/app-mow-registry/pull/153) [`fc4a68c`](https://github.com/lblod/app-mow-registry/commit/fc4a68ce4c2c4065dba1f36197a0f50897b395cc) Thanks [@elpoelma](https://github.com/elpoelma)! - Add migration which corrects the type of the 'shape codelist' from `skos:Concept` to `skos:ConcepScheme
+
+- [#155](https://github.com/lblod/app-mow-registry/pull/155) [`3fce5e1`](https://github.com/lblod/app-mow-registry/commit/3fce5e1d76234156f00a3b0e36ec7a50c7284e96) Thanks [@piemonkey](https://github.com/piemonkey)! - Update frontend to [v2.11.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.11.0)
+
+- [#153](https://github.com/lblod/app-mow-registry/pull/153) [`dc7b19a`](https://github.com/lblod/app-mow-registry/commit/dc7b19a3254167e16f5ad2b000dadbd23aab47fd) Thanks [@elpoelma](https://github.com/elpoelma)! - Move `concept-scheme` resources to `http://register.mobiliteit.vlaanderen.be/concept-schemes/` domain
+
+- [#153](https://github.com/lblod/app-mow-registry/pull/153) [`30b71fc`](https://github.com/lblod/app-mow-registry/commit/30b71fc011d7afb5fa9bae7af2546cd9b4e44dfc) Thanks [@elpoelma](https://github.com/elpoelma)! - Add migration which adds `ext:CodeListValue` type where relevant
+
+### Patch Changes
+
+- [`72ace24`](https://github.com/lblod/app-mow-registry/commit/72ace246710ccba8540a222965e709fe01ba5261) Thanks [@elpoelma](https://github.com/elpoelma)! - Update frontend to version [2.11.1](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.11.1)
+
 ## 3.6.1
 
 ### Patch Changes

@@ -64,6 +64,9 @@ export const getHealingConfig = async () => {
         "https://data.vlaanderen.be/ns/mobiliteit#Wegmarkeringconcept": [
           "http://purl.org/dc/terms/modified",
         ],
+        'https://data.vlaanderen.be/ns/mobiliteit#MaatregelVerkeerstekenLijstItem': [
+          "http://purl.org/dc/terms/modified",
+        ],
         "http://www.w3.org/2000/01/rdf-schema#Resource": [
           "http://purl.org/dc/terms/modified",
         ],

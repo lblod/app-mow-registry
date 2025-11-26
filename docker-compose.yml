@@ -105,7 +105,7 @@ services:
     restart: always
     logging: *default-logging
   frontend:
-    image: lblod/frontend-mow-registry:2.11.0
+    image: lblod/frontend-mow-registry:2.11.1
     labels:
       - "logging=true"
     restart: always
@@ -230,17 +230,20 @@ services:
       - "logging=true"
 
   ordered-signs:
-    image: lblod/mow-ordered-signs-service:1.0.1
+    image: lblod/mow-ordered-signs-service:1.0.3
     restart: always
     logging: *default-logging
     labels:
       - "logging=true"
+    environment:
+      ALLOW_MU_AUTH_SUDO: true
     links:
-      - triplestore:database
-
+      - db:database
+      
   ################################################################################
   # RESOURCE INFO SERVICES
   ################################################################################
+  
   uri-info:
     image: redpencil/mu-uri-info-service:0.2.1
     restart: always
