@@ -1,5 +1,19 @@
 # app-mow-registry
 
+## 4.1.0
+
+### Minor Changes
+
+- [#151](https://github.com/lblod/app-mow-registry/pull/151) [`0f06577`](https://github.com/lblod/app-mow-registry/commit/0f0657793176cf503179abd1822765bd5d771bcb) Thanks [@piemonkey](https://github.com/piemonkey)! - Add missing restart and logging configs
+
+- [#160](https://github.com/lblod/app-mow-registry/pull/160) [`7f6d263`](https://github.com/lblod/app-mow-registry/commit/7f6d263ec169906fa7db6c12e77dfd5a11892e20) Thanks [@elpoelma](https://github.com/elpoelma)! - Optimize ldes-delta-pusher `dispatch` config: reduce amount of members being pushed to LDES feed drastically.
+
+### Patch Changes
+
+- [#162](https://github.com/lblod/app-mow-registry/pull/162) [`70b7ef6`](https://github.com/lblod/app-mow-registry/commit/70b7ef6eab1c265c581e1b157d965f0c21ce6743) Thanks [@elpoelma](https://github.com/elpoelma)! - Centralize list of resource rdf types which should be picked up by the LDES feed.
+
+- [#163](https://github.com/lblod/app-mow-registry/pull/163) [`76b1808`](https://github.com/lblod/app-mow-registry/commit/76b18087c922828a19c6f2b415087182bd26466e) Thanks [@piemonkey](https://github.com/piemonkey)! - Remove incorrect ext:CodeListValue type from mobiliteit:Pictograms
+
 ## 4.0.3
 
 ### Patch Changes
