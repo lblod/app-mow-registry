@@ -1,0 +1,27 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX mobiliteit: <https://data.vlaanderen.be/ns/mobiliteit#>
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?codelistValue dct:modified ?oldModified;
+        a ext:CodeListValue.
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?codelistValue dct:modified ?now.
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/mow/registry> {
+    ?codelistValue a mobiliteit:Pictogram;
+        a ext:CodeListValue;
+        a skos:Concept.
+
+    OPTIONAL {
+      ?codelistValue dct:modified ?oldModified.
+    }
+  }
+  BIND(NOW() as ?now)
+}
