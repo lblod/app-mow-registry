@@ -140,16 +140,7 @@ services:
     volumes:
       - ./scripts/:/app/scripts/
     restart: "no"
-  annotater:
-    image: lblod/fix-annotation-service:4.1.2
-    environment:
-      SPARQL_ENDPOINT: "http://db:8890/sparql"
-    restart: "no"
-    logging: *default-logging
-    links:
-      - db:database
-    labels:
-      - "logging=true"
+
   ################################################################################
   # LDES PRODUCERS
   ################################################################################
@@ -223,24 +214,62 @@ services:
       - db:database
     restart: always
     logging: *default-logging
+
+  ################################################################################
+  # MOW SPECIFIC SERVICES
+  ################################################################################
+  annotater:
+    image: lblod/fix-annotation-service:4.1.2
+    environment:
+      SPARQL_ENDPOINT: "http://db:8890/sparql"
+    restart: always
+    logging: *default-logging
+    links:
+      - db:database
+    labels:
+      - "logging=true"
+
   ordered-signs:
     image: lblod/mow-ordered-signs-service:1.0.3
+    restart: always
+    logging: *default-logging
+    labels:
+      - "logging=true"
     environment:
       ALLOW_MU_AUTH_SUDO: true
     links:
       - db:database
+      
+  ################################################################################
+  # RESOURCE INFO SERVICES
+  ################################################################################
+  
   uri-info:
     image: redpencil/mu-uri-info-service:0.2.1
+    restart: always
     links:
       - db:database
+    logging: *default-logging
+    labels:
+      - "logging=true"
+
   resource-labels-cache:
     image: semtech/mu-cache:2.0.2
+    restart: always
     links:
       - resource-labels:backend
       - db:database
+    logging: *default-logging
+    labels:
+      - "logging=true"
+
   resource-labels:
     image: lblod/resource-label-service:0.3.2
+    restart: always
     environment:
       DEFAULT_LANGUAGE: nil
     links:
       - db:database
+    logging: *default-logging
+    labels:
+      - "logging=true"
