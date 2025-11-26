@@ -60,3 +60,13 @@ services:
     restart: "no"
   modified:
     restart: "no"
+  annotater:
+    restart: "no"
+  ordered-signs:
+    restart: "no"
+  uri-info:
+    restart: "no"
+  resource-labels-cache:
+    restart: "no"
+  resource-labels:
+    restart: "no"

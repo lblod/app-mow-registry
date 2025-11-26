@@ -1,5 +1,20 @@
 # app-mow-registry
 
+## 4.0.3
+
+### Patch Changes
+
+- [#161](https://github.com/lblod/app-mow-registry/pull/161) [`2ab5ee5`](https://github.com/lblod/app-mow-registry/commit/2ab5ee52e38c0773f350f91bb7459629a6540a70) Thanks [@elpoelma](https://github.com/elpoelma)! - Update `ordered-signs` service to version [1.0.3](https://github.com/lblod/mow-ordered-signs-service/releases/tag/v1.0.3)
+  Ensure `ordered-signs` service sends queries to sparql-parser instead of to virtuoso directly.
+
+- [#161](https://github.com/lblod/app-mow-registry/pull/161) [`2511a08`](https://github.com/lblod/app-mow-registry/commit/2511a08d6b9695880bd0192272e3a992336eedbd) Thanks [@elpoelma](https://github.com/elpoelma)! - fix: take `mobiliteit:MaatregelVerkeerstekenLijstItem` resources into account when pushing to LDES feed
+
+## 4.0.2
+
+### Patch Changes
+
+- [#159](https://github.com/lblod/app-mow-registry/pull/159) [`7f514b7`](https://github.com/lblod/app-mow-registry/commit/7f514b727fa2ab85f802c70b0884a9b2566a1805) Thanks [@elpoelma](https://github.com/elpoelma)! - Adjust ldes-delta-pusher dispatch function to only query from and to `http://mu.semte.ch/graphs/mow/registry` graph
+
 ## 4.0.1
 
 ### Patch Changes

@@ -34,6 +34,16 @@ This project was tested on Ubuntu 20.04, but should work on most systems that ru
 
 You can shut down using `docker-compose stop` and remove everything using `docker-compose rm`.
 
+## Resetting the LDES feed
+1. Run backup
+2. (Optional) Clear LDES-specific graphs: 
+  - <http://mu.semte.ch/graphs/ldes-initializer>
+  - <http://mu.semte.ch/graphs/ldes-dump>
+  - <http://mu.semte.ch/graphs/transformed-ldes-data>
+3. Delete contents of `data/ldes-feed/ldes-mow-register`
+4. Run `init-ldes-data` script: `mu script project-scripts init-ldes-data <base_url>`
+5. Restart the `ldes-serve-feed` service
+
 
 
 ## Overview of services
