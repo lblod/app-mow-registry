@@ -11,8 +11,6 @@ services:
       - "8890:8890"
   mocklogin:
     image: lblod/mock-login-service:latest
-    links:
-      - db:database
   yasgui:
     image: erikap/yasgui
     ports:
@@ -30,7 +28,7 @@ services:
       - ./config/dev/tlsproxy/Caddyfile:/etc/caddy/Caddyfile
   sparql-cache:
     restart: "no"
-  db:
+  database:
     restart: "no"
   migrations:
     restart: "no"

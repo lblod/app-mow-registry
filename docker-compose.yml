@@ -41,12 +41,12 @@ services:
   sparql-cache:
     image: redpencil/varnish-post:1.0.0
     environment:
-      BACKEND_HOST: db
+      BACKEND_HOST: database
     restart: always
     labels:
       - "logging=true"
     logging: *default-logging
-  db:
+  database:
     image: semtech/sparql-parser:0.0.15
     volumes:
       - ./config/cl-authorization:/config
@@ -78,8 +78,6 @@ services:
     image: semtech/mu-cl-resources:feature-always-assume-lockless-hashtables
     environment:
       CACHE_CLEAR_PATH: "http://cache/.mu/clear-keys"
-    links:
-      - db:database
     volumes:
       - ./config/resources:/config
     labels:
@@ -98,8 +96,6 @@ services:
     image: semtech/mu-file-service:3.4.0
     volumes:
       - ./data/files:/share
-    links:
-      - db:database
     labels:
       - "logging=true"
     restart: always
@@ -120,8 +116,6 @@ services:
     logging: *default-logging
   login:
     image: lblod/acmidm-login-service:feature-configurable
-    links:
-      - db:database
     environment:
       MU_APPLICATION_AUTH_DISCOVERY_URL: https://authenticatie-ti.vlaanderen.be/op/.well-known/openid-configuration
       MU_APPLICATION_AUTH_CLIENT_ID: ae3be0bb-5c5d-447f-9916-1ea819267e53
@@ -179,7 +173,6 @@ services:
       # work around https://github.com/redpencilio/ldes-delta-pusher-service/issues/22, can simply be removed when fixed
       - ./data/ldes-feed:/data
     links:
-      - db:database
       - triplestore:virtuoso
     restart: always
     logging: *default-logging
@@ -188,8 +181,6 @@ services:
 
   tombstone:
     image: lblod/tombstone-service:0.1.1
-    links:
-      - db:database
     restart: always
     logging: *default-logging
     labels:
@@ -210,8 +201,6 @@ services:
       - "logging=true"
     volumes:
       - ./config/modified:/config
-    links:
-      - db:database
     restart: always
     logging: *default-logging
 
@@ -221,11 +210,9 @@ services:
   annotater:
     image: lblod/fix-annotation-service:4.1.2
     environment:
-      SPARQL_ENDPOINT: "http://db:8890/sparql"
+      SPARQL_ENDPOINT: "http://database:8890/sparql"
     restart: always
     logging: *default-logging
-    links:
-      - db:database
     labels:
       - "logging=true"
 
@@ -237,8 +224,6 @@ services:
       - "logging=true"
     environment:
       ALLOW_MU_AUTH_SUDO: true
-    links:
-      - db:database
       
   ################################################################################
   # RESOURCE INFO SERVICES
@@ -247,8 +232,6 @@ services:
   uri-info:
     image: redpencil/mu-uri-info-service:0.2.1
     restart: always
-    links:
-      - db:database
     logging: *default-logging
     labels:
       - "logging=true"
@@ -258,7 +241,6 @@ services:
     restart: always
     links:
       - resource-labels:backend
-      - db:database
     logging: *default-logging
     labels:
       - "logging=true"
@@ -268,8 +250,6 @@ services:
     restart: always
     environment:
       DEFAULT_LANGUAGE: nil
-    links:
-      - db:database
     logging: *default-logging
     labels:
       - "logging=true"
