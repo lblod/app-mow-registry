@@ -47,7 +47,7 @@ services:
       - "logging=true"
     logging: *default-logging
   db:
-    image: semtech/sparql-parser:feature-improve-float-writing
+    image: semtech/sparql-parser:0.0.15
     volumes:
       - ./config/cl-authorization:/config
       - ./data/mu-auth:/data
