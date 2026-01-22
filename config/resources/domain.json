@@ -72,6 +72,11 @@
           "predicate": "skos:inScheme",
           "target": "concept-scheme",
           "cardinality": "many"
+        },
+        "label-change-notes": {
+          "predicate": "skos:historyNote",
+          "target": "concept-label-change-note",
+          "cardinality": "many"
         }
       },
       "features": ["include-uri"],
@@ -708,6 +713,34 @@
         }
       },
       "new-resource-base": "http://data.lblod.info/road-sign-concept-status-codes/"
+    },
+    "concept-label-change-notes": {
+      "name": "concept-label-change-note",
+      "class": "ext:ConceptLabelChangeNote",
+      "attributes": {
+        "value": {
+          "type": "string",
+          "predicate": "rdf:value"
+        },
+        "previous-concept-label": {
+          "type": "string",
+          "predicate": "ext:previousConceptLabel"
+        },
+        "created-on": {
+          "type": "datetime",
+          "predicate": "dct:created"
+        }
+      },
+      "relationships": {
+        "concept": {
+          "predicate": "skos:historyNote",
+          "target": "skos-concept",
+          "cardinality": "one",
+          "inverse": true
+        }
+      },
+      "features": ["include-uri"],
+      "new-resource-base": "http://register.mobiliteit.vlaanderen.be/concept-label-change-note/"
     }
   }
 }
