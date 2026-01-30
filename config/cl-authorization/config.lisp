@@ -110,6 +110,7 @@
   ("tribont:Shape" -> _)
   ("ext:Concept" -> _)
   ("ext:Resource" -> _)
+  ("ext:ConceptLabelChangeNote" -> _)
   ("variables:Variable" -> _)
   ("mobiliteit:MaatregelVerkeerstekenLijstItem" -> _)
 )

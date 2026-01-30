@@ -157,6 +157,10 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://cache/skos-concepts/"
   end
 
+  match "/concept-label-change-notes/*path", %{ accept: %{json: true}, layer: :api} do
+    Proxy.forward conn, path, "http://cache/concept-label-change-notes/"
+  end
+
   match "/accounts/*path", %{ accept: %{json: true}, layer: :api} do
     Proxy.forward conn, path, "http://cache/accounts/"
   end
