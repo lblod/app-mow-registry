@@ -1,5 +1,21 @@
 # app-mow-registry
 
+## 4.2.0
+
+### Minor Changes
+
+- [#165](https://github.com/lblod/app-mow-registry/pull/165) [`71cf649db1b197eda90595b4bd615d15f532c0fa`](https://github.com/lblod/app-mow-registry/commit/71cf649db1b197eda90595b4bd615d15f532c0fa) Thanks [@piemonkey](https://github.com/piemonkey)! - Add route for traffic signals to handle resource queries for any sub-type
+
+### Patch Changes
+
+- [`f06decc16f857c3b08fd583871802fb7fc840398`](https://github.com/lblod/app-mow-registry/commit/f06decc16f857c3b08fd583871802fb7fc840398) Thanks [@kobemertens](https://github.com/kobemertens)! - Bump frontend to v2.14.0
+
+- [#165](https://github.com/lblod/app-mow-registry/pull/165) [`c812c53d2b22cef51a34baeb95729124e72bb0d0`](https://github.com/lblod/app-mow-registry/commit/c812c53d2b22cef51a34baeb95729124e72bb0d0) Thanks [@piemonkey](https://github.com/piemonkey)! - Update frontend to version [2.13.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.13.0)
+
+- [#166](https://github.com/lblod/app-mow-registry/pull/166) [`c162b0dfb8a6bbb06d0177bd5a6fae05464635e4`](https://github.com/lblod/app-mow-registry/commit/c162b0dfb8a6bbb06d0177bd5a6fae05464635e4) Thanks [@piemonkey](https://github.com/piemonkey)! - Switch to v0.0.15 of sparql-parser as it includes relevant features of current feature branch
+
+- [#167](https://github.com/lblod/app-mow-registry/pull/167) [`cd0f337fe9d15b01f7262c8cf77affd105786638`](https://github.com/lblod/app-mow-registry/commit/cd0f337fe9d15b01f7262c8cf77affd105786638) Thanks [@kobemertens](https://github.com/kobemertens)! - Added possibility to change concept labels, keeping track of their change history
+
 ## 4.1.1
 
 ### Patch Changes
