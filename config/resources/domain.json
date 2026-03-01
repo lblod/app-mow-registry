@@ -284,9 +284,10 @@
       "super": ["variable"],
       "relationships": {
         "template": {
-          "predicate": "mobiliteit:template",
+          "predicate": "mobiliteit:variabele",
           "target": "template",
-          "cardinality": "one"
+          "cardinality": "one",
+          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/variables/"
