@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 4.3.2
+
+### Patch Changes
+
+- [`e322f07cfbbe76eea1c6d2ca054dbf7c48bf0988`](https://github.com/lblod/app-mow-registry/commit/e322f07cfbbe76eea1c6d2ca054dbf7c48bf0988) Thanks [@abeforgit](https://github.com/abeforgit)! - bump virtuoso to 1.2.2
+
 ## 4.3.1
 
 ### Patch Changes
