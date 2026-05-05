@@ -18,6 +18,12 @@
 
 - [`30247988fe656acdd3a9aa58b13e7910511e08a9`](https://github.com/lblod/app-mow-registry/commit/30247988fe656acdd3a9aa58b13e7910511e08a9) Thanks [@abeforgit](https://github.com/abeforgit)! - bump frontend to [v2.15.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.15.0)
 
+## 4.2.2
+
+### Patch Changes
+
+- [`e51147b9451b0f630d63802804bc2d0b83b76739`](https://github.com/lblod/app-mow-registry/commit/e51147b9451b0f630d63802804bc2d0b83b76739) Thanks [@abeforgit](https://github.com/abeforgit)! - bump virtuoso to 1.2.2
+
 ## 4.2.1
 
 ### Patch Changes
