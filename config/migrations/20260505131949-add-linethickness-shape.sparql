@@ -1,0 +1,13 @@
+INSERT DATA {
+
+GRAPH <http://mu.semte.ch/graphs/public> {
+<http://register.mobiliteit.vlaanderen.be/concepts/20d37efe-7086-49a0-a062-901d425191a1>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Lijndikte" .
+<http://register.mobiliteit.vlaanderen.be/concepts/20d37efe-7086-49a0-a062-901d425191a1>	<http://mu.semte.ch/vocabularies/core/uuid>	"20d37efe-7086-49a0-a062-901d425191a1" .
+<http://register.mobiliteit.vlaanderen.be/concepts/20d37efe-7086-49a0-a062-901d425191a1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://mu.semte.ch/vocabularies/ext/ShapeClassificatieCode> .
+<http://register.mobiliteit.vlaanderen.be/concepts/20d37efe-7086-49a0-a062-901d425191a1>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://register.mobiliteit.vlaanderen.be/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f> .
+<http://register.mobiliteit.vlaanderen.be/concepts/20d37efe-7086-49a0-a062-901d425191a1>	<http://purl.org/dc/terms/modified>	"2026-05-05T15:29:53.935787"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://register.mobiliteit.vlaanderen.be/concepts/20d37efe-7086-49a0-a062-901d425191a1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://register.mobiliteit.vlaanderen.be/concepts/20d37efe-7086-49a0-a062-901d425191a1>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://register.mobiliteit.vlaanderen.be/concept-schemes/6c12157f-2bcc-4c18-9042-68b1ac430c7f> .
+}
+
+  }
