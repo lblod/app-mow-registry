@@ -1,5 +1,13 @@
 # app-mow-registry
 
+## 4.4.0
+
+### Minor Changes
+
+- [`b23cf7e00a66d0e2f1f70061bcfe8e36f4e69e25`](https://github.com/lblod/app-mow-registry/commit/b23cf7e00a66d0e2f1f70061bcfe8e36f4e69e25) Thanks [@abeforgit](https://github.com/abeforgit)! - bump frontend to [v2.16.0](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.16.0)
+
+- [#168](https://github.com/lblod/app-mow-registry/pull/168) [`ba1c01a15598c003b4fe16f1ecff67ec39eef637`](https://github.com/lblod/app-mow-registry/commit/ba1c01a15598c003b4fe16f1ecff67ec39eef637) Thanks [@abeforgit](https://github.com/abeforgit)! - Add new linethickness shape migration
+
 ## 4.3.2
 
 ### Patch Changes
