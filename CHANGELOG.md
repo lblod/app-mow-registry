@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 4.5.0
+
+### Minor Changes
+
+- [`a1e268a3fe198f8b2fd4c92ef86feb13c24a411b`](https://github.com/lblod/app-mow-registry/commit/a1e268a3fe198f8b2fd4c92ef86feb13c24a411b) Thanks [@abeforgit](https://github.com/abeforgit)! - bump frontend to [v2.16.1](https://github.com/lblod/frontend-mow-registry/releases/tag/v2.16.1)
+
 ## 4.4.0
 
 ### Minor Changes
