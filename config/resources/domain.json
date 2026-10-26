@@ -535,6 +535,12 @@
           "target": "traffic-signal-concept",
           "cardinality": "many",
           "inverse": true
+        },
+        "main-signs": {
+          "predicate": "mobiliteit:heeftMogelijkOnderbord",
+          "target": "traffic-signal-concept",
+          "cardinality": "many",
+          "inverse": true
         }
       },
       "new-resource-base": "http://data.lblod.info/traffic-signal-concepts/"
