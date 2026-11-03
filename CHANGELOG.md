@@ -1,5 +1,11 @@
 # app-mow-registry
 
+## 5.0.0
+
+### Major Changes
+
+- [`5a1d77fc8ddde4ce5b712f08cfcd19f731a84777`](https://github.com/lblod/app-mow-registry/commit/5a1d77fc8ddde4ce5b712f08cfcd19f731a84777) Thanks [@abeforgit](https://github.com/abeforgit)! - Bump frontend to 3.0.0 - new measure UI
+
 ## 4.5.1
 
 ### Patch Changes
